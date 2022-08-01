@@ -633,6 +633,22 @@ Azure Blob이 타겟인 동기화 관계를 만들면 Cloud Sync에서 이제 Az
 
 
 
+=== 2022년 8월 3일
+
+
+
+==== 클러스터의 다른 애그리게이트로 추가 오브젝트 저장소를 구성하는 기능
+
+Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이지 세트가 추가되었습니다. 새 오브젝트 저장소를 추가하고, FabricPool 미러링을 위해 여러 오브젝트 저장소를 Aggregate에 연결하고, 기본 오브젝트 저장소와 미러 오브젝트 저장소를 바꾸고, 애그리게이트에 대한 오브젝트 저장소 연결을 삭제하는 등의 작업을 수행할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-tiering/task-managing-object-storage.html["새로운 오브젝트 스토리지 기능에 대해 자세히 알아보십시오."]
+
+
+
+==== MetroCluster 구성에 대한 Cloud Tiering 라이센스 지원
+
+이제 MetroCluster 구성에 있는 클러스터와 Cloud Tiering 라이센스를 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html#apply-cloud-tiering-licenses-to-clusters-in-special-configurations["이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오."]
+
+
+
 === 2022년 5월 3일
 
 
@@ -656,24 +672,6 @@ Cloud Tiering을 설정할 때 특정 일 수 후에 비활성 데이터가 _Sta
 ==== Cloud Tiering은 ONTAP Select 시스템에서 완벽하게 검증되었습니다
 
 AFF 및 FAS 시스템의 데이터를 계층화할 뿐만 아니라, 이제 ONTAP Select 시스템의 비활성 데이터를 클라우드 스토리지로 계층화할 수 있습니다.
-
-
-
-=== 2021년 9월 2일
-
-
-
-==== Cloud Tiering BYOL 라이센스는 FabricPool 라이센스를 대체합니다
-
-이제 Cloud Tiering 서비스를 사용하여 Cloud Manager 내에서 지원되는 계층화 구성에 새로운 * Cloud Tiering * 라이센스를 사용할 수 있습니다. 여러 온프레미스 ONTAP 클러스터에서 사용할 수 있는 부동 라이센스입니다. 이전에 사용했을 수 있는 * FabricPool * 라이센스는 Cloud Manager 내에서 지원되지 않는 구성에만 유지됩니다.
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html#use-a-cloud-tiering-byol-license["새로운 Cloud Tiering 라이센스에 대해 자세히 알아보십시오"].
-
-
-
-==== 사내 ONTAP 클러스터에서 S3 호환 오브젝트 스토리지로 비활성 데이터 계층화
-
-이제 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에 비활성 데이터를 계층화할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-s3-compat.html["데이터를 S3 호환 오브젝트 스토리지에 계층화하는 방법을 알아보십시오"].
 
 
 

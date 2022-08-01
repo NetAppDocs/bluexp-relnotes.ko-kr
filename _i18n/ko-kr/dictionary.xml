@@ -109,13 +109,6 @@
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering은 ONTAP Select 시스템에서 완벽하게 검증되었습니다</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">AFF 및 FAS 시스템의 데이터를 계층화할 뿐만 아니라, 이제 ONTAP Select 시스템의 비활성 데이터를 클라우드 스토리지로 계층화할 수 있습니다.</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
-  <block id="99c3c55ceb085b94e53d8b7984863037" category="section-title">Cloud Tiering BYOL 라이센스는 FabricPool 라이센스를 대체합니다</block>
-  <block id="2817937e51c403b4b9929eaa298b82dd" category="paragraph">이제 Cloud Tiering 서비스를 사용하여 Cloud Manager 내에서 지원되는 계층화 구성에 새로운 * Cloud Tiering * 라이센스를 사용할 수 있습니다. 여러 온프레미스 ONTAP 클러스터에서 사용할 수 있는 부동 라이센스입니다. 이전에 사용했을 수 있는 * FabricPool * 라이센스는 Cloud Manager 내에서 지원되지 않는 구성에만 유지됩니다.</block>
-  <block id="54b8200ba1ce85a7ad931e091de0ed98" category="inline-link">새로운 Cloud Tiering 라이센스에 대해 자세히 알아보십시오</block>
-  <block id="34a4923a0f84a1bc223389cfed6e2b62" category="paragraph"><block ref="3054f156a0693c67de0611c0445f676e" category="inline-link-rx"></block>.</block>
-  <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">사내 ONTAP 클러스터에서 S3 호환 오브젝트 스토리지로 비활성 데이터 계층화</block>
-  <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">데이터를 S3 호환 오브젝트 스토리지에 계층화하는 방법을 알아보십시오</block>
-  <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">이제 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에 비활성 데이터를 계층화할 수 있습니다.<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>.</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
   <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">이제 Cloud Manager에서 Cloud Volumes Service for Google Cloud를 직접 관리할 수 있습니다.</block>
@@ -489,4 +482,10 @@
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">사내 ONTAP 클러스터</block>
+  <block id="1f6fd3301ab6ce127efad422dec03d61" category="section-title">2022년 8월 3일</block>
+  <block id="059c9f6829260507f53186d7191b058c" category="section-title">클러스터의 다른 애그리게이트로 추가 오브젝트 저장소를 구성하는 기능</block>
+  <block id="aa18b7b04ae6143c1d2f56b72718403e" category="inline-link">새로운 오브젝트 스토리지 기능에 대해 자세히 알아보십시오.</block>
+  <block id="e13d7be0c5a4bf2f3e8d1dd04f69dd41" category="paragraph">Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이지 세트가 추가되었습니다. 새 오브젝트 저장소를 추가하고, FabricPool 미러링을 위해 여러 오브젝트 저장소를 Aggregate에 연결하고, 기본 오브젝트 저장소와 미러 오브젝트 저장소를 바꾸고, 애그리게이트에 대한 오브젝트 저장소 연결을 삭제하는 등의 작업을 수행할 수 있습니다.<block ref="4f404ee3f4c3295f701ed8b17cef66df" category="inline-link-rx"></block></block>
+  <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">MetroCluster 구성에 대한 Cloud Tiering 라이센스 지원</block>
+  <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">이제 MetroCluster 구성에 있는 클러스터와 Cloud Tiering 라이센스를 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다.<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
 </blocks>
