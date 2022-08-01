@@ -248,6 +248,16 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2022년 8월 18일
+
+
+
+==== 클라우드 네이티브 애플리케이션 데이터를 보호하기 위해 지원이 추가되었습니다
+
+Cloud Backup for Applications는 NetApp 클라우드 스토리지에서 실행되는 애플리케이션에 데이터 보호 기능을 제공하는 SaaS 기반 서비스입니다. Cloud Manager 내에서 지원되는 Cloud Backup for Applications는 NetApp ONTAP용 Amazon FSx에 상주하는 Oracle 데이터베이스의 효율적이고 애플리케이션 정합성이 보장된 정책 기반 백업 및 복원을 제공합니다.https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-cloud-app-data-to-cloud.html["자세한 정보"^].
+
+
+
 === 2022년 8월 16일
 
 
@@ -262,9 +272,15 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== NetApp은 백업 파일이 삭제 및 랜섬웨어 공격으로부터 보호할 수 있는 기능을 추가했습니다
 
-Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠금을 지원합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 백업 대상이 Amazon S3인 경우, _DataLock 및 랜섬웨어 보호_라는 새로운 백업 정책 옵션을 사용할 수 있습니다. DataLock은 백업 파일의 수정 또는 삭제를 방지하고, 랜섬웨어 방지 기능은 백업 파일을 검사하여 백업 파일에 대한 랜섬웨어 공격의 증거를 찾습니다.
+Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠금을 지원합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 백업 대상이 Amazon S3인 경우, _DataLock 및 랜섬웨어 보호_라는 새로운 백업 정책 옵션을 사용할 수 있습니다. DataLock은 백업 파일의 수정 또는 삭제를 방지하고, 랜섬웨어 방지 기능은 백업 파일을 검사하여 백업 파일에 대한 랜섬웨어 공격의 증거를 찾습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오"^].
 
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오"^].
+이 기능을 사용하려면 커넥터 역할에 추가 권한이 필요합니다. 버전 3.9.21 소프트웨어를 사용하여 배포된 Connector에는 이러한 권한이 포함되어 있습니다. 이전 릴리스를 사용하여 Connector를 배포한 경우 사용 권한을 수동으로 추가해야 합니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-aws.html#set-up-s3-permissions["필요한 경우 이러한 사용 권한을 추가하는 방법을 알아봅니다"^].
+
+
+
+==== 이제 Cloud Backup은 사용자 지정 SnapMirror 레이블을 사용하여 생성된 정책을 지원합니다
+
+이전에는 Cloud Backup이 매시간, 매일, 매주, 시간별, 연도별 등의 미리 정의된 SnapMirror 레이블만 지원했습니다. 이제 Cloud Backup은 System Manager 또는 CLI를 사용하여 만든 사용자 지정 SnapMirror 레이블이 있는 SnapMirror 정책을 검색할 수 있습니다. 이러한 새 레이블은 Cloud Backup UI에 표시되므로 선택한 SnapMirror 레이블을 사용하여 볼륨을 클라우드에 백업할 수 있습니다.
 
 
 
@@ -276,7 +292,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-
 
 ==== 끌어서 놓기를 통해 Cloud Backup을 Azure Blob 및 Google Cloud Storage로 이동할 수 있습니다
 
-를 누릅니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-azure-blob.html["Azure Blob"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-gcp-storage.html["Google 클라우드 스토리지"^] 백업 대상이 Canvas에 작업 환경으로 존재합니다. 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템(Azure 또는 GCP에 설치됨)을 작업 환경으로 끌어서 백업 설정 마법사를 시작할 수 있습니다.
+를 누릅니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-azure-blob.html["Azure Blob"^] 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-gcp-storage.html["Google 클라우드 스토리지"^] 백업 대상이 Canvas에 작업 환경으로 존재합니다. 온프레미스 ONTAP 또는 Cloud Volumes ONTAP 작업 환경(Azure 또는 GCP에 설치됨)을 대상으로 끌어서 백업 설정 마법사를 시작할 수 있습니다.
 
 이 기능은 Amazon S3 버킷에 이미 존재합니다.
 
@@ -405,6 +421,12 @@ link:reference-private-data-categories.html#types-of-personal-data["데이터 �
 ==== 성공적으로 분류한 볼륨, 버킷 등의 상태를 봅니다
 
 Data Sense가 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 때 "매핑" 수와 "분류" 수를 확인할 수 있습니다. 모든 데이터에 대해 전체 AI ID가 수행되므로 분류에 시간이 더 오래 걸립니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-repo-scanning.html#viewing-the-scan-status-for-your-repositories["이 정보를 보는 방법을 참조하십시오"^].
+
+
+
+==== 이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다
+
+사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#creating-custom-personal-data-identifiers-using-a-regex["자세한 정보"^].
 
 
 
@@ -905,6 +927,15 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 === 2022년 7월 31일
 
 * Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]
+
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스 정의"]이제 다음을 수행할 수 있습니다.
 +
 ** 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정합니다

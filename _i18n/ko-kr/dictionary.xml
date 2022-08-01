@@ -482,14 +482,27 @@
   <block id="df69045929c0c3d81d05d291d9a65cdf" category="inline-link">필요한 경우 이러한 사용 권한을 추가하는 방법을 알아봅니다</block>
   <block id="0d686592bdbc5c86f2ba1c8248bc44da" category="paragraph">이 기능을 사용하려면 커넥터 역할에 추가 권한이 필요합니다. 버전 3.9.21 소프트웨어(2022년 8월)를 사용하여 배포된 커넥터에는 이러한 권한이 포함됩니다. 이전 릴리스를 사용하여 Connector를 배포한 경우 사용 권한을 수동으로 추가해야 합니다.<block ref="0ebb6015b7a8d1b3b67f8b17b057acd1" category="inline-link-rx"></block>.</block>
   <block id="2f176cfab68c991edad2596ce5f71c26" category="section-title">NetApp은 백업 파일이 삭제 및 랜섬웨어 공격으로부터 보호할 수 있는 기능을 추가했습니다</block>
-  <block id="0a3404862f01e82bee84db8919a15819" category="paragraph">Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠금을 지원합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 백업 대상이 Amazon S3인 경우, _DataLock 및 랜섬웨어 보호_라는 새로운 백업 정책 옵션을 사용할 수 있습니다. DataLock은 백업 파일의 수정 또는 삭제를 방지하고, 랜섬웨어 방지 기능은 백업 파일을 검사하여 백업 파일에 대한 랜섬웨어 공격의 증거를 찾습니다.</block>
   <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="6dd6bb59703afa0fa4c54bab99ad8d4c" category="paragraph"><block ref="fe4d56bff61ff0408b8d5349d9b6a033" category="inline-link-rx"></block>.</block>
   <block id="a50aef84191a2a8583dff3169f0e9722" category="section-title">ONTAP 시스템에 대한 추가 백업 정책 개선 사항</block>
   <block id="49ed93361b6144f58f401017aa6361d0" category="paragraph">일부 백업 정책 페이지는 각 ONTAP 클러스터의 볼륨에 사용할 수 있는 모든 백업 정책을 보다 쉽게 볼 수 있도록 재설계되었습니다. 따라서 사용 가능한 정책의 세부 정보를 더 쉽게 볼 수 있으므로 볼륨에 최상의 정책을 적용할 수 있습니다.</block>
   <block id="c386ae49c48be8bcc2fbd19ab4807c0a" category="section-title">끌어서 놓기를 통해 Cloud Backup을 Azure Blob 및 Google Cloud Storage로 이동할 수 있습니다</block>
   <block id="52745271323ee9ea30e3a37d0338d118" category="inline-link">Azure Blob</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
-  <block id="b58db1afa291d3cbd84b014051cca4d9" category="paragraph">를 누릅니다<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 또는<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 백업 대상이 Canvas에 작업 환경으로 존재합니다. 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템(Azure 또는 GCP에 설치됨)을 작업 환경으로 끌어서 백업 설정 마법사를 시작할 수 있습니다.</block>
   <block id="b6f2e1a880ce20ab3d1039056746fa33" category="paragraph">이 기능은 Amazon S3 버킷에 이미 존재합니다.</block>
+  <block id="15471566ffb385e256937957990dd60d" category="section-title">2022년 8월 18일</block>
+  <block id="d583f1393e45db7abf2dbb15da48eaad" category="section-title">클라우드 네이티브 애플리케이션 데이터를 보호하기 위해 지원이 추가되었습니다</block>
+  <block id="82aa9a316dbbb378e25972999e35a45b" category="paragraph">Cloud Backup for Applications는 NetApp 클라우드 스토리지에서 실행되는 애플리케이션에 데이터 보호 기능을 제공하는 SaaS 기반 서비스입니다. Cloud Manager 내에서 지원되는 Cloud Backup for Applications는 NetApp ONTAP용 Amazon FSx에 상주하는 Oracle 데이터베이스의 효율적이고 애플리케이션 정합성이 보장된 정책 기반 백업 및 복원을 제공합니다.<block ref="5774010e75c0af5301ef0cfe74198590" category="inline-link-rx"></block>.</block>
+  <block id="e7f0bd203723dde56c408349b772431e" category="paragraph">Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠금을 지원합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 백업 대상이 Amazon S3인 경우, _DataLock 및 랜섬웨어 보호_라는 새로운 백업 정책 옵션을 사용할 수 있습니다. DataLock은 백업 파일의 수정 또는 삭제를 방지하고, 랜섬웨어 방지 기능은 백업 파일을 검사하여 백업 파일에 대한 랜섬웨어 공격의 증거를 찾습니다.<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>.</block>
+  <block id="4a13f748ffea2bf384ee164062e7e17f" category="paragraph">이 기능을 사용하려면 커넥터 역할에 추가 권한이 필요합니다. 버전 3.9.21 소프트웨어를 사용하여 배포된 Connector에는 이러한 권한이 포함되어 있습니다. 이전 릴리스를 사용하여 Connector를 배포한 경우 사용 권한을 수동으로 추가해야 합니다.<block ref="b51546833a3c96ab5b8c4e49b196cd94" category="inline-link-rx"></block>.</block>
+  <block id="9fa4d73f6f3d752a69adeebba1959edb" category="section-title">이제 Cloud Backup은 사용자 지정 SnapMirror 레이블을 사용하여 생성된 정책을 지원합니다</block>
+  <block id="387856638678798c3ffb0e38b39170c6" category="paragraph">이전에는 Cloud Backup이 매시간, 매일, 매주, 시간별, 연도별 등의 미리 정의된 SnapMirror 레이블만 지원했습니다. 이제 Cloud Backup은 System Manager 또는 CLI를 사용하여 만든 사용자 지정 SnapMirror 레이블이 있는 SnapMirror 정책을 검색할 수 있습니다. 이러한 새 레이블은 Cloud Backup UI에 표시되므로 선택한 SnapMirror 레이블을 사용하여 볼륨을 클라우드에 백업할 수 있습니다.</block>
+  <block id="1c630f0a83d0317db1fef94fb4dac579" category="paragraph">를 누릅니다<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 또는<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 백업 대상이 Canvas에 작업 환경으로 존재합니다. 온프레미스 ONTAP 또는 Cloud Volumes ONTAP 작업 환경(Azure 또는 GCP에 설치됨)을 대상으로 끌어서 백업 설정 마법사를 시작할 수 있습니다.</block>
+  <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
+  <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다.<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>.</block>
+  <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS의 Kubernetes 클러스터 요구사항</block>
+  <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
+  <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure의 Kubernetes 클러스터 요구사항</block>
+  <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
+  <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Google Cloud의 Kubernetes 클러스터 요구사항</block>
+  <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
 </blocks>
