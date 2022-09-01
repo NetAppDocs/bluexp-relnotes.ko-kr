@@ -387,6 +387,38 @@ API는 에서 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-man
 
 
 
+=== 2022년 9월 6일(버전 1.16)
+
+
+
+==== 파일의 변경 사항을 반영하기 위해 저장소를 즉시 다시 검색할 수 있습니다
+
+변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-repo-scanning.html#rescanning-data-for-an-existing-repository["디렉토리를 다시 검색하는 방법을 참조하십시오"^].
+
+
+
+==== 데이터 조사 페이지의 데이터 감지 스캔 상태에 대한 새 필터
+
+“Analysis Status(분석 상태)” 필터를 사용하면 데이터 감지 스캔의 특정 단계에 있는 파일을 나열할 수 있습니다. 옵션을 선택하여 * 첫 번째 스캔 보류 *, * 완료됨 * 스캔 중, * 재스캔 보류 * 또는 * 실패 * 가 스캔되는 파일 목록을 표시할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오"^].
+
+
+
+==== 데이터 주제는 이제 스캔에서 발견된 "개인 데이터"의 일부로 간주됩니다
+
+이제 Data Sense는 규정 준수 대시보드에 표시되는 개인 결과의 일부로 데이터 주제를 인식합니다. 또한 조사 페이지에서 검색을 수행할 때 "개인 데이터"에서 "데이터 제목"을 선택하여 데이터 주제가 포함된 파일만 볼 수 있습니다.
+
+
+
+==== 이제 데이터 감지 이동 경로 파일은 검색에서 "범주"의 일부로 간주됩니다
+
+이제 Data Sense는 Breadcrumb 파일을 Compliance Dashboard에 나타나는 범주의 일부로 인식합니다. 소스 위치에서 NFS 공유로 파일을 이동할 때 데이터 센스에서 생성되는 파일입니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["Breadcrumb 파일을 만드는 방법에 대해 자세히 알아보십시오"^].
+
+또한 조사 페이지에서 검색을 수행할 때 "범주" 아래의 "데이터 감지 브레드크럼"을 선택하여 데이터 감지 브레드크럼 파일만 볼 수 있습니다.
+
+
+
 === 2022년 8월 7일(버전 1.15)
 
 
@@ -461,44 +493,6 @@ Data Sense가 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 때
 ==== 이제 데이터 센스를 통해 한 번에 최대 100,000개의 파일을 이동할 수 있습니다
 
 Data Sense를 사용하여 스캔한 데이터 소스에서 NFS 공유로 파일을 이동하려는 경우 최대 파일 수가 100,000개로 늘어났습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["데이터 센스를 사용하여 파일을 이동하는 방법을 확인하십시오"].
-
-
-
-=== 2022년 6월 12일(버전 1.13.1)
-
-
-
-==== 이제 데이터 조사 페이지에서 결과를 .JSON 보고서로 다운로드할 수 있습니다
-
-데이터 조사 페이지에서 데이터를 필터링한 후에는 데이터를 .JSON 파일에 보고서로 저장하여 NFS 공유로 내보낼 수 있으며 로컬 시스템의 .csv 파일에 데이터를 저장할 수도 있습니다. 데이터 센스에 내보내기 액세스에 대한 올바른 권한이 있는지 확인하십시오. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-generating-compliance-reports.html#data-investigation-report["데이터 조사 페이지에서 보고서를 만드는 방법을 알아봅니다"].
-
-
-
-==== Data Sense UI에서 Data Sense를 제거할 수 있습니다
-
-Data Sense를 제거하여 호스트에서 소프트웨어를 영구적으로 제거할 수 있으며, 클라우드 배포의 경우 Data Sense가 배포된 가상 머신/인스턴스를 삭제할 수 있습니다. 인스턴스를 삭제하면 데이터 센스에서 스캔한 모든 인덱싱된 정보가 영구적으로 삭제됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-uninstall-data-sense.html["방법을 확인하십시오"].
-
-
-
-==== 이제 감사 로깅을 사용하여 Data Sense가 수행한 작업 기록을 추적할 수 있습니다
-
-감사 로그는 Data Sense가 검색 중인 모든 작업 환경 및 데이터 소스의 파일에 대해 Data Sense가 수행한 관리 활동을 추적합니다. 작업은 사용자 생성(파일 삭제, 정책 생성 등) 또는 생성된 정책(파일에 레이블 자동 추가, 파일 자동 삭제 등)이 될 수 있습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-audit-data-sense-actions.html["감사 로그에 대한 자세한 내용은 을 참조하십시오"].
-
-
-
-==== 데이터 조사 페이지의 중요 ID 수에 대한 새 필터
-
-“Number of identifier(식별자 수)” 필터를 사용하면 개인 데이터와 민감한 개인 데이터를 포함하여 특정 수의 중요한 식별자가 있는 파일을 나열할 수 있습니다. 1-10 또는 501-1000과 같은 범위를 선택하여 해당 수의 중요한 식별자가 포함된 파일만 볼 수 있습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오"].
-
-
-
-==== 이제 작성한 기존 정책을 편집할 수 있습니다
-
-이전에 만든 사용자 지정 정책을 변경해야 하는 경우 새 정책을 만드는 대신 정책을 편집할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#editing-policies["정책을 편집하는 방법을 알아봅니다"].
 
 
 
@@ -1059,19 +1053,29 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
+=== 2022년 9월 6일
+
+
+
+==== 클러스터에서 감지된 랜섬웨어 인시던트를 표시하는 새 패널입니다
+
+랜섬웨어 사고_패널은 시스템에서 발생한 랜섬웨어 공격을 보여줍니다. 현재 지원은 ARP(Autonomous 랜섬웨어 Protection)를 실행하는 온프레미스 ONTAP 클러스터에 적용됩니다. ARP는 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 활동을 사전에 감지하고 경고합니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#ransomware-incidents-detected-on-your-systems["자세히 알아보기"^].
+
+
+
 === 2022년 8월 7일
 
 
 
 ==== 클러스터에 보안 취약점을 표시하는 새 패널
 
-스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#storage-system-vulnerabilities["자세한 내용을 보려면 여기를 클릭하십시오"].
+스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#storage-system-vulnerabilities["자세한 내용을 보려면 여기를 클릭하십시오"^].
 
 
 
 ==== 변경 불가능한 스캔한 파일을 표시하는 새 패널
 
-Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#data-in-your-volumes-that-are-being-protected-using-snaplock["자세한 내용을 보려면 여기를 클릭하십시오"].
+Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#data-in-your-volumes-that-are-being-protected-using-snaplock["자세한 내용을 보려면 여기를 클릭하십시오"^].
 
 
 
@@ -1094,24 +1098,6 @@ Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 
 ==== 이제 ONTAP 시스템용 FSX가 추적되어 볼륨 스냅샷을 활성화할 수 있습니다
 
 ONTAP 환경의 _ 장 _ 패널은 이제 ONTAP 시스템용 FSx의 볼륨에 대한 스냅샷 복사본의 상태를 제공합니다. 볼륨의 40% 미만이 스냅숏으로 보호되는 경우 _ Cyber Resilience Map _ 에서도 경고가 표시됩니다.
-
-
-
-=== 2022년 5월 11일
-
-
-
-==== ONTAP 환경의 보안 강화를 추적하는 새 패널
-
-ONTAP 환경의 새로운 패널 _ 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"^] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"^] 비정상적인 활동을 사전에 감지하여 경고합니다.
-
-권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening["자세한 내용을 보려면 여기를 클릭하십시오"].
-
-
-
-==== 클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다
-
-이 새로운 _Backup Status_패널에서는 랜섬웨어 공격으로 인해 복구해야 할 경우 가장 중요한 데이터 범주가 얼마나 포괄적으로 백업되는지 보여 줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 
 

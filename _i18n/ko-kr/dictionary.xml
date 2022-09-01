@@ -174,12 +174,7 @@
   <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">Cloud Tiering을 설정할 때 특정 일 수 후에 비활성 데이터가 _Standard_storage 클래스에서 _Glacier Instant Retrieval_로 전환되도록 수명주기 규칙을 구성할 수 있습니다. 이를 통해 AWS 인프라 비용을 절감할 수 있습니다.<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
   <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">스토리지 클래스를 추가합니다</block>
   <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
-  <block id="7d6adafb3c8bb3861e1f6a4ca4b68455" category="section-title">2022년 5월 11일</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
-  <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>.</block>
-  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오</block>
-  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP의 랜섬웨어 방지 기능</block>
-  <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다.<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>.</block>
   <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">새로운 Google Cloud 지역 지원</block>
   <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다</block>
   <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
@@ -223,29 +218,12 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="b83e2caeb95bea361704be4e9e795cd1" category="paragraph">API는 에서 사용할 수 있습니다<block ref="323898002645c2363c910f7c119fd4d6" category="inline-link-rx"></block>. 을 참조하십시오 <block ref="cf7847f4c926eb96d69d319dfdc23654" category="inline-link-macro-rx"></block> API에 대한 개요입니다.</block>
   <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">2022년 6월 12일</block>
-  <block id="f313b26419f4694c764a8d9a38b04ce1" category="section-title">이제 데이터 조사 페이지에서 결과를 .JSON 보고서로 다운로드할 수 있습니다</block>
-  <block id="d214193a7fda757836199c60304f2ab0" category="inline-link">데이터 조사 페이지에서 보고서를 만드는 방법을 알아봅니다</block>
-  <block id="6cb5a0e32d140f3770c280b471c48cd9" category="paragraph">데이터 조사 페이지에서 데이터를 필터링한 후에는 데이터를 .JSON 파일에 보고서로 저장하여 NFS 공유로 내보낼 수 있으며 로컬 시스템의 .csv 파일에 데이터를 저장할 수도 있습니다. 데이터 센스에 내보내기 액세스에 대한 올바른 권한이 있는지 확인하십시오.<block ref="0ee382d3ff8086e5d12287af8220734f" category="inline-link-rx"></block>.</block>
-  <block id="bef8207d9128cb7b1a5dc68939fc3d45" category="section-title">Data Sense UI에서 Data Sense를 제거할 수 있습니다</block>
-  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">방법을 확인하십시오</block>
-  <block id="4aa7333b6753545c6a6c04dfb41b9866" category="paragraph">Data Sense를 제거하여 호스트에서 소프트웨어를 영구적으로 제거할 수 있으며, 클라우드 배포의 경우 Data Sense가 배포된 가상 머신/인스턴스를 삭제할 수 있습니다. 인스턴스를 삭제하면 데이터 센스에서 스캔한 모든 인덱싱된 정보가 영구적으로 삭제됩니다.<block ref="3da12a48df084f38bafa988bc8e77bd7" category="inline-link-rx"></block>.</block>
-  <block id="d96d07db10c050adfb5fed7e3d885b82" category="section-title">이제 감사 로깅을 사용하여 Data Sense가 수행한 작업 기록을 추적할 수 있습니다</block>
-  <block id="1ce49760bcdac502d41fb1e9e547086b" category="paragraph">감사 로그는 Data Sense가 검색 중인 모든 작업 환경 및 데이터 소스의 파일에 대해 Data Sense가 수행한 관리 활동을 추적합니다. 작업은 사용자 생성(파일 삭제, 정책 생성 등) 또는 생성된 정책(파일에 레이블 자동 추가, 파일 자동 삭제 등)이 될 수 있습니다.</block>
-  <block id="f5678b0269d5a9952a36966b56ab8f2e" category="inline-link">감사 로그에 대한 자세한 내용은 을 참조하십시오</block>
-  <block id="d96e8ae6f880fe9b4d4de06b59a2128b" category="paragraph"><block ref="a09465601260c6db487e05cfd3d2ec87" category="inline-link-rx"></block>.</block>
-  <block id="a74d72e2c5ed113941ee600287aaa999" category="section-title">데이터 조사 페이지의 중요 ID 수에 대한 새 필터</block>
-  <block id="3c5d93e6c38bd86146cef63658df62d2" category="paragraph">“Number of identifier(식별자 수)” 필터를 사용하면 개인 데이터와 민감한 개인 데이터를 포함하여 특정 수의 중요한 식별자가 있는 파일을 나열할 수 있습니다. 1-10 또는 501-1000과 같은 범위를 선택하여 해당 수의 중요한 식별자가 포함된 파일만 볼 수 있습니다.</block>
-  <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">이제 작성한 기존 정책을 편집할 수 있습니다</block>
-  <block id="61e409921fe798c5667689af4656a112" category="inline-link">정책을 편집하는 방법을 알아봅니다</block>
-  <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">이전에 만든 사용자 지정 정책을 변경해야 하는 경우 새 정책을 만드는 대신 정책을 편집할 수 있습니다.<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>.</block>
   <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">이제 ONTAP 스토리지 VM에 대한 NAS 파일 시스템 감사 상태가 추적됩니다</block>
   <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">작업 환경의 스토리지 VM 중 40% 미만에서 파일 시스템 감사가 활성화된 경우 _ Cyber Resilience Map _ 에 경고가 추가됩니다. SMB 및 NFS 이벤트를 추적 및 로깅하지 않는 SVM의 정확한 수를 _ ONTAP 환경의 _ 패널에서 감사 로그에 확인할 수 있습니다. 그런 다음 SVM에 대한 감사를 사용할지 여부를 결정할 수 있습니다.</block>
   <block id="9f8d82fd59d602cd8a59ae988c97d5e6" category="section-title">이제 온박스 앤티 랜섬웨어가 볼륨에 대해 활성화되지 않은 경우 경고가 표시됩니다</block>
   <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">이 정보는 이전에 _ ONTAP Environments _ 패널의 온프레미스 ONTAP 시스템에 대해 보고되었습니다. 그러나 이제 온박스 안티 랜섬웨어 기능이 볼륨의 40% 미만으로 켜지면 _ Cyber Resilience Map_에서 경고가 보고되므로 대시보드에서 이 정보를 볼 수 있습니다.</block>
   <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">이제 ONTAP 시스템용 FSX가 추적되어 볼륨 스냅샷을 활성화할 수 있습니다</block>
   <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">ONTAP 환경의 _ 장 _ 패널은 이제 ONTAP 시스템용 FSx의 볼륨에 대한 스냅샷 복사본의 상태를 제공합니다. 볼륨의 40% 미만이 스냅숏으로 보호되는 경우 _ Cyber Resilience Map _ 에서도 경고가 표시됩니다.</block>
-  <block id="5e5a2d8b7f4ac8723d3873b0ba14916e" category="paragraph">ONTAP 환경의 새로운 패널 _ 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 로 이동합니다<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
-  <block id="ed35eae63358acfc6c38aefc0b7736d0" category="paragraph">이 새로운 _Backup Status_패널에서는 랜섬웨어 공격으로 인해 복구해야 할 경우 가장 중요한 데이터 범주가 얼마나 포괄적으로 백업되는지 보여 줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다.<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>.</block>
   <block id="d4e2be367ddcfb2b47d5711136446363" category="section-title">2022년 6월 14일</block>
   <block id="dd16b8804cbc8afa6e2f6deb9acf5bcf" category="section-title">인터넷에 연결되지 않은 사이트에서 사내 ONTAP 클러스터 데이터를 백업하는 데 지원이 추가되었습니다</block>
   <block id="6f5c7024f5953e20be33f1c72e8d5f4a" category="paragraph">사내 ONTAP 클러스터가 인터넷 액세스가 연결되지 않은 사이트에 있는 경우, 다크 사이트 또는 오프라인 사이트라고도 합니다. 이제 Cloud Backup을 사용하여 볼륨 데이터를 동일한 사이트에 있는 NetApp StorageGRID 시스템에 백업할 수 있습니다. 이 기능을 사용하려면 Cloud Manager Connector(버전 3.9.19 이상)도 오프라인 사이트에 배포해야 합니다.</block>
@@ -253,7 +231,6 @@
   <block id="826610554423c9dc8481da631ccae8be" category="inline-link">오프라인 사이트에서 ONTAP 데이터를 StorageGRID에 백업하는 방법을 알아봅니다</block>
   <block id="824ce1955c2b2d5f91cb80c86545d639" category="paragraph"><block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>.<block ref="f39d73248b535226c2e16237e43ff2d0" category="inline-link-rx"></block>.</block>
   <block id="0a0c24e7fef8cd9bcb19d6db19987b93" category="paragraph">이전에 클라우드 복원 인스턴스/VM을 사용한 경우 자동으로 제거됩니다. Cloud Backup 프로세스는 모든 이전 Cloud Restore 인스턴스를 삭제하기 위해 하루에 한 번 실행됩니다. 이 변경 사항은 완전히 투명하게 나타납니다. 데이터에는 영향을 주지 않으며 백업 또는 복원 작업이 변경되지 않습니다.</block>
-  <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022년 6월 12일(버전 1.13.1)</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
@@ -449,11 +426,7 @@
   <block id="3fce6f9d08f0fed5c965732f940ad498" category="list-text">블록 및 파일 스토리지에 대한 스토리지 경제성을 지원합니다</block>
   <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">2022년 8월 7일</block>
   <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">클러스터에 보안 취약점을 표시하는 새 패널</block>
-  <block id="83497bfd5911b64807f63c35ff9fe293" category="paragraph">스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다.<block ref="e5c1efd527ebe3fd1f784ff961df8f95" category="inline-link-rx"></block>.</block>
   <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">변경 불가능한 스캔한 파일을 표시하는 새 패널</block>
-  <block id="ce5ff705f172d820f90c05f58e1c3e19" category="paragraph">Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다.<block ref="d02321ee0847267b2bfa5fdc78748651" category="inline-link-rx"></block>.</block>
-  <block id="ab2a86429c9a87e5d3019d275a5cfb4d" category="section-title">ONTAP 환경의 보안 강화를 추적하는 새 패널</block>
-  <block id="0bcaeb5db18a29ede99b5fa22ca702dd" category="section-title">클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">사내 ONTAP 클러스터</block>
@@ -509,4 +482,23 @@
   <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">이메일로 알림을 수신하려면 동기화 관계에서 * 알림 * 설정을 활성화한 다음 Cloud Manager에서 알림 및 알림 설정을 구성해야 합니다.</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">알림을 설정하는 방법에 대해 알아봅니다</block>
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>.</block>
+  <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022년 9월 6일(버전 1.16)</block>
+  <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">파일의 변경 사항을 반영하기 위해 저장소를 즉시 다시 검색할 수 있습니다</block>
+  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">디렉토리를 다시 검색하는 방법을 참조하십시오</block>
+  <block id="45b58068004d744461935c2aae409c04" category="paragraph">변경 내용이 시스템에 반영되도록 특정 리포지토리를 즉시 다시 스캔해야 하는 경우 리포지토리를 선택하고 다시 검색할 수 있습니다. 이렇게 하면 특정 데이터를 다른 데이터보다 먼저 다시 검색하게 할 수 있습니다.<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>.</block>
+  <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">데이터 조사 페이지의 데이터 감지 스캔 상태에 대한 새 필터</block>
+  <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">“Analysis Status(분석 상태)” 필터를 사용하면 데이터 감지 스캔의 특정 단계에 있는 파일을 나열할 수 있습니다. 옵션을 선택하여 * 첫 번째 스캔 보류 *, * 완료됨 * 스캔 중, * 재스캔 보류 * 또는 * 실패 * 가 스캔되는 파일 목록을 표시할 수 있습니다.</block>
+  <block id="82f05abce805aa872acec563bbca9a1f" category="paragraph"><block ref="b263790debd0f3d5e5a31296d99293db" category="inline-link-rx"></block>.</block>
+  <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">데이터 주제는 이제 스캔에서 발견된 "개인 데이터"의 일부로 간주됩니다</block>
+  <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">이제 Data Sense는 규정 준수 대시보드에 표시되는 개인 결과의 일부로 데이터 주제를 인식합니다. 또한 조사 페이지에서 검색을 수행할 때 "개인 데이터"에서 "데이터 제목"을 선택하여 데이터 주제가 포함된 파일만 볼 수 있습니다.</block>
+  <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">이제 데이터 감지 이동 경로 파일은 검색에서 "범주"의 일부로 간주됩니다</block>
+  <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">Breadcrumb 파일을 만드는 방법에 대해 자세히 알아보십시오</block>
+  <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">이제 Data Sense는 Breadcrumb 파일을 Compliance Dashboard에 나타나는 범주의 일부로 인식합니다. 소스 위치에서 NFS 공유로 파일을 이동할 때 데이터 센스에서 생성되는 파일입니다.<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>.</block>
+  <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">또한 조사 페이지에서 검색을 수행할 때 "범주" 아래의 "데이터 감지 브레드크럼"을 선택하여 데이터 감지 브레드크럼 파일만 볼 수 있습니다.</block>
+  <block id="8c70b531876f0aad87de3df8d9049545" category="section-title">2022년 9월 6일</block>
+  <block id="4f400ad3636bf9ccb8a232e152ae3a56" category="section-title">클러스터에서 감지된 랜섬웨어 인시던트를 표시하는 새 패널입니다</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
+  <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">랜섬웨어 사고_패널은 시스템에서 발생한 랜섬웨어 공격을 보여줍니다. 현재 지원은 ARP(Autonomous 랜섬웨어 Protection)를 실행하는 온프레미스 ONTAP 클러스터에 적용됩니다. ARP는 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 활동을 사전에 감지하고 경고합니다.<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>.</block>
+  <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다.<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>.</block>
+  <block id="95055437ddc6fef4303145322941a60e" category="paragraph">Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다.<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>.</block>
 </blocks>
