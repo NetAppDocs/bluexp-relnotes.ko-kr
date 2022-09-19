@@ -84,50 +84,6 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 
 
 
-=== 2022년 7월 3일
-
-
-
-==== 커넥터 3.9.20
-
-* Cloud Manager 인터페이스에 추가된 새로운 기능을 탐색하는 방법이 도입되었습니다. 이제 왼쪽 패널 위로 마우스를 이동하면 익숙한 Cloud Manager 기능을 모두 쉽게 찾을 수 있습니다.
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-navigation.png["Cloud Manager의 새로운 좌측 탐색 메뉴를 보여주는 스크린샷"]
-
-* 이제 Cloud Manager를 구성하여 시스템에 로그인하지 않아도 중요한 시스템 작업을 이메일로 통지할 수 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
-
-* Cloud Manager는 이제 Amazon S3 지원과 비슷하게 Azure Blob 스토리지 및 Google Cloud Storage를 작업 환경으로 지원합니다.
-+
-Azure 또는 Google Cloud에 Connector를 설치한 후 Cloud Manager는 이제 Connector가 설치된 프로젝트의 Azure Blob 스토리지 또는 Google Cloud Storage에 대한 정보를 자동으로 검색합니다. Cloud Manager는 오브젝트 스토리지를 작업 환경으로 표시하여 더 자세한 정보를 볼 수 있도록 합니다.
-
-+
-Azure Blob 작업 환경의 예는 다음과 같습니다.
-
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-azure-blob-details.png["상위 수준의 개요와 스토리지 계정에 대한 자세한 정보를 볼 수 있는 Azure Blob 작업 환경을 보여 주는 스크린샷"]
-
-* NetApp은 용량, 암호화 세부 정보 등과 같은 S3 버킷에 대한 자세한 정보를 제공하여 Amazon S3 작업 환경의 리소스 페이지를 재설계했습니다.
-* Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
-+
-** 마드리드(유럽 - 남서쪽1)
-** 파리(유럽 - west9)
-** 바르샤바(유럽-중중심2)
-
-
-* 이제 커넥터는 Azure West US 3 지역에서 지원됩니다.
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-
-
-
-
-
 == Azure NetApp Files
 
 
@@ -685,6 +641,45 @@ Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이�
 
 
 
+=== 2022년 9월 18일
+
+다음 변경 사항은 커넥터의 3.9.22 릴리스에 도입되었습니다.
+
+
+
+==== 디지털 지갑 기능 향상
+
+* 이제 디지털 지갑에 최적화된 I/O 라이센스 패키지 및 사용자 계정의 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약이 표시됩니다.
++
+이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.
+
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다"].
+
+* 이제 하나의 충전 방법을 최적화된 충전 방법으로 변경할 수 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["충전 방법을 변경하는 방법에 대해 알아보십시오"].
+
+
+
+
+
+==== 비용 및 성능 최적화
+
+이제 Canvas에서 직접 Cloud Volumes ONTAP 시스템의 비용과 성능을 최적화할 수 있습니다.
+
+작업 환경을 선택한 후 * 비용 및 성능 최적화 * 옵션을 선택하여 Cloud Volumes ONTAP의 인스턴스 유형을 변경할 수 있습니다. 더 작은 크기의 인스턴스를 선택하면 비용을 절감하고 더 큰 인스턴스로 변경하면 성능을 최적화할 수 있습니다.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-optimize-cost-performance.png["작업 환경을 선택한 후 Canvas에서 사용할 수 있는 Optimize Cost  amp; Performance 옵션의 스크린샷."]
+
+
+
+==== AutoSupport 알림
+
+Cloud Volumes ONTAP 시스템에서 AutoSupport 메시지를 보낼 수 없는 경우 Cloud Manager에서 알림을 생성합니다. 이 알림에는 네트워킹 문제를 해결하는 데 사용할 수 있는 지침 링크가 포함되어 있습니다.
+
+
+
 === 2022년 7월 31일
 
 다음 변경 사항은 커넥터의 3.9.21 릴리스에 도입되었습니다.
@@ -743,52 +738,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 
 
-=== 2022년 7월 3일
-
-다음 변경 사항은 커넥터의 3.9.20 릴리스에 도입되었습니다.
-
-
-
-==== 디지털 지갑
-
-이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["용량 기반 라이센스에 대한 Digital Wallet 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다."]
-
-
-
-==== 탄성 볼륨 개선
-
-이제 Cloud Manager는 사용자 인터페이스에서 Cloud Volumes ONTAP 작업 환경을 생성할 때 Amazon EBS Elastic Volumes 기능을 지원합니다. GP3 또는 ios1 디스크를 사용하는 경우 Elastic Volumes 기능이 기본적으로 활성화됩니다. 스토리지 요구사항에 따라 초기 용량을 선택하고 Cloud Volumes ONTAP를 구축한 후 수정할 수 있습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-aws-elastic-volumes.html["AWS의 Elastic Volumes 지원에 대해 자세히 알아보십시오"].
-
-
-
-==== AWS의 ONTAP S3 라이센스
-
-ONTAP S3 라이센스는 이제 AWS 버전 9.11.0 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함되어 있습니다.
-
-https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오"^]
-
-
-
-==== 새로운 Azure Cloud 지역 지원
-
-9.10.1 릴리스부터는 Cloud Volumes ONTAP가 이제 Azure West US 3 지역에서 지원됩니다.
-
-https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다"^]
-
-
-
-==== Azure의 ONTAP S3 라이센스
-
-ONTAP S3 라이센스는 이제 Azure에서 버전 9.9.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함됩니다.
-
-https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오"^]
-
-
-
 == GCP용 Cloud Volumes Service
 
 
@@ -836,6 +785,20 @@ Spot의 새로운 * 스토리지 운영 * 섹션을 사용하면 Cloud Manager�
 https://docs.netapp.com/us-en/cloud-manager-compute/concept-compute.html["컴퓨팅 서비스에 대해 자세히 알아보십시오"].
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/media/screenshot_compute_dashboard.gif["Cloud Manager의 비용 분석 페이지를 보여 주는 스크린샷"]
+
+
+
+== E-Series 시스템
+
+
+
+=== 2022년 9월 18일
+
+
+
+==== E-Series 지원
+
+이제 Cloud Manager에서 E-Series 스토리지 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
 
 
 
@@ -1144,18 +1107,6 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 
 
-=== 2021년 5월 5일
-
-
-
-==== 인터페이스가 재설계되었습니다
-
-사용 편의성과 Cloud Manager 사용자 인터페이스의 현재 모양과 느낌을 맞추기 위해 Replication 탭을 다시 설계했습니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/media/replication.gif["볼륨 관계 목록을 보여 주는 Cloud Manager의 재설계된 복제 탭 스크린샷"]
-
-
-
 == SnapCenter 서비스
 
 
@@ -1169,3 +1120,17 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/mai
 SnapCenter 서비스 1.0.1은 Apache log4j를 버전 2.9.1에서 2.17로 업그레이드하여 CVE-2021-44228, CVE-2021-4104, CVE-2021-45105의 취약점을 해결합니다.
 
 SnapCenter 서비스 클러스터는 최신 버전으로 자동 업데이트해야 합니다. SnapCenter 서비스 UI의 버전에 클러스터가 1.0.1.1251 이상임을 표시해야 합니다.
+
+
+
+== StorageGRID
+
+
+
+=== 2022년 9월 18일
+
+
+
+==== StorageGRID 지원
+
+이제 Cloud Manager에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.

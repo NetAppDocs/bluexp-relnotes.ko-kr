@@ -38,8 +38,6 @@
   <block id="fed6fa1f1b675c268f8b78258e2545a7" category="inline-link">SnapCenter 서비스</block>
   <block id="95e16c764bc656c2e4b455b9bcd6da50" category="list-text"><block ref="95e16c764bc656c2e4b455b9bcd6da50" category="inline-link-rx"></block></block>
   <block id="7258e7251413465e0a3eb58094430bde" category="section-title">관리</block>
-  <block id="d893d88e474198a90014055294a06b8e" category="inline-link">설정 및 관리</block>
-  <block id="590f11c1f36b0580f4830d64a703af77" category="list-text"><block ref="590f11c1f36b0580f4830d64a703af77" category="inline-link-rx"></block></block>
   <block id="5443bce5372c23a628767c281d20e64d" category="doc">Cloud Manager의 최근 변경 사항</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">전체 릴리스 정보 세트</block>
   <block id="7e2a23a7215e26914d4490ec8dbd56c8" category="paragraph">Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
@@ -143,18 +141,12 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">이제 Cloud Volumes ONTAP 시스템 또는 온프레미스 ONTAP 클러스터에서 ONTAP 파일 시스템용 Amazon FSx로 데이터를 복제할 수 있습니다.</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">데이터 복제를 설정하는 방법에 대해 알아보십시오</block>
   <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>.</block>
-  <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">인터페이스가 재설계되었습니다</block>
-  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">사용 편의성과 Cloud Manager 사용자 인터페이스의 현재 모양과 느낌을 맞추기 위해 Replication 탭을 다시 설계했습니다.</block>
-  <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">볼륨 관계 목록을 보여 주는 Cloud Manager의 재설계된 복제 탭 스크린샷</block>
-  <block id="afd129f297b503a0e765f8dcc6f0d4d4" category="paragraph"><block ref="afd129f297b503a0e765f8dcc6f0d4d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5e057a1bffc9bad13fd5567d9b86dd0b" category="section-title">2021년 12월 21일</block>
   <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache log4j 취약점에 대한 수정 사항</block>
   <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">SnapCenter 서비스 1.0.1은 Apache log4j를 버전 2.9.1에서 2.17로 업그레이드하여 CVE-2021-44228, CVE-2021-4104, CVE-2021-45105의 취약점을 해결합니다.</block>
   <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">SnapCenter 서비스 클러스터는 최신 버전으로 자동 업데이트해야 합니다. SnapCenter 서비스 UI의 버전에 클러스터가 1.0.1.1251 이상임을 표시해야 합니다.</block>
   <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">Cloud Manager의 알림 센터를 보여 주는 스크린샷</block>
   <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">검색 및 amp;Restore를 사용하여 볼륨 및 파일을 복원하는 방법을 확인하십시오</block>
-  <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
-  <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022년 5월 3일</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">Cloud Tiering 라이센스는 추가 클러스터 구성을 지원합니다</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오.</block>
@@ -163,8 +155,6 @@
   <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
   <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">새로운 Google Cloud 지역 지원</block>
-  <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다</block>
-  <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022년 5월 19일(버전 1.3.0)</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">이 페이지</block>
   <block id="538b3d7be12bcc1f18433981df773bc1" category="paragraph">버전 1.1.0용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>.</block>
@@ -191,23 +181,9 @@
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022년 7월 3일</block>
-  <block id="dbb3531fc9f461de7f3beb2624712465" category="section-title">커넥터 3.9.20</block>
-  <block id="d62eba143e9a6b4f6e0d6902d78ea096" category="list-text">Cloud Manager 인터페이스에 추가된 새로운 기능을 탐색하는 방법이 도입되었습니다. 이제 왼쪽 패널 위로 마우스를 이동하면 익숙한 Cloud Manager 기능을 모두 쉽게 찾을 수 있습니다.</block>
-  <block id="fb8e25a66c3a27139d3ea3e1474c7db3" category="inline-image-macro">Cloud Manager의 새로운 좌측 탐색 메뉴를 보여주는 스크린샷</block>
-  <block id="e37234425776295f1624526d17572b8e" category="list-text">이제 Cloud Manager를 구성하여 시스템에 로그인하지 않아도 중요한 시스템 작업을 이메일로 통지할 수 있습니다.</block>
-  <block id="2f439d7fd2d68628b2c40e59bc7ec352" category="inline-link-macro">계정의 작업 모니터링에 대해 자세히 알아보십시오</block>
-  <block id="0f9a1f2b52f5c8456ca5d25ab69eea52" category="list-text">Cloud Manager는 이제 Amazon S3 지원과 비슷하게 Azure Blob 스토리지 및 Google Cloud Storage를 작업 환경으로 지원합니다.</block>
-  <block id="5134e5a3a5a026f57f4938b2eaa07031" category="paragraph">Azure 또는 Google Cloud에 Connector를 설치한 후 Cloud Manager는 이제 Connector가 설치된 프로젝트의 Azure Blob 스토리지 또는 Google Cloud Storage에 대한 정보를 자동으로 검색합니다. Cloud Manager는 오브젝트 스토리지를 작업 환경으로 표시하여 더 자세한 정보를 볼 수 있도록 합니다.</block>
-  <block id="a2f44a550843ebb8ee7fe06e85e5d378" category="paragraph">Azure Blob 작업 환경의 예는 다음과 같습니다.</block>
-  <block id="c5a0af9953d83a32751880ddded4d5ec" category="inline-image-macro">상위 수준의 개요와 스토리지 계정에 대한 자세한 정보를 볼 수 있는 Azure Blob 작업 환경을 보여 주는 스크린샷</block>
-  <block id="402ca8386bc10e708c8fa4cd43e8856e" category="list-text">NetApp은 용량, 암호화 세부 정보 등과 같은 S3 버킷에 대한 자세한 정보를 제공하여 Amazon S3 작업 환경의 리소스 페이지를 재설계했습니다.</block>
-  <block id="0a6b76c04095167ad3b2e08901195ca3" category="list-text">Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.</block>
   <block id="82e8338c73d6540f48f2e0cc8d035511" category="list-text">마드리드(유럽 - 남서쪽1)</block>
   <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">파리(유럽 - west9)</block>
-  <block id="eb4cae07e62b958e999eaa4c0d9b254b" category="list-text">바르샤바(유럽-중중심2)</block>
-  <block id="05f08f9410eed79855c8ade92149a276" category="list-text">이제 커넥터는 Azure West US 3 지역에서 지원됩니다.</block>
   <block id="e8249b4253d6a921188373a80621c098" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.</block>
-  <block id="6ccb5320771ae7d28e23216dda7e303f" category="paragraph"><block ref="6ccb5320771ae7d28e23216dda7e303f" category="inline-link-rx"></block></block>
   <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">Azure Data Lake Storage Gen2 지원</block>
   <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">이제 NFS 서버 또는 SMB 서버에서 Azure Data Lake Storage Gen2로 데이터를 동기화할 수 있습니다.</block>
   <block id="20a2ab980685308347c082aec3253ed9" category="paragraph">Azure Data Lake를 포함하는 동기화 관계를 생성할 때 Cloud Sync에 스토리지 계정 연결 문자열을 제공해야 합니다. SAS(공유 액세스 서명)가 아니라 일반 연결 문자열이어야 합니다.</block>
@@ -222,22 +198,6 @@
   <block id="4b14bbd178377e932c7e97664c276be7" category="list-text">밀라노(유럽 - west8)</block>
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">새로운 Google Cloud 컴퓨터 유형입니다</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 n2-standard-4입니다.</block>
-  <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11df15715c1f580c53cb06d73a344574" category="paragraph">다음 변경 사항은 커넥터의 3.9.20 릴리스에 도입되었습니다.</block>
-  <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">디지털 지갑</block>
-  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
-  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">용량 기반 라이센스에 대한 Digital Wallet 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다.</block>
-  <block id="d9c05beb7c27c53dc1cb952afddea3ac" category="section-title">탄성 볼륨 개선</block>
-  <block id="119ffefd11e6681de49e316bc16a471d" category="paragraph">이제 Cloud Manager는 사용자 인터페이스에서 Cloud Volumes ONTAP 작업 환경을 생성할 때 Amazon EBS Elastic Volumes 기능을 지원합니다. GP3 또는 ios1 디스크를 사용하는 경우 Elastic Volumes 기능이 기본적으로 활성화됩니다. 스토리지 요구사항에 따라 초기 용량을 선택하고 Cloud Volumes ONTAP를 구축한 후 수정할 수 있습니다.</block>
-  <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">AWS의 Elastic Volumes 지원에 대해 자세히 알아보십시오</block>
-  <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS의 ONTAP S3 라이센스</block>
-  <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오</block>
-  <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">새로운 Azure Cloud 지역 지원</block>
-  <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">9.10.1 릴리스부터는 Cloud Volumes ONTAP가 이제 Azure West US 3 지역에서 지원됩니다.</block>
-  <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure의 ONTAP S3 라이센스</block>
-  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
-  <block id="991b7c6e5c5e3b71cf64a28ea679cff0" category="paragraph"><block ref="8b6b603d70c42ac6b5c1db56412efc72" category="inline-link-rx"></block>.</block>
   <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">이제 단일 또는 다중 가용성 영역 HA 배포 모델을 선택할 수 있습니다.</block>
   <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">ONTAP 작업 환경을 위한 FSx를 생성합니다</block>
   <block id="28d4a8073a683a018eec6bfdec63098f" category="paragraph"><block ref="28d4a8073a683a018eec6bfdec63098f" category="inline-link-macro-rx"></block></block>
@@ -263,8 +223,6 @@
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">이제 데이터 센스를 통해 한 번에 최대 100,000개의 파일을 이동할 수 있습니다</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">데이터 센스를 사용하여 파일을 이동하는 방법을 확인하십시오</block>
   <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">Data Sense를 사용하여 스캔한 데이터 소스에서 NFS 공유로 파일을 이동하려는 경우 최대 파일 수가 100,000개로 늘어났습니다.<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>.</block>
-  <block id="8152540df51584ebf79193211a381d46" category="paragraph">ONTAP S3 라이센스는 이제 AWS 버전 9.11.0 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함되어 있습니다.</block>
-  <block id="f225a4f57ea32da8b983d7bffd20b6eb" category="paragraph">ONTAP S3 라이센스는 이제 Azure에서 버전 9.9.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함됩니다.</block>
   <block id="02e3f175b6b6db384cc8a9f19dfd8b6a" category="section-title">2022년 7월 13일</block>
   <block id="f2c95e400c19071fbcd562467ddc48b3" category="section-title">SnapLock 엔터프라이즈 볼륨을 백업하는 데 지원이 추가되었습니다</block>
   <block id="e5fff8c021afd86e8d7cd1a5b82dec8e" category="paragraph">이제 클라우드 백업을 사용하여 SnapLock 엔터프라이즈 볼륨을 퍼블릭 및 프라이빗 클라우드에 백업할 수 있습니다. 이 기능을 사용하려면 ONTAP 시스템에서 ONTAP 9.11.1 이상을 실행해야 합니다. 그러나 SnapLock 규정 준수 볼륨은 현재 지원되지 않습니다.</block>
@@ -278,7 +236,6 @@
   <block id="4c2e66937d2d8ba8680502b29c20f843" category="paragraph">문서 내에 Cloud Manager 정책을 직접 추가하여 문서를 업데이트했습니다. 즉, 이제 커넥터 및 Cloud Volumes ONTAP에 필요한 사용 권한을 설정하는 방법을 설명하는 단계와 함께 볼 수 있습니다. 이러한 정책은 이전에 NetApp Support 사이트의 페이지에서 액세스할 수 있었습니다.</block>
   <block id="28f37fc0eb4fe20ff92020d4d8d46b8d" category="inline-link-macro">다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다</block>
   <block id="49056d93dd3cd3fc9129ebadcf6877e0" category="inline-link-macro">Cloud Manager에 대한 사용 권한 요약을 봅니다</block>
-  <block id="75c4b088a92b16dc79074e212617e6c6" category="paragraph"><block ref="75c4b088a92b16dc79074e212617e6c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2c6996f5a98ca1cbcfa64873c18f13e9" category="paragraph"><block ref="077586b4338f7fc9c66e0ae0e2365a30" category="inline-link-rx"></block>.</block>
   <block id="2533820d9e3e679d169b5decdbf29c60" category="paragraph">또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다.<block ref="3bc30da5781f88e99acbb8ce33011928" category="inline-link-rx"></block>.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
@@ -361,7 +318,6 @@
   <block id="acc34707a7642d8ca31b72c25ca50920" category="list-text">* Edge Cache *: 라이센스<block ref="1bc1fd590dd203d9bb10cdd372d8de71" category="inline-link-rx"></block></block>
   <block id="2d66a0b2e45838b2ebcec83efd6c765c" category="inline-link">이러한 라이센스 패키지에 대해 자세히 알아보십시오</block>
   <block id="ee76810836e6a3bb9dd07dfba26221a1" category="paragraph"><block ref="ddf7de7bfe14bcbf78a072c21440c1a8" category="inline-link-rx"></block>.</block>
-  <block id="3ae1886c49dab0e65e020c2758daff67" category="paragraph"><block ref="6f81c4ca34877706a163afe91c466abd" category="inline-link-rx"></block>.</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022년 7월 25일(버전 2.0)</block>
   <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
@@ -503,4 +459,26 @@
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">ONTAP에서 Cloud Volumes ONTAP로 FSX</block>
   <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">이제 ONTAP 파일 시스템용 Amazon FSx에서 Cloud Volumes ONTAP로 데이터를 복제할 수 있습니다.</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="83bad7a989a8ab61893e9cfb7497cefd" category="section-title">디지털 지갑 기능 향상</block>
+  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="list-text">이제 디지털 지갑에 최적화된 I/O 라이센스 패키지 및 사용자 계정의 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약이 표시됩니다.</block>
+  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.</block>
+  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
+  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>.</block>
+  <block id="d856c8d1b60bfdfc68a63422c7fcb64b" category="list-text">이제 하나의 충전 방법을 최적화된 충전 방법으로 변경할 수 있습니다.</block>
+  <block id="e0d7db06679f0c176c93ed71de107638" category="section-title">비용 및 성능 최적화</block>
+  <block id="fa1ea7bc2d84f11eddfeed9a160282bb" category="paragraph">이제 Canvas에서 직접 Cloud Volumes ONTAP 시스템의 비용과 성능을 최적화할 수 있습니다.</block>
+  <block id="cab7023844edf677ae51645d16f02f4c" category="paragraph">작업 환경을 선택한 후 * 비용 및 성능 최적화 * 옵션을 선택하여 Cloud Volumes ONTAP의 인스턴스 유형을 변경할 수 있습니다. 더 작은 크기의 인스턴스를 선택하면 비용을 절감하고 더 큰 인스턴스로 변경하면 성능을 최적화할 수 있습니다.</block>
+  <block id="f929bd53055100ea5034e258d5828a45" category="inline-image-macro">작업 환경을 선택한 후 Canvas에서 사용할 수 있는 Optimize Cost &amp; amp; Performance 옵션의 스크린샷.</block>
+  <block id="b04af3108aa064fb53015f188d417418" category="paragraph"><block ref="740982637064d815add45193172173b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="section-title">AutoSupport 알림</block>
+  <block id="72e6a4a100fd0ef72da9bbbef31477d2" category="paragraph">Cloud Volumes ONTAP 시스템에서 AutoSupport 메시지를 보낼 수 없는 경우 Cloud Manager에서 알림을 생성합니다. 이 알림에는 네트워킹 문제를 해결하는 데 사용할 수 있는 지침 링크가 포함되어 있습니다.</block>
+  <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E-Series 시스템</block>
+  <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">E-Series 지원</block>
+  <block id="382444d2943af2fada032ac44e187150" category="paragraph">이제 Cloud Manager에서 E-Series 스토리지 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
+  <block id="2e9322f9d5b6c0a3474db4758b049aa0" category="paragraph">이제 Cloud Manager에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
+  <block id="1e8b70ceb2c6c0577446889e5a58ddda" category="list-text"><block ref="1e8b70ceb2c6c0577446889e5a58ddda" category="inline-link-rx"></block></block>
+  <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
+  <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">설정 및 관리</block>
+  <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
 </blocks>
