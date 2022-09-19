@@ -423,9 +423,7 @@
   <block id="f2c9e54745387d4204d350aaf464ef16" category="paragraph">마지막 릴리즈에서는 Amazon S3 버킷에 저장된 백업에 대해 _DataLock 및 랜섬웨어 보호_가 도입되었습니다. 이 릴리즈는 StorageGRID 시스템에 저장된 백업 파일에 대한 지원을 확장합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 StorageGRID 시스템에서 버전 11.6.0.3 이상을 실행 중인 경우 이 새로운 백업 정책 옵션을 사용할 수 있습니다.<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>.</block>
   <block id="7db81221e474d169032014280bbe8e36" category="paragraph">버전 3.9.22 이상의 소프트웨어가 있는 커넥터를 실행해야 합니다. Connector는 구내에 설치해야 하며 인터넷에 접속하거나 접속하지 않은 사이트에 설치할 수 있습니다.</block>
   <block id="dfa4dbaa7b53b80d828eeac39da445d5" category="section-title">이제 백업 파일에서 폴더 레벨 복구를 사용할 수 있습니다</block>
-  <block id="44049ef063184610d2b3d1f901e33c6a" category="paragraph">이제 해당 폴더(디렉토리 또는 공유)의 모든 파일에 액세스해야 하는 경우 백업 파일에서 폴더를 복원할 수 있습니다. 폴더 복원은 전체 볼륨을 복원하는 것보다 훨씬 효율적입니다. 이 기능은 Browse &amp; Restore 메서드와 Search &amp; Restore 메서드를 모두 사용하여 복원 작업에 사용할 수 있습니다. 현재 단일 폴더만 선택하고 복원할 수 있으며, 해당 폴더의 파일만 복원할 수 있습니다. 하위 폴더 또는 하위 폴더의 파일은 복원되지 않습니다.</block>
   <block id="08c716b38dc966a670cdf75da8f3f86d" category="section-title">이제 아카이브 스토리지로 이동한 백업에서 파일 레벨 복구를 사용할 수 있습니다</block>
-  <block id="5a1b289592dc33da4fec4177e12f2abe" category="paragraph">과거에는 아카이브 저장소로 이동한 백업 파일(AWS 및 Azure만 해당)에서만 볼륨을 복원할 수 있었습니다. 이제 이러한 아카이빙된 백업 파일에서 개별 파일 및 폴더를 복원할 수 있습니다. 이 기능은 Browse &amp; Restore 메서드와 Search &amp; Restore 메서드를 모두 사용하여 복원 작업에 사용할 수 있습니다.</block>
   <block id="b0e03676724b8b6468356ef104a66e4f" category="section-title">이제 파일 레벨 복구를 통해 원본 소스 파일을 덮어쓸 수 있습니다</block>
   <block id="f3e2c168c189da079b62c6ff6558a640" category="paragraph">이전에는 원래 볼륨으로 복구된 파일이 항상 "Restore_&lt;file_name&gt;"이라는 접두사가 붙은 새 파일로 복원되었습니다. 이제 파일을 볼륨의 원래 위치로 복구할 때 원본 소스 파일을 덮어쓰도록 선택할 수 있습니다. 이 기능은 Browse &amp; Restore 메서드와 Search &amp; Restore 메서드를 모두 사용하여 복원 작업에 사용할 수 있습니다.</block>
   <block id="736c2dbf2aa9f4b08b97a4f719b3cf5e" category="section-title">끌어서 놓기를 통해 클라우드 백업을 StorageGRID 시스템에 사용할 수 있습니다</block>
@@ -481,4 +479,6 @@
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">설정 및 관리</block>
   <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
+  <block id="201e1c2515e9474bbcf720fb750a48c0" category="paragraph">이제 해당 폴더(디렉토리 또는 공유)의 모든 파일에 액세스해야 하는 경우 백업 파일에서 폴더를 복원할 수 있습니다. 폴더 복원은 전체 볼륨을 복원하는 것보다 훨씬 효율적입니다. 이 기능은 ONTAP 9.11.1 이상을 사용하는 경우 Browse &amp; Restore 메서드와 Search &amp; Restore 메서드를 모두 사용하여 복원 작업에 사용할 수 있습니다. 현재 단일 폴더만 선택하고 복원할 수 있으며, 해당 폴더의 파일만 복원할 수 있습니다. 하위 폴더 또는 하위 폴더의 파일은 복원되지 않습니다.</block>
+  <block id="092186aa28f6e357cce0ba979d549724" category="paragraph">과거에는 아카이브 스토리지(AWS 및 Azure만 해당)로 이동한 백업 파일의 볼륨만 복원할 수 있었습니다. 이제 이러한 아카이빙된 백업 파일에서 개별 파일을 복원할 수 있습니다. 이 기능은 ONTAP 9.11.1 이상을 사용하는 경우 Browse &amp; Restore 메서드와 Search &amp; Restore 메서드를 모두 사용하여 복원 작업에 사용할 수 있습니다.</block>
 </blocks>
