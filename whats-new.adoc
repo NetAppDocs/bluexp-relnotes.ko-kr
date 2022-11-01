@@ -41,7 +41,7 @@ Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다
 
 * 이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
 +
-https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_nov-2022/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
@@ -251,7 +251,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
-==== 이메일 또는 알림 센터에서 Cloud Backup 경고를 받도록 지원이 추가되었습니다
+==== 이메일 및 알림 센터에서 Cloud Backup 경고를 받도록 지원이 추가되었습니다
 
 Cloud Backup이 BlueXP 알림 서비스에 통합되었습니다. BlueXP 메뉴 표시줄에서 알림 표시를 클릭하여 Cloud Backup 알림을 표시할 수 있습니다. 또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일로 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이 이메일은 백업 및 복원 작업을 알아야 하는 모든 수신자에게 보낼 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#use-the-job-monitor-to-view-backup-and-restore-job-status["자세히 알아보기"].
 
@@ -274,11 +274,11 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 
 
-==== 이제 온-프레미스 Connector를 사용할 때 검색 및 복원을 사용하여 공용 클라우드에서 백업 파일을 복원할 수 있습니다
+==== 이제 온-프레미스 Connector를 사용할 때 검색 및 복원을 사용하여 백업 파일을 복원할 수 있습니다
 
-이전 릴리즈에서는 Connector가 사내에 구축될 때 퍼블릭 클라우드에 백업 파일을 생성하기 위한 지원이 추가되었습니다. 이 릴리즈에서는 검색 및 복원을 사용하여 Connector가 사내에 구축된 Amazon S3 또는 Azure Blob에서 백업을 복원할 수 있도록 지원이 계속 제공됩니다.
+이전 릴리즈에서는 Connector가 사내에 구축될 때 퍼블릭 클라우드에 백업 파일을 생성하기 위한 지원이 추가되었습니다. 이 릴리즈에서는 검색 및 복원을 사용하여 Connector가 사내에 구축된 Amazon S3 또는 Azure Blob에서 백업을 복원할 수 있도록 지원이 계속 제공됩니다. 검색 및 복원은 StorageGRID 시스템에서 온-프레미스 ONTAP 시스템으로 백업을 복원할 수도 있습니다.
 
-현재 Google Cloud Storage에서 백업을 복원하려면 검색 및 복원을 사용할 때 Google Cloud Platform에 Connector를 구축해야 합니다. 검색 및 복원은 StorageGRID 시스템에서 지원되지 않습니다. 이 경우 찾아보기 및 복원을 사용해야 합니다.
+현재 Google Cloud Storage에서 백업을 복원하려면 검색 및 복원을 사용할 때 Google Cloud Platform에 Connector를 구축해야 합니다.
 
 
 
@@ -412,7 +412,7 @@ Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠�
 
 
 
-=== 2022년 11월 7일(버전 1.17)
+=== 2022년 11월 13일(버전 1.17)
 
 
 
@@ -430,9 +430,15 @@ Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠�
 
 ==== 특정 데이터 소스를 스캔하기 위해 사내 "스캐너" 노드를 추가하는 기능
 
-온-프레미스 위치에 데이터 센스를 설치한 경우 데이터 원본을 스캔하기 위해 더 많은 스캔 처리 성능이 필요한 경우 "스캐너" 노드를 더 추가할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다. 예를 들어 데이터 원본 중 하나에 있는 데이터의 양이 1년 후 3배 증가했다는 사실을 알고 있는 경우 데이터 스캔을 지원하기 위해 새 스캐너 노드를 추가할 수 있습니다.
+온-프레미스 위치에 데이터 센스를 설치한 경우 특정 데이터 원본을 스캔하기 위해 스캔 처리 성능이 더 필요한 경우 "스캐너" 노드를 더 추가하고 해당 데이터 원본을 스캔하도록 할당할 수 있습니다. 관리자 노드를 설치한 직후 스캐너 노드를 추가하거나 나중에 스캐너 노드를 추가할 수 있습니다.
 
-필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.
+필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["스캐너 노드를 설치하여 추가 데이터 원본을 스캔하는 방법을 알아봅니다"^].
+
+
+
+==== 이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다
+
+Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.
 
 
 
@@ -507,7 +513,13 @@ Data Sense가 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 때
 
 ==== 이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다
 
-사용자 지정 정규식(regex)을 사용하여 개인 패턴을 추가하여 데이터의 특정 정보를 식별할 수 있습니다. regex는 이미 Data Sense에서 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 Personal Patterns(개인 패턴) 섹션 아래에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#creating-custom-personal-data-identifiers-using-a-regex["자세한 정보"^].
+데이터 센스에서 향후 검색에서 식별할 수 있는 사용자 지정 "개인 데이터"를 추가하는 방법은 두 가지가 있습니다. 이렇게 하면 중요한 데이터가 조직의 모든 파일에 있는 위치를 전체적으로 파악할 수 있습니다.
+
+* 텍스트 파일에서 사용자 지정 키워드를 추가할 수 있습니다.
+* 정규식(regex)을 사용하여 개인 패턴을 추가할 수 있습니다.
+
+
+이러한 키워드 및 패턴은 데이터 센스에서 이미 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html["자세한 정보"^].
 
 
 
