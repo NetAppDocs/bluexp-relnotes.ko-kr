@@ -33,6 +33,24 @@ Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다
 
 
 
+=== 2022년 11월 6일
+
+
+
+==== 커넥터 3.9.23
+
+* 이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
++
+https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_nov-2022/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
+
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6-november-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
+
+
 === 2022년 11월 1일
 
 계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["NSS 계정 관리 방법에 대해 알아봅니다"^]
@@ -79,20 +97,6 @@ https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-work
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#31-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
-
-
-
-=== 2022년 7월 15일
-
-
-
-==== 정책 변경
-
-문서 내에 Cloud Manager 정책을 직접 추가하여 문서를 업데이트했습니다. 즉, 이제 커넥터 및 Cloud Volumes ONTAP에 필요한 사용 권한을 설정하는 방법을 설명하는 단계와 함께 볼 수 있습니다. 이러한 정책은 이전에 NetApp Support 사이트의 페이지에서 액세스할 수 있었습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#create-an-iam-policy["다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다"].
-
-또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["Cloud Manager에 대한 사용 권한 요약을 봅니다"].
 
 
 
@@ -745,6 +749,36 @@ Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이�
 
 
 == Cloud Volumes ONTAP
+
+
+
+=== 2022년 11월 6일
+
+다음 변경 사항은 커넥터의 3.9.23 릴리스에 도입되었습니다.
+
+
+
+==== Azure에서 리소스 그룹을 이동하는 중입니다
+
+이제 동일한 Azure 가입 내에서 하나의 리소스 그룹에서 Azure의 다른 리소스 그룹으로 작업 환경을 이동할 수 있습니다.
+
+자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-moving-resource-groups-azure.html["리소스 그룹 이동 중"].
+
+
+
+==== NDMP-COPY 인증
+
+NDMP-copy는 현재 Cloud Volume ONTAP에서 사용하도록 인증되었습니다.
+
+NDMP를 구성하고 사용하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap/ndmp/index.html["NDMP 구성 개요"].
+
+
+
+==== Azure에 대한 관리형 디스크 암호화 지원
+
+이제 생성 시 모든 관리되는 디스크를 암호화할 수 있는 새로운 Azure 권한이 추가되었습니다.
+
+이 새로운 기능에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-set-up-azure-encryption.html["Azure에서 고객이 관리하는 키를 사용하도록 Cloud Volumes ONTAP를 설정합니다"].
 
 
 

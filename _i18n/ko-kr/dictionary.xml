@@ -153,13 +153,6 @@
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager에서 AWS GovCloud 계정 인증이 지원됩니다.</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="inline-link-macro">IAM 역할을 설정합니다</block>
   <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
-  <block id="a334cff76a53c8f9b93a01e24c56c9e5" category="section-title">2022년 7월 15일</block>
-  <block id="fd07056b3157389b873051e9d2dd6d40" category="section-title">정책 변경</block>
-  <block id="4c2e66937d2d8ba8680502b29c20f843" category="paragraph">문서 내에 Cloud Manager 정책을 직접 추가하여 문서를 업데이트했습니다. 즉, 이제 커넥터 및 Cloud Volumes ONTAP에 필요한 사용 권한을 설정하는 방법을 설명하는 단계와 함께 볼 수 있습니다. 이러한 정책은 이전에 NetApp Support 사이트의 페이지에서 액세스할 수 있었습니다.</block>
-  <block id="28f37fc0eb4fe20ff92020d4d8d46b8d" category="inline-link-macro">다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다</block>
-  <block id="49056d93dd3cd3fc9129ebadcf6877e0" category="inline-link-macro">Cloud Manager에 대한 사용 권한 요약을 봅니다</block>
-  <block id="2c6996f5a98ca1cbcfa64873c18f13e9" category="paragraph"><block ref="077586b4338f7fc9c66e0ae0e2365a30" category="inline-link-rx"></block>.</block>
-  <block id="2533820d9e3e679d169b5decdbf29c60" category="paragraph">또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다.<block ref="3bc30da5781f88e99acbb8ce33011928" category="inline-link-rx"></block>.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="01f2c0e19d8bbd614814f0651e7feec1" category="section-title">커넥터 3.9.21</block>
   <block id="1beb197487d0f07564b924071751aa36" category="list-text">Cloud Manager에서 아직 관리하지 않는 기존 클라우드 리소스를 검색하는 새로운 방법이 도입되었습니다.</block>
@@ -508,4 +501,22 @@
   <block id="ff3a8dd75b4d3881ab0fc4ce17301af8" category="section-title">2022년 11월 7일</block>
   <block id="7c16758604271d7ef3055d0e5962ec82" category="section-title">전체 랜섬웨어 보호 점수 및 권장 조치를 표시하는 새로운 패널</block>
   <block id="2dad48bc5cb886ca6327e125bc6c853d" category="paragraph">이 두 개의 새로운 패널은 데이터가 랜섬웨어 공격에 얼마나 잘 복원되는지, 그리고 점수를 개선하기 위해 무엇을 할 수 있는지 함께 확인합니다. 랜섬웨어 보호 점수 패널에는 잠재적인 문제가 있는 전반적인 점수와 사이버 보안 영역이 표시됩니다. 권장 조치 패널에는 랜섬웨어 공격에 대한 복원력을 높이기 위해 취할 수 있는 잠재적인 조치가 나열되어 있으며, 필요한 경우 조치를 적용할 수 있도록 문제를 조사하기 위한 링크를 제공합니다.<block ref="020baa7d67cad4299bb33f9b5861968a" category="inline-link-rx"></block>.</block>
+  <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">커넥터 3.9.23</block>
+  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="ee0a02cf5f32853f4619caef4f31ab4e" category="paragraph"><block ref="ee0a02cf5f32853f4619caef4f31ab4e" category="inline-link-rx"></block></block>
+  <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
+  <block id="2325f561a20765def93d682f14cae306" category="paragraph">다음 변경 사항은 커넥터의 3.9.23 릴리스에 도입되었습니다.</block>
+  <block id="6d5ba1b41fa03c2fdf0d747769a6b053" category="section-title">Azure에서 리소스 그룹을 이동하는 중입니다</block>
+  <block id="ea55da5ec5028d99103c938ded49761c" category="paragraph">이제 동일한 Azure 가입 내에서 하나의 리소스 그룹에서 Azure의 다른 리소스 그룹으로 작업 환경을 이동할 수 있습니다.</block>
+  <block id="6c2dc09b272a4aed6d56a3438a190129" category="inline-link-macro">리소스 그룹 이동 중</block>
+  <block id="d015054d89d4ecbe893f21f5ab9700c0" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="8d94a006f1853b408e5763a514426526" category="inline-link-macro-rx"></block>.</block>
+  <block id="b6a2ac7b66db8e93b936023f17401626" category="section-title">NDMP-COPY 인증</block>
+  <block id="c348c640ca478b45f3a3d9e14bb0695b" category="paragraph">NDMP-copy는 현재 Cloud Volume ONTAP에서 사용하도록 인증되었습니다.</block>
+  <block id="ab5a83d8e39547c5fb30a1fda984aebb" category="inline-link">NDMP 구성 개요</block>
+  <block id="e4b4f60ab9fe08116659a5e12d6db4a8" category="paragraph">NDMP를 구성하고 사용하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="9c57f7cf04e123991a3c88e286feb189" category="inline-link-rx"></block>.</block>
+  <block id="5e7de773a189ac8974753f9ce70a3dc5" category="section-title">Azure에 대한 관리형 디스크 암호화 지원</block>
+  <block id="a09181ba1488df77bf9950cb483e97e8" category="paragraph">이제 생성 시 모든 관리되는 디스크를 암호화할 수 있는 새로운 Azure 권한이 추가되었습니다.</block>
+  <block id="e76c0365dfa8d6b43992d790f582e6c4" category="inline-link">Azure에서 고객이 관리하는 키를 사용하도록 Cloud Volumes ONTAP를 설정합니다</block>
+  <block id="7343d251ecc72fc362a0ce85cf11a9fe" category="paragraph">이 새로운 기능에 대한 자세한 내용은 을 참조하십시오<block ref="91da0725d8642ccf887bde4d4604033e" category="inline-link-rx"></block>.</block>
 </blocks>
