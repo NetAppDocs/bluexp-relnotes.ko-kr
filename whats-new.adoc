@@ -75,49 +75,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6
 
 
 
-=== 2022년 9월 18일
-
-
-
-==== 커넥터 3.9.22
-
-* Connector 설치에 대한 최소 요구 사항(권한, 인증 및 네트워킹)을 충족하는 단계를 제공하는 _제품 내 가이드_를 추가하여 커넥터 배포 마법사를 개선했습니다.
-* 이제 Cloud Manager의 * 지원 대시보드 * 에서 NetApp 지원 케이스를 직접 생성할 수 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-get-help.html#netapp-support["사례를 만드는 방법을 알아봅니다"].
-
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#18-september-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-
-
-
-
-
-=== 2022년 7월 31일
-
-
-
-==== 커넥터 3.9.21
-
-* Cloud Manager에서 아직 관리하지 않는 기존 클라우드 리소스를 검색하는 새로운 방법이 도입되었습니다.
-+
-Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 Cloud Manager에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.
-
-+
-이번 초기 릴리즈에서는 My Opportunities를 통해 AWS 계정에서 기존 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다.
-
-+
-https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-using-my-opportunities["내 기회를 사용하여 ONTAP용 FSx를 찾는 방법에 대해 알아보십시오"^]
-
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#31-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-
-
-
-
-
 == Azure NetApp Files
 
 
