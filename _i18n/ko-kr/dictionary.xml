@@ -108,7 +108,6 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">이제 Cloud Volumes ONTAP 시스템 또는 온프레미스 ONTAP 클러스터에서 ONTAP 파일 시스템용 Amazon FSx로 데이터를 복제할 수 있습니다.</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">데이터 복제를 설정하는 방법에 대해 알아보십시오</block>
   <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>.</block>
-  <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">검색 및 amp;Restore를 사용하여 볼륨 및 파일을 복원하는 방법을 확인하십시오</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오.</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오</block>
   <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">새로운 Google Cloud 지역 지원</block>
@@ -149,13 +148,6 @@
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="inline-link-macro">IAM 역할을 설정합니다</block>
   <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
-  <block id="01f2c0e19d8bbd614814f0651e7feec1" category="section-title">커넥터 3.9.21</block>
-  <block id="1beb197487d0f07564b924071751aa36" category="list-text">Cloud Manager에서 아직 관리하지 않는 기존 클라우드 리소스를 검색하는 새로운 방법이 도입되었습니다.</block>
-  <block id="155ccfd3578c4b827fbaaa1208c5c86a" category="paragraph">Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 Cloud Manager에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.</block>
-  <block id="586c381704849af8eb925f1bb3c1cc89" category="paragraph">이번 초기 릴리즈에서는 My Opportunities를 통해 AWS 계정에서 기존 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다.</block>
-  <block id="0023c752677bd572df55463d76cf9b90" category="inline-link">내 기회를 사용하여 ONTAP용 FSx를 찾는 방법에 대해 알아보십시오</block>
-  <block id="b8aac0d7b730cae52d7fa6174da69a85" category="paragraph"><block ref="b8aac0d7b730cae52d7fa6174da69a85" category="inline-link-rx"></block></block>
-  <block id="56148e3a5b597bf775527bf28e119033" category="paragraph"><block ref="56148e3a5b597bf775527bf28e119033" category="inline-link-rx"></block></block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
   <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">내 기회를 사용하여 ONTAP용 FSx를 검색합니다</block>
   <block id="9480b8170649423ab940807a0b920da2" category="paragraph"><block ref="9480b8170649423ab940807a0b920da2" category="inline-link-macro-rx"></block></block>
@@ -226,25 +218,7 @@
   <block id="e13d7be0c5a4bf2f3e8d1dd04f69dd41" category="paragraph">Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이지 세트가 추가되었습니다. 새 오브젝트 저장소를 추가하고, FabricPool 미러링을 위해 여러 오브젝트 저장소를 Aggregate에 연결하고, 기본 오브젝트 저장소와 미러 오브젝트 저장소를 바꾸고, 애그리게이트에 대한 오브젝트 저장소 연결을 삭제하는 등의 작업을 수행할 수 있습니다.<block ref="4f404ee3f4c3295f701ed8b17cef66df" category="inline-link-rx"></block></block>
   <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">MetroCluster 구성에 대한 Cloud Tiering 라이센스 지원</block>
   <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">이제 MetroCluster 구성에 있는 클러스터와 Cloud Tiering 라이센스를 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다.<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
-  <block id="5f98181f93bdb66aed67b6ec6ca0e6a1" category="section-title">검색 및 복원은 이제 Azure Blob의 백업 파일에서 지원됩니다</block>
-  <block id="3cc0a32f0024bbcc0e74c0ca7c01b4ca" category="paragraph">이제 Azure Blob 저장소에 백업 파일을 저장하는 사용자가 볼륨 및 파일을 복원하는 검색 및 복원 방법을 사용할 수 있습니다.<block ref="2505b78b897ef0dc1c5d1783874239f2" category="inline-link-rx"></block>.</block>
-  <block id="df69045929c0c3d81d05d291d9a65cdf" category="inline-link">필요한 경우 이러한 사용 권한을 추가하는 방법을 알아봅니다</block>
-  <block id="0d686592bdbc5c86f2ba1c8248bc44da" category="paragraph">이 기능을 사용하려면 커넥터 역할에 추가 권한이 필요합니다. 버전 3.9.21 소프트웨어(2022년 8월)를 사용하여 배포된 커넥터에는 이러한 권한이 포함됩니다. 이전 릴리스를 사용하여 Connector를 배포한 경우 사용 권한을 수동으로 추가해야 합니다.<block ref="0ebb6015b7a8d1b3b67f8b17b057acd1" category="inline-link-rx"></block>.</block>
-  <block id="2f176cfab68c991edad2596ce5f71c26" category="section-title">NetApp은 백업 파일이 삭제 및 랜섬웨어 공격으로부터 보호할 수 있는 기능을 추가했습니다</block>
   <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="a50aef84191a2a8583dff3169f0e9722" category="section-title">ONTAP 시스템에 대한 추가 백업 정책 개선 사항</block>
-  <block id="49ed93361b6144f58f401017aa6361d0" category="paragraph">일부 백업 정책 페이지는 각 ONTAP 클러스터의 볼륨에 사용할 수 있는 모든 백업 정책을 보다 쉽게 볼 수 있도록 재설계되었습니다. 따라서 사용 가능한 정책의 세부 정보를 더 쉽게 볼 수 있으므로 볼륨에 최상의 정책을 적용할 수 있습니다.</block>
-  <block id="c386ae49c48be8bcc2fbd19ab4807c0a" category="section-title">끌어서 놓기를 통해 Cloud Backup을 Azure Blob 및 Google Cloud Storage로 이동할 수 있습니다</block>
-  <block id="52745271323ee9ea30e3a37d0338d118" category="inline-link">Azure Blob</block>
-  <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
-  <block id="b6f2e1a880ce20ab3d1039056746fa33" category="paragraph">이 기능은 Amazon S3 버킷에 이미 존재합니다.</block>
-  <block id="15471566ffb385e256937957990dd60d" category="section-title">2022년 8월 18일</block>
-  <block id="d583f1393e45db7abf2dbb15da48eaad" category="section-title">클라우드 네이티브 애플리케이션 데이터를 보호하기 위해 지원이 추가되었습니다</block>
-  <block id="e7f0bd203723dde56c408349b772431e" category="paragraph">Cloud Backup은 이제 랜섬웨어 세이프 백업에 대한 오브젝트 잠금을 지원합니다. 클러스터가 ONTAP 9.11.1 이상을 사용하고 있고 백업 대상이 Amazon S3인 경우, _DataLock 및 랜섬웨어 보호_라는 새로운 백업 정책 옵션을 사용할 수 있습니다. DataLock은 백업 파일의 수정 또는 삭제를 방지하고, 랜섬웨어 방지 기능은 백업 파일을 검사하여 백업 파일에 대한 랜섬웨어 공격의 증거를 찾습니다.<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>.</block>
-  <block id="4a13f748ffea2bf384ee164062e7e17f" category="paragraph">이 기능을 사용하려면 커넥터 역할에 추가 권한이 필요합니다. 버전 3.9.21 소프트웨어를 사용하여 배포된 Connector에는 이러한 권한이 포함되어 있습니다. 이전 릴리스를 사용하여 Connector를 배포한 경우 사용 권한을 수동으로 추가해야 합니다.<block ref="b51546833a3c96ab5b8c4e49b196cd94" category="inline-link-rx"></block>.</block>
-  <block id="9fa4d73f6f3d752a69adeebba1959edb" category="section-title">이제 Cloud Backup은 사용자 지정 SnapMirror 레이블을 사용하여 생성된 정책을 지원합니다</block>
-  <block id="387856638678798c3ffb0e38b39170c6" category="paragraph">이전에는 Cloud Backup이 매시간, 매일, 매주, 시간별, 연도별 등의 미리 정의된 SnapMirror 레이블만 지원했습니다. 이제 Cloud Backup은 System Manager 또는 CLI를 사용하여 만든 사용자 지정 SnapMirror 레이블이 있는 SnapMirror 정책을 검색할 수 있습니다. 이러한 새 레이블은 Cloud Backup UI에 표시되므로 선택한 SnapMirror 레이블을 사용하여 볼륨을 클라우드에 백업할 수 있습니다.</block>
-  <block id="1c630f0a83d0317db1fef94fb4dac579" category="paragraph">를 누릅니다<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 또는<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 백업 대상이 Canvas에 작업 환경으로 존재합니다. 온프레미스 ONTAP 또는 Cloud Volumes ONTAP 작업 환경(Azure 또는 GCP에 설치됨)을 대상으로 끌어서 백업 설정 마법사를 시작할 수 있습니다.</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS의 Kubernetes 클러스터 요구사항</block>
   <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
@@ -288,12 +262,6 @@
   <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다.<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>.</block>
   <block id="95055437ddc6fef4303145322941a60e" category="paragraph">Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다.<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
-  <block id="567aae3125fb3d0d81322caa575a9843" category="section-title">커넥터 3.9.22</block>
-  <block id="e9da1b86eba52d6822a9d7c294a3641c" category="list-text">Connector 설치에 대한 최소 요구 사항(권한, 인증 및 네트워킹)을 충족하는 단계를 제공하는 _제품 내 가이드_를 추가하여 커넥터 배포 마법사를 개선했습니다.</block>
-  <block id="871cd14deee4188642f0f5e041d9e0bd" category="list-text">이제 Cloud Manager의 * 지원 대시보드 * 에서 NetApp 지원 케이스를 직접 생성할 수 있습니다.</block>
-  <block id="59c4ba689ab2a5e1f09df561f47e0d6c" category="inline-link">사례를 만드는 방법을 알아봅니다</block>
-  <block id="55fc63d7111caa2a4badd753983607c4" category="paragraph"><block ref="45512476d85432fc18c9be020e976fed" category="inline-link-rx"></block>.</block>
-  <block id="b657064056ea8bf270b50939fb0c9bfe" category="paragraph"><block ref="b657064056ea8bf270b50939fb0c9bfe" category="inline-link-rx"></block></block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">이제 가능합니다 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
   <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">2022년 9월 19일</block>
@@ -429,7 +397,6 @@
   <block id="bddf21f18c4ffad2268ebfc0d565c03c" category="section-title">이제 소스 시스템에서 더 이상 필요하지 않은 볼륨을 아카이빙하는 데 Cloud Backup을 사용할 수 있습니다</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link">자세히 알아보기</block>
   <block id="429c129d466e9cdbc94da5ebfd639734" category="paragraph">이제 볼륨에 대한 백업 관계를 삭제할 수 있습니다. 이렇게 하면 새 백업 파일 생성을 중지하고 소스 볼륨을 삭제하지만 기존의 모든 백업 파일은 보존하려는 경우에 아카이빙 메커니즘이 제공됩니다. 따라서 나중에 필요할 경우 백업 파일에서 볼륨을 복원하는 동시에 소스 스토리지 시스템의 공간을 지울 수 있습니다.<block ref="96e512d167a0d6d287f83a8e9bfbf6a3" category="inline-link-rx"></block>.</block>
-  <block id="ac067f034fd3624f1244abb6d3755efe" category="paragraph">Cloud Backup이 BlueXP 알림 서비스에 통합되었습니다. BlueXP 메뉴 표시줄에서 알림 표시를 클릭하여 Cloud Backup 알림을 표시할 수 있습니다. 또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일로 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이 이메일은 백업 및 복원 작업을 알아야 하는 모든 수신자에게 보낼 수 있습니다.<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>.</block>
   <block id="d07fed7e54302c401452d86813f74fdb" category="section-title">새로운 고급 설정 페이지에서는 클러스터 레벨 백업 설정을 변경할 수 있습니다</block>
   <block id="711d5dadc0f2641aef64c8697fec3458" category="paragraph">이 새 페이지에서는 각 ONTAP 시스템에 대한 클라우드 백업을 활성화할 때 설정하는 여러 클러스터 레벨 백업 설정을 변경할 수 있습니다. "기본" 백업 설정으로 적용되는 일부 설정을 수정할 수도 있습니다. 변경할 수 있는 전체 백업 설정은 다음과 같습니다.</block>
   <block id="54ce718c77c15316f9e58b5cae74c251" category="list-text">ONTAP 시스템에서 오브젝트 스토리지에 액세스할 수 있는 권한을 제공하는 스토리지 키입니다</block>
@@ -451,7 +418,6 @@
   <block id="95bdcffb51de388c8d204ebc69a73e61" category="section-title">AWS 교차 계정 백업 기능이 향상되었습니다</block>
   <block id="ae3795f53c6086a9639e4652dbff318b" category="paragraph">소스 볼륨에 사용 중인 것과 다른 Cloud Volumes ONTAP 계정을 백업에 사용하려면 BlueXP에서 대상 AWS 계정 자격 증명을 추가해야 하며, BlueXP에 사용 권한을 제공하는 IAM 역할에 "S3:PutBucketPolicy" 및 "S3:PutnerOwshipControls" 권한을 추가해야 합니다. 이전에는 AWS 콘솔에서 여러 설정을 구성해야 했습니다. 이제는 더 이상 그렇게 할 필요가 없습니다.</block>
   <block id="ef63a877f0594c057f824f4327169a39" category="list-text">Google Cloud Platform(GCP) 및 StorageGRID를 지원하여 애플리케이션 정합성 보장 스냅샷을 백업합니다</block>
-  <block id="3f3ac5f6857788bfe6b27f406afcffa5" category="paragraph">Cloud Backup for Applications는 NetApp 클라우드 스토리지에서 실행되는 애플리케이션에 데이터 보호 기능을 제공하는 SaaS 기반 서비스입니다. BlueXP에서 활성화된 애플리케이션용 클라우드 백업은 NetApp ONTAP용 Amazon FSx에 상주하는 Oracle 데이터베이스의 효율적이고 애플리케이션 정합성이 보장되는 정책 기반 백업 및 복원을 제공합니다.<block ref="5774010e75c0af5301ef0cfe74198590" category="inline-link-rx"></block>.</block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">SharePoint 온-프레미스 계정 스캔 지원</block>
   <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">이제 데이터 센스를 통해 SharePoint Online 계정과 SharePoint 온-프레미스 계정(SharePoint Server)을 모두 검색할 수 있습니다. 자체 서버에 SharePoint를 설치하거나 인터넷에 액세스할 수 없는 사이트에 SharePoint를 설치해야 하는 경우 이제 데이터 센스에서 해당 계정의 사용자 파일을 검색할 수 있습니다.<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>.</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">여러 디렉토리(폴더 또는 공유)를 재검색하는 기능</block>
@@ -519,4 +485,15 @@
   <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP는 FlexGroup 볼륨 생성을 지원하지 않습니다. FlexGroup 볼륨을 생성하려면 System Manager 또는 CLI를 계속 사용해야 합니다.</block>
   <block id="8c40ca85ff5a42317cb1f23a7d716ecc" category="section-title">2022년 11월 13일</block>
   <block id="1ec4de7af8ab7de00ed7d13a3182054f" category="paragraph">이 두 개의 새로운 패널은 데이터가 랜섬웨어 공격에 얼마나 잘 복원되는지, 그리고 점수를 개선하기 위해 무엇을 할 수 있는지 함께 확인합니다. 랜섬웨어 보호 점수 패널은 잠재적인 문제가 있는 사이버 보안 영역의 전체 점수와 영역을 보여줍니다. _Recommended Actions_panel 은 랜섬웨어 공격에 대한 복원력을 높이기 위해 취할 수 있는 잠재적인 조치를 나열하고 필요한 경우 조치를 적용할 수 있도록 문제를 조사하는 링크를 제공합니다.<block ref="020baa7d67cad4299bb33f9b5861968a" category="inline-link-rx"></block>.</block>
+  <block id="5c0fff562b33dc0a5a3acac30ed2d313" category="section-title">2022년 12월 6일</block>
+  <block id="095cf56774a1692bc55bacaa0dfdfd8e" category="section-title">Google Archival Storage 클래스 지원</block>
+  <block id="a11d9289acedc3e5b501dc8760967251" category="paragraph">백업 파일은 처음에 Google Standard 스토리지 클래스에서 생성됩니다. 이제 추가 비용 최적화를 위해 특정 일 수 후에 Google Archive 스토리지에 오래된 백업을 계층화하도록 선택할 수 있습니다.</block>
+  <block id="738d31d37e16df450b2af9540e98c7d4" category="paragraph">이 기능은 현재 ONTAP 9.12.1 이상을 사용하는 온프레미스 ONTAP 클러스터에 지원됩니다. 현재 Cloud Volumes ONTAP 시스템에서는 사용할 수 없습니다.</block>
+  <block id="4547c4a9db890b3449aca4e706555007" category="section-title">FlexGroup 볼륨 지원</block>
+  <block id="dd7d3cf5e78a510a4d10a46ebb784dc8" category="paragraph">클라우드 백업은 이제 FlexGroup 볼륨을 지원합니다. ONTAP 9.12.1 이상을 사용하는 경우 FlexGroup 볼륨을 퍼블릭 및 프라이빗 클라우드 스토리지에 백업할 수 있습니다. FlexVol 및 FlexGroup 볼륨이 포함된 작업 환경이 있는 경우 ONTAP 소프트웨어를 업데이트하면 해당 시스템의 FlexGroup 볼륨을 백업할 수 있습니다.</block>
+  <block id="cce3f2ac0edcb49693caf11399223d89" category="inline-link">지원되는 볼륨 유형의 전체 목록을 참조하십시오</block>
+  <block id="2750ec6dc42d79b24b9902d41543b6fd" category="paragraph"><block ref="0b2b94d5062b1eb6747bf9cb58e01b77" category="inline-link-rx"></block>.</block>
+  <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">Cloud Volumes ONTAP 시스템의 백업에서 특정 애그리게이트로 데이터를 복원하는 기능</block>
+  <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">이전 릴리즈에서는 데이터를 사내 ONTAP 시스템으로 복원할 때만 애그리게이트를 선택할 수 있었습니다. 이제 이 기능은 데이터를 Cloud Volumes ONTAP 시스템으로 복원할 때 작동합니다.</block>
+  <block id="8a52e1de39b1a61e3a2c04e39442b0e8" category="paragraph">Cloud Backup이 BlueXP 알림 서비스에 통합되었습니다. BlueXP 메뉴 표시줄에서 알림 표시를 클릭하여 Cloud Backup 알림을 표시할 수 있습니다. 또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일로 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이 이메일은 백업 및 복원 작업을 알아야 하는 모든 수신자에게 보낼 수 있습니다.<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>.</block>
 </blocks>
