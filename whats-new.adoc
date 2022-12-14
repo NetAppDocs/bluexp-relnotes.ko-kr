@@ -33,6 +33,18 @@ Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다
 
 
 
+=== 2023년 1월 1일
+
+
+
+==== 커넥터 3.9.25
+
+이 커넥터 릴리스에는 Cloud Volumes ONTAP 개선 사항 및 버그 수정 사항이 포함되어 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1-january-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
 === 2022년 12월 4일
 
 
@@ -129,39 +141,6 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
-=== 2022년 9월 18일
-
-이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["스토리지 용량 및 IOPS를 변경합니다"] ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지
-
-
-
-=== 2022년 7월 31일
-
-* 이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.
-+
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["내 기회를 사용하여 ONTAP용 FSx를 검색합니다"]
-
-* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["처리량 용량을 변경합니다"] ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지
-* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["데이터 복제 및 동기화"] ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.
-* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다"].
-
-
-
-
-=== 2022년 7월 3일
-
-* 이제 단일 또는 다중 가용성 영역 HA 배포 모델을 선택할 수 있습니다.
-+
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["ONTAP 작업 환경을 위한 FSx를 생성합니다"]
-
-* Cloud Manager에서 AWS GovCloud 계정 인증이 지원됩니다.
-+
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html#set-up-the-iam-role["IAM 역할을 설정합니다"]
-
-
-
-
-
 == 애플리케이션 템플릿
 
 
@@ -208,13 +187,72 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2022년 12월 19일
+
+
+
+==== 애플리케이션의 클라우드 백업 개선
+
+* SAP HANA 데이터베이스
++
+** Azure NetApp Files(ANF)에 상주하는 SAP HANA 데이터베이스의 정책 기반 백업 및 복원 지원
+** 사용자 지정 정책을 지원합니다
+
+
+* Oracle 데이터베이스
++
+** 호스트를 추가하고 플러그인을 자동으로 구축합니다
+** 사용자 지정 정책을 지원합니다
+** Cloud Volumes ONTAP에 상주하는 Oracle 데이터베이스의 정책 기반 백업, 복원 및 복제를 지원합니다
+** NetApp ONTAP용 Amazon FSx에 상주하는 Oracle 데이터베이스의 정책 기반 백업 및 복원을 지원합니다
+** 연결 및 복사 방법을 사용하여 Oracle 데이터베이스 복원을 지원합니다
+** Oracle 21c를 지원합니다
+** 클라우드 네이티브 Oracle 데이터베이스의 클론 복제 지원
+
+
+
+
+
+
+==== Cloud Backup의 향상된 기능
+
+* 가상 머신
++
+** 사내 보조 스토리지에서 가상 머신 백업
+** 사용자 지정 정책을 지원합니다
+** 하나 이상의 데이터 저장소를 백업하기 위해 Google Cloud Platform(GCP) 지원
+** Glacier, Deep Glacier 및 Azure Archive와 같은 저비용 클라우드 스토리지를 지원합니다
+
+
+
+
+
+
 === 2022년 12월 6일
 
 
 
-==== Google Archival Storage 클래스 지원
+==== 필요한 커넥터 아웃바운드 인터넷 액세스 엔드포인트 변경
 
-백업 파일은 처음에 Google Standard 스토리지 클래스에서 생성됩니다. 이제 추가 비용 최적화를 위해 특정 일 수 후에 Google Archive 스토리지에 오래된 백업을 계층화하도록 선택할 수 있습니다.
+Cloud Backup의 변경으로 인해 Cloud Backup 작업을 성공적으로 수행하려면 다음 Connector 엔드포인트를 변경해야 합니다.
+
+[cols="50,50"]
+|===
+| 이전 끝점 | 새 끝점 
+
+
+| https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://api.bluexp.netapp.com 으로 문의하십시오 
+
+
+| https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://*.api.bluexp.netapp.com 으로 문의하십시오 
+|===
+의 전체 끝점 목록을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["설치하고"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google 클라우드"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure를 지원합니다"^] 설명합니다.
+
+
+
+==== UI에서 Google Archival Storage 클래스를 선택할 수 있습니다
+
+백업 파일은 처음에 Google Standard 스토리지 클래스에서 생성됩니다. 이제 Cloud Backup UI를 사용하여 추가 비용 최적화를 위해 일정 일 후에 이전 백업을 Google Archive 스토리지에 계층화할 수 있습니다.
 
 이 기능은 현재 ONTAP 9.12.1 이상을 사용하는 온프레미스 ONTAP 클러스터에 지원됩니다. 현재 Cloud Volumes ONTAP 시스템에서는 사용할 수 없습니다.
 
@@ -222,7 +260,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== FlexGroup 볼륨 지원
 
-클라우드 백업은 이제 FlexGroup 볼륨을 지원합니다. ONTAP 9.12.1 이상을 사용하는 경우 FlexGroup 볼륨을 퍼블릭 및 프라이빗 클라우드 스토리지에 백업할 수 있습니다. FlexVol 및 FlexGroup 볼륨이 포함된 작업 환경이 있는 경우 ONTAP 소프트웨어를 업데이트하면 해당 시스템의 FlexGroup 볼륨을 백업할 수 있습니다.
+Cloud Backup은 이제 FlexGroup 볼륨 백업 및 복원을 지원합니다. ONTAP 9.12.1 이상을 사용하는 경우 FlexGroup 볼륨을 퍼블릭 및 프라이빗 클라우드 스토리지에 백업할 수 있습니다. FlexVol 및 FlexGroup 볼륨이 포함된 작업 환경이 있는 경우 ONTAP 소프트웨어를 업데이트하면 해당 시스템의 FlexGroup 볼륨을 백업할 수 있습니다.
 
 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#supported-volumes["지원되는 볼륨 유형의 전체 목록을 참조하십시오"].
 
@@ -377,12 +415,12 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 * 이제 사내 호스트에서 설치를 시작하기 전에 몇 가지 추가 사전 요구 사항을 확인합니다. 이렇게 하면 호스트 시스템이 데이터 감지 소프트웨어를 설치할 준비가 100% 되어 있는지 확인할 수 있습니다.
 +
-** /var/lib/docker, /tmp 및 /opt에 충분한 공간이 있는지 테스트합니다
+** 에 충분한 공간이 있는지 테스트합니다 `/var/lib/docker`, `/tmp`, 및 `/opt`
 ** 필요한 모든 폴더에 대한 관련 권한을 테스트합니다
 
 
 * 구성 페이지에서 작업 환경 섹션에 이제 _Working Environment ID_ 및 _Scanner Group_이름이 표시됩니다. 데이터 소스를 스캔하기 위해 추가 처리 성능을 제공하기 위해 여러 데이터 감지 호스트를 사용하려는 경우 작업 환경 ID를 알아야 합니다.
-* 구성 페이지에서 새 섹션에는 설정한 스캐너 그룹과 각 그룹에 있는 스캐너 노드가 표시됩니다.
+* 또한 구성 페이지에서 새 섹션에는 설정한 스캐너 그룹과 각 그룹에 있는 스캐너 노드가 표시됩니다.
 
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html["단일 호스트 서버 및 여러 호스트에 Data Sense를 설치하는 방법에 대해 자세히 알아보십시오"].
@@ -452,6 +490,28 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-
 
 
 == Cloud Sync
+
+
+
+=== 2023년 1월 3일
+
+
+
+==== UI에서 데이터 브로커 로컬 구성을 표시합니다
+
+이제 사용자가 UI에서 각 데이터 브로커의 로컬 구성을 볼 수 있는 * 구성 표시 * 옵션이 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["데이터 브로커 그룹 관리에 대해 자세히 알아보십시오"].
+
+
+
+==== Azure 및 Google Cloud 데이터 브로커 운영 체제로 업그레이드하십시오
+
+Azure 및 Google Cloud의 데이터 브로커용 운영 체제가 Rocky Linux 9.0으로 업그레이드되었습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["Azure의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Google Cloud의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
 
 
 
@@ -662,6 +722,28 @@ Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 
 
 
 
+=== 2022년 12월 6일
+
+
+
+==== 필요한 커넥터 아웃바운드 인터넷 액세스 엔드포인트 변경
+
+Cloud Tiering의 변경으로 인해 Cloud Tiering 작업의 성공을 위해 다음 Connector 엔드포인트를 변경해야 합니다.
+
+[cols="50,50"]
+|===
+| 이전 끝점 | 새 끝점 
+
+
+| https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://api.bluexp.netapp.com 으로 문의하십시오 
+
+
+| https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://*.api.bluexp.netapp.com 으로 문의하십시오 
+|===
+의 전체 끝점 목록을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["설치하고"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google 클라우드"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure를 지원합니다"^] 설명합니다.
+
+
+
 === 2022년 11월 6일
 
 
@@ -696,23 +778,41 @@ MetroCluster 구성에서 미러 오브젝트 저장소를 제거할 때 운영 
 
 
 
-=== 2022년 8월 3일
-
-
-
-==== 클러스터의 다른 애그리게이트로 추가 오브젝트 저장소를 구성하는 기능
-
-Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이지 세트가 추가되었습니다. 새 오브젝트 저장소를 추가하고, FabricPool 미러링을 위해 여러 오브젝트 저장소를 Aggregate에 연결하고, 기본 오브젝트 저장소와 미러 오브젝트 저장소를 바꾸고, 애그리게이트에 대한 오브젝트 저장소 연결을 삭제하는 등의 작업을 수행할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-tiering/task-managing-object-storage.html["새로운 오브젝트 스토리지 기능에 대해 자세히 알아보십시오."]
-
-
-
-==== MetroCluster 구성에 대한 Cloud Tiering 라이센스 지원
-
-이제 MetroCluster 구성에 있는 클러스터와 Cloud Tiering 라이센스를 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html#apply-cloud-tiering-licenses-to-clusters-in-special-configurations["이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오."]
-
-
-
 == Cloud Volumes ONTAP
+
+
+
+=== 2023년 1월 1일
+
+다음 변경 사항은 커넥터의 3.9.25 릴리스에 도입되었습니다.
+
+
+
+==== Google Cloud에서 사용 가능한 라이센스 패키지
+
+최적화된 에지 캐시 용량 기반 라이센스 패키지는 Google Cloud Marketplace에서 Cloud Volumes ONTAP에 대해 용량제 오퍼링을 제공하거나 연간 계약으로 제공됩니다.
+
+을 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Cloud Volumes ONTAP 라이센스"^].
+
+
+
+==== Cloud Volumes ONTAP의 기본 구성입니다
+
+MTEKM(멀티 테넌트 암호화 키 관리) 라이센스는 새 Cloud Volumes ONTAP 배포에 더 이상 포함되지 않습니다.
+
+Cloud Volumes ONTAP와 함께 자동으로 설치되는 ONTAP 기능 라이센스에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html["Cloud Volumes ONTAP의 기본 구성"^].
+
+
+
+=== 2022년 12월 15일
+
+
+
+==== Cloud Volumes ONTAP 9.12.0
+
+이제 BlueXP는 AWS 및 Google Cloud에서 Cloud Volumes ONTAP 9.12.0을 배포하고 관리할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
 
 
 
@@ -722,39 +822,9 @@ Cloud Tiering UI에 오브젝트 스토리지 구성을 위한 새로운 페이�
 
 ==== Cloud Volumes ONTAP 9.12.1
 
-이제 BlueXP는 새로운 기능과 추가 클라우드 공급자 지역을 지원하는 Cloud Volumes ONTAP 9.12.1을 배포 및 관리할 수 있습니다.https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^]
+이제 BlueXP는 새로운 기능과 추가 클라우드 공급자 지역을 지원하는 Cloud Volumes ONTAP 9.12.1을 배포 및 관리할 수 있습니다.
 
-
-
-=== 2022년 12월 4일
-
-다음 변경 사항은 커넥터의 3.9.24 릴리스에 도입되었습니다.
-
-
-
-==== Cloud Volumes ONTAP 생성 중에 WORM + 클라우드 백업을 사용할 수 있습니다
-
-Cloud Volumes ONTAP 생성 프로세스 중에 WORM(Write Once, Read Many) 및 클라우드 백업 기능을 모두 활성화할 수 있습니다.
-
-
-
-==== 현재 이스라엘 지역은 Google Cloud에서 지원됩니다
-
-현재 이스라엘 지역은 Google Cloud for Cloud Volumes ONTAP 및 Connector for Cloud Volumes ONTAP 9.11.1 P3 이상에서 지원됩니다.
-
-
-
-=== 2022년 11월 15일
-
-다음 변경 사항은 커넥터의 3.9.23 릴리스에 도입되었습니다.
-
-
-
-==== GCP의 ONTAP S3 라이센스
-
-ONTAP S3 라이센스는 이제 Google 클라우드 플랫폼에서 버전 9.12.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함되어 있습니다.
-
-https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^]
 
 
 
@@ -957,6 +1027,18 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 
 
 
+=== 2023년 1월 1일
+
+
+
+==== ONTAP 자격 증명을 저장합니다
+
+커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["이 옵션에 대해 자세히 알아보십시오."]
+
+
+
 === 2022년 12월 4일
 
 다음 변경 사항은 커넥터의 3.9.24 릴리스에 도입되었습니다.
@@ -1005,22 +1087,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 
 
-=== 2022년 6월 7일
-
-다음 변경은 커넥터의 3.9.19 릴리스에 도입되었습니다.
-
-
-
-==== 새 고급 보기
-
-ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다.
-
-이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.
-
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html["고급 보기에 대해 자세히 알아보십시오"].
-
-
-
 == 랜섬웨어 보호
 
 
@@ -1047,7 +1113,7 @@ UI에서 이러한 작업을 선택한 다음 워크플로를 따라 기본 문�
 
 ==== 전체 랜섬웨어 보호 점수 및 권장 조치를 표시하는 새로운 패널
 
-이 두 개의 새로운 패널은 데이터가 랜섬웨어 공격에 얼마나 잘 복원되는지, 그리고 점수를 개선하기 위해 무엇을 할 수 있는지 함께 확인합니다. 랜섬웨어 보호 점수 패널은 잠재적인 문제가 있는 사이버 보안 영역의 전체 점수와 영역을 보여줍니다. _Recommended Actions_panel 은 랜섬웨어 공격에 대한 복원력을 높이기 위해 취할 수 있는 잠재적인 조치를 나열하고 필요한 경우 조치를 적용할 수 있도록 문제를 조사하는 링크를 제공합니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#ransomware-protection-score-and-recommended-actions["자세히 알아보기"^].
+랜섬웨어 보호 점수 패널은 잠재적인 문제가 있는 사이버 보안 영역의 전체 점수와 영역을 보여줍니다. _Recommended Actions_panel 은 랜섬웨어 공격에 대한 복원력을 높이기 위해 취할 수 있는 잠재적인 조치를 나열하고 필요한 경우 조치를 적용할 수 있도록 문제를 조사하는 링크를 제공합니다. 이 두 개의 새로운 패널은 데이터가 랜섬웨어 공격에 얼마나 잘 복원되는지, 그리고 점수를 개선하기 위해 무엇을 할 수 있는지 함께 확인합니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#ransomware-protection-score-and-recommended-actions["자세히 알아보기"^].
 
 
 
