@@ -84,7 +84,6 @@
   <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">이제 동기화 관계에 태그를 지정하여 쉽게 액세스할 수 있도록 관계를 그룹화하거나 분류할 수 있습니다</block>
   <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">리소스 태깅에 대해 자세히 알아보십시오</block>
   <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>.</block>
-  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">데이터 센스에서 식별할 수 있는 모든 유형의 개인 데이터를 확인하십시오</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
@@ -157,24 +156,7 @@
   <block id="2e54b9a897181c7862d708807a350694" category="list-text">이제 가능합니다 <block ref="8a24fd2682d2561e3f75043a6b0c8221" category="inline-link-macro-rx"></block> ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.</block>
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다</block>
   <block id="d6d2f19a8b69e681e2faa33500bbff6c" category="list-text">이제 가능합니다 <block ref="7bd2232976707f7841c519f0d4d2c5a6" category="inline-link-macro-rx"></block>.</block>
-  <block id="6006377785b7aa3dfed8795e05fbc569" category="section-title">2022년 8월 7일(버전 1.15)</block>
-  <block id="afae08b9f3014d73a3bf7e0c201b2b36" category="section-title">뉴질랜드의 5가지 새로운 유형의 개인 데이터는 데이터 센스로 식별됩니다</block>
-  <block id="3b4b0faa54186ef002c6026e97e51a10" category="paragraph">데이터 센스를 사용하면 다음 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.</block>
-  <block id="c189819be34e41f0ac712261c4bb10b0" category="list-text">뉴질랜드 은행 계좌 번호</block>
-  <block id="57d4e061073cf52ee992a5523c0e31cb" category="list-text">뉴질랜드 운전면허증 번호</block>
-  <block id="2be885677b02540592a1f44b87ee5fb9" category="list-text">뉴질랜드 IRD 번호(세금 ID)</block>
-  <block id="52c2b4f82109d0afee40fe69db9a8cbe" category="list-text">뉴질랜드 NHI(National Health Index) 번호 </block>
-  <block id="3c266b4db1bf588305e19eddcef36116" category="list-text">뉴질랜드 여권 번호</block>
-  <block id="c8c8337bd5f0527c7ba4b08117f3d96f" category="paragraph"><block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>.</block>
-  <block id="8d3dd83a131924f6dd08fdea2d8e7828" category="section-title">파일이 이동된 이유를 나타내기 위해 Breadcrumb 파일을 추가하는 기능입니다</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">자세한 정보</block>
-  <block id="e92169a6172fd2cba6d57bfe01aea45a" category="paragraph">데이터 감지 기능을 사용하여 소스 파일을 NFS 공유로 이동할 때 이제 이동 파일 위치에 이동 경로 파일을 그대로 둘 수 있습니다. Breadcrumb 파일을 사용하면 파일이 원래 위치에서 이동된 이유를 쉽게 이해할 수 있습니다. 이동된 각 파일에 대해 시스템은 "&lt;filename&gt;-breadcrumb-&lt;date&gt;.txt"라는 소스 위치에 Breadcrumb 파일을 만들어 파일이 이동된 위치와 파일을 이동한 사용자를 표시합니다.<block ref="c1eac1298d336c56373b10262d37ad96" category="inline-link-rx"></block>.</block>
-  <block id="13cd21aa095db4c5e2c5cd12303ecc97" category="section-title">디렉터리에 있는 개인 데이터 및 중요한 개인 데이터는 조사 결과에 표시됩니다</block>
-  <block id="6b473faf5fc253b69b173e6b8b87f726" category="inline-link">여기 예를 참조하십시오</block>
-  <block id="e8886543955f7a165a88e44f53559443" category="paragraph">이제 데이터 조사 페이지에는 디렉토리(폴더 및 공유) 내에서 찾은 개인 데이터 및 중요한 개인 데이터에 대한 결과가 표시됩니다.<block ref="37ae8b694ca9dace0885ec3ddd4e8904" category="inline-link-rx"></block>.</block>
-  <block id="76013a8e1044d1903752927bac2c2799" category="section-title">성공적으로 분류한 볼륨, 버킷 등의 상태를 봅니다</block>
-  <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">이 정보를 보는 방법을 참조하십시오</block>
-  <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">Data Sense가 스캔(볼륨, 버킷 등)하는 개별 리포지토리를 볼 때 "매핑" 수와 "분류" 수를 확인할 수 있습니다. 모든 데이터에 대해 전체 AI ID가 수행되므로 분류에 시간이 더 오래 걸립니다.<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>.</block>
   <block id="e0daf39823ec1a1a7878c9718f063d5f" category="section-title">Google 드라이브</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">이제 NFS 서버 또는 SMB 서버의 데이터를 Google Drive로 동기화할 수 있습니다. "내 드라이브"와 "공유 드라이브"가 모두 대상으로 지원됩니다.</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">Google Drive 요구 사항에 대해 자세히 알아보십시오</block>
@@ -191,8 +173,6 @@
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">오른쪽 패널 설정</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">이제 Canvas에서 작업 환경을 선택한 다음 오른쪽 패널에서 동기화 옵션을 선택하여 Azure Blob 저장소 또는 Google Cloud Storage에 대한 동기화 관계를 설정할 수 있습니다.</block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>.</block>
-  <block id="63b54c0d3b4fb8e35270bfdf7b2bdcbb" category="inline-link">충전 방법을 변경하는 방법에 대해 알아보십시오</block>
-  <block id="41bfdfd8eb98d1c3acb217f5420b6818" category="paragraph"><block ref="895cb871a858d35efad6129a7ae888ab" category="inline-link-rx"></block>.</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022년 7월 25일(버전 2.0)</block>
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.</block>
@@ -206,9 +186,6 @@
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다</block>
   <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
-  <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">2022년 8월 7일</block>
-  <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">클러스터에 보안 취약점을 표시하는 새 패널</block>
-  <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">변경 불가능한 스캔한 파일을 표시하는 새 패널</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">사내 ONTAP 클러스터</block>
@@ -219,7 +196,6 @@
   <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">MetroCluster 구성에 대한 Cloud Tiering 라이센스 지원</block>
   <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">이제 MetroCluster 구성에 있는 클러스터와 Cloud Tiering 라이센스를 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다.<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
   <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">이제 데이터 센스에서 식별할 수 있는 사용자 지정 패턴을 데이터에 추가할 수 있습니다</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS의 Kubernetes 클러스터 요구사항</block>
   <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
   <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure의 Kubernetes 클러스터 요구사항</block>
@@ -259,8 +235,6 @@
   <block id="4f400ad3636bf9ccb8a232e152ae3a56" category="section-title">클러스터에서 감지된 랜섬웨어 인시던트를 표시하는 새 패널입니다</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
   <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">랜섬웨어 사고_패널은 시스템에서 발생한 랜섬웨어 공격을 보여줍니다. 현재 지원은 ARP(Autonomous 랜섬웨어 Protection)를 실행하는 온프레미스 ONTAP 클러스터에 적용됩니다. ARP는 NAS(NFS 및 SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격을 나타낼 수 있는 비정상적인 활동을 사전에 감지하고 경고합니다.<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>.</block>
-  <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">스토리지 시스템 취약점 _ 패널은 Active IQ 디지털 자문업체 도구가 각 ONTAP 클러스터에서 발견한 높은, 중간 및 낮은 보안 취약점의 총 수를 표시합니다. 높은 취약점을 즉시 확인하여 시스템이 공격에 노출되지 않도록 해야 합니다.<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>.</block>
-  <block id="95055437ddc6fef4303145322941a60e" category="paragraph">Critical data frefonability_panel은 ONTAP SnapLock 기술을 사용하여 WORM 스토리지의 수정 및 삭제로부터 보호되는 작업 환경의 항목 수를 표시합니다. 이 문서를 통해, 변경 불가능한 복사본이 얼마나 많은 데이터인지 확인할 수 있습니다. 따라서 랜섬웨어에 대한 백업 및 복구 계획을 보다 잘 이해할 수 있습니다.<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">이제 가능합니다 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
@@ -300,18 +274,6 @@
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022년 9월 18일</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">ONTAP에서 Cloud Volumes ONTAP로 FSX</block>
   <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">이제 ONTAP 파일 시스템용 Amazon FSx에서 Cloud Volumes ONTAP로 데이터를 복제할 수 있습니다.</block>
-  <block id="83bad7a989a8ab61893e9cfb7497cefd" category="section-title">디지털 지갑 기능 향상</block>
-  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="list-text">이제 디지털 지갑에 최적화된 I/O 라이센스 패키지 및 사용자 계정의 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약이 표시됩니다.</block>
-  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.</block>
-  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
-  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>.</block>
-  <block id="d856c8d1b60bfdfc68a63422c7fcb64b" category="list-text">이제 하나의 충전 방법을 최적화된 충전 방법으로 변경할 수 있습니다.</block>
-  <block id="e0d7db06679f0c176c93ed71de107638" category="section-title">비용 및 성능 최적화</block>
-  <block id="fa1ea7bc2d84f11eddfeed9a160282bb" category="paragraph">이제 Canvas에서 직접 Cloud Volumes ONTAP 시스템의 비용과 성능을 최적화할 수 있습니다.</block>
-  <block id="cab7023844edf677ae51645d16f02f4c" category="paragraph">작업 환경을 선택한 후 * 비용 및 성능 최적화 * 옵션을 선택하여 Cloud Volumes ONTAP의 인스턴스 유형을 변경할 수 있습니다. 더 작은 크기의 인스턴스를 선택하면 비용을 절감하고 더 큰 인스턴스로 변경하면 성능을 최적화할 수 있습니다.</block>
-  <block id="f929bd53055100ea5034e258d5828a45" category="inline-image-macro">작업 환경을 선택한 후 Canvas에서 사용할 수 있는 Optimize Cost &amp; amp; Performance 옵션의 스크린샷.</block>
-  <block id="b04af3108aa064fb53015f188d417418" category="paragraph"><block ref="740982637064d815add45193172173b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="section-title">AutoSupport 알림</block>
   <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E-Series 시스템</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">E-Series 지원</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
@@ -360,7 +322,6 @@
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">BlueXP의 알림 센터를 보여 주는 스크린샷.</block>
   <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7a8757c8fbb4c1997c5641cf6e4a7489" category="paragraph">Cloud Volumes ONTAP 시스템에서 AutoSupport 메시지를 보낼 수 없는 경우 BlueXP에서 알림을 생성합니다. 이 알림에는 네트워킹 문제를 해결하는 데 사용할 수 있는 지침 링크가 포함되어 있습니다.</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">이제 BlueXP에서 직접 Cloud Volumes Service for Google Cloud를 관리할 수 있습니다.</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="section-title">디지털 자문업체</block>
   <block id="a979b908e61b4f4e9d00d64a346ac569" category="paragraph">Digital Advisor(이전의 Active IQ)는 이제 BlueXP와 완전히 통합되어 로그인 환경이 향상되었습니다.</block>
@@ -433,18 +394,6 @@
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
   <block id="2325f561a20765def93d682f14cae306" category="paragraph">다음 변경 사항은 커넥터의 3.9.23 릴리스에 도입되었습니다.</block>
-  <block id="6d5ba1b41fa03c2fdf0d747769a6b053" category="section-title">Azure에서 리소스 그룹을 이동하는 중입니다</block>
-  <block id="ea55da5ec5028d99103c938ded49761c" category="paragraph">이제 동일한 Azure 가입 내에서 하나의 리소스 그룹에서 Azure의 다른 리소스 그룹으로 작업 환경을 이동할 수 있습니다.</block>
-  <block id="6c2dc09b272a4aed6d56a3438a190129" category="inline-link-macro">리소스 그룹 이동 중</block>
-  <block id="d015054d89d4ecbe893f21f5ab9700c0" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="8d94a006f1853b408e5763a514426526" category="inline-link-macro-rx"></block>.</block>
-  <block id="b6a2ac7b66db8e93b936023f17401626" category="section-title">NDMP-COPY 인증</block>
-  <block id="c348c640ca478b45f3a3d9e14bb0695b" category="paragraph">NDMP-copy는 현재 Cloud Volume ONTAP에서 사용하도록 인증되었습니다.</block>
-  <block id="ab5a83d8e39547c5fb30a1fda984aebb" category="inline-link">NDMP 구성 개요</block>
-  <block id="e4b4f60ab9fe08116659a5e12d6db4a8" category="paragraph">NDMP를 구성하고 사용하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="9c57f7cf04e123991a3c88e286feb189" category="inline-link-rx"></block>.</block>
-  <block id="5e7de773a189ac8974753f9ce70a3dc5" category="section-title">Azure에 대한 관리형 디스크 암호화 지원</block>
-  <block id="a09181ba1488df77bf9950cb483e97e8" category="paragraph">이제 생성 시 모든 관리되는 디스크를 암호화할 수 있는 새로운 Azure 권한이 추가되었습니다.</block>
-  <block id="e76c0365dfa8d6b43992d790f582e6c4" category="inline-link">Azure에서 고객이 관리하는 키를 사용하도록 Cloud Volumes ONTAP를 설정합니다</block>
-  <block id="7343d251ecc72fc362a0ce85cf11a9fe" category="paragraph">이 새로운 기능에 대한 자세한 내용은 을 참조하십시오<block ref="91da0725d8642ccf887bde4d4604033e" category="inline-link-rx"></block>.</block>
   <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
   <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">이메일 및 알림 센터에서 Cloud Backup 경고를 받도록 지원이 추가되었습니다</block>
   <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">이제 온-프레미스 Connector를 사용할 때 검색 및 복원을 사용하여 백업 파일을 복원할 수 있습니다</block>
@@ -455,10 +404,6 @@
   <block id="232acd7f039f2650674c20301305634d" category="paragraph">필요한 경우 스캔 중인 데이터 소스에 물리적으로 가까운 호스트 시스템에 스캐너 노드를 설치할 수 있습니다. 스캐너 노드가 데이터에 가까울수록 데이터 스캔 시 네트워크 대기 시간이 최대한 줄어들기 때문에 성능이 향상됩니다.<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>.</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">이제 온-프레미스 설치 관리자가 설치를 시작하기 전에 사전 검사를 수행합니다</block>
   <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">Linux 시스템에 Data Sense를 설치할 때 설치 관리자는 실제 설치를 시작하기 전에 시스템이 필요한 모든 요구 사항(CPU, RAM, 용량, 네트워킹 등)을 충족하는지 확인합니다. 따라서 * 설치에 시간을 소비하기 전에 * 문제를 파악할 수 있습니다.</block>
-  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">데이터 센스에서 향후 검색에서 식별할 수 있는 사용자 지정 "개인 데이터"를 추가하는 방법은 두 가지가 있습니다. 이렇게 하면 중요한 데이터가 조직의 모든 파일에 있는 위치를 전체적으로 파악할 수 있습니다.</block>
-  <block id="db40121770270b95c73895598e6343b2" category="list-text">텍스트 파일에서 사용자 지정 키워드를 추가할 수 있습니다.</block>
-  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">정규식(regex)을 사용하여 개인 패턴을 추가할 수 있습니다.</block>
-  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">이러한 키워드 및 패턴은 데이터 센스에서 이미 사용하는 기존의 미리 정의된 패턴에 추가되며, 결과는 개인 패턴 섹션 아래에 표시됩니다.<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>.</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022년 12월 4일</block>
   <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">커넥터 3.9.24</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
@@ -496,4 +441,41 @@
   <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">Cloud Volumes ONTAP 시스템의 백업에서 특정 애그리게이트로 데이터를 복원하는 기능</block>
   <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">이전 릴리즈에서는 데이터를 사내 ONTAP 시스템으로 복원할 때만 애그리게이트를 선택할 수 있었습니다. 이제 이 기능은 데이터를 Cloud Volumes ONTAP 시스템으로 복원할 때 작동합니다.</block>
   <block id="8a52e1de39b1a61e3a2c04e39442b0e8" category="paragraph">Cloud Backup이 BlueXP 알림 서비스에 통합되었습니다. BlueXP 메뉴 표시줄에서 알림 표시를 클릭하여 Cloud Backup 알림을 표시할 수 있습니다. 또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일로 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이 이메일은 백업 및 복원 작업을 알아야 하는 모든 수신자에게 보낼 수 있습니다.<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>.</block>
+  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022년 12월 11일(버전 1.18)</block>
+  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">사내 설치 기능의 향상</block>
+  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">사내 Data Sense 설치를 위해 다음과 같은 개선 사항이 추가되었습니다.</block>
+  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">이제 사내 호스트에서 설치를 시작하기 전에 몇 가지 추가 사전 요구 사항을 확인합니다. 이렇게 하면 호스트 시스템이 데이터 감지 소프트웨어를 설치할 준비가 100% 되어 있는지 확인할 수 있습니다.</block>
+  <block id="ac340636071cd9dc2033767452420aab" category="list-text">/var/lib/docker, /tmp 및 /opt에 충분한 공간이 있는지 테스트합니다</block>
+  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">필요한 모든 폴더에 대한 관련 권한을 테스트합니다</block>
+  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">구성 페이지에서 작업 환경 섹션에 이제 _Working Environment ID_ 및 _Scanner Group_이름이 표시됩니다. 데이터 소스를 스캔하기 위해 추가 처리 성능을 제공하기 위해 여러 데이터 감지 호스트를 사용하려는 경우 작업 환경 ID를 알아야 합니다.</block>
+  <block id="81dbf04e421aa5fa2a4acce5215da760" category="list-text">구성 페이지에서 새 섹션에는 설정한 스캐너 그룹과 각 그룹에 있는 스캐너 노드가 표시됩니다.</block>
+  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">단일 호스트 서버 및 여러 호스트에 Data Sense를 설치하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="7d11de825f5fb48a0194c3826f7e2322" category="paragraph"><block ref="6aec5abc0a91e6bbae2064cb8f81d2dd" category="inline-link-rx"></block>.</block>
+  <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022년 12월 11일</block>
+  <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">이름별로 디렉토리를 필터링합니다</block>
+  <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">이제 새 * 디렉터리 이름 제외 * 설정을 동기화 관계에 사용할 수 있습니다. 사용자는 동기화에서 최대 15개의 디렉터리 이름을 필터링할 수 있습니다. copy-offload, .snapshot, ~snapshot 디렉토리는 기본적으로 제외됩니다.</block>
+  <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">디렉터리 이름 제외 설정에 대해 자세히 알아보세요</block>
+  <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>.</block>
+  <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">Amazon S3 및 ONTAP S3 스토리지 추가 지원</block>
+  <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">Cloud Sync은 이제 AWS S3 및 ONTAP S3 스토리지를 위한 추가 동기화 관계를 지원합니다.</block>
+  <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3에서 ONTAP S3 스토리지까지</block>
+  <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">ONTAP S3 스토리지를 AWS S3로 설정합니다</block>
+  <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">지원되는 동기화 관계에 대해 자세히 알아보십시오</block>
+  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
+  <block id="708ffc372ba6f36174a7930961b956ab" category="section-title">2022년 12월 8일</block>
+  <block id="dba89da91170934734e847dcfe4ad5d0" category="section-title">Cloud Volumes ONTAP 9.12.1</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
+  <block id="6cfcf66978702040453f6b0622a89aaa" category="paragraph">이제 BlueXP는 새로운 기능과 추가 클라우드 공급자 지역을 지원하는 Cloud Volumes ONTAP 9.12.1을 배포 및 관리할 수 있습니다.<block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block></block>
+  <block id="2dd09f45720a8f94b29c4d048b61ff4e" category="section-title">2022년 11월 15일</block>
+  <block id="cca494b1b1d22bc8b5c8a8ecd5367bf8" category="section-title">GCP의 ONTAP S3 라이센스</block>
+  <block id="44f72ae2127b89a470e082ae9f772acf" category="paragraph">ONTAP S3 라이센스는 이제 Google 클라우드 플랫폼에서 버전 9.12.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 포함되어 있습니다.</block>
+  <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오</block>
+  <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
+  <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">2022년 12월 11일</block>
+  <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">랜섬웨어 보호 점수 패널에 새로운 권장 조치가 추가되었습니다</block>
+  <block id="3a3306a02dc91a314c088887bca99ae6" category="paragraph">현재 귀사의 스토리지 시스템에서 발견되는 다음과 같은 랜섬웨어 보호 문제에 대해 권장되는 새로운 조치 두 개가 표시됩니다.</block>
+  <block id="ac70ac84684b450ac1ec25740da08f6f" category="list-text">_광범위한 권한이 있는 중요한 X 항목에 대한 사용 권한 감소_ - 열린 권한이 있는 민감한 파일이 데이터 원본에 있습니다</block>
+  <block id="e536c956b5336f840fdf1f34295e7626" category="list-text">_Patch X open CVE 전체 Y 데이터 소스 _ - 패치되지 않은 CVE가 ONTAP 시스템에서 발견되었습니다</block>
+  <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">모든 권장 조치 목록을 참조하십시오</block>
+  <block id="2887af3281ffddb6374ef4f66b57c7d5" category="paragraph">UI에서 이러한 작업을 선택한 다음 워크플로를 따라 기본 문제를 해결할 수 있습니다.<block ref="ed823e4f932da1d207b551c7d7ca0450" category="inline-link-rx"></block>.</block>
 </blocks>
