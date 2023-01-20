@@ -491,4 +491,18 @@
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">데이터 센스에서 식별할 수 있는 모든 유형의 개인 데이터를 확인하십시오</block>
   <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">데이터 센스에서 일본어 개인 번호(내 번호라고도 함)가 포함된 파일을 식별하고 분류할 수 있습니다. 여기에는 개인 및 회사 내 번호가 모두 포함됩니다.<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>.</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
+  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023년 1월 1일</block>
+  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">자동 용량 관리</block>
+  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">이제 를 사용하도록 선택할 수 있습니다 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
+  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">이제 가능합니다 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
+  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
+  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">내 기회를 사용하여 ONTAP용 FSx를 검색합니다</block>
+  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
+  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">처리량 용량을 변경합니다</block>
+  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">이제 가능합니다 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
+  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">데이터 복제 및 동기화</block>
+  <block id="897d994d4d024883042e664eba152417" category="list-text">이제 가능합니다 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.</block>
+  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다</block>
+  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">이제 가능합니다 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>.</block>
 </blocks>

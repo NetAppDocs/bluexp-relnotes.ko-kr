@@ -141,6 +141,31 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
+=== 2023년 1월 1일
+
+이제 를 사용하도록 선택할 수 있습니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["자동 용량 관리"^] 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.
+
+
+
+=== 2022년 9월 18일
+
+이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["스토리지 용량 및 IOPS를 변경합니다"^] ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지
+
+
+
+=== 2022년 7월 31일
+
+* 이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["내 기회를 사용하여 ONTAP용 FSx를 검색합니다"^]
+
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-throughput-capacity["처리량 용량을 변경합니다"^] ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["데이터 복제 및 동기화"^] ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다"^].
+
+
+
+
 == 애플리케이션 템플릿
 
 
