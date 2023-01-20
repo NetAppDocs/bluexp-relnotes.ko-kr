@@ -33,6 +33,54 @@ Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다
 
 
 
+=== 2023년 2월 5일
+
+
+
+==== 커넥터 3.9.26
+
+* 로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 클릭하면 BlueXP가 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.
++
+** NetApp 클라우드 자격 증명의 암호입니다
+** 통합 ID 자격 증명
+** NetApp Support 사이트 자격 증명
+
+
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-login.png["전자 메일 주소를 입력하라는 메시지가 표시되는 BlueXP 로그인 페이지의 스크린 샷"]
+
+* BlueXP를 처음 사용하는 경우 기존 NetApp Support 사이트(NSS) 자격 증명이 있는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.
+* 클라우드 공급자의 마켓플레이스에서 BlueXP를 구독하면 이제 하나의 계정에 대한 기존 구독을 새 구독으로 대체할 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-aws-subscription.png["BlueXP 계정의 구독 할당을 보여 주는 스크린샷."]
+
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#associate-an-aws-subscription["AWS 구독을 연결하는 방법을 알아보십시오"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-azure-accounts.html#associating-an-azure-marketplace-subscription-to-credentials["Azure 구독을 연결하는 방법에 대해 알아봅니다"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-gcp-accounts.html["Google Cloud 구독을 연결하는 방법을 알아보십시오"]
+
+
+* 이제 BlueXP에서 커넥터 전원이 14일 이상 꺼졌으면 알려 줍니다.
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["BlueXP 알림에 대해 알아보십시오"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#connectors-should-remain-running["커넥터가 계속 작동하는 이유에 대해 알아보십시오"]
+
+
+* Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리하는 데 필요한 권한을 포함하도록 Google Cloud용 커넥터 정책을 업데이트했습니다.
++
+compute.instances.updateNetworkInterface
+
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한을 봅니다"].
+
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-february-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
+
+
 === 2023년 1월 1일
 
 
@@ -60,30 +108,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 
 
 
-
-
-
-=== 2022년 11월 6일
-
-
-
-==== 커넥터 3.9.23
-
-* 이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
-
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6-november-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-
-
-
-
-
-=== 2022년 11월 1일
-
-계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["NSS 계정 관리 방법에 대해 알아봅니다"^]
 
 
 
@@ -499,6 +523,39 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-on
 
 
 
+=== 2023년 2월 5일
+
+
+
+==== Azure Data Lake Storage Gen2, ONTAP S3 Storage 및 NFS에 대한 추가 지원
+
+Cloud Sync은 이제 ONTAP S3 스토리지 및 NFS에 대한 추가 동기화 관계를 지원합니다.
+
+* ONTAP S3 스토리지를 NFS로
+* NFS에서 ONTAP S3 스토리지로
+
+
+또한 Cloud Sync는 Azure Data Lake Storage Gen2를 소스 및 타겟 모두에서 추가로 지원합니다.
+
+* NFS 서버
+* SMB 서버
+* ONTAP S3 스토리지
+* StorageGRID
+* IBM 클라우드 오브젝트 스토리지
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계에 대해 자세히 알아보십시오"].
+
+
+
+==== Amazon Web Services 데이터 브로커 운영 체제로 업그레이드하십시오
+
+AWS 데이터 브로커용 운영 체제가 Amazon Linux 2022로 업그레이드되었습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["AWS의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
+
+
+
 === 2023년 1월 3일
 
 
@@ -788,6 +845,36 @@ MetroCluster 구성에서 미러 오브젝트 저장소를 제거할 때 운영 
 
 
 
+=== 2023년 2월 5일
+
+다음 변경 사항은 커넥터의 3.9.26 릴리스에 도입되었습니다.
+
+
+
+==== AWS에서 반 배정 그룹 생성
+
+이제 AWS HA AZ(단일 가용성 영역) 구축을 통해 반 배정 그룹을 생성할 수 있는 새로운 구성 설정이 제공됩니다. 이제 장애가 발생한 반 배정 그룹 생성을 생략하고 AWS HA 단일 AZ 구축을 성공적으로 완료하도록 선택할 수 있습니다.
+
+반 배정 그룹 생성 설정을 구성하는 방법에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-configure-placement-group-failure-aws.html#overview["AWS HA 단일 AZ에 대한 배치 그룹 생성 구성"^].
+
+
+
+==== 개인 DNS 영역 구성 업데이트
+
+Azure Private Links를 사용할 때 개인 DNS 영역과 가상 네트워크 간의 링크를 만들지 않도록 새로운 구성 설정을 사용할 수 있습니다. 생성은 기본적으로 활성화되어 있습니다.
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-enabling-private-link.html#provide-bluexp-with-details-about-your-azure-private-dns["Azure 프라이빗 DNS에 대한 자세한 내용은 BlueXP를 참조하십시오"^]
+
+
+
+==== WORM 스토리지 및 데이터 계층화
+
+이제 Cloud Volumes ONTAP 9.8 시스템 이상을 생성할 때 데이터 계층화와 WORM 스토리지를 함께 사용할 수 있습니다. WORM 스토리지를 통한 데이터 계층화를 사용하면 데이터를 클라우드의 오브젝트 저장소에 계층화할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-worm.html["WORM 스토리지에 대해 자세히 알아보십시오."^]
+
+
+
 === 2023년 1월 1일
 
 다음 변경 사항은 커넥터의 3.9.25 릴리스에 도입되었습니다.
@@ -819,18 +906,6 @@ Cloud Volumes ONTAP와 함께 자동으로 설치되는 ONTAP 기능 라이센�
 이제 BlueXP는 AWS 및 Google Cloud에서 Cloud Volumes ONTAP 9.12.0을 배포하고 관리할 수 있습니다.
 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
-
-
-
-=== 2022년 12월 8일
-
-
-
-==== Cloud Volumes ONTAP 9.12.1
-
-이제 BlueXP는 새로운 기능과 추가 클라우드 공급자 지역을 지원하는 Cloud Volumes ONTAP 9.12.1을 배포 및 관리할 수 있습니다.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^]
 
 
 

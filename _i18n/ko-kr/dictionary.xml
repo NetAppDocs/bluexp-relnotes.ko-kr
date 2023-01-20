@@ -116,7 +116,6 @@
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022년 7월 3일</block>
   <block id="82e8338c73d6540f48f2e0cc8d035511" category="list-text">마드리드(유럽 - 남서쪽1)</block>
   <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">파리(유럽 - west9)</block>
-  <block id="e8249b4253d6a921188373a80621c098" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.</block>
   <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">Azure Data Lake Storage Gen2 지원</block>
   <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">이제 NFS 서버 또는 SMB 서버에서 Azure Data Lake Storage Gen2로 데이터를 동기화할 수 있습니다.</block>
   <block id="20a2ab980685308347c082aec3253ed9" category="paragraph">Azure Data Lake를 포함하는 동기화 관계를 생성할 때 Cloud Sync에 스토리지 계정 연결 문자열을 제공해야 합니다. SAS(공유 액세스 서명)가 아니라 일반 연결 문자열이어야 합니다.</block>
@@ -238,8 +237,6 @@
   <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다.<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.</block>
   <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022년 11월 1일</block>
-  <block id="23888423406e47190ca0cf40a113c61f" category="inline-link">NSS 계정 관리 방법에 대해 알아봅니다</block>
-  <block id="929fa09ef9d24654b353f312638ca6e6" category="paragraph">계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다.<block ref="abba285888ca54da9f89054b7e57f270" category="inline-link-rx"></block></block>
   <block id="89d500a3ace67f6d47edb61231336589" category="section-title">애플리케이션의 클라우드 백업 개선</block>
   <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">가상 머신용 Cloud Backup의 향상된 기능</block>
   <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">2022년 10월 30일</block>
@@ -310,11 +307,6 @@
   <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">끌어서 놓기로 Azure Blob, Google Cloud Storage 및 StorageGRID에 Cloud Tiering을 사용할 수 있습니다</block>
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">Azure Blob, Google Cloud Storage 또는 StorageGRID 계층화 대상이 Canvas의 작업 환경으로 존재하는 경우, 내부 ONTAP 작업 환경을 대상으로 끌어서 계층화 설정 마법사를 시작할 수 있습니다.</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
-  <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">커넥터 3.9.23</block>
-  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.</block>
-  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
-  <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
   <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">이메일 및 알림 센터에서 Cloud Backup 경고를 받도록 지원이 추가되었습니다</block>
   <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">이제 온-프레미스 Connector를 사용할 때 검색 및 복원을 사용하여 백업 파일을 복원할 수 있습니다</block>
   <block id="18cddedef625cde24d34d1b2bb64fb96" category="paragraph">현재 Google Cloud Storage에서 백업을 복원하려면 검색 및 복원을 사용할 때 Google Cloud Platform에 Connector를 구축해야 합니다.</block>
@@ -365,8 +357,6 @@
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">ONTAP S3 스토리지를 AWS S3로 설정합니다</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">지원되는 동기화 관계에 대해 자세히 알아보십시오</block>
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
-  <block id="708ffc372ba6f36174a7930961b956ab" category="section-title">2022년 12월 8일</block>
-  <block id="dba89da91170934734e847dcfe4ad5d0" category="section-title">Cloud Volumes ONTAP 9.12.1</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
   <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">2022년 12월 11일</block>
   <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">랜섬웨어 보호 점수 패널에 새로운 권장 조치가 추가되었습니다</block>
@@ -436,8 +426,6 @@
   <block id="bf748f930fa11e46773ff6f7b815e480" category="section-title">Cloud Volumes ONTAP 9.12.0</block>
   <block id="80df4292f7c986dbd0920bb576487060" category="paragraph">이제 BlueXP는 AWS 및 Google Cloud에서 Cloud Volumes ONTAP 9.12.0을 배포하고 관리할 수 있습니다.</block>
   <block id="64885a300b31929a1b0ea6b5a20128d3" category="paragraph"><block ref="065aa84d514cfdc6fc00d8cb3eaf6ec4" category="inline-link-rx"></block>.</block>
-  <block id="abd10f7bee2f791a9e8f76bf98163c27" category="paragraph">이제 BlueXP는 새로운 기능과 추가 클라우드 공급자 지역을 지원하는 Cloud Volumes ONTAP 9.12.1을 배포 및 관리할 수 있습니다.</block>
-  <block id="0d69949c9de36f8752d49be7f0ec9aed" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block></block>
   <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP 자격 증명을 저장합니다</block>
   <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.</block>
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보십시오.</block>
@@ -515,4 +503,59 @@
   <block id="f77caa23f512ad7c5c38882b9a13b6db" category="paragraph"><block ref="d9564f80e250011b85c05664d779bbef" category="inline-link-rx"></block>.</block>
   <block id="1e189efdd1c21e1702b4e4a48e6a3815" category="section-title">랜섬웨어 보호가 보호 범주에서 거버넌스 범주로 이동되었습니다</block>
   <block id="c1d1220273fe79d481c41539bea31710" category="paragraph">이제 BlueXP의 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 랜섬웨어 보호 * 를 선택하여 이 서비스에 액세스할 수 있습니다.</block>
+  <block id="d2ab99e3c8406089dca863337debb121" category="section-title">커넥터 3.9.26</block>
+  <block id="330ddcd0a3779c8729cfb2c56aeb33f5" category="list-text">로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 클릭하면 BlueXP가 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.</block>
+  <block id="1baec3621cd37cfb63c78d95c414ca61" category="list-text">NetApp 클라우드 자격 증명의 암호입니다</block>
+  <block id="1dca7678a1041ed05b6071c24454dfde" category="list-text">통합 ID 자격 증명</block>
+  <block id="9ec04e5ecf7230969f472cb3ba28f9d5" category="list-text">NetApp Support 사이트 자격 증명</block>
+  <block id="95161959ea62121420b9e6e6553c5afa" category="inline-image-macro">전자 메일 주소를 입력하라는 메시지가 표시되는 BlueXP 로그인 페이지의 스크린 샷</block>
+  <block id="7fef862357cf2face17cb8062b1f051f" category="paragraph"><block ref="7fef862357cf2face17cb8062b1f051f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9cb7486a7e7f24abb51cfcc8bb6085db" category="list-text">BlueXP를 처음 사용하는 경우 기존 NetApp Support 사이트(NSS) 자격 증명이 있는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
+  <block id="845c6364e1c82b67190dc691538533e1" category="list-text">클라우드 공급자의 마켓플레이스에서 BlueXP를 구독하면 이제 하나의 계정에 대한 기존 구독을 새 구독으로 대체할 수 있습니다.</block>
+  <block id="79ee9d46f0018b3cb493ecfda60ffa4b" category="inline-image-macro">BlueXP 계정의 구독 할당을 보여 주는 스크린샷.</block>
+  <block id="cd56a207e786d73d9abfd43dd2202acd" category="paragraph"><block ref="cd56a207e786d73d9abfd43dd2202acd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1b38e057f0b3e3f883f386f412fd0a9" category="inline-link">AWS 구독을 연결하는 방법을 알아보십시오</block>
+  <block id="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="list-text"><block ref="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="inline-link-rx"></block></block>
+  <block id="72bfd3f607087d94f12332f83b700ab8" category="inline-link">Azure 구독을 연결하는 방법에 대해 알아봅니다</block>
+  <block id="58b7b647775bc09b6b8a9f45df71775b" category="list-text"><block ref="58b7b647775bc09b6b8a9f45df71775b" category="inline-link-rx"></block></block>
+  <block id="1c74f0a5753f74c783e970c346408b4a" category="inline-link">Google Cloud 구독을 연결하는 방법을 알아보십시오</block>
+  <block id="896471f03a9a1e209bebabb5923d2b3e" category="list-text"><block ref="896471f03a9a1e209bebabb5923d2b3e" category="inline-link-rx"></block></block>
+  <block id="f906d086ca70101dd1f218ea0786aee8" category="list-text">이제 BlueXP에서 커넥터 전원이 14일 이상 꺼졌으면 알려 줍니다.</block>
+  <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">BlueXP 알림에 대해 알아보십시오</block>
+  <block id="68f34edaf3c796f179fbe80b3df89f0c" category="list-text"><block ref="68f34edaf3c796f179fbe80b3df89f0c" category="inline-link-rx"></block></block>
+  <block id="752697882fd7ee73f8d5f60a6f8c02f5" category="inline-link">커넥터가 계속 작동하는 이유에 대해 알아보십시오</block>
+  <block id="23f4e22cbf061f84ba77fd79e423d90f" category="list-text"><block ref="23f4e22cbf061f84ba77fd79e423d90f" category="inline-link-rx"></block></block>
+  <block id="1c8a63199471322e5b0fe67deb835f4b" category="list-text">Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리하는 데 필요한 권한을 포함하도록 Google Cloud용 커넥터 정책을 업데이트했습니다.</block>
+  <block id="3503950ea6a1ba87d4be44e07b1a16c8" category="paragraph">compute.instances.updateNetworkInterface</block>
+  <block id="67d29883f03468dc44eefc494f37473e" category="inline-link">Connector에 대한 Google Cloud 권한을 봅니다</block>
+  <block id="cad0970fb2c4e3d28b046315bb4b7f02" category="paragraph"><block ref="ac22e421263f6f828d096313fa20e6a8" category="inline-link-rx"></block>.</block>
+  <block id="fdfef50a14b07533a8bab908a66de10c" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.</block>
+  <block id="e5fa209a01e6f968295b098866e0fcf5" category="paragraph"><block ref="e5fa209a01e6f968295b098866e0fcf5" category="inline-link-rx"></block></block>
+  <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023년 2월 5일</block>
+  <block id="761cba7c96f916f975634bfd465401cb" category="section-title">Azure Data Lake Storage Gen2, ONTAP S3 Storage 및 NFS에 대한 추가 지원</block>
+  <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync은 이제 ONTAP S3 스토리지 및 NFS에 대한 추가 동기화 관계를 지원합니다.</block>
+  <block id="852f9290d6e492b0c65094f3676c0c9b" category="list-text">ONTAP S3 스토리지를 NFS로</block>
+  <block id="84b6c32a0e939d90280ebcdf036f7678" category="list-text">NFS에서 ONTAP S3 스토리지로</block>
+  <block id="444a944798699bf4690bdc286127a9f2" category="paragraph">또한 Cloud Sync는 Azure Data Lake Storage Gen2를 소스 및 타겟 모두에서 추가로 지원합니다.</block>
+  <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">NFS 서버</block>
+  <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB 서버</block>
+  <block id="a68d8b6ae92fdf98aa74ce8cfe41a27f" category="list-text">ONTAP S3 스토리지</block>
+  <block id="5446a6bee3301e1f52824fc0affa6299" category="list-text">IBM 클라우드 오브젝트 스토리지</block>
+  <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">Amazon Web Services 데이터 브로커 운영 체제로 업그레이드하십시오</block>
+  <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS 데이터 브로커용 운영 체제가 Amazon Linux 2022로 업그레이드되었습니다.</block>
+  <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">AWS의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오</block>
+  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>.</block>
+  <block id="078640757da4b274abf89709c42d7741" category="paragraph">다음 변경 사항은 커넥터의 3.9.26 릴리스에 도입되었습니다.</block>
+  <block id="72c6f65b45015ee1135ff4bc2cce8860" category="section-title">AWS에서 반 배정 그룹 생성</block>
+  <block id="b743dbbfdeafb74e0c5a918472cb8000" category="paragraph">이제 AWS HA AZ(단일 가용성 영역) 구축을 통해 반 배정 그룹을 생성할 수 있는 새로운 구성 설정이 제공됩니다. 이제 장애가 발생한 반 배정 그룹 생성을 생략하고 AWS HA 단일 AZ 구축을 성공적으로 완료하도록 선택할 수 있습니다.</block>
+  <block id="a461eabe3ab382f71ac2e2f6d1e640ac" category="inline-link-macro">AWS HA 단일 AZ에 대한 배치 그룹 생성 구성</block>
+  <block id="f8574b4ca8450ebb66b430e6a34a7af0" category="paragraph">반 배정 그룹 생성 설정을 구성하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="76b771ebcb3b2314cb6a5531c78c8c56" category="inline-link-macro-rx"></block>.</block>
+  <block id="6d236ccded1ae841f7032a1cfa719500" category="section-title">개인 DNS 영역 구성 업데이트</block>
+  <block id="c07e7cfc7f9b172f2a6463f65a2a4b56" category="paragraph">Azure Private Links를 사용할 때 개인 DNS 영역과 가상 네트워크 간의 링크를 만들지 않도록 새로운 구성 설정을 사용할 수 있습니다. 생성은 기본적으로 활성화되어 있습니다.</block>
+  <block id="77bb2abfb8f3c95b3fdaf2c2e6814b89" category="inline-link-macro">Azure 프라이빗 DNS에 대한 자세한 내용은 BlueXP를 참조하십시오</block>
+  <block id="b4f6cf785c09e40247b4fa3feac5c2a6" category="paragraph"><block ref="b4f6cf785c09e40247b4fa3feac5c2a6" category="inline-link-macro-rx"></block></block>
+  <block id="9790d5e9d3f702b3255ef268a7bcfc80" category="section-title">WORM 스토리지 및 데이터 계층화</block>
+  <block id="3277463bf1ddcca922f85a2efd92c721" category="paragraph">이제 Cloud Volumes ONTAP 9.8 시스템 이상을 생성할 때 데이터 계층화와 WORM 스토리지를 함께 사용할 수 있습니다. WORM 스토리지를 통한 데이터 계층화를 사용하면 데이터를 클라우드의 오브젝트 저장소에 계층화할 수 있습니다.</block>
+  <block id="2179dc7c2201ce007bdd7f0a37e78d5e" category="inline-link-macro">WORM 스토리지에 대해 자세히 알아보십시오.</block>
+  <block id="fc76ca2a106ecf45415f92e5b6f34f21" category="paragraph"><block ref="fc76ca2a106ecf45415f92e5b6f34f21" category="inline-link-macro-rx"></block></block>
 </blocks>
