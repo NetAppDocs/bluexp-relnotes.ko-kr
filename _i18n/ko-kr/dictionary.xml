@@ -188,14 +188,7 @@
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>.</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
-  <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">2022년 9월 19일</block>
   <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
-  <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">VPC 엔드포인트 인터페이스를 사용하여 전용 연결을 위해 시스템을 구성합니다</block>
-  <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">이전 릴리즈에서는 VPC 엔드포인트를 통해 클러스터를 S3 버킷에 연결하는 안전한 방법을 제공하는 데 시간이 많이 소요되었습니다. 이제 의 필수 단계를 수행할 수 있습니다<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>그런 다음 네트워킹 페이지의 계층화 설정 마법사 중에 PrivateLink를 선택할 수 있습니다.</block>
-  <block id="883959b6b7ad90936b33d524655bc282" category="inline-link">요구 사항 및 단계를 검토하여 비활성 데이터를 Amazon S3에 계층화합니다</block>
-  <block id="93d0679385afbe8961d65715ec42ad95" category="paragraph"><block ref="eae517fc6cf18ab5b51a15743d8fba49" category="inline-link-rx"></block>.</block>
-  <block id="6a22836d972c44908e791a2300d9312a" category="section-title">Cloud Tiering을 Amazon S3로 끌어서 놓기로 설정합니다</block>
-  <block id="84b50dc471c57455cf0359ad021a8c58" category="paragraph">Amazon S3 계층화 대상이 Canvas의 작업 환경으로 존재하는 경우, 내부 ONTAP 작업 환경을 대상으로 끌어서 계층화 설정 마법사를 시작할 수 있습니다.</block>
   <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">이제 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 가져올 수 있습니다.</block>
   <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">OpenShift의 Kubernetes 클러스터 요구사항</block>
   <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
@@ -222,16 +215,12 @@
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">설정 및 관리</block>
   <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
-  <block id="c3d7ada1f42d9b916dd8624c5b5661c1" category="section-title">계층화 마법사를 사용하면 S3 스토리지로 계층화할 때 AWS PrivateLink를 구성할 수 있습니다</block>
-  <block id="bf482155aab691ba59a0313f5628cbba" category="section-title">MetroCluster 구성에서 미러 오브젝트 저장소를 제거할 때 계층화 동작을 선택합니다</block>
-  <block id="cd71992689f7bdbde4a7c9f0653f44f3" category="paragraph">MetroCluster 구성에서 미러 오브젝트 저장소를 제거할 때 운영 오브젝트 저장소도 제거할지 묻는 메시지가 표시됩니다. 주 오브젝트 저장소를 애그리게이트에 계속 부착하도록 선택하거나 제거할 수 있습니다.</block>
   <block id="24107a8e1555736c2428c199a70f695f" category="summary">본 릴리즈 노트에서는 BlueXP(이전의 Cloud Manager)의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.</block>
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP 릴리스 정보</block>
   <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP의 Cloud Volumes ONTAP 관리 릴리스 정보</block>
   <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
   <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 각 개별 서비스에 대한 전체 릴리스 정보 세트로 이동하십시오.</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">BlueXP의 최근 변경 사항</block>
-  <block id="1262adaf755b126adfb35787960ae9ac" category="paragraph">BlueXP 플랫폼(이전의 Cloud Manager)의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">BlueXP 소개</block>
   <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">BlueXP에 대해 자세히 알아보십시오</block>
   <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다.<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
@@ -282,14 +271,6 @@
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">Azure Blob, Google Cloud Storage 또는 StorageGRID 계층화 대상이 Canvas의 작업 환경으로 존재하는 경우, 내부 ONTAP 작업 환경을 대상으로 끌어서 계층화 설정 마법사를 시작할 수 있습니다.</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022년 12월 4일</block>
-  <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">커넥터 3.9.24</block>
-  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="609db1dbd04bb2ee742cb4078546018c" category="list-text">BlueXP 콘솔의 URL을 로 업데이트했습니다<block ref="d4d03fd3c2a1ab003ebd5cf52ee8df58" category="inline-link-rx"></block></block>
-  <block id="4a11791a9bd4070a9cb5e2e709d06351" category="list-text">Connector는 현재 Google Cloud 이스라엘 지역에서 지원됩니다.</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.</block>
-  <block id="242cf97b6ce4408dde25722d6b0e37f9" category="list-text"><block ref="242cf97b6ce4408dde25722d6b0e37f9" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
-  <block id="4703fae8488338a7ad69a5cd4347caf3" category="list-text"><block ref="4703fae8488338a7ad69a5cd4347caf3" category="inline-link-rx"></block></block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">다음 변경 사항은 커넥터의 3.9.24 릴리스에 도입되었습니다.</block>
   <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">사내 ONTAP 클러스터를 검색하는 새로운 방법</block>
   <block id="d69d6ceca70ae4e3b7cf6949930f5168" category="paragraph">이제 커넥터를 사용하지 않고도 온프레미스 ONTAP 클러스터를 직접 검색할 수 있습니다. 이 옵션은 System Manager를 통해서만 클러스터 관리를 지원합니다. 이러한 유형의 작업 환경에서는 BlueXP 데이터 서비스를 활성화할 수 없습니다.</block>
@@ -340,7 +321,6 @@
   <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
   <block id="e29eef6ae64d545134f2b42984845a94" category="section-title">2022년 12월 19일</block>
   <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">SAP HANA 데이터베이스</block>
-  <block id="feb69ad1d8975111fe86bbc94b823a7f" category="list-text">Azure NetApp Files(ANF)에 상주하는 SAP HANA 데이터베이스의 정책 기반 백업 및 복원 지원</block>
   <block id="d5a365014bbbc5172b423043fb2a2501" category="list-text">사용자 지정 정책을 지원합니다</block>
   <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Oracle 데이터베이스</block>
   <block id="aa6dc7e308fa4a4875c447c8e7fa4a19" category="list-text">호스트를 추가하고 플러그인을 자동으로 구축합니다</block>
@@ -436,15 +416,6 @@
   <block id="380fe7c3627610af34c9936f46325923" category="paragraph">이제 를 사용하도록 선택할 수 있습니다 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
   <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">이제 가능합니다 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
-  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
-  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">내 기회를 사용하여 ONTAP용 FSx를 검색합니다</block>
-  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
-  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">처리량 용량을 변경합니다</block>
-  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">이제 가능합니다 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
-  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">데이터 복제 및 동기화</block>
-  <block id="897d994d4d024883042e664eba152417" category="list-text">이제 가능합니다 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.</block>
-  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다</block>
-  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">이제 가능합니다 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>.</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">이전 버전의 Cloud Data Sense에서는 특정 중요 정책이 결과를 반환할 때 계정의 BlueXP 사용자에게 전자 메일 알림을 보낼 수 있습니다. 이 기능을 사용하면 온라인 상태가 아닐 때 데이터를 보호하기 위한 알림을 받을 수 있습니다. 이제 BlueXP 계정에 없는 다른 모든 사용자(최대 20개의 이메일 주소)에게 정책의 이메일 알림을 보낼 수 있습니다.</block>
@@ -545,4 +516,35 @@
   <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>.</block>
   <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>.</block>
   <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">커넥터 아웃바운드 인터넷 액세스 엔드포인트 변경</block>
+  <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
+  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">커넥터 3.9.27</block>
+  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">이제 BlueXP 콘솔에서 검색을 사용할 수 있습니다. 현재 검색을 사용하여 BlueXP 서비스 및 기능을 찾을 수 있습니다.</block>
+  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">콘솔 상단에 있는 BlueXP 검색 스크린샷.</block>
+  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="list-text">BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.</block>
+  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">지원 사례를 관리하는 방법에 대해 알아보십시오</block>
+  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
+  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
+  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">커넥터에 대한 시스템 요구 사항을 봅니다</block>
+  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
+  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
+  <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
+  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
+  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
+  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">커넥터의 BlueXP 콘솔에 액세스합니다</block>
+  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
+  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">할당되지 않은 라이센스를 추가합니다</block>
+  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
+  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">Cloud Volumes ONTAP를 시작하십시오</block>
+  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
+  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.</block>
+  <block id="fcdf1a1b46f3b7e8ad6ff82010438a90" category="list-text">Azure NetApp Files에 상주하는 SAP HANA 데이터베이스의 정책 기반 백업 및 복원을 지원합니다</block>
+  <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">이제 볼륨에 대한 계층화 보고서를 생성할 수 있습니다</block>
+  <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">계층화 보고서를 다운로드하는 방법을 확인하십시오</block>
+  <block id="10607665fc9de51ae2bf29927d3673b9" category="paragraph">계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. Cloud Tiering은 필요한 경우 회사 내 다른 사람에게 검토 및 보낼 수 있는 .csv 파일을 생성합니다.<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>.</block>
+  <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.</block>
 </blocks>
