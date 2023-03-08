@@ -572,4 +572,9 @@
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">새로운 랜섬웨어 복구 대시보드가 추가되어 공격으로부터 시스템을 복구할 수 있습니다</block>
   <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">랜섬웨어 복구 대시보드는 랜섬웨어에 감염되었을 수 있는 데이터를 복구하는 옵션을 제공합니다. 이를 통해 시스템을 매우 빠르게 백업 및 실행할 수 있습니다. 이때 복구 작업을 수행하면 손상된 볼륨을 랜섬웨어의 영향을 받지 않는 스냅샷 복사본으로 대체할 수 있습니다.<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>.</block>
+  <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3 스토리지</block>
+  <block id="e27ba65d55db98b6fd6764580355edcf" category="list-text"><block ref="e27ba65d55db98b6fd6764580355edcf" category="inline-link-rx"></block></block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
+  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
 </blocks>
