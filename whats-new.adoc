@@ -854,15 +854,15 @@ Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 
 
 
 
-==== 2e79231a13ecf62585403e20da2dea4a
+==== 라이센스 탭이 제거되었습니다
 
-d4a0c23b533adffe42d63c23035edd5c
+Licensing 탭이 Cloud Tiering 인터페이스에서 제거되었습니다. PAYGO(pay-as-you-go) 서브스크립션에 대한 모든 라이센스는 이제 Cloud Tiering on-premise 대시보드에서 액세스할 수 있습니다. 또한 이 페이지에서 Digital Wallet으로 연결되는 링크를 통해 Cloud Tiering BYOL(Bring-Your-Own-License) 방식으로 모든 Cloud Tiering을 확인 및 관리할 수 있습니다.
 
 
 
-==== 66a0b4752150538292b81c073ca0b83b
+==== 계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다
 
-10d9a166ad36cdda1e0585914ac18d5f
+"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.
 
 
 
