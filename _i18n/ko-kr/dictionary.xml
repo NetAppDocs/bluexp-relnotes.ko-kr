@@ -159,17 +159,10 @@
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다</block>
   <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">라이센스 구성 중에 LMS(License Management Server)에서 NetApp/Zuora로부터 라이센스 세부 정보를 수집하기 위해 인터넷에 액세스할 수 있어야 합니다. 구성이 성공적으로 완료되면 LMS는 제한된 환경에도 불구하고 오프라인 모드에서 계속 작업하고 라이선스 기능을 제공할 수 있습니다.</block>
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다</block>
-  <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">사내 ONTAP 클러스터</block>
-  <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS의 Kubernetes 클러스터 요구사항</block>
-  <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
-  <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure의 Kubernetes 클러스터 요구사항</block>
-  <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
-  <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Google Cloud의 Kubernetes 클러스터 요구사항</block>
-  <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
   <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022년 9월 4일</block>
   <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">추가 Google 드라이브 지원</block>
   <block id="38e24a385d32651afeede647ae09290f" category="list-text">Cloud Sync는 이제 Google 드라이브에 대한 추가 동기화 관계를 지원합니다.</block>
@@ -189,16 +182,9 @@
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
-  <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">이제 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 가져올 수 있습니다.</block>
-  <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">OpenShift의 Kubernetes 클러스터 요구사항</block>
-  <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
-  <block id="f82e729d73d970e1bd3789638aed5dca" category="inline-link-macro">Cloud Manager에 OpenShift 클러스터를 추가합니다</block>
-  <block id="049c95d2615dd6bba6242ffae7eae5fe" category="list-text"><block ref="049c95d2615dd6bba6242ffae7eae5fe" category="inline-link-macro-rx"></block></block>
-  <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정할 수 있습니다.</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">다음 변경 사항은 커넥터의 3.9.22 릴리스에 도입되었습니다.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">새 개요 페이지</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">사내 ONTAP 클러스터에 대한 주요 정보를 제공하는 새로운 개요 페이지가 도입되었습니다. 예를 들어, 이제 스토리지 효율성, 용량 배포, 시스템 정보와 같은 세부 정보를 볼 수 있습니다.</block>
-  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">또한 데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 NetApp 클라우드 서비스와의 통합에 대한 자세한 정보를 확인할 수 있습니다.</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">온프레미스 ONTAP 클러스터의 개요 페이지를 보여 주는 스크린샷</block>
   <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">볼륨 페이지를 다시 디자인했습니다</block>
@@ -293,9 +279,6 @@
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
   <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023년 1월 1일</block>
-  <block id="e139aa454163ce195b3669d769c3f1c8" category="section-title">커넥터 3.9.25</block>
-  <block id="ab010f0ae1d3cb2043f9513a1f81beea" category="paragraph">이 커넥터 릴리스에는 Cloud Volumes ONTAP 개선 사항 및 버그 수정 사항이 포함되어 있습니다.</block>
-  <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
   <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">이전 끝점</block>
   <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">새 끝점</block>
   <block id="115781a0043a85f8707c5c99fd02dc75" category="cell">https://cloudmanager.cloud.netapp.com 으로 문의하십시오</block>
@@ -318,15 +301,6 @@
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">Google Cloud의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오</block>
   <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>.</block>
   <block id="c433416a8f427b90caab6f6eed1f6323" category="paragraph">Cloud Tiering의 변경으로 인해 Cloud Tiering 작업의 성공을 위해 다음 Connector 엔드포인트를 변경해야 합니다.</block>
-  <block id="3c757e219167079b631dfcb5b1d0c339" category="paragraph">다음 변경 사항은 커넥터의 3.9.25 릴리스에 도입되었습니다.</block>
-  <block id="234213185a1ffd45429411672de5d3e7" category="section-title">Google Cloud에서 사용 가능한 라이센스 패키지</block>
-  <block id="54aeb573897a8b2a0c9627ff7030c996" category="paragraph">최적화된 에지 캐시 용량 기반 라이센스 패키지는 Google Cloud Marketplace에서 Cloud Volumes ONTAP에 대해 용량제 오퍼링을 제공하거나 연간 계약으로 제공됩니다.</block>
-  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link-macro">Cloud Volumes ONTAP 라이센스</block>
-  <block id="d1f7ea60f001f689d734c007e925b17e" category="paragraph">을 참조하십시오 <block ref="0fb2e984675bc2d20107c292ded47d43" category="inline-link-macro-rx"></block>.</block>
-  <block id="f280b5a5c0eeaf41d31a8a2661b341cb" category="section-title">Cloud Volumes ONTAP의 기본 구성입니다</block>
-  <block id="fced3090ff990434831b838f07c6a3a7" category="paragraph">MTEKM(멀티 테넌트 암호화 키 관리) 라이센스는 새 Cloud Volumes ONTAP 배포에 더 이상 포함되지 않습니다.</block>
-  <block id="a1299d36f8821164c4414c1a5ab986dd" category="inline-link-macro">Cloud Volumes ONTAP의 기본 구성</block>
-  <block id="a8e8ca53febeb9bd58edbc0647eb9a34" category="paragraph">Cloud Volumes ONTAP와 함께 자동으로 설치되는 ONTAP 기능 라이센스에 대한 자세한 내용은 를 참조하십시오 <block ref="79578e78303d1a240e8fa9c178a9de63" category="inline-link-macro-rx"></block>.</block>
   <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP 자격 증명을 저장합니다</block>
   <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.</block>
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보십시오.</block>
@@ -366,8 +340,6 @@
   <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023년 1월 1일</block>
   <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">자동 용량 관리</block>
   <block id="380fe7c3627610af34c9936f46325923" category="paragraph">이제 를 사용하도록 선택할 수 있습니다 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.</block>
-  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
-  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">이제 가능합니다 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">이전 버전의 Cloud Data Sense에서는 특정 중요 정책이 결과를 반환할 때 계정의 BlueXP 사용자에게 전자 메일 알림을 보낼 수 있습니다. 이 기능을 사용하면 온라인 상태가 아닐 때 데이터를 보호하기 위한 알림을 받을 수 있습니다. 이제 BlueXP 계정에 없는 다른 모든 사용자(최대 20개의 이메일 주소)에게 정책의 이메일 알림을 보낼 수 있습니다.</block>
@@ -433,19 +405,6 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS 데이터 브로커용 운영 체제가 Amazon Linux 2022로 업그레이드되었습니다.</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">AWS의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>.</block>
-  <block id="078640757da4b274abf89709c42d7741" category="paragraph">다음 변경 사항은 커넥터의 3.9.26 릴리스에 도입되었습니다.</block>
-  <block id="72c6f65b45015ee1135ff4bc2cce8860" category="section-title">AWS에서 반 배정 그룹 생성</block>
-  <block id="b743dbbfdeafb74e0c5a918472cb8000" category="paragraph">이제 AWS HA AZ(단일 가용성 영역) 구축을 통해 반 배정 그룹을 생성할 수 있는 새로운 구성 설정이 제공됩니다. 이제 장애가 발생한 반 배정 그룹 생성을 생략하고 AWS HA 단일 AZ 구축을 성공적으로 완료하도록 선택할 수 있습니다.</block>
-  <block id="a461eabe3ab382f71ac2e2f6d1e640ac" category="inline-link-macro">AWS HA 단일 AZ에 대한 배치 그룹 생성 구성</block>
-  <block id="f8574b4ca8450ebb66b430e6a34a7af0" category="paragraph">반 배정 그룹 생성 설정을 구성하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="76b771ebcb3b2314cb6a5531c78c8c56" category="inline-link-macro-rx"></block>.</block>
-  <block id="6d236ccded1ae841f7032a1cfa719500" category="section-title">개인 DNS 영역 구성 업데이트</block>
-  <block id="c07e7cfc7f9b172f2a6463f65a2a4b56" category="paragraph">Azure Private Links를 사용할 때 개인 DNS 영역과 가상 네트워크 간의 링크를 만들지 않도록 새로운 구성 설정을 사용할 수 있습니다. 생성은 기본적으로 활성화되어 있습니다.</block>
-  <block id="77bb2abfb8f3c95b3fdaf2c2e6814b89" category="inline-link-macro">Azure 프라이빗 DNS에 대한 자세한 내용은 BlueXP를 참조하십시오</block>
-  <block id="b4f6cf785c09e40247b4fa3feac5c2a6" category="paragraph"><block ref="b4f6cf785c09e40247b4fa3feac5c2a6" category="inline-link-macro-rx"></block></block>
-  <block id="9790d5e9d3f702b3255ef268a7bcfc80" category="section-title">WORM 스토리지 및 데이터 계층화</block>
-  <block id="3277463bf1ddcca922f85a2efd92c721" category="paragraph">이제 Cloud Volumes ONTAP 9.8 시스템 이상을 생성할 때 데이터 계층화와 WORM 스토리지를 함께 사용할 수 있습니다. WORM 스토리지를 통한 데이터 계층화를 사용하면 데이터를 클라우드의 오브젝트 저장소에 계층화할 수 있습니다.</block>
-  <block id="2179dc7c2201ce007bdd7f0a37e78d5e" category="inline-link-macro">WORM 스토리지에 대해 자세히 알아보십시오.</block>
-  <block id="fc76ca2a106ecf45415f92e5b6f34f21" category="paragraph"><block ref="fc76ca2a106ecf45415f92e5b6f34f21" category="inline-link-macro-rx"></block></block>
   <block id="4378789701cd2498a252a52806a1f3a4" category="section-title">2023년 2월 6일</block>
   <block id="86763912a3fb720760d95338a077e264" category="section-title">StorageGRID 시스템에서 이전 백업 파일을 Azure 아카이브 스토리지로 이동하는 기능입니다</block>
   <block id="56182657e28c8dfde64ef2386feb1cde" category="paragraph">이제 StorageGRID 시스템의 이전 백업 파일을 Azure의 아카이브 스토리지로 계층화할 수 있습니다. 이를 통해 StorageGRID 시스템의 공간을 절약하고, 이전 백업 파일에 저렴한 스토리지 클래스를 사용하여 비용을 절감할 수 있습니다.</block>
@@ -479,7 +438,6 @@
   <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
   <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">커넥터에 대한 시스템 요구 사항을 봅니다</block>
   <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
-  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
   <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
   <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
   <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
@@ -526,10 +484,6 @@
   <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">설치 감사 로그 파일은 지금 저장되며 에 기록됩니다<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>.</block>
   <block id="9a8e487c18ad9b8cacca43174094061d" category="section-title">이제 데이터 감지 UI에서 개인 패턴을 추가할 수 있습니다</block>
   <block id="eed8585d0b45afc4676b1c89f6f22a9a" category="paragraph">다음 변경 사항은 커넥터의 3.9.27 릴리스에 도입되었습니다.</block>
-  <block id="e2c7f196cec5020e2b840087f6a8e068" category="section-title">Azure에서 16TiB 및 32TiB 지원</block>
-  <block id="bfb9ab5387a727da709a7377d950cee0" category="paragraph">이제 Cloud Volumes ONTAP는 16TiB 및 32TiB 디스크 크기를 지원하여 Azure의 관리 대상 디스크에서 실행되는 고가용성 배포를 지원합니다.</block>
-  <block id="8f9e72f80a7dd402a28a4b46aca286f9" category="inline-link">Azure에서 지원되는 디스크 크기입니다</block>
-  <block id="9bc26ebd17008cdc39569edf382f0b5e" category="paragraph">에 대해 자세히 알아보십시오<block ref="e55b1d7df019ac083c7ffec036e8de25" category="inline-link-rx"></block>.</block>
   <block id="1bbedbfdc08c3ed9498540dc734fa96a" category="section-title">MTEKM 라이센스</block>
   <block id="3cc0e97defd245de4dee36cae1e4c485" category="paragraph">이제 MTEKM(멀티 테넌트 암호화 키 관리) 라이센스가 버전 9.12.1 GA 이상을 실행하는 새로운 기존 Cloud Volumes ONTAP 시스템과 함께 포함됩니다.</block>
   <block id="c43a4aedaaa96e7a4c838a24978b6052" category="paragraph">멀티 테넌트 외부 키 관리를 통해 NetApp Volume Encryption을 사용할 때 개별 스토리지 VM(SVM)이 KMIP 서버를 통해 자체 키를 유지할 수 있습니다.</block>
@@ -555,7 +509,6 @@
   <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">Cloud Volumes ONTAP 데이터를 Amazon S3에 백업</block>
   <block id="a5e6246728060cb5f413df6fa5adbf0c" category="inline-link-macro">Azure Blob에 Cloud Volumes ONTAP 데이터 백업</block>
   <block id="aef1b3252b7a5b85dab7066cccc19b52" category="paragraph">이제 AWS 및 Azure 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 Amazon S3 또는 Azure Blob으로 백업할 수 있습니다. 이 작업을 수행하려면 상업 지역의 Linux 호스트에 커넥터를 설치하고 Cloud Volumes ONTAP 시스템도 배포해야 합니다. 을 참조하십시오 <block ref="31e49e13e812c331f506a2a8e6b7ad22" category="inline-link-macro-rx"></block> 및 <block ref="ab5c78f08c8780b598ee1d4de19230ab" category="inline-link-macro-rx"></block>.</block>
-  <block id="463ed6b78b2c95e39ecc10ee3195e921" category="section-title">작업 모니터는 특정 백업 또는 복원 작업을 찾을 수 있는 고급 필터링을 제공합니다</block>
   <block id="1cdf820a77c583c660d65df7b1ca03b8" category="inline-link">고급 필터 사용 방법을 확인하십시오</block>
   <block id="aa3492539222da5bc85fd5614f489f71" category="paragraph">작업 모니터링 페이지에 고급 필터링이 추가되어 시간, 워크로드(볼륨, 애플리케이션, 가상 머신 또는 Kubernetes) 별로 백업 및 복원 작업을 검색할 수 있습니다. 작업 유형, 상태, 작업 환경 및 스토리지 VM "application_3"과 같은 자원 검색을 위해 자유 텍스트를 입력할 수도 있습니다. <block ref="f726054cf0d935cd51c2a5edb3b3fd0c" category="inline-link-rx"></block>.</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">EBS Encryption for AWS 데이터 브로커</block>
@@ -565,4 +518,59 @@
   <block id="5b420079bca1c870914caa221b31442e" category="section-title">Cloud Volumes ONTAP 9.13.0</block>
   <block id="ad598f033e541927e862b0c5e17319ec" category="paragraph">이제 BlueXP는 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.13.0을 배포하고 관리할 수 있습니다.</block>
   <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>.</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
+  <block id="a62f3b1b0c4abf78f5d81609e7bdd908" category="section-title">커넥터 3.9.28</block>
+  <block id="a08572617e25a61e8569807ac103ab07" category="list-text">이제 디지털 지갑에서 이메일 알림이 지원됩니다.</block>
+  <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.</block>
+  <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">이메일 알림을 설정하는 방법에 대해 알아봅니다</block>
+  <block id="e16804d7658f4d3132a1170b8cec7c7e" category="paragraph"><block ref="9ce9eb475c326d02a5c224ef8589bc0a" category="inline-link-rx"></block>.</block>
+  <block id="1ba259cc1a092c9c30c1a18ccc612c75" category="list-text">Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.</block>
+  <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
+  <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
+  <block id="e9c35e9b853bc286e0f3b1a7ee2e338a" category="list-text">이제 BlueXP에서 VMware vCenter Server를 검색할 수 있습니다.</block>
+  <block id="a5b1ab8743c3279fbcf5a93dcd6de23d" category="paragraph">AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작업 환경을 열어 서버와 연결된 데이터 저장소 및 가상 머신에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="10cc8c1f48423a72bf1e617861999cae" category="paragraph">버전 7.0 이상을 실행하는 VMware vCenter Server에 대한 연결이 있는 Connector만 필요합니다.</block>
+  <block id="70843c2315ee9e00dc50f03225c92953" category="paragraph">시작하려면 * 작업 환경 추가 * 를 선택하고 * Amazon Web Services * 또는 * On-Premises * 를 선택한 다음 * VMware vCenter Server * 를 선택합니다. 서버의 도메인 이름 또는 IP 주소를 입력한 다음 admin 사용자의 사용자 이름 및 암호를 입력합니다.</block>
+  <block id="fb378d84e11ead1b2c8c57bfabde81de" category="list-text">이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.</block>
+  <block id="f06293a36a992a2a1b8c6f6572b6caf8" category="paragraph">설정 &gt; 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.</block>
+  <block id="4e46804b204e02c9bd12cc6d7232cca6" category="list-text">이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.</block>
+  <block id="72c3a2be47cc6617cea246e89af67993" category="inline-link">지원 케이스를 생성하고 관리하는 방법에 대해 알아보십시오</block>
+  <block id="6d69140f9b878e098eb9bfcd623c9dbd" category="paragraph"><block ref="7f3b2cbcf14ed0f5a85962e6b9e3eba8" category="inline-link-rx"></block>.</block>
+  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.</block>
+  <block id="e19c064fcb68059e563bb5bfdd31cac1" category="list-text"><block ref="e19c064fcb68059e563bb5bfdd31cac1" category="inline-link-rx"></block></block>
+  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
+  <block id="9e8ad418161e776fb398db9af34585c3" category="list-text"><block ref="9e8ad418161e776fb398db9af34585c3" category="inline-link-rx"></block></block>
+  <block id="a8709880418b83b1477f57ddb74c84e3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="1442489a4cf0ea56df2e53ec47c70ec8" category="section-title">작업 모니터의 여러 가지 개선 사항</block>
+  <block id="bf2bb33000b51334f72c2e394ff56247" category="list-text">클라우드 백업 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 지속적인 백업 작업과 같은 시스템 시작 작업은 이제 ONTAP 9.13.0 이상을 실행하는 Cloud Volumes ONTAP 시스템의 * 작업 모니터링 * 탭에서 모두 사용할 수 있습니다. 이전 버전의 Cloud Volumes ONTAP 시스템 및 온-프레미스 ONTAP 시스템은 현재 사용자가 시작한 작업만 표시합니다.</block>
+  <block id="0eeac28a6eb03f47165f3c65b5e13cea" category="section-title">2023년 3월 13일</block>
+  <block id="5eeac325d343b1bb90074e1be60dd1ae" category="section-title">중국 지역 지원</block>
+  <block id="f3818f17dde36b1601ccfef8ceab6cbe" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA부터 중국 지역 지원이 Azure에서 다음과 같이 지원됩니다.</block>
+  <block id="49b72186e2fe2638cbb520201b58bc02" category="list-text">Cloud Volumes ONTAP는 중국 북부에서 지원됩니다. 3.</block>
+  <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">단일 노드 시스템이 지원됩니다.</block>
+  <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">NetApp에서 직접 구매한 라이센스가 지원됩니다.</block>
+  <block id="13615a82d1149a992b363c411914d3b8" category="inline-link-macro">Cloud Volumes ONTAP를 위한 글로벌 지역 맵</block>
+  <block id="39aeb3e37839611b14bfa6c7390065c1" category="paragraph">지역별 이용 가능 여부는 를 참조하십시오 <block ref="69e22a6a63d14aa651819a20b96c9cc5" category="inline-link-macro-rx"></block>.</block>
+  <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="section-title">경제적인 효율성</block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023년 4월 2일</block>
+  <block id="6a96f2962c3be88d01a2e04f7bb4006f" category="paragraph">새로운 경제 효율성 서비스는 현재 또는 예상되는 낮은 용량의 클러스터를 식별하고, 데이터 계층화나 사내 AFF 시스템의 추가 용량에 대한 권장 사항을 제공합니다.</block>
+  <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link-macro">이 새로운 서비스에 대해 자세히 알아보십시오</block>
+  <block id="38532dd1586dac78ea99ce1216e1f352" category="paragraph"><block ref="6e51c6b9ced37d3ad7414d5e4d1ac63a" category="inline-link-macro-rx"></block>.</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXP 콘솔에서 단일 검색 옵션</block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXP 콘솔에서 온-프레미스 ONTAP 클러스터를 검색할 때 단일 옵션이 표시됩니다.</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">작업 환경을 만들 때 사용할 수 있는 온-프레미스 ONTAP 검색 옵션을 보여 주는 스크린샷</block>
+  <block id="aea8878e3e5cb0f622cbe596cc98ef50" category="paragraph"><block ref="aea8878e3e5cb0f622cbe596cc98ef50" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">이전에는 직접 검색 및 Connector를 사용한 검색을 위한 별도의 흐름이 있었습니다. 이러한 두 옵션은 모두 사용할 수 있지만 단일 플로우로 병합됩니다.</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">검색 프로세스를 시작하면 BlueXP는 다음과 같이 클러스터를 검색합니다.</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP는 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">커넥터가 없거나 커넥터가 ONTAP 클러스터에 연결되지 않은 경우 BlueXP는 직접 검색 및 관리 옵션을 자동으로 사용합니다.</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
+  <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>.</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">또한 데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 BlueXP 서비스와의 통합에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
+  <block id="1630a937eacb69072b241ed94c9fd786" category="paragraph">새로운 운영 복구 서비스 및 자동화된 IT 운영 위험 개선 제안을 사용하면 가동 중단 또는 장애가 발생하기 전에 권장되는 해결 방법을 구현할 수 있습니다.</block>
+  <block id="ccdc113a6d04ad73b22b032c1ebd7c63" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스 범주입니다.</block>
+  <block id="111e68f453d93697e376aa4b128f9a4c" category="paragraph"><block ref="ab8039366481dc33ac47cc2a37c277c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
+  <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
 </blocks>

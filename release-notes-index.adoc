@@ -47,7 +47,9 @@ permalink: release-notes-index.html
 * https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["Cloud Sync"^]
 * https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["클라우드 계층화"^]
 * https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["컴퓨팅"^]
+* https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["경제적인 효율성"^]
 * https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["글로벌 파일 캐시"^]
+* https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["운영 복원력"^]
 * https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["랜섬웨어 보호"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["복제"^]
 
