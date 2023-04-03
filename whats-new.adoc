@@ -65,7 +65,7 @@ AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작
 설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
 
 +
-551a80734187b23f5368b6a5609f3de3
+link:task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
 
 * 이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.
 +
@@ -850,6 +850,22 @@ Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 
 
 
 
+=== 2023년 4월 3일
+
+
+
+==== 2e79231a13ecf62585403e20da2dea4a
+
+d4a0c23b533adffe42d63c23035edd5c
+
+
+
+==== 66a0b4752150538292b81c073ca0b83b
+
+10d9a166ad36cdda1e0585914ac18d5f
+
+
+
 === 2023년 3월 5일
 
 
@@ -879,16 +895,6 @@ Cloud Tiering의 변경으로 인해 Cloud Tiering 작업의 성공을 위해 �
 | https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://*.api.bluexp.netapp.com 으로 문의하십시오 
 |===
 의 전체 끝점 목록을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["설치하고"^], https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google 클라우드"^], 또는 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure를 지원합니다"^] 설명합니다.
-
-
-
-=== 2022년 11월 6일
-
-
-
-==== 끌어서 놓기로 Azure Blob, Google Cloud Storage 및 StorageGRID에 Cloud Tiering을 사용할 수 있습니다
-
-Azure Blob, Google Cloud Storage 또는 StorageGRID 계층화 대상이 Canvas의 작업 환경으로 존재하는 경우, 내부 ONTAP 작업 환경을 대상으로 끌어서 계층화 설정 마법사를 시작할 수 있습니다.
 
 
 
