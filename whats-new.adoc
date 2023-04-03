@@ -229,8 +229,8 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 === 2023년 4월 2일
 
-* 9a2a26c33c1a0f6b14b7bb3a214dbaf0
-* 9af9b754c1d16f271c1e6f4b1b2c4f4d
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["ONTAP용 FSx에서 FlexGroup를 생성합니다"^] 볼륨: 볼륨 데이터를 클러스터 전체에 분산합니다.
+* IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.
 
 
 
@@ -550,29 +550,29 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.htm
 
 
 
-=== c7326baf2ea51b61fafa4f4680d916c0
+=== 2 2023년 4월
 
 
 
-==== 9c305cf5f9f8051acc945eda0fc8a1be
+==== Azure Data Lake Storage Gen2 관계에 대한 추가 지원
 
-61babc330ca2ea0af752965dd3965d41
+이제 다음을 통해 Azure Data Lake Storage Gen2를 소스 및 타겟으로 동기화 관계를 생성할 수 있습니다.
 
 * Azure NetApp Files
 * ONTAP용 Amazon FSx
 * Cloud Volumes ONTAP
-* a37b0a91d7c4d8ac6ce924a7f8e1ce5a
+* 사내 ONTAP
 
 
 https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계에 대해 자세히 알아보십시오"].
 
 
 
-==== ad5a82acd30f0d971a29fdb4632bd7d4
+==== 전체 경로를 기준으로 디렉토리를 필터링합니다
 
-b7395f4da221ab7779cce11224436fb3
+이름을 기준으로 디렉토리를 필터링하는 것 외에도 전체 경로를 기준으로 디렉토리를 필터링할 수 있습니다.
 
-c73e2e476b1a94d1d032f8e0828dcd20
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["디렉터리 제외 설정에 대해 자세히 알아보세요"].
 
 
 
@@ -904,42 +904,42 @@ Cloud Tiering의 변경으로 인해 Cloud Tiering 작업의 성공을 위해 �
 
 === 2023년 4월 3일
 
-2dfd965acb2426b281b13a70df99c06b
+다음 변경 사항은 커넥터의 3.9.28 릴리스에 도입되었습니다.
 
 
 
-==== 671e2a59b2bfa852def9660bf14badde
+==== 디지털 지갑 기능 향상
 
-d3ab2a9ddd985032aa120324e6da3710
+Digital Wallet은 이제 시장 프라이빗 오퍼와 함께 구입한 라이선스 용량을 표시합니다.
 
-41ed2f596edd466ead9a03a4cdcb3b22
-
-
-
-==== 6ee7d527518e93562cc9e691d20fb1d5
-
-ac14eb6382fa5b619966ba72622ecd3f
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다"].
 
 
 
-==== 231ea98554191e640c216736796158d5
+==== 볼륨 생성 중 주석 지원
 
-1cc55fcb982bea0e8f241a1271bda985
-
-23fbfdbb598644432ab089fa6e533405
+이 릴리즈를 사용하면 API를 사용할 때 Cloud Volumes ONTAP FlexGroup 볼륨 또는 FlexVol 볼륨을 생성할 때 주석을 작성할 수 있습니다.
 
 
 
-==== 6fff4762fc0aeb74dd0a918683c157ae
+==== Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지를 위한 BlueXP 사용자 인터페이스 재설계
 
-8d40e6e8379382ee39fba2c4a1cb5629
+BlueXP는 이제 Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지에 대한 사용자 인터페이스를 새롭게 설계했습니다. 타일 기반 디자인은 각 타일에 보다 포괄적인 정보를 제공하여 사용자 경험을 향상시킬 수 있습니다.
+
+image:screenshot-resource-page-rn.png["이 스크린샷은 Cloud Volumes ONTAP 개요 페이지에서 재설계된 BlueXP 사용자 인터페이스를 보여줍니다. 다양한 타일이 스토리지 효율성, 버전, 용량 배포, Cloud Volumes ONTAP 구축, 볼륨, 애그리게이트, 복제 및 백업에 대한 정보를 보여줍니다."]
 
 
-NOTE: 905d8520d584560b3995118b2a01f6c2
 
-ce46ac36501bd1de8616d715ef7ee1c2
+==== FlexGroup 볼륨은 Cloud Volumes ONTAP를 통해 볼 수 있습니다
 
-acef74218ad5e199582b5c76062e5559
+CLI 또는 System Manager를 통해 직접 생성된 FlexGroup 볼륨은 이제 BlueXP의 재설계된 볼륨 타일을 통해 볼 수 있습니다. FlexVol 볼륨에 대해 제공된 정보와 동일한 BlueXP는 전용 볼륨 타일을 통해 생성된 FlexGroup 볼륨에 대한 자세한 정보를 제공합니다.
+
+
+NOTE: 현재 BlueXP에서만 기존 FlexGroup 볼륨을 볼 수 있습니다. BlueXP에서 FlexGroup 볼륨을 생성하는 기능은 사용할 수 없지만 향후 릴리스에서 제공될 예정입니다.
+
+image:screenshot-show-flexgroup-volume.png["볼륨 타일 아래에 FlexGroup 볼륨 아이콘 호버 텍스트를 보여 주는 스크린샷"]
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-volumes.html["생성된 FlexGroup 볼륨을 보는 방법에 대해 자세히 알아보십시오."^]
 
 
 
@@ -1165,7 +1165,7 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 
 === 2023년 4월 2일
 
-* ffb0a040d2831585e0b568e5514270de
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Astra Trident를 제거합니다"] Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.
 * 사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.
 
 

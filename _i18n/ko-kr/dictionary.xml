@@ -572,4 +572,35 @@
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">사용자 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
   <block id="551a80734187b23f5368b6a5609f3de3" category="paragraph"><block ref="cf16e3f2aabf285f3de8d29b23130725" category="inline-link-macro-rx"></block>.</block>
+  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">ONTAP용 FSx에서 FlexGroup를 생성합니다</block>
+  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">이제 가능합니다 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 볼륨: 볼륨 데이터를 클러스터 전체에 분산합니다.</block>
+  <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.</block>
+  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 2023년 4월</block>
+  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 관계에 대한 추가 지원</block>
+  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">이제 다음을 통해 Azure Data Lake Storage Gen2를 소스 및 타겟으로 동기화 관계를 생성할 수 있습니다.</block>
+  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">사내 ONTAP</block>
+  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">전체 경로를 기준으로 디렉토리를 필터링합니다</block>
+  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">이름을 기준으로 디렉토리를 필터링하는 것 외에도 전체 경로를 기준으로 디렉토리를 필터링할 수 있습니다.</block>
+  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">디렉터리 제외 설정에 대해 자세히 알아보세요</block>
+  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>.</block>
+  <block id="2dfd965acb2426b281b13a70df99c06b" category="paragraph">다음 변경 사항은 커넥터의 3.9.28 릴리스에 도입되었습니다.</block>
+  <block id="671e2a59b2bfa852def9660bf14badde" category="section-title">디지털 지갑 기능 향상</block>
+  <block id="d3ab2a9ddd985032aa120324e6da3710" category="paragraph">Digital Wallet은 이제 시장 프라이빗 오퍼와 함께 구입한 라이선스 용량을 표시합니다.</block>
+  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
+  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>.</block>
+  <block id="6ee7d527518e93562cc9e691d20fb1d5" category="section-title">볼륨 생성 중 주석 지원</block>
+  <block id="ac14eb6382fa5b619966ba72622ecd3f" category="paragraph">이 릴리즈를 사용하면 API를 사용할 때 Cloud Volumes ONTAP FlexGroup 볼륨 또는 FlexVol 볼륨을 생성할 때 주석을 작성할 수 있습니다.</block>
+  <block id="231ea98554191e640c216736796158d5" category="section-title">Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지를 위한 BlueXP 사용자 인터페이스 재설계</block>
+  <block id="1cc55fcb982bea0e8f241a1271bda985" category="paragraph">BlueXP는 이제 Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지에 대한 사용자 인터페이스를 새롭게 설계했습니다. 타일 기반 디자인은 각 타일에 보다 포괄적인 정보를 제공하여 사용자 경험을 향상시킬 수 있습니다.</block>
+  <block id="9000895c1e7c46e6e8fc9eb750dfb403" category="inline-image-macro">이 스크린샷은 Cloud Volumes ONTAP 개요 페이지에서 재설계된 BlueXP 사용자 인터페이스를 보여줍니다. 다양한 타일이 스토리지 효율성, 버전, 용량 배포, Cloud Volumes ONTAP 구축, 볼륨, 애그리게이트, 복제 및 백업에 대한 정보를 보여줍니다.</block>
+  <block id="23fbfdbb598644432ab089fa6e533405" category="paragraph"><block ref="23fbfdbb598644432ab089fa6e533405" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fff4762fc0aeb74dd0a918683c157ae" category="section-title">FlexGroup 볼륨은 Cloud Volumes ONTAP를 통해 볼 수 있습니다</block>
+  <block id="8d40e6e8379382ee39fba2c4a1cb5629" category="paragraph">CLI 또는 System Manager를 통해 직접 생성된 FlexGroup 볼륨은 이제 BlueXP의 재설계된 볼륨 타일을 통해 볼 수 있습니다. FlexVol 볼륨에 대해 제공된 정보와 동일한 BlueXP는 전용 볼륨 타일을 통해 생성된 FlexGroup 볼륨에 대한 자세한 정보를 제공합니다.</block>
+  <block id="905d8520d584560b3995118b2a01f6c2" category="admonition">현재 BlueXP에서만 기존 FlexGroup 볼륨을 볼 수 있습니다. BlueXP에서 FlexGroup 볼륨을 생성하는 기능은 사용할 수 없지만 향후 릴리스에서 제공될 예정입니다.</block>
+  <block id="91f0dcc3b5f3e7c2ced12a923ca3b92e" category="inline-image-macro">볼륨 타일 아래에 FlexGroup 볼륨 아이콘 호버 텍스트를 보여 주는 스크린샷</block>
+  <block id="ce46ac36501bd1de8616d715ef7ee1c2" category="paragraph"><block ref="ce46ac36501bd1de8616d715ef7ee1c2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f223d40f9c90f08d9cd6ef8cba648c3" category="inline-link-macro">생성된 FlexGroup 볼륨을 보는 방법에 대해 자세히 알아보십시오.</block>
+  <block id="acef74218ad5e199582b5c76062e5559" category="paragraph"><block ref="acef74218ad5e199582b5c76062e5559" category="inline-link-macro-rx"></block></block>
+  <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
+  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">이제 가능합니다 <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
 </blocks>
