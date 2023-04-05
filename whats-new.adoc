@@ -46,7 +46,7 @@ BlueXP_deployment mode_를 사용하면 비즈니스 및 보안 요구 사항을
 * 비공개 모드
 
 
-link:concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
+10b9ce0cb6b2f607e0c7df6e246cfe67
 
 
 NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.
@@ -1047,25 +1047,25 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
-=== e0feab0ee26165da9cddab198d1f1422
+=== 2023년 4월 5일(버전 2.2)
 
 이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"].
 
 
 
-==== b1bdb4b30cdf01fdd4fc306c24b3e449
+==== Google Cloud에 구축된 Cloud Volumes ONTAP 시스템에서 글로벌 파일 캐시 지원
 
-a92c52030822934c670502facf8a8f31
+Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.
 
-3a8f1f533494279acf2d044c11cf495a
-
-
-
-==== 89960279d43d6d504afb45e5a8dff137
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
 
 
 
-==== 402a1502f5c39fb55ca79d59e3184a34
+==== 설정 마법사와 GFC 구성 UI는 NetApp 라이센스 등록을 수행할 수 있도록 향상되었습니다
+
+
+
+==== Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM
 
 
 
@@ -1261,9 +1261,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 === 2023년 4월 2일
 
-새로운 운영 복구 서비스 및 자동화된 IT 운영 위험 개선 제안을 사용하면 가동 중단 또는 장애가 발생하기 전에 권장되는 해결 방법을 구현할 수 있습니다.
+새로운 운영 복구 서비스 및 자동화된 IT 운영 위험 수정 제안을 사용하여 가동 중단 또는 장애가 발생하기 전에 권장되는 해결 방법을 구현할 수 있습니다.
 
-운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스 범주입니다.
+운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.
 
 link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["이 새로운 서비스에 대해 자세히 알아보십시오"].
 
