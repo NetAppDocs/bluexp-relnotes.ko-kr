@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp' 
 summary: BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 각 개별 서비스에 대한 전체 릴리스 정보 세트로 이동하십시오. 
 ---
 = BlueXP의 최근 변경 사항
@@ -23,7 +23,7 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 == BlueXP 소개
 
-Cloud Manager는 2022년 11월 1일에 BlueXP로 이름이 변경되었습니다. https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["BlueXP에 대해 자세히 알아보십시오"^]
+NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다. https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["BlueXP 소개 에 대해 자세히 알아보십시오"^]
 
 
 
@@ -291,7 +291,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== API를 사용하여 사내 ONTAP 볼륨을 ONTAP S3에 백업하는 기능
 
-f25c47eb7d9f3c638d89723bee6d2360
+API의 새로운 기능을 사용하면 BlueXP 클라우드 백업을 사용하여 볼륨 스냅샷을 ONTAP S3에 백업할 수 있습니다. 이 기능은 현재 온프레미스 ONTAP 시스템에서만 사용할 수 있습니다. 자세한 지침은 블로그를 참조하십시오 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-Feature-Blog-April-23-Updates/ba-p/443075#toc-hId--846533830["ONTAP S3와 타겟으로 통합(REST API 사용)"^].
 
 
 
@@ -1047,9 +1047,31 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
-=== 2022년 10월 24일(버전 2.1)
+=== e0feab0ee26165da9cddab198d1f1422
 
 이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"].
+
+
+
+==== b1bdb4b30cdf01fdd4fc306c24b3e449
+
+a92c52030822934c670502facf8a8f31
+
+3a8f1f533494279acf2d044c11cf495a
+
+
+
+==== 89960279d43d6d504afb45e5a8dff137
+
+
+
+==== 402a1502f5c39fb55ca79d59e3184a34
+
+
+
+=== 2022년 10월 24일(버전 2.1)
+
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
 
 
 
@@ -1108,12 +1130,6 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 
 
 ==== Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다
-
-
-
-=== 2022년 6월 23일(버전 1.3.1)
-
-버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"]. 이 릴리스는 에 설명된 문제를 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
 
 
 
