@@ -268,7 +268,6 @@
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">ONTAP S3 스토리지를 AWS S3로 설정합니다</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">지원되는 동기화 관계에 대해 자세히 알아보십시오</block>
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
-  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
   <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023년 1월 1일</block>
   <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">이전 끝점</block>
   <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">새 끝점</block>
@@ -279,7 +278,6 @@
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="inline-link">설치하고</block>
   <block id="56ef2682280ac110060b881925a87b80" category="inline-link">Google 클라우드</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure를 지원합니다</block>
-  <block id="0e40b9cba041560c9517bc49757da3c7" category="paragraph">의 전체 끝점 목록을 참조하십시오<block ref="4c9e3e17ba20f553394e5bc78e402946" category="inline-link-rx"></block>,<block ref="cd3c6f623ccf3e34f9d46b28c47f2a3d" category="inline-link-rx"></block>, 또는<block ref="80755100f97c37f8aa8e3d999b0a43d9" category="inline-link-rx"></block> 설명합니다.</block>
   <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">2023년 1월 3일</block>
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">UI에서 데이터 브로커 로컬 구성을 표시합니다</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">이제 사용자가 UI에서 각 데이터 브로커의 로컬 구성을 볼 수 있는 * 구성 표시 * 옵션이 있습니다.</block>
@@ -417,14 +415,6 @@
   <block id="1a62d65b23b4f298f3e1310266bbfad4" category="list-text">이제 인터넷에 연결되지 않은 사이트(다크 사이트)용 Data Sense 설치 프로그램이 사전 검사를 수행하여 시스템 및 네트워킹 요구 사항이 제대로 설치되었는지 확인합니다.</block>
   <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">설치 감사 로그 파일은 지금 저장되며 에 기록됩니다<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>.</block>
   <block id="9a8e487c18ad9b8cacca43174094061d" category="section-title">이제 데이터 감지 UI에서 개인 패턴을 추가할 수 있습니다</block>
-  <block id="eed8585d0b45afc4676b1c89f6f22a9a" category="paragraph">다음 변경 사항은 커넥터의 3.9.27 릴리스에 도입되었습니다.</block>
-  <block id="1bbedbfdc08c3ed9498540dc734fa96a" category="section-title">MTEKM 라이센스</block>
-  <block id="3cc0e97defd245de4dee36cae1e4c485" category="paragraph">이제 MTEKM(멀티 테넌트 암호화 키 관리) 라이센스가 버전 9.12.1 GA 이상을 실행하는 새로운 기존 Cloud Volumes ONTAP 시스템과 함께 포함됩니다.</block>
-  <block id="c43a4aedaaa96e7a4c838a24978b6052" category="paragraph">멀티 테넌트 외부 키 관리를 통해 NetApp Volume Encryption을 사용할 때 개별 스토리지 VM(SVM)이 KMIP 서버를 통해 자체 키를 유지할 수 있습니다.</block>
-  <block id="6b8afb72156ec7e5aff9808d22a9eb10" category="inline-link">NetApp 암호화 솔루션으로 볼륨을 암호화하는 방법을 알아보십시오</block>
-  <block id="bc912dd00b6301509fad22d6a376560d" category="paragraph"><block ref="532112271454bf057b0a2415bb119744" category="inline-link-rx"></block>.</block>
-  <block id="93616689ecb546d3ff1261cf76e33109" category="section-title">인터넷이 없는 환경 지원 </block>
-  <block id="28f5f7b773a8085f5db45145fb774c27" category="paragraph">Cloud Volumes ONTAP는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. BYOL(노드 기반 라이센싱)만 이 환경에서 지원됩니다. 용량 기반 라이센스는 지원되지 않습니다. 시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오. </block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">새로운 랜섬웨어 복구 대시보드가 추가되어 공격으로부터 시스템을 복구할 수 있습니다</block>
   <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">랜섬웨어 복구 대시보드는 랜섬웨어에 감염되었을 수 있는 데이터를 복구하는 옵션을 제공합니다. 이를 통해 시스템을 매우 빠르게 백업 및 실행할 수 있습니다. 이때 복구 작업을 수행하면 손상된 볼륨을 랜섬웨어의 영향을 받지 않는 스냅샷 복사본으로 대체할 수 있습니다.<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>.</block>
@@ -448,9 +438,6 @@
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">이제 계정에서 KMS 키를 사용하여 AWS 데이터 브로커 볼륨을 암호화할 수 있습니다.</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오</block>
   <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>.</block>
-  <block id="5b420079bca1c870914caa221b31442e" category="section-title">Cloud Volumes ONTAP 9.13.0</block>
-  <block id="ad598f033e541927e862b0c5e17319ec" category="paragraph">이제 BlueXP는 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.13.0을 배포하고 관리할 수 있습니다.</block>
-  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>.</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
   <block id="a62f3b1b0c4abf78f5d81609e7bdd908" category="section-title">커넥터 3.9.28</block>
   <block id="a08572617e25a61e8569807ac103ab07" category="list-text">이제 디지털 지갑에서 이메일 알림이 지원됩니다.</block>
@@ -525,12 +512,10 @@
   <block id="231ea98554191e640c216736796158d5" category="section-title">Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지를 위한 BlueXP 사용자 인터페이스 재설계</block>
   <block id="1cc55fcb982bea0e8f241a1271bda985" category="paragraph">BlueXP는 이제 Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지에 대한 사용자 인터페이스를 새롭게 설계했습니다. 타일 기반 디자인은 각 타일에 보다 포괄적인 정보를 제공하여 사용자 경험을 향상시킬 수 있습니다.</block>
   <block id="9000895c1e7c46e6e8fc9eb750dfb403" category="inline-image-macro">이 스크린샷은 Cloud Volumes ONTAP 개요 페이지에서 재설계된 BlueXP 사용자 인터페이스를 보여줍니다. 다양한 타일이 스토리지 효율성, 버전, 용량 배포, Cloud Volumes ONTAP 구축, 볼륨, 애그리게이트, 복제 및 백업에 대한 정보를 보여줍니다.</block>
-  <block id="23fbfdbb598644432ab089fa6e533405" category="paragraph"><block ref="23fbfdbb598644432ab089fa6e533405" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fff4762fc0aeb74dd0a918683c157ae" category="section-title">FlexGroup 볼륨은 Cloud Volumes ONTAP를 통해 볼 수 있습니다</block>
   <block id="8d40e6e8379382ee39fba2c4a1cb5629" category="paragraph">CLI 또는 System Manager를 통해 직접 생성된 FlexGroup 볼륨은 이제 BlueXP의 재설계된 볼륨 타일을 통해 볼 수 있습니다. FlexVol 볼륨에 대해 제공된 정보와 동일한 BlueXP는 전용 볼륨 타일을 통해 생성된 FlexGroup 볼륨에 대한 자세한 정보를 제공합니다.</block>
   <block id="905d8520d584560b3995118b2a01f6c2" category="admonition">현재 BlueXP에서만 기존 FlexGroup 볼륨을 볼 수 있습니다. BlueXP에서 FlexGroup 볼륨을 생성하는 기능은 사용할 수 없지만 향후 릴리스에서 제공될 예정입니다.</block>
   <block id="91f0dcc3b5f3e7c2ced12a923ca3b92e" category="inline-image-macro">볼륨 타일 아래에 FlexGroup 볼륨 아이콘 호버 텍스트를 보여 주는 스크린샷</block>
-  <block id="ce46ac36501bd1de8616d715ef7ee1c2" category="paragraph"><block ref="ce46ac36501bd1de8616d715ef7ee1c2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f223d40f9c90f08d9cd6ef8cba648c3" category="inline-link-macro">생성된 FlexGroup 볼륨을 보는 방법에 대해 자세히 알아보십시오.</block>
   <block id="acef74218ad5e199582b5c76062e5559" category="paragraph"><block ref="acef74218ad5e199582b5c76062e5559" category="inline-link-macro-rx"></block></block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
@@ -549,9 +534,7 @@
   <block id="7196a94f4d2eb95bbda75c84fd8bbaa9" category="admonition">제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.</block>
   <block id="830d9c74b9a0266753efa0c38f11ba15" category="paragraph"><block ref="b3303746b1f0c3c97f0d5584351ddef9" category="inline-link-rx"></block>.</block>
   <block id="40c193dda1b0a4df68695abe150f234a" category="section-title">"제한" 모드에서 Cloud Volumes ONTAP 시스템의 데이터를 클라우드로 백업하는 기능</block>
-  <block id="28e1f4495f1c7f5d7f7a5392a215c21a" category="paragraph">이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한" 모드로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다. 을 참조하십시오<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 및<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>.</block>
   <block id="57c3b4ba3c60295d45a2554606080eef" category="section-title">API를 사용하여 사내 ONTAP 볼륨을 ONTAP S3에 백업하는 기능</block>
-  <block id="430a1b25bf435fd21376b7b1884b6999" category="inline-link">ONTAP S3와 타겟으로 통합(REST API 사용)</block>
   <block id="720734599c08f49ea57d729ec9f12d53" category="section-title">Azure 저장소 계정의 영역 중복성 측면을 LRS에서 ZRS로 변경할 수 있습니다</block>
   <block id="95fa16fe802a71eca4c0ade2049c7325" category="inline-link">스토리지 계정의 복제 방법을 변경합니다</block>
   <block id="d9f6af5f4e2b16940729f1ac7da86d7d" category="paragraph">Cloud Volumes ONTAP 시스템에서 Azure 스토리지로 백업을 생성할 때 Cloud Backup은 기본적으로 비용 최적화를 위해 LRS(Local Redundancy)를 사용하여 Blob 컨테이너를 프로비저닝합니다. 데이터를 다른 영역 간에 복제하려면 이 설정을 영역 중복(ZRS)으로 변경할 수 있습니다. 에 대한 Microsoft 지침을 참조하십시오<block ref="c549763665cfbb93dbccfdbf667aa0f2" category="inline-link-rx"></block>.</block>
@@ -568,7 +551,6 @@
   <block id="67778bfe57cf94d953dd530babc8df46" category="section-title">클라우드의 더 작은 인스턴스에 데이터 센스를 구축할 수 있습니다</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오</block>
   <block id="34590974cfa4c7d3c4258641c30ef959" category="paragraph">AWS 환경의 BlueXP Connector에서 데이터 센스를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 작은 두 가지 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="98ea36794454fcb53d0ac9a791bd6948" category="inline-link-rx"></block>.</block>
-  <block id="914d653aae79118a23517243079b88cb" category="section-title">이제 독립 실행형 스크립트를 사용하여 Linux 시스템이 Data Sense를 설치할 수 있는지 테스트할 수 있습니다</block>
   <block id="374deadc3a3b7f52c668078795f75e3a" category="inline-link">Linux 호스트가 Data Sense를 설치할 준비가 되었는지 확인하는 방법을 확인하십시오</block>
   <block id="04659fbbded99230220bc3321874622f" category="paragraph">Data Sense 설치를 실행하는 것과 관계없이 Linux 시스템이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="721973ab191f916be1f3432f173ac838" category="inline-link-rx"></block>.</block>
   <block id="e86989a1de71c911aa1dff7be51112bd" category="section-title">랜섬웨어 공격으로부터 데이터를 보호하기 위한 새로운 권장 조치</block>
@@ -578,8 +560,6 @@
   <block id="8f0f57a606909986a57f6c9a3dcb68ef" category="paragraph"><block ref="3c293b78d34033676deb7d5c4a97ca37" category="inline-link-rx"></block>.</block>
   <block id="1d0a8122e5a250dbe5879cd7f8f5a495" category="inline-link">BlueXP 소개 에 대해 자세히 알아보십시오</block>
   <block id="3214121f77d11d3720f824f6609986e1" category="paragraph">NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다.<block ref="f53c3e09f5dc895df05d3b248da7799e" category="inline-link-rx"></block></block>
-  <block id="f25c47eb7d9f3c638d89723bee6d2360" category="paragraph">API의 새로운 기능을 사용하면 BlueXP 클라우드 백업을 사용하여 볼륨 스냅샷을 ONTAP S3에 백업할 수 있습니다. 이 기능은 현재 온프레미스 ONTAP 시스템에서만 사용할 수 있습니다. 자세한 지침은 블로그를 참조하십시오<block ref="50f757899df464a10b489edfac75ae5d" category="inline-link-rx"></block>.</block>
-  <block id="754eb66320ee2d41917d70a6a0cd125b" category="paragraph">새로운 경제 효율성 서비스는 현재 또는 예상되는 낮은 용량의 클러스터를 식별하고, 데이터 계층화나 사내 AFF 시스템의 추가 용량에 대한 권장 사항을 제공합니다.</block>
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023년 4월 5일(버전 2.2)</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloud에 구축된 Cloud Volumes ONTAP 시스템에서 글로벌 파일 캐시 지원</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.</block>
@@ -589,4 +569,16 @@
   <block id="d3d5bae1dc5637cc2d16caf23d0426d2" category="paragraph">새로운 운영 복구 서비스 및 자동화된 IT 운영 위험 수정 제안을 사용하여 가동 중단 또는 장애가 발생하기 전에 권장되는 해결 방법을 구현할 수 있습니다.</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.</block>
   <block id="10b9ce0cb6b2f607e0c7df6e246cfe67" category="paragraph"><block ref="8a7bc1e5ebe0f732b7f8c57cc7b088b6" category="inline-link-rx"></block>.</block>
+  <block id="42d7d856cc8f6a2f82ed10cd8356e7d2" category="inline-link">BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
+  <block id="ed84e3ec0d45db682853810ea96888fd" category="paragraph">이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한" 모드로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다.<block ref="18611796b9b4332697b6f9bb72b16e0b" category="inline-link-rx"></block>. 을 참조하십시오<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 및<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>.</block>
+  <block id="d7cfe6967f3004ef3386a27fe99a4610" category="inline-link">ONTAP S3와 타겟 통합</block>
+  <block id="987075beb2d571b76448b0f6477c4423" category="paragraph">API의 새로운 기능을 사용하면 BlueXP 클라우드 백업을 사용하여 볼륨 스냅샷을 ONTAP S3에 백업할 수 있습니다. 이 기능은 현재 사내 ONTAP 시스템에서만 사용할 수 있습니다. 자세한 지침은 블로그를 참조하십시오<block ref="8bfab3c14784f20047e4459b814ebfe4" category="inline-link-rx"></block>.</block>
+  <block id="c1fe7e1d533d99b367d348052b2d15b2" category="section-title">이제 Data Sense를 설치하기 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
+  <block id="c395006d6063b66336be768382280c9e" category="paragraph">의 전체 끝점 목록을 참조하십시오<block ref="684a3f4234dd7d8f8b7d90e00da95138" category="inline-link-rx"></block>,<block ref="fd66fc554da543d0f7f94dcde36b2a2f" category="inline-link-rx"></block>, 또는<block ref="2484264a704a749bc992bec76f43f13d" category="inline-link-rx"></block> 설명합니다.</block>
+  <block id="ebef32c1ba0aec7a39eb2ce8370a97d5" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA부터 중국 지역이 다음과 같이 AWS에서 지원됩니다.</block>
+  <block id="7ce52c94db42646098e71a61d9836b73" category="section-title">Turin 지역이 이제 Google Cloud에서 지원됩니다</block>
+  <block id="84030861d628cd7238a62da972a260f4" category="paragraph">Turin 지역은 현재 Google Cloud for Cloud Volumes ONTAP 및 Connector for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.</block>
+  <block id="77b63f391cd8d8277d8d106f03ad5d8f" category="paragraph"><block ref="77b63f391cd8d8277d8d106f03ad5d8f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78f9ca50556d02ff8700efd01af0d528" category="paragraph"><block ref="78f9ca50556d02ff8700efd01af0d528" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b0d4aa7122dfc7ff627e44c134e7141e" category="paragraph">새로운 경제 효율성 서비스는 현재 또는 예상되는 낮은 용량의 스토리지 자산을 식별하고 데이터 계층화에 대한 권장 사항이나 사내 AFF 시스템의 추가 용량을 제공합니다.</block>
 </blocks>
