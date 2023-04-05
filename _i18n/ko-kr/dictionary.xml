@@ -588,4 +588,5 @@
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM</block>
   <block id="d3d5bae1dc5637cc2d16caf23d0426d2" category="paragraph">새로운 운영 복구 서비스 및 자동화된 IT 운영 위험 수정 제안을 사용하여 가동 중단 또는 장애가 발생하기 전에 권장되는 해결 방법을 구현할 수 있습니다.</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.</block>
+  <block id="10b9ce0cb6b2f607e0c7df6e246cfe67" category="paragraph"><block ref="8a7bc1e5ebe0f732b7f8c57cc7b088b6" category="inline-link-rx"></block>.</block>
 </blocks>
