@@ -1000,6 +1000,58 @@ BlueXP와의 디지털 어드바이저 통합에 대한 자세한 내용은 를 
 
 
 
+== 디지털 지갑
+
+
+
+=== 2023년 4월 3일
+
+
+
+==== 이메일 알림
+
+이제 디지털 지갑에서 이메일 알림이 지원됩니다.
+
+알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"^]
+
+
+
+==== 마켓플레이스 서브스크립션을 위한 라이선스 용량
+
+Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다"].
+
+
+
+=== 2022년 11월 6일
+
+
+
+==== 가입 및 연간 계약
+
+이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"].
+
+
+
+=== 2022년 9월 18일
+
+
+
+==== 최적화된 I/O 및 WORM 용량
+
+이제 디지털 지갑에 최적화된 I/O 라이센스 패키지 및 사용자 계정의 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약이 표시됩니다.
+
+이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다"].
+
+
+
 == 경제적인 효율성
 
 

@@ -2,8 +2,8 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'These release notes describe recent enhancements to the cloud services that are part of BlueXP (formerly Cloud Manager). Links are available to the full set of release notes for each individual service.' 
-summary: '본 릴리즈 노트에서는 BlueXP(이전의 Cloud Manager)의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.' 
+lead: These release notes describe recent enhancements to the cloud services that are part of BlueXP. Links are available to the full set of release notes for each individual service. 
+summary: 본 릴리즈 노트에서는 BlueXP의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다. 
 ---
 = BlueXP 릴리스 정보
 :toc: macro
