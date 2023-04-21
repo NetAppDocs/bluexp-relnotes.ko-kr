@@ -47,16 +47,16 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["설정 �
 
 == 데이터 서비스
 
-* https://docs.netapp.com/us-en/cloud-manager-app-template/whats-new.html["AppTemplate(애플리케이션 템플릿)"^]
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/whats-new.html["클라우드 백업"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/whats-new.html["클라우드 데이터 감지"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["Cloud Sync"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["클라우드 계층화"^]
-* https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["컴퓨팅"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/whats-new.html["백업 및 복구"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/whats-new.html["분류"^]
+* https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["클라우드 운영"^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["복사 및 동기화"^]
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["디지털 지갑"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["경제적인 효율성"^]
-* https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["글로벌 파일 캐시"^]
+* https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["에지 캐싱"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["운영 복원력"^]
 * https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["랜섬웨어 보호"^]
+* https://docs.netapp.com/us-en/cloud-manager-app-template/whats-new.html["해결"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["복제"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["계층화"^]
 
