@@ -269,9 +269,6 @@
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보십시오.</block>
   <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
-  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023년 1월 1일</block>
-  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">자동 용량 관리</block>
-  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">이제 를 사용하도록 선택할 수 있습니다 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">정책 결과를 기반으로 이메일 알림을 보내는 방법에 대해 자세히 알아보십시오</block>
@@ -320,26 +317,6 @@
   <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">커넥터 아웃바운드 인터넷 액세스 엔드포인트 변경</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
-  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">커넥터 3.9.27</block>
-  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">이제 BlueXP 콘솔에서 검색을 사용할 수 있습니다. 현재 검색을 사용하여 BlueXP 서비스 및 기능을 찾을 수 있습니다.</block>
-  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">콘솔 상단에 있는 BlueXP 검색 스크린샷.</block>
-  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="list-text">BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.</block>
-  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">지원 사례를 관리하는 방법에 대해 알아보십시오</block>
-  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
-  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
-  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">커넥터에 대한 시스템 요구 사항을 봅니다</block>
-  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
-  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
-  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
-  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
-  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">커넥터의 BlueXP 콘솔에 액세스합니다</block>
-  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
-  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">할당되지 않은 라이센스를 추가합니다</block>
-  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
-  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">Cloud Volumes ONTAP를 시작하십시오</block>
-  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
-  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.</block>
   <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">이제 볼륨에 대한 계층화 보고서를 생성할 수 있습니다</block>
@@ -364,9 +341,6 @@
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
-  <block id="d564f41f7e0ffa3f9e8bc7a809230f94" category="list-text">이제 Connector를 사용하여 BlueXP에서 Amazon S3 버킷을 추가하고 관리할 수 있습니다.</block>
-  <block id="f19dd7eba16fe45d9a801001a9371842" category="inline-link">BlueXP에서 AWS 계정에 새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
-  <block id="3fdb23ee61e644ed849519b472ba51ae" category="paragraph"><block ref="35aa20e861d3bf81209592fa160bd4e4" category="inline-link-rx"></block>.</block>
   <block id="01e76ab0dacc58799dc14adbdc705ac7" category="section-title">2023년 3월 9일</block>
   <block id="35203f05692d5cc102a5525bf4de9733" category="section-title">이제 폴더 레벨 복구 작업에 모든 하위 폴더 및 파일이 포함됩니다</block>
   <block id="5463242c7cc34f92b5dbbf1ab6d87188" category="paragraph">이전에는 폴더를 복원했을 때 해당 폴더의 파일만 복원되었고 하위 폴더 또는 하위 폴더의 파일은 복원되지 않았습니다. 이제 ONTAP 9.13.0 이상을 사용하는 경우 선택한 폴더에 있는 모든 하위 폴더와 파일이 복원됩니다. 따라서 최상위 폴더에 여러 개의 중첩된 폴더가 있는 경우 많은 시간과 비용을 절약할 수 있습니다.</block>
@@ -387,10 +361,6 @@
   <block id="1ba259cc1a092c9c30c1a18ccc612c75" category="list-text">Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
-  <block id="e9c35e9b853bc286e0f3b1a7ee2e338a" category="list-text">이제 BlueXP에서 VMware vCenter Server를 검색할 수 있습니다.</block>
-  <block id="a5b1ab8743c3279fbcf5a93dcd6de23d" category="paragraph">AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작업 환경을 열어 서버와 연결된 데이터 저장소 및 가상 머신에 대한 세부 정보를 볼 수 있습니다.</block>
-  <block id="10cc8c1f48423a72bf1e617861999cae" category="paragraph">버전 7.0 이상을 실행하는 VMware vCenter Server에 대한 연결이 있는 Connector만 필요합니다.</block>
-  <block id="70843c2315ee9e00dc50f03225c92953" category="paragraph">시작하려면 * 작업 환경 추가 * 를 선택하고 * Amazon Web Services * 또는 * On-Premises * 를 선택한 다음 * VMware vCenter Server * 를 선택합니다. 서버의 도메인 이름 또는 IP 주소를 입력한 다음 admin 사용자의 사용자 이름 및 암호를 입력합니다.</block>
   <block id="fb378d84e11ead1b2c8c57bfabde81de" category="list-text">이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.</block>
   <block id="f06293a36a992a2a1b8c6f6572b6caf8" category="paragraph">설정 &gt; 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.</block>
   <block id="4e46804b204e02c9bd12cc6d7232cca6" category="list-text">이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.</block>
@@ -426,8 +396,6 @@
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">사용자 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">ONTAP용 FSx에서 FlexGroup를 생성합니다</block>
-  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">이제 가능합니다 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 볼륨: 볼륨 데이터를 클러스터 전체에 분산합니다.</block>
   <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.</block>
   <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 2023년 4월</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 관계에 대한 추가 지원</block>
@@ -515,8 +483,6 @@
   <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">가입 및 연간 계약</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>.</block>
-  <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">최적화된 I/O 및 WORM 용량</block>
-  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="inline-link">백업 및 복구</block>
   <block id="91c0e2f2075bec9e96bc977e9bd6d224" category="list-text"><block ref="91c0e2f2075bec9e96bc977e9bd6d224" category="inline-link-rx"></block></block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="inline-link">분류</block>
@@ -604,10 +570,34 @@
   <block id="35083b11acbb58293019b38b8f232a5a" category="paragraph">계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. BlueXP 계층화는 .csv 파일을 생성하여 필요에 따라 회사의 다른 사람에게 검토 및 전송할 수 있습니다.<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>.</block>
   <block id="8c14896b1d1fc37f02aa2e6dfc06354a" category="paragraph">BlueXP 계층화가 변경되었기 때문에 BlueXP 계층화 작업을 성공적으로 수행하려면 다음 Connector 엔드포인트를 변경해야 합니다.</block>
   <block id="d128bda2634e1051cc984231da065144" category="list-text">이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.</block>
-  <block id="d2792d178cbdf6c41f2b8f2ae64424ed" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 또한 BlueXP 백업 및 복구를 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수 있습니다. BlueXP 디지털 지갑을 제외하고 이러한 유형의 배포에는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
-  <block id="75327cdc175eca204abf0a4aa66413b3" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, BlueXP 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
   <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">이제 BlueXP 디지털 지갑에서 PAYGO 구독 및 BlueXP 연간 계약을 보고 관리할 수 있습니다.</block>
-  <block id="dfc3d3012360c41f119ce032ebb3ed8b" category="paragraph">BlueXP 디지털 지갑에 최적화된 I/O 라이센스 패키지와 사용자 계정 전체에서 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약 정보가 표시됩니다.</block>
   <block id="12c7b4f361520fac32769892a3adb104" category="paragraph">현재 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템의 볼륨에 대한 지원이 제공됩니다.<block ref="cf92aa38511759ce0275086447e2bfa9" category="inline-link-rx"></block>.</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023년 5월 7일</block>
+  <block id="d13015f8ae4fd0f7f263eba9f81f4caa" category="section-title">커넥터 3.9.29</block>
+  <block id="05263fcc56b50972b2dfe4be20698328" category="list-text">Ubuntu 22.04는 BlueXP 또는 클라우드 공급자의 마켓플레이스에서 커넥터를 배포할 때 커넥터를 위한 새로운 운영 체제입니다.</block>
+  <block id="9ab8f4fa1e0839b1101d04c9cd4e1bae" category="paragraph">Ubuntu 22.04를 실행하는 자체 Linux 호스트에 커넥터를 수동으로 설치할 수도 있습니다.</block>
+  <block id="dfcaca26de191f6219819bb7091c9ebe" category="list-text">Red Hat Enterprise Linux 8.6 및 8.7은 새로운 Connector 배포에서 더 이상 지원되지 않습니다.</block>
+  <block id="2f5617aecec1df3805ada7f05da46bde" category="paragraph">Red Hat은 Connector에 필요한 Docker를 더 이상 지원하지 않기 때문에 이러한 버전은 새 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 Connector를 실행 중인 경우 NetApp은 계속 귀하의 구성을 지원합니다.</block>
+  <block id="470821fb08a53bb45ecda66d23c58d6f" category="paragraph">Red Hat 7.6, 7.7, 7.8 및 7.9는 신규 및 기존 커넥터에서 계속 지원됩니다.</block>
+  <block id="a2619f6db1e9fa217b857129c75384ab" category="list-text">Connector는 이제 Google Cloud의 Qatar 지역에서 지원됩니다.</block>
+  <block id="368c64d1828dfb51f85a6ad8427db46c" category="list-text">Connector는 Microsoft Azure의 스웨덴 중앙 지역에서도 지원됩니다.</block>
+  <block id="cff120b14e79d2501e83070f59bb2387" category="paragraph"><block ref="cff120b14e79d2501e83070f59bb2387" category="inline-link-rx"></block></block>
+  <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023년 5월 7일</block>
+  <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">보안 그룹을 생성합니다</block>
+  <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">추가 권한이 필요합니다</block>
+  <block id="85613cc2934a1e3d40c91656c94e331a" category="list-text">작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 <block ref="c4e69423da06cd62564882d11bcec12a" category="inline-link-macro-rx"></block> 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 <block ref="55b057d10246173e2440d2eae51abd9a" category="inline-link-macro-rx"></block>.</block>
+  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">추가</block>
+  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">수정</block>
+  <block id="158f074c96189eb946118a12a17762b5" category="list-text">선택적으로 을(를) 사용할 수 있습니다 <block ref="09047edca5075ad1c71cf5035a98ddf9" category="inline-link-macro-rx"></block> 및 <block ref="d0baf23f6aa987908b3cb85b94241056" category="inline-link-macro-rx"></block> 태그를 사용하여 볼륨을 분류합니다.</block>
+  <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 프라이빗 클라우드 제공</block>
+  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Marketplace 구독을 식별하고 가입 종료 날짜 및 기간을 표시합니다. 이 개선 사항을 통해 프라이빗 오퍼에 성공적으로 수락되었는지 확인하고 해당 조건을 검증할 수 있습니다.</block>
+  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">충전 사용 내역이 없습니다</block>
+  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">이제 용량 기반 라이센스를 구독할 때 부과되는 요금을 확인할 수 있습니다. BlueXP 디지털 지갑에서 다운로드할 수 있는 사용 보고서는 다음과 같습니다. 사용 현황 보고서는 구독의 용량 세부 정보를 제공하고 Cloud Volumes ONTAP 구독에 포함된 리소스에 대한 비용 청구 방식을 알려줍니다. 다운로드할 수 있는 보고서는 다른 사용자와 쉽게 공유할 수 있습니다.</block>
+  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP 패키지 사용</block>
+  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">높은 수준의 사용</block>
+  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">스토리지 VM 사용량</block>
+  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">볼륨 사용량</block>
+  <block id="56a50532d8da2bebb09d6190c126140c" category="inline-link-macro">용량 기반 라이센스 관리</block>
+  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>.</block>
 </blocks>
