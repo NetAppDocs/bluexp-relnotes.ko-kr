@@ -213,6 +213,36 @@ BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 B
 
 
 
+=== 2023년 5월 8일
+
+
+
+==== 이제 폴더 레벨 복구 작업은 아카이브 스토리지 및 잠긴 백업에서 지원됩니다
+
+DataLock 및 랜섬웨어 보호를 사용하여 백업 파일을 구성했거나 백업 파일이 아카이브 스토리지에 있는 경우 클러스터에서 ONTAP 9.13.1 이상이 실행 중인 경우 폴더 레벨 복원 작업이 지원됩니다.
+
+
+
+==== Google Cloud에 볼륨을 백업할 때 고객 관리 키를 지역 및 프로젝트 간 백업할 수 있습니다
+
+이제 고객 관리 암호화 키(CMEK)의 프로젝트가 아닌 다른 프로젝트에 있는 버킷을 선택할 수 있습니다.
+
+
+
+==== AWS China 지역에서 백업 파일이 지원됩니다
+
+클러스터가 ONTAP 9.12.1 이상을 실행 중인 경우 AWS China Beijing(cn-North-1) 및 Ningxia(cn-북서쪽-1) 지역이 백업 파일의 대상으로 지원됩니다.
+
+BlueXP Connector에 할당된 IAM 정책은 all_Resource_sections의 AWS 리소스 이름 "arn"을 "AWS"에서 "AWS-cn"로 변경해야 합니다. 예를 들어 "arn:AWS-cn:S3::NetApp-backup- *"를 변경할 수 있습니다. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["Cloud Volumes ONTAP 데이터를 Amazon S3에 백업"] 및 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-aws.html["사내 ONTAP 데이터를 Amazon S3에 백업"] 를 참조하십시오.
+
+
+
+==== 작업 모니터 기능 향상
+
+ONTAP 9.13.1 이상을 실행하는 온-프레미스 ONTAP 시스템의 경우 * 작업 모니터링 * 탭에서 이러한 지속적인 백업 작업과 같은 시스템 시작 작업을 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.
+
+
+
 === 2023년 4월 14일
 
 
@@ -240,7 +270,7 @@ BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 B
 
 ==== 애플리케이션의 BlueXP 백업 및 복구 기능 향상(하이브리드)
 
-* 애플리케이션(하이브리드)에 대한 BlueXP 백업 및 복구는 SaaS 제어 플레인에서 주도하고 있습니다.
+* 애플리케이션(하이브리드)에 대한 BlueXP 백업 및 복구는 SaaS 제어 플레인에서 주도하고 있습니다
 * 클라우드 네이티브 API에 맞춰 하이브리드 REST API 수정
 * 이메일 알림을 지원합니다
 
@@ -253,7 +283,7 @@ BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 B
 
 ==== "제한" 모드에서 Cloud Volumes ONTAP 시스템의 데이터를 클라우드로 백업하는 기능
 
-이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한" 모드로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 자세히 알아보십시오"^]. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["Cloud Volumes ONTAP 데이터를 Amazon S3에 백업"] 및 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["Azure Blob에 Cloud Volumes ONTAP 데이터 백업"].
+이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한된 모드"로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 자세히 알아보십시오"^]. 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["Cloud Volumes ONTAP 데이터를 Amazon S3에 백업"] 및 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["Azure Blob에 Cloud Volumes ONTAP 데이터 백업"].
 
 
 
@@ -271,7 +301,7 @@ Cloud Volumes ONTAP 시스템에서 Azure 스토리지로 백업을 생성할 �
 
 ==== 작업 모니터 기능 향상
 
-* 이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.1 이상을 실행하는 사내 ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.
+* 이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.0 이상을 실행하는 Cloud Volumes ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.
 * 모든 작업에 대한 보고를 위해 CSV 파일을 다운로드할 수 있을 뿐만 아니라 단일 작업에 대한 JSON 파일을 다운로드하여 자세한 내용을 볼 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["자세한 정보"].
 * 두 가지 새로운 백업 작업 경고가 추가되었습니다. "예약된 작업 실패" 및 "복원 작업이 완료되지만 경고가 있음" https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["BlueXP 백업 및 복구가 전송할 수 있는 모든 경고를 검토합니다"].
 
@@ -299,52 +329,6 @@ Cloud Volumes ONTAP 시스템에서 Azure 스토리지로 백업을 생성할 �
 * 작업 모니터링 페이지에 고급 필터링이 추가되어 시간, 워크로드(볼륨, 애플리케이션, 가상 머신 또는 Kubernetes) 별로 백업 및 복원 작업을 검색할 수 있습니다. 작업 유형, 상태, 작업 환경 및 스토리지 VM "application_3"과 같은 자원 검색을 위해 자유 텍스트를 입력할 수도 있습니다.  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["고급 필터 사용 방법을 확인하십시오"].
 * 이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.0 이상을 실행하는 Cloud Volumes ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 버전의 Cloud Volumes ONTAP 시스템 및 온-프레미스 ONTAP 시스템은 현재 사용자가 시작한 작업만 표시합니다.
 
-
-
-
-=== 2023년 2월 6일
-
-
-
-==== StorageGRID 시스템에서 이전 백업 파일을 Azure 아카이브 스토리지로 이동하는 기능입니다
-
-이제 StorageGRID 시스템의 이전 백업 파일을 Azure의 아카이브 스토리지로 계층화할 수 있습니다. 이를 통해 StorageGRID 시스템의 공간을 절약하고, 이전 백업 파일에 저렴한 스토리지 클래스를 사용하여 비용을 절감할 수 있습니다.
-
-이 기능은 온프레미스 클러스터가 ONTAP 9.12.1 이상을 사용하고 있고 StorageGRID 시스템에서 11.4 이상을 사용하는 경우 사용할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["자세히 알아보기"^].
-
-
-
-==== DataLock 및 랜섬웨어 보호는 Azure Blob의 백업 파일에 대해 구성할 수 있습니다
-
-이제 DataLock 및 랜섬웨어 보호가 Azure Blob에 저장된 백업 파일에 지원됩니다. Cloud Volumes ONTAP 또는 온프레미스 ONTAP 시스템에서 ONTAP 9.12.1 이상을 실행하는 경우 백업 파일을 잠그고 스캔하여 잠재적인 랜섬웨어를 탐지할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["DataLock 및 랜섬웨어 보호를 사용하여 백업을 보호하는 방법에 대해 자세히 알아보십시오"^].
-
-
-
-==== 백업 및 복원 FlexGroup 볼륨 개선 사항
-
-* 이제 FlexGroup 볼륨을 복원할 때 여러 Aggregate를 선택할 수 있습니다. 마지막 릴리즈에서는 단일 애그리게이트만 선택할 수 있었습니다.
-* FlexGroup 볼륨 복원은 이제 Cloud Volumes ONTAP 시스템에서 지원됩니다. 마지막 릴리즈에서는 사내 ONTAP 시스템에만 복구할 수 있었습니다.
-
-
-
-
-==== Cloud Volumes ONTAP 시스템은 이전 백업을 Google 아카이브 스토리지로 이동할 수 있습니다
-
-백업 파일은 처음에 Google Standard 스토리지 클래스에서 생성됩니다. 이제 BlueXP 백업 및 복구를 사용하여 Google Archive 스토리지에 이전 백업을 계층화하여 비용을 추가로 최적화할 수 있습니다. 마지막 릴리즈에서는 사내 ONTAP 클러스터에서만 이 기능을 지원했으며, 이제 Google Cloud에 구축된 Cloud Volumes ONTAP 시스템도 지원됩니다.
-
-
-
-==== 이제 볼륨 복원 작업을 통해 볼륨 데이터를 복원할 SVM을 선택할 수 있습니다
-
-이제 볼륨 데이터를 ONTAP 클러스터의 다른 스토리지 VM으로 복원할 수 있습니다. 과거에는 스토리지 VM을 선택할 기능이 없었습니다.
-
-
-
-==== MetroCluster 구성의 볼륨 지원 향상
-
-ONTAP 9.12.1 GA 이상을 사용하는 경우 MetroCluster 구성에서 기본 시스템에 연결하면 백업이 지원됩니다. 전체 백업 구성이 보조 시스템으로 전송되므로 전환 후 클라우드 백업이 자동으로 계속됩니다.
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#backup-limitations["자세한 내용은 백업 제한 사항 을 참조하십시오"].
 
 
 
@@ -633,6 +617,42 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2023년 5월 8일
+
+
+
+==== 하드 링크 기능
+
+이제 사용자는 보안되지 않은 NFS와 NFS 간의 관계를 동기화하는 하드 링크를 포함할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["파일 형식 설정에 대해 자세히 알아보세요"].
+
+
+
+==== 보안 NFS 관계에서 데이터 브로커를 위한 사용자 인증서를 추가할 수 있습니다
+
+이제 사용자는 보안 NFS 관계를 생성할 때 타겟 데이터 브로커에 대한 자체 인증서를 설정할 수 있습니다. 서버 이름을 설정하고 개인 키와 인증서 ID를 제공해야 합니다. 이 기능은 모든 데이터 브로커에 사용할 수 있습니다.
+
+
+
+==== 최근 수정된 파일의 제외 기간이 연장되었습니다
+
+이제 사용자는 예약된 동기화 전 최대 365일 전에 수정된 파일을 제외할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["최근에 수정한 파일 설정에 대해 자세히 알아보세요"].
+
+
+
+==== 관계 ID를 기준으로 UI의 관계를 필터링합니다
+
+RESTful API를 사용하는 사용자는 관계 ID를 사용하여 관계를 필터링할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["BlueXP 복사 및 동기화와 함께 RESTful API를 사용하는 방법에 대해 자세히 알아보십시오"].
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["디렉터리 제외 설정에 대해 자세히 알아보세요"].
+
+
+
 === 2 2023년 4월
 
 
@@ -668,264 +688,6 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 이제 계정에서 KMS 키를 사용하여 AWS 데이터 브로커 볼륨을 암호화할 수 있습니다.
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오"].
-
-
-
-=== 2023년 2월 5일
-
-
-
-==== Azure Data Lake Storage Gen2, ONTAP S3 Storage 및 NFS에 대한 추가 지원
-
-Cloud Sync은 이제 ONTAP S3 스토리지 및 NFS에 대한 추가 동기화 관계를 지원합니다.
-
-* ONTAP S3 스토리지를 NFS로
-* NFS에서 ONTAP S3 스토리지로
-
-
-또한 Cloud Sync는 Azure Data Lake Storage Gen2를 소스 및 타겟 모두에서 추가로 지원합니다.
-
-* NFS 서버
-* SMB 서버
-* ONTAP S3 스토리지
-* StorageGRID
-* IBM 클라우드 오브젝트 스토리지
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계에 대해 자세히 알아보십시오"].
-
-
-
-==== Amazon Web Services 데이터 브로커 운영 체제로 업그레이드하십시오
-
-AWS 데이터 브로커용 운영 체제가 Amazon Linux 2022로 업그레이드되었습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["AWS의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
-
-
-
-=== 2023년 1월 3일
-
-
-
-==== UI에서 데이터 브로커 로컬 구성을 표시합니다
-
-이제 사용자가 UI에서 각 데이터 브로커의 로컬 구성을 볼 수 있는 * 구성 표시 * 옵션이 있습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["데이터 브로커 그룹 관리에 대해 자세히 알아보십시오"].
-
-
-
-==== Azure 및 Google Cloud 데이터 브로커 운영 체제로 업그레이드하십시오
-
-Azure 및 Google Cloud의 데이터 브로커용 운영 체제가 Rocky Linux 9.0으로 업그레이드되었습니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["Azure의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["Google Cloud의 데이터 브로커 인스턴스에 대해 자세히 알아보십시오"].
-
-
-
-=== 2022년 12월 11일
-
-
-
-==== 이름별로 디렉토리를 필터링합니다
-
-이제 새 * 디렉터리 이름 제외 * 설정을 동기화 관계에 사용할 수 있습니다. 사용자는 동기화에서 최대 15개의 디렉터리 이름을 필터링할 수 있습니다. copy-offload, .snapshot, ~snapshot 디렉토리는 기본적으로 제외됩니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["디렉터리 이름 제외 설정에 대해 자세히 알아보세요"].
-
-
-
-==== Amazon S3 및 ONTAP S3 스토리지 추가 지원
-
-Cloud Sync은 이제 AWS S3 및 ONTAP S3 스토리지를 위한 추가 동기화 관계를 지원합니다.
-
-* AWS S3에서 ONTAP S3 스토리지까지
-* ONTAP S3 스토리지를 AWS S3로 설정합니다
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계에 대해 자세히 알아보십시오"].
-
-
-
-=== 2022년 10월 30일
-
-
-
-==== Microsoft Azure에서 지속적으로 동기화합니다
-
-이제 연속 동기화 설정이 소스 Azure 스토리지 버킷에서 Azure 데이터 브로커를 사용하는 클라우드 스토리지까지 지원됩니다.
-
-초기 데이터 동기화 후 Cloud Sync는 소스 Azure 스토리지 버킷의 변경 사항을 수신 대기하고 변경 사항이 발생할 때마다 타겟에 대한 변경 사항을 지속적으로 동기화합니다. 이 설정은 Azure 스토리지 버킷에서 Azure Blob 스토리지, CIFS, Google 클라우드 스토리지, IBM 클라우드 오브젝트 스토리지, NFS 및 StorageGRID로 동기화할 때 사용할 수 있습니다.
-
-이 설정을 사용하려면 Azure 데이터 브로커에 사용자 지정 역할과 다음 권한이 필요합니다.
-
-[source, json]
-----
-'Microsoft.Storage/storageAccounts/read',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
-'Microsoft.EventGrid/systemTopics/read',
-'Microsoft.EventGrid/systemTopics/write',
-'Microsoft.EventGrid/systemTopics/delete',
-'Microsoft.EventGrid/eventSubscriptions/write',
-'Microsoft.Storage/storageAccounts/write'
-----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["연속 동기화 설정에 대해 자세히 알아보십시오"].
-
-
-
-=== 2022년 9월 4일
-
-
-
-==== 추가 Google 드라이브 지원
-
-* Cloud Sync는 이제 Google 드라이브에 대한 추가 동기화 관계를 지원합니다.
-+
-** Google Drive를 NFS 서버로 이동합니다
-** Google Drive를 SMB 서버로
-
-
-* Google Drive를 포함하는 동기화 관계에 대한 보고서를 생성할 수도 있습니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["보고서에 대해 자세히 알아보십시오"].
-
-
-
-
-
-==== 지속적인 동기화 향상
-
-이제 다음 유형의 동기화 관계에서 연속 동기화 설정을 활성화할 수 있습니다.
-
-* S3 버킷을 NFS 서버로
-* Google Cloud Storage를 NFS 서버로 전송합니다
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["연속 동기화 설정에 대해 자세히 알아보십시오"].
-
-
-
-==== 이메일 알림
-
-이제 Cloud Sync 알림을 이메일로 받을 수 있습니다.
-
-이메일로 알림을 받으려면 동기화 관계에서 * 알림 * 설정을 활성화한 다음 BlueXP에서 알림 및 알림 설정을 구성해야 합니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["알림을 설정하는 방법에 대해 알아봅니다"].
-
-
-
-=== 2022년 7월 31일
-
-
-
-==== Google 드라이브
-
-이제 NFS 서버 또는 SMB 서버의 데이터를 Google Drive로 동기화할 수 있습니다. "내 드라이브"와 "공유 드라이브"가 모두 대상으로 지원됩니다.
-
-Google Drive를 포함하는 동기화 관계를 생성하려면 필요한 권한과 개인 키가 있는 서비스 계정을 설정해야 합니다. https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["Google Drive 요구 사항에 대해 자세히 알아보십시오"].
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계 목록을 봅니다"].
-
-
-
-==== Azure Data Lake 추가 지원
-
-Cloud Sync는 이제 Azure Data Lake Storage Gen2에 대한 추가 동기화 관계를 지원합니다.
-
-* Amazon S3에서 Azure Data Lake Storage Gen2로
-* IBM Cloud Object Storage를 Azure Data Lake Storage Gen2로 마이그레이션
-* StorageGRID에서 Azure Data Lake Storage Gen2로
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계 목록을 봅니다"].
-
-
-
-==== 동기화 관계를 설정하는 새로운 방법
-
-BlueXP의 Canvas에서 직접 동기화 관계를 설정하는 추가 방법이 추가되었습니다.
-
-
-
-===== 끌어서 놓기
-
-이제 한 작업 환경을 다른 작업 환경 위로 끌어다 놓아 Canvas에서 동기화 관계를 설정할 수 있습니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["BlueXP의 알림 센터를 보여 주는 스크린샷."]
-
-
-
-===== 오른쪽 패널 설정
-
-이제 Canvas에서 작업 환경을 선택한 다음 오른쪽 패널에서 동기화 옵션을 선택하여 Azure Blob 저장소 또는 Google Cloud Storage에 대한 동기화 관계를 설정할 수 있습니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["BlueXP의 알림 센터를 보여 주는 스크린샷."]
-
-
-
-=== 2022년 7월 3일
-
-
-
-==== Azure Data Lake Storage Gen2 지원
-
-이제 NFS 서버 또는 SMB 서버에서 Azure Data Lake Storage Gen2로 데이터를 동기화할 수 있습니다.
-
-Azure Data Lake를 포함하는 동기화 관계를 생성할 때 Cloud Sync에 스토리지 계정 연결 문자열을 제공해야 합니다. SAS(공유 액세스 서명)가 아니라 일반 연결 문자열이어야 합니다.
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["지원되는 동기화 관계 목록을 봅니다"].
-
-
-
-==== Google Cloud Storage에서 지속적으로 동기화합니다
-
-이제 연속 동기화 설정이 소스 Google Cloud Storage 버킷에서 클라우드 스토리지 타겟까지 지원됩니다.
-
-초기 데이터 동기화 후 Cloud Sync는 소스 Google 클라우드 스토리지 버킷의 변경 사항을 수신 대기하고 변경 사항이 발생할 때마다 타겟에 대한 변경 사항을 지속적으로 동기화합니다. 이 설정은 Google 클라우드 스토리지 버킷에서 S3, Google 클라우드 스토리지, Azure Blob 스토리지, StorageGRID 또는 IBM 스토리지로 동기화할 때 사용할 수 있습니다.
-
-데이터 브로커와 연결된 서비스 계정에 이 설정을 사용하려면 다음 권한이 필요합니다.
-
-[source, json]
-----
-- pubsub.subscriptions.consume
-- pubsub.subscriptions.create
-- pubsub.subscriptions.delete
-- pubsub.subscriptions.list
-- pubsub.topics.attachSubscription
-- pubsub.topics.create
-- pubsub.topics.delete
-- pubsub.topics.list
-- pubsub.topics.setIamPolicy
-- storage.buckets.update
-----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["연속 동기화 설정에 대해 자세히 알아보십시오"].
-
-
-
-==== 새로운 Google Cloud 지역 지원
-
-Cloud Sync 데이터 브로커는 현재 다음 Google 클라우드 지역에서 지원됩니다.
-
-* 콜럼버스(us-east5)
-* 댈러스(us-south1)
-* 마드리드(유럽 - 남서쪽1)
-* 밀라노(유럽 - west8)
-* 파리(유럽 - west9)
-
-
-
-
-==== 새로운 Google Cloud 컴퓨터 유형입니다
-
-Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 n2-standard-4입니다.
 
 
 
@@ -1431,7 +1193,7 @@ BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다
 
 ==== 계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다
 
-"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.
+"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.
 
 
 
