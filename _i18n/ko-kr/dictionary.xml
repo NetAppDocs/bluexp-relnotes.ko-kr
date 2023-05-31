@@ -4,24 +4,16 @@
   <block id="58c23c6ea3bae0f0d75bd2cd80d15108" category="paragraph">각 개별 서비스에 대한 릴리스 정보 전체 세트를 확인합니다.</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">스토리지</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
-  <block id="e7f55b2009e8bacf8e0791b4b18200c5" category="list-text"><block ref="e7f55b2009e8bacf8e0791b4b18200c5" category="inline-link-rx"></block></block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">ONTAP용 Amazon FSx</block>
-  <block id="70ac5f28b8976363f0e487a59a194ede" category="list-text"><block ref="70ac5f28b8976363f0e487a59a194ede" category="inline-link-rx"></block></block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">Google Cloud용 Cloud Volumes Service</block>
-  <block id="cf1e43e88c5409a94312fe0defe1f9bc" category="list-text"><block ref="cf1e43e88c5409a94312fe0defe1f9bc" category="inline-link-rx"></block></block>
   <block id="85eb427901278daf26f132cb3e076914" category="inline-link">Kubernetes 클러스터</block>
-  <block id="6f544cc8f09241268b475a179e21f13e" category="list-text"><block ref="6f544cc8f09241268b475a179e21f13e" category="inline-link-rx"></block></block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="inline-link">온프레미스 ONTAP 클러스터</block>
-  <block id="bddbfeb493313acbf52efc332e076d27" category="list-text"><block ref="bddbfeb493313acbf52efc332e076d27" category="inline-link-rx"></block></block>
   <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">데이터 서비스</block>
-  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="inline-link">모니터링</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">복제</block>
-  <block id="c49bb8aa9fd443e227ec7dd83d980f9b" category="list-text"><block ref="c49bb8aa9fd443e227ec7dd83d980f9b" category="inline-link-rx"></block></block>
   <block id="7258e7251413465e0a3eb58094430bde" category="section-title">관리</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">전체 릴리스 정보 세트</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">관리 기능</block>
-  <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">GCP용 Cloud Volumes Service</block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">쿠버네티스</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
@@ -35,14 +27,11 @@
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">볼륨 템플릿 지원</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
   <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">응용 프로그램 템플릿 및 사용자 환경에서 응용 프로그램 템플릿을 사용하는 방법에 대해 알아봅니다</block>
-  <block id="cd05e30aad2bf16b78d020365a79dcae" category="list-text"><block ref="cd05e30aad2bf16b78d020365a79dcae" category="inline-link-rx"></block></block>
   <block id="1636ba950a663744d701c73060d64523" category="inline-link">템플릿에서 Azure NetApp Files 볼륨을 생성하는 방법을 알아봅니다</block>
-  <block id="5651031c9f0714bccf2089b101c736e0" category="list-text"><block ref="5651031c9f0714bccf2089b101c736e0" category="inline-link-rx"></block></block>
   <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021년 3월 8일</block>
   <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">서비스 수준을 동적으로 변경</block>
   <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">이제 볼륨의 서비스 수준을 동적으로 변경하여 워크로드 요구사항을 충족하고 비용을 최적화할 수 있습니다. 볼륨은 볼륨에 영향을 주지 않고 다른 용량 풀로 이동됩니다.</block>
   <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link">볼륨의 서비스 수준을 변경하는 방법을 알아보십시오</block>
-  <block id="1ae0904e8670b3e6cfc9006eb635216b" category="paragraph"><block ref="e311d6cb2bd5a49340f86a76ff0511b7" category="inline-link-rx"></block>.</block>
   <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020년 8월 3일</block>
   <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">Azure NetApp Files 설정 및 관리</block>
   <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">Cloud Manager에서 직접 Azure NetApp Files 설정 및 관리 Azure NetApp Files 작업 환경을 만든 후 다음 작업을 수행할 수 있습니다.</block>
@@ -55,16 +44,13 @@
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022년 3월 3일</block>
   <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">이제 템플릿을 만들어 특정 작업 환경을 찾을 수 있습니다</block>
   <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">자세한 내용을 보려면 여기를 클릭하십시오</block>
-  <block id="d92cd2c19989d78fa305aa796b16eb3e" category="paragraph">"기존 자원 찾기" 작업을 사용하면 작업 환경을 확인한 다음 볼륨 만들기와 같은 다른 템플릿 작업을 사용하여 기존 작업 환경에서 쉽게 작업을 수행할 수 있습니다.<block ref="9d92075da3fbaa4669bd5d845665bbc5" category="inline-link-rx"></block>.</block>
   <block id="411448f8702bbfa858b0a2ba2ee94014" category="section-title">AWS에서 Cloud Volumes ONTAP HA 작업 환경을 구축할 수 있는 역량</block>
   <block id="6eed6fdcaa0bf2c22f0c8e78ff686d29" category="inline-link">Cloud Volumes ONTAP 작업 환경에 대한 템플릿을 만드는 방법을 알아봅니다</block>
-  <block id="9f1c9f721b531a16a189c619276f3969" category="paragraph">AWS에서 Cloud Volumes ONTAP 작업 환경을 구축하기 위한 기존 지원이 확장되어 단일 노드 시스템 외에 고가용성 시스템을 구축할 수 있습니다.<block ref="35471ca8d19c78b8fa96525b636e5efc" category="inline-link-rx"></block>.</block>
   <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022년 2월 9일</block>
   <block id="f1f7e50301c1e57e30e795fa8928ee8f" category="section-title">이제 템플릿을 구축하여 특정 기존 볼륨을 찾은 다음 Cloud Backup을 활성화할 수 있습니다</block>
   <block id="98b343467576e58f6658965bc67f83c1" category="paragraph">새로운 "리소스 찾기" 작업을 사용하면 Cloud Backup을 설정할 모든 볼륨을 식별한 다음 클라우드 백업 작업을 사용하여 해당 볼륨에 대한 백업을 설정할 수 있습니다.</block>
   <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">이제 동기화 관계에 태그를 지정하여 쉽게 액세스할 수 있도록 관계를 그룹화하거나 분류할 수 있습니다</block>
   <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">리소스 태깅에 대해 자세히 알아보십시오</block>
-  <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>.</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
@@ -81,13 +67,10 @@
   <block id="8ecc68a9339de03fc0f6e65490a53645" category="inline-link">Spot's Cloud Analyzer를 참조하십시오</block>
   <block id="94bdad82453d71da22fcd69f47559c1c" category="paragraph">활용할 수 있습니다<block ref="f6403c1f0596662bb11f11c4ddde243f" category="inline-link-rx"></block>이제 Cloud Manager를 사용하여 클라우드 컴퓨팅 지출에 대한 상위 수준의 비용 분석을 수행하고 잠재적인 비용 절감을 파악할 수 있습니다. 이 정보는 Cloud Manager의 * Compute * 서비스에서 확인할 수 있습니다.</block>
   <block id="0947726e3c301f45f25d6d4b3295fcec" category="inline-link">컴퓨팅 서비스에 대해 자세히 알아보십시오</block>
-  <block id="b70ff2217d4c493d72369bc7013d42a1" category="paragraph"><block ref="0d930208c139fddb05408afa8bb5cf71" category="inline-link-rx"></block>.</block>
   <block id="6ae18045fc1ab0bf7898b13f3ef31c9a" category="inline-image-macro">Cloud Manager의 비용 분석 페이지를 보여 주는 스크린샷</block>
-  <block id="dfe5d33062cb5ad4c4036bb7e93ff63e" category="paragraph"><block ref="dfe5d33062cb5ad4c4036bb7e93ff63e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">ONTAP용 Amazon FSx 지원</block>
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">이제 Cloud Volumes ONTAP 시스템 또는 온프레미스 ONTAP 클러스터에서 ONTAP 파일 시스템용 Amazon FSx로 데이터를 복제할 수 있습니다.</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">데이터 복제를 설정하는 방법에 대해 알아보십시오</block>
-  <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>.</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">이 페이지</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
@@ -97,7 +80,6 @@
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오.</block>
-  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
   <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다</block>
   <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights에 대해 자세히 알아보십시오.</block>
   <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
@@ -117,11 +99,8 @@
   <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E-Series 시스템</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">E-Series 지원</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
-  <block id="1e8b70ceb2c6c0577446889e5a58ddda" category="list-text"><block ref="1e8b70ceb2c6c0577446889e5a58ddda" category="inline-link-rx"></block></block>
-  <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP 릴리스 정보</block>
   <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP의 Cloud Volumes ONTAP 관리 릴리스 정보</block>
-  <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
   <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 각 개별 서비스에 대한 전체 릴리스 정보 세트로 이동하십시오.</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">BlueXP의 최근 변경 사항</block>
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">BlueXP 소개</block>
@@ -130,7 +109,6 @@
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">이제 BlueXP에서 직접 Cloud Volumes Service for Google Cloud를 관리할 수 있습니다.</block>
   <block id="534171d3771a50398027a07275778b3e" category="paragraph">이제 BlueXP에서 E-Series 스토리지 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022년 10월 24일(버전 2.1)</block>
-  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>.</block>
   <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">이제 글로벌 파일 캐시를 원하는 수의 라이센스로 사용할 수 있습니다</block>
   <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">이전에 최소 10개의 라이센스 또는 30TB의 스토리지가 제거되었습니다. 3TB의 스토리지당 하나의 글로벌 파일 캐시 라이센스가 발급됩니다.</block>
   <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">오프라인 License Management Server 사용에 대한 지원이 추가되었습니다</block>
@@ -139,20 +117,14 @@
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">단일 Global File Cache Edge 인스턴스는 전용 물리적 Edge 인스턴스당 최대 500명의 사용자와 최대 300명의 전용 가상 구축 사용자를 지원할 수 있습니다. 최대 사용자 수는 400명, 200명입니다.</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">클라우드 라이센스를 구성하기 위한 Optimus PSM이 개선되었습니다</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Optimus UI(Edge Configuration)의 Edge Sync 기능이 향상되어 연결된 모든 클라이언트가 표시됩니다</block>
-  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
   <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오</block>
   <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다. 의 11장을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
-  <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
-  <block id="7e69e168ccaec126378a9fc9829b1a86" category="paragraph">모니터링 서비스는 2022년 11월 1일 폐기되었습니다. 이제 탐색 메뉴에서 * 인사이트 &gt; 관찰 가능성 * 을 선택하여 Cloud Insights에 대한 직접 링크를 찾을 수 있습니다.</block>
-  <block id="7c82794438729fe23f8c0939342ab8fb" category="section-title">SnapCenter 서비스</block>
-  <block id="c491d515e74738c0f4f9512024e9b4cd" category="paragraph">SnapCenter 서비스는 2022년 11월 1일 폐기되었습니다.</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">이제 BlueXP에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP 인덱스</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
   <block id="5c0fff562b33dc0a5a3acac30ed2d313" category="section-title">2022년 12월 6일</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">지원되는 동기화 관계에 대해 자세히 알아보십시오</block>
-  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>.</block>
   <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023년 1월 1일</block>
   <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">이전 끝점</block>
   <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">새 끝점</block>
@@ -165,7 +137,6 @@
   <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure를 지원합니다</block>
   <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP 자격 증명을 저장합니다</block>
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보십시오.</block>
-  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023년 2월 5일(버전 1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">모든 이메일 주소로 정책 기반 알림 이메일을 보낼 수 있습니다</block>
@@ -177,10 +148,8 @@
   <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023년 2월 5일</block>
   <block id="de7ceda1f3ad5462ebeba9b4e49bf946" category="section-title">비즈니스 크리티컬 데이터로 간주되는 데이터를 식별하는 정책을 정의할 수 있는 능력</block>
   <block id="5bba5081ab3b5a554fbba4b798a66e4f" category="inline-link">비즈니스 크리티컬 데이터 페이지에 대해 자세히 알아보십시오</block>
-  <block id="f77caa23f512ad7c5c38882b9a13b6db" category="paragraph"><block ref="d9564f80e250011b85c05664d779bbef" category="inline-link-rx"></block>.</block>
   <block id="c1d1220273fe79d481c41539bea31710" category="paragraph">이제 BlueXP의 왼쪽 탐색 메뉴에서 * 거버넌스 &gt; 랜섬웨어 보호 * 를 선택하여 이 서비스에 액세스할 수 있습니다.</block>
   <block id="fdfef50a14b07533a8bab908a66de10c" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.</block>
-  <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>.</block>
   <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">커넥터 아웃바운드 인터넷 액세스 엔드포인트 변경</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
@@ -191,7 +160,6 @@
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.</block>
   <block id="916fe80558e430806f51297666a415c2" category="section-title">2023년 3월 7일(버전 1.21)</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">미리 정의된 범주</block>
-  <block id="4aedc0068ab1ebb9a68cd09e40502224" category="paragraph"><block ref="29977fc02ca1e575e657cf5a87ae1883" category="inline-link-rx"></block>.</block>
   <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="list-text">보츠와나 ID 카드(오만) 번호</block>
   <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="list-text">보츠와나 여권 번호</block>
   <block id="ff3bab043a00af2e37e7dcaf393aea61" category="list-text">싱가포르 국가 등록 ID 카드(NRIC)</block>
@@ -202,7 +170,6 @@
   <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">설치 감사 로그 파일은 지금 저장되며 에 기록됩니다<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>.</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">새로운 랜섬웨어 복구 대시보드가 추가되어 공격으로부터 시스템을 복구할 수 있습니다</block>
-  <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">랜섬웨어 복구 대시보드는 랜섬웨어에 감염되었을 수 있는 데이터를 복구하는 옵션을 제공합니다. 이를 통해 시스템을 매우 빠르게 백업 및 실행할 수 있습니다. 이때 복구 작업을 수행하면 손상된 볼륨을 랜섬웨어의 영향을 받지 않는 스냅샷 복사본으로 대체할 수 있습니다.<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>.</block>
   <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3 스토리지</block>
   <block id="e27ba65d55db98b6fd6764580355edcf" category="list-text"><block ref="e27ba65d55db98b6fd6764580355edcf" category="inline-link-rx"></block></block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
@@ -215,16 +182,13 @@
   <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">Cloud Volumes ONTAP 데이터를 Amazon S3에 백업</block>
   <block id="a5e6246728060cb5f413df6fa5adbf0c" category="inline-link-macro">Azure Blob에 Cloud Volumes ONTAP 데이터 백업</block>
   <block id="1cdf820a77c583c660d65df7b1ca03b8" category="inline-link">고급 필터 사용 방법을 확인하십시오</block>
-  <block id="aa3492539222da5bc85fd5614f489f71" category="paragraph">작업 모니터링 페이지에 고급 필터링이 추가되어 시간, 워크로드(볼륨, 애플리케이션, 가상 머신 또는 Kubernetes) 별로 백업 및 복원 작업을 검색할 수 있습니다. 작업 유형, 상태, 작업 환경 및 스토리지 VM "application_3"과 같은 자원 검색을 위해 자유 텍스트를 입력할 수도 있습니다. <block ref="f726054cf0d935cd51c2a5edb3b3fd0c" category="inline-link-rx"></block>.</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">EBS Encryption for AWS 데이터 브로커</block>
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">이제 계정에서 KMS 키를 사용하여 AWS 데이터 브로커 볼륨을 암호화할 수 있습니다.</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오</block>
-  <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>.</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
   <block id="a62f3b1b0c4abf78f5d81609e7bdd908" category="section-title">커넥터 3.9.28</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">이메일 알림을 설정하는 방법에 대해 알아봅니다</block>
-  <block id="e16804d7658f4d3132a1170b8cec7c7e" category="paragraph"><block ref="9ce9eb475c326d02a5c224ef8589bc0a" category="inline-link-rx"></block>.</block>
   <block id="1ba259cc1a092c9c30c1a18ccc612c75" category="list-text">Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
@@ -232,11 +196,8 @@
   <block id="f06293a36a992a2a1b8c6f6572b6caf8" category="paragraph">설정 &gt; 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.</block>
   <block id="4e46804b204e02c9bd12cc6d7232cca6" category="list-text">이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.</block>
   <block id="72c3a2be47cc6617cea246e89af67993" category="inline-link">지원 케이스를 생성하고 관리하는 방법에 대해 알아보십시오</block>
-  <block id="6d69140f9b878e098eb9bfcd623c9dbd" category="paragraph"><block ref="7f3b2cbcf14ed0f5a85962e6b9e3eba8" category="inline-link-rx"></block>.</block>
   <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.</block>
-  <block id="e19c064fcb68059e563bb5bfdd31cac1" category="list-text"><block ref="e19c064fcb68059e563bb5bfdd31cac1" category="inline-link-rx"></block></block>
   <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
-  <block id="9e8ad418161e776fb398db9af34585c3" category="list-text"><block ref="9e8ad418161e776fb398db9af34585c3" category="inline-link-rx"></block></block>
   <block id="1442489a4cf0ea56df2e53ec47c70ec8" category="section-title">작업 모니터의 여러 가지 개선 사항</block>
   <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">단일 노드 시스템이 지원됩니다.</block>
   <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">NetApp에서 직접 구매한 라이센스가 지원됩니다.</block>
@@ -247,13 +208,11 @@
   <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXP 콘솔에서 단일 검색 옵션</block>
   <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXP 콘솔에서 온-프레미스 ONTAP 클러스터를 검색할 때 단일 옵션이 표시됩니다.</block>
   <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">작업 환경을 만들 때 사용할 수 있는 온-프레미스 ONTAP 검색 옵션을 보여 주는 스크린샷</block>
-  <block id="aea8878e3e5cb0f622cbe596cc98ef50" category="paragraph"><block ref="aea8878e3e5cb0f622cbe596cc98ef50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">이전에는 직접 검색 및 Connector를 사용한 검색을 위한 별도의 흐름이 있었습니다. 이러한 두 옵션은 모두 사용할 수 있지만 단일 플로우로 병합됩니다.</block>
   <block id="251a667be8662557b7aba30c53380da3" category="paragraph">검색 프로세스를 시작하면 BlueXP는 다음과 같이 클러스터를 검색합니다.</block>
   <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP는 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.</block>
   <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">커넥터가 없거나 커넥터가 ONTAP 클러스터에 연결되지 않은 경우 BlueXP는 직접 검색 및 관리 옵션을 자동으로 사용합니다.</block>
   <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
-  <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>.</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
@@ -266,7 +225,6 @@
   <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">전체 경로를 기준으로 디렉토리를 필터링합니다</block>
   <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">이름을 기준으로 디렉토리를 필터링하는 것 외에도 전체 경로를 기준으로 디렉토리를 필터링할 수 있습니다.</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">디렉터리 제외 설정에 대해 자세히 알아보세요</block>
-  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>.</block>
   <block id="2dfd965acb2426b281b13a70df99c06b" category="paragraph">다음 변경 사항은 커넥터의 3.9.28 릴리스에 도입되었습니다.</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="6ee7d527518e93562cc9e691d20fb1d5" category="section-title">볼륨 생성 중 주석 지원</block>
@@ -279,9 +237,7 @@
   <block id="905d8520d584560b3995118b2a01f6c2" category="admonition">현재 BlueXP에서만 기존 FlexGroup 볼륨을 볼 수 있습니다. BlueXP에서 FlexGroup 볼륨을 생성하는 기능은 사용할 수 없지만 향후 릴리스에서 제공될 예정입니다.</block>
   <block id="91f0dcc3b5f3e7c2ced12a923ca3b92e" category="inline-image-macro">볼륨 타일 아래에 FlexGroup 볼륨 아이콘 호버 텍스트를 보여 주는 스크린샷</block>
   <block id="9f223d40f9c90f08d9cd6ef8cba648c3" category="inline-link-macro">생성된 FlexGroup 볼륨을 보는 방법에 대해 자세히 알아보십시오.</block>
-  <block id="acef74218ad5e199582b5c76062e5559" category="paragraph"><block ref="acef74218ad5e199582b5c76062e5559" category="inline-link-macro-rx"></block></block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
-  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">이제 가능합니다 <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다</block>
   <block id="38d4d167f6dd9174c3535fc5c7ba4b76" category="section-title">2023년 4월 4일</block>
@@ -292,44 +248,32 @@
   <block id="44f51c4ac8fa1a6f53f07c0c2f751b69" category="list-text">비공개 모드</block>
   <block id="14862370498786066b8605b6924a2605" category="inline-link-macro">이러한 배포 모드에 대해 자세히 알아보십시오</block>
   <block id="7196a94f4d2eb95bbda75c84fd8bbaa9" category="admonition">제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.</block>
-  <block id="830d9c74b9a0266753efa0c38f11ba15" category="paragraph"><block ref="b3303746b1f0c3c97f0d5584351ddef9" category="inline-link-rx"></block>.</block>
   <block id="40c193dda1b0a4df68695abe150f234a" category="section-title">"제한" 모드에서 Cloud Volumes ONTAP 시스템의 데이터를 클라우드로 백업하는 기능</block>
   <block id="57c3b4ba3c60295d45a2554606080eef" category="section-title">API를 사용하여 사내 ONTAP 볼륨을 ONTAP S3에 백업하는 기능</block>
   <block id="720734599c08f49ea57d729ec9f12d53" category="section-title">Azure 저장소 계정의 영역 중복성 측면을 LRS에서 ZRS로 변경할 수 있습니다</block>
   <block id="95fa16fe802a71eca4c0ade2049c7325" category="inline-link">스토리지 계정의 복제 방법을 변경합니다</block>
   <block id="a7393f4b2940dc4b2ad20a62564d25be" category="section-title">작업 모니터 기능 향상</block>
-  <block id="37ead9c61d06cf605bf6ef53ce2c8b21" category="list-text">모든 작업에 대한 보고를 위해 CSV 파일을 다운로드할 수 있을 뿐만 아니라 단일 작업에 대한 JSON 파일을 다운로드하여 자세한 내용을 볼 수 있습니다.<block ref="66069a05d43f728baec5f6540c7eac38" category="inline-link-rx"></block>.</block>
-  <block id="220577050b1ecc839ba3ad281c6d2862" category="paragraph">이제 AWS 및 Azure 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 Amazon S3 또는 Azure Blob으로 백업할 수 있습니다. 이 작업을 수행하려면 상업 지역의 Linux 호스트에 커넥터를 설치하고 Cloud Volumes ONTAP 시스템도 배포해야 합니다. 을 참조하십시오<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 및<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>.</block>
   <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023년 4월 3일(버전 1.22)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">새로운 데이터 검색 평가 보고서</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오</block>
-  <block id="a2f7db2af3b89cce9c368f52089406c7" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="9ad86f8b2d35a79c635fcc2e2795f8e1" category="inline-link-rx"></block>.</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오</block>
   <block id="e86989a1de71c911aa1dff7be51112bd" category="section-title">랜섬웨어 공격으로부터 데이터를 보호하기 위한 새로운 권장 조치</block>
   <block id="51ad14036a828a2a993258fe95046128" category="list-text">"데이터 원본에 대한 사이버 스토리지 구성 설정"을 위한 새로운 권장 조치에서는 데이터 보안을 유지하는 데 도움이 되는 6가지 ONTAP 기능이 설정되어 있는지 여부를 확인합니다. 이러한 기능은 모든 사내 ONTAP 및 Cloud Volumes ONTAP 시스템에서 사용해야 합니다.</block>
   <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">모든 권장 조치 목록을 참조하십시오</block>
-  <block id="8f0f57a606909986a57f6c9a3dcb68ef" category="paragraph"><block ref="3c293b78d34033676deb7d5c4a97ca37" category="inline-link-rx"></block>.</block>
   <block id="1d0a8122e5a250dbe5879cd7f8f5a495" category="inline-link">BlueXP 소개 에 대해 자세히 알아보십시오</block>
-  <block id="3214121f77d11d3720f824f6609986e1" category="paragraph">NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다.<block ref="f53c3e09f5dc895df05d3b248da7799e" category="inline-link-rx"></block></block>
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023년 4월 5일(버전 2.2)</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloud에 구축된 Cloud Volumes ONTAP 시스템에서 글로벌 파일 캐시 지원</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.</block>
-  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
   <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">설정 마법사와 GFC 구성 UI는 NetApp 라이센스 등록을 수행할 수 있도록 향상되었습니다</block>
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.</block>
-  <block id="10b9ce0cb6b2f607e0c7df6e246cfe67" category="paragraph"><block ref="8a7bc1e5ebe0f732b7f8c57cc7b088b6" category="inline-link-rx"></block>.</block>
   <block id="42d7d856cc8f6a2f82ed10cd8356e7d2" category="inline-link">BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
   <block id="d7cfe6967f3004ef3386a27fe99a4610" category="inline-link">ONTAP S3와 타겟 통합</block>
-  <block id="c395006d6063b66336be768382280c9e" category="paragraph">의 전체 끝점 목록을 참조하십시오<block ref="684a3f4234dd7d8f8b7d90e00da95138" category="inline-link-rx"></block>,<block ref="fd66fc554da543d0f7f94dcde36b2a2f" category="inline-link-rx"></block>, 또는<block ref="2484264a704a749bc992bec76f43f13d" category="inline-link-rx"></block> 설명합니다.</block>
   <block id="ebef32c1ba0aec7a39eb2ce8370a97d5" category="paragraph">Cloud Volumes ONTAP 9.12.1 GA부터 중국 지역이 다음과 같이 AWS에서 지원됩니다.</block>
   <block id="7ce52c94db42646098e71a61d9836b73" category="section-title">Turin 지역이 이제 Google Cloud에서 지원됩니다</block>
   <block id="84030861d628cd7238a62da972a260f4" category="paragraph">Turin 지역은 현재 Google Cloud for Cloud Volumes ONTAP 및 Connector for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.</block>
-  <block id="77b63f391cd8d8277d8d106f03ad5d8f" category="paragraph"><block ref="77b63f391cd8d8277d8d106f03ad5d8f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="78f9ca50556d02ff8700efd01af0d528" category="paragraph"><block ref="78f9ca50556d02ff8700efd01af0d528" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6d924727c00a77a63749e2f8aa0860d4" category="summary">본 릴리즈 노트에서는 BlueXP의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">설정 및 관리</block>
-  <block id="d808984cb334165621ea1d56cb6d6634" category="paragraph"><block ref="d808984cb334165621ea1d56cb6d6634" category="inline-link-rx"></block></block>
   <block id="2049421a4e8e45e83cd7cf18ffc00a12" category="inline-link">디지털 지갑</block>
   <block id="1d56c7b4c7e2384a1f75532fbd18626d" category="list-text"><block ref="1d56c7b4c7e2384a1f75532fbd18626d" category="inline-link-rx"></block></block>
   <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">디지털 지갑</block>
@@ -341,21 +285,13 @@
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>.</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="inline-link">백업 및 복구</block>
-  <block id="91c0e2f2075bec9e96bc977e9bd6d224" category="list-text"><block ref="91c0e2f2075bec9e96bc977e9bd6d224" category="inline-link-rx"></block></block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="inline-link">분류</block>
-  <block id="abff770a0e1ceb734fae39829ea3c55b" category="list-text"><block ref="abff770a0e1ceb734fae39829ea3c55b" category="inline-link-rx"></block></block>
   <block id="5b942e8f71976a7f4120006aa3ac54cc" category="inline-link">클라우드 운영</block>
-  <block id="0af940c5766d4d8b88889a603da09cae" category="list-text"><block ref="0af940c5766d4d8b88889a603da09cae" category="inline-link-rx"></block></block>
   <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">복사 및 동기화</block>
-  <block id="daf1426e1e8241e6c5a73747d52f46b4" category="list-text"><block ref="daf1426e1e8241e6c5a73747d52f46b4" category="inline-link-rx"></block></block>
   <block id="ba695b3cf8b635f89946173735838948" category="inline-link">에지 캐싱</block>
-  <block id="56d8edf4b066d1d1f20ed69a0e8d9df3" category="list-text"><block ref="56d8edf4b066d1d1f20ed69a0e8d9df3" category="inline-link-rx"></block></block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="inline-link">랜섬웨어 보호</block>
-  <block id="d336cd0187d94497b784128a57b454bf" category="list-text"><block ref="d336cd0187d94497b784128a57b454bf" category="inline-link-rx"></block></block>
   <block id="282baca6aef56652f503adce6afa9f07" category="inline-link">해결</block>
-  <block id="659f5d8414114b2223c91d907764e0e1" category="list-text"><block ref="659f5d8414114b2223c91d907764e0e1" category="inline-link-rx"></block></block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="inline-link">계층화</block>
-  <block id="dfc005d892812a50cd0d4d978fd8c721" category="list-text"><block ref="dfc005d892812a50cd0d4d978fd8c721" category="inline-link-rx"></block></block>
   <block id="256c6643ca1c733f72685d5a161161f5" category="section-title">2023년 4월 14일</block>
   <block id="197747cde80c31576877de78be696240" category="section-title">애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)</block>
   <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">SAP HANA 데이터베이스</block>
@@ -372,39 +308,29 @@
   <block id="ef08fc33d8b9b410529dc05986b2e248" category="paragraph">API의 새로운 기능을 사용하면 BlueXP 백업 및 복구를 사용하여 볼륨 스냅샷을 ONTAP S3에 백업할 수 있습니다. 이 기능은 현재 사내 ONTAP 시스템에서만 사용할 수 있습니다. 자세한 지침은 블로그를 참조하십시오<block ref="8bfab3c14784f20047e4459b814ebfe4" category="inline-link-rx"></block>.</block>
   <block id="bcd4bdef20ff7dec0587f35facdeb7be" category="paragraph">Cloud Volumes ONTAP 시스템에서 Azure 스토리지로 백업을 생성할 때 기본적으로 BlueXP 백업 및 복구는 비용 최적화를 위해 LRS(Local Redundancy)를 사용하여 Blob 컨테이너를 프로비저닝합니다. 데이터를 다른 영역 간에 복제하려면 이 설정을 영역 중복(ZRS)으로 변경할 수 있습니다. 에 대한 Microsoft 지침을 참조하십시오<block ref="c549763665cfbb93dbccfdbf667aa0f2" category="inline-link-rx"></block>.</block>
   <block id="4788963de19a5204a352f3308b0395d8" category="inline-link">BlueXP 백업 및 복구가 전송할 수 있는 모든 경고를 검토합니다</block>
-  <block id="960c0ab25a72da6f7d7346baac33e363" category="list-text">두 가지 새로운 백업 작업 경고가 추가되었습니다. "예약된 작업 실패" 및 "복원 작업이 완료되지만 경고가 있음"<block ref="3e116d9df9448a73fe644888b390168f" category="inline-link-rx"></block>.</block>
   <block id="81ddb60f2f70b21c8b419a542095feca" category="list-text">이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.0 이상을 실행하는 Cloud Volumes ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 버전의 Cloud Volumes ONTAP 시스템 및 온-프레미스 ONTAP 시스템은 현재 사용자가 시작한 작업만 표시합니다.</block>
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">클라우드 내 소규모 인스턴스에 BlueXP 분류 기능을 배포할 수 있습니다</block>
-  <block id="47e8bf8f9cb5a2a9f79b4f6c0ba9d3b5" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="98ea36794454fcb53d0ac9a791bd6948" category="inline-link-rx"></block>.</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오</block>
-  <block id="bb29d70cef5d4094c99f48861270a3f2" category="paragraph">Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="48948449a9d3cbb393a739355d00c1db" category="inline-link-rx"></block>.</block>
   <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="section-title">BlueXP 분류 UI에서 사용자 지정 범주를 추가하는 새로운 기능</block>
-  <block id="0d84cea578542d59f48472f8fa838dd2" category="paragraph">이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP 분류에는 많은 기능이 있습니다<block ref="de03089a629f50d7fb2223d1c9b484a6" category="inline-link-rx"></block>따라서 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 위치를 식별할 수 있습니다.</block>
   <block id="bca8069b731ea966c03da0cea318f9d1" category="section-title">이제 BlueXP 분류 UI에서 사용자 지정 키워드를 추가할 수 있습니다</block>
   <block id="c9383e3b8d4c0ef8e217c6982644630b" category="paragraph">BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 사용자 지정 키워드를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄 인터페이스를 사용하여 키워드를 추가해야 합니다. 이 릴리스에서 사용자 지정 키워드를 추가하는 기능은 BlueXP 분류 UI에 포함되어 있으므로 이러한 키워드를 쉽게 추가하고 편집할 수 있습니다.</block>
   <block id="bb81f229fc6d121a288d657aea60262e" category="inline-link">BlueXP 분류 UI에서 사용자 지정 키워드를 추가하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="f4dad2d041ce1d29145d11e202e2b27d" category="paragraph"><block ref="71b3a2dfeeb158873cc8c25e601a8ef1" category="inline-link-rx"></block>.</block>
   <block id="7e5ec3b51659d16db2e72438a8ca680a" category="section-title">"마지막 액세스 시간"이 변경될 때 BlueXP 분류 * 파일 * 스캔 기능이 없음</block>
   <block id="f9bee7a7e545f0d95664d3ccaa7b7151" category="paragraph">기본적으로 BlueXP 분류에 적절한 "쓰기" 권한이 없으면 BlueXP 분류가 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 그러나 파일의 마지막 액세스 시간이 원래 시간으로 재설정되는 것을 염려하지 않을 경우, BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 구성 페이지에서 이 동작을 재정의할 수 있습니다.</block>
   <block id="61d99226273ea30523883fe7209399c2" category="paragraph">이 기능과 함께 "Scan Analysis Event"라는 새 필터가 추가되어 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없거나, BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없는 경우에도 분류된 파일을 볼 수 있습니다.</block>
   <block id="bf8521a1bd91dd809d1d007594f22498" category="inline-link">"마지막 액세스 시간 타임스탬프" 및 BlueXP 분류에 필요한 권한에 대해 자세히 알아보십시오</block>
-  <block id="d7a924506a09f425a63dd67ede6e6e41" category="paragraph"><block ref="778f85e03952af8028df26fb1317029e" category="inline-link-rx"></block>.</block>
   <block id="9422d01ffeaf90b54d512834d7e52972" category="section-title">BlueXP 분류에서는 세 가지 새로운 유형의 개인 데이터를 식별합니다</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오</block>
-  <block id="dbf25297f66465b6318f5f04cba2f51c" category="paragraph"><block ref="9f94e4eba86c919ee24774f89d5c47a7" category="inline-link-rx"></block>.</block>
   <block id="c2e0848a220b82c9650399e6f13e1421" category="list-text">CentOS Stream 8을 실행하는 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.</block>
   <block id="27bfd524829d2f58c611b9380403face" category="list-text">인터넷 접속(다크 사이트)이 없는 사이트의 BlueXP 분류 설치 관리자가 사전 검사를 수행하여 성공적인 설치를 위해 시스템 및 네트워킹 요구 사항이 제대로 갖추어져 있는지 확인합니다.</block>
   <block id="af415967f6e10a35f69e4fdddc729da2" category="paragraph">이전 버전의 BlueXP 분류에서는 특정 중요 정책이 결과를 반환할 때 계정의 BlueXP 사용자에게 전자 메일 알림을 보낼 수 있습니다. 이 기능을 사용하면 온라인 상태가 아닐 때 데이터를 보호하기 위한 알림을 받을 수 있습니다. 이제 BlueXP 계정에 없는 다른 모든 사용자(최대 20개의 이메일 주소)에게 정책의 이메일 알림을 보낼 수 있습니다.</block>
   <block id="110171733cad0cc9610f24012ccf6ee1" category="section-title">이제 BlueXP 분류 UI에서 개인 패턴을 추가할 수 있습니다</block>
   <block id="b4b2d6fd13a7e1b0764dda2bc816816f" category="paragraph">BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 맞춤형 "개인 데이터"를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄을 사용하여 사용자 지정 패턴을 추가해야 합니다. 이번 릴리스에서는 BlueXP 분류 UI에 regex를 사용하여 개인 패턴을 추가할 수 있으므로 이러한 사용자 지정 패턴을 쉽게 추가하고 편집할 수 있습니다.</block>
   <block id="5d7647ce431c6117f0877b4d9397cbcd" category="inline-link">BlueXP 분류 UI에서 사용자 지정 패턴을 추가하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="c7395420a26259c70a3257b4ecba58b0" category="paragraph"><block ref="0648c6942d50f6fc6c3e2cd38cd80273" category="inline-link-rx"></block>.</block>
   <block id="7a726788f7018e2e33cf2248365cb342" category="section-title">BlueXP 분류를 사용하여 1500만 개의 파일을 이동할 수 있습니다</block>
   <block id="94b91c8b97a54caa51b5a272c3ed5e69" category="inline-link">BlueXP 분류를 사용하여 소스 파일을 이동하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="a9bcf2c08cd1074d60a61dbe795a6078" category="paragraph">과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1,500만 개의 파일을 이동할 수 있습니다.<block ref="e51a5e512ccf2dce3a369a7a0f472593" category="inline-link-rx"></block>.</block>
-  <block id="2ddb0aae0dc60f8ca6d9b049070a373a" category="paragraph">새로운 "부분 성공" 상태는 BlueXP 분류 작업이 완료되었고 일부 항목이 실패했으며 100개의 파일을 이동하거나 삭제하는 등 일부 항목이 성공했음을 나타냅니다. 또한 "완료됨" 상태의 이름이 "성공"으로 변경되었습니다. 과거에는 "완료" 상태에 성공했고 실패한 작업이 나열될 수 있습니다. 이제 "성공" 상태는 모든 작업이 모든 항목에 성공했음을 의미합니다.<block ref="fcc1d764ae2299a747d914333deb15cf" category="inline-link-rx"></block>.</block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="section-title">디지털 자문업체</block>
   <block id="fd31042d52571c6f22cae041d72fc4dd" category="paragraph">디지털 어드바이저(이전의 Active IQ)는 이제 BlueXP와 완전히 통합되어 로그인 환경이 향상되었습니다.</block>
   <block id="bde16c93c046fa9870a736978717607f" category="paragraph">BlueXP 디지털 어드바이저에게 액세스하면 시스템 관련 데이터를 볼 수 있도록 NetApp Support 사이트 자격 증명을 묻는 메시지가 표시됩니다. 로그인하는 NSS 계정은 사용자 로그인에만 연결됩니다. NetApp 계정의 다른 사용자와 연결되지 않습니다.</block>
@@ -420,12 +346,10 @@
   <block id="7c446b3d2b5f39a022c6af3569a59a1f" category="paragraph">BlueXP 랜섬웨어 보호에 비즈니스 크리티컬 데이터에 대한 새로운 페이지가 추가되었습니다. 이 페이지에서는 BlueXP 분류에 정의된 모든 정책을 볼 수 있습니다. BlueXP 랜섬웨어 보호 대시보드 및 기타 랜섬웨어 패널이 가장 중요한 데이터를 기반으로 잠재적 문제를 반영하도록 비즈니스에 중요한 데이터를 식별하는 정책을 선택할 수 있습니다.</block>
   <block id="6b501182c10867e7258fc2278cf3d451" category="paragraph">BlueXP 랜섬웨어 보호 서비스에 대해 이러한 정책을 활성화하지 않은 경우 권장 조치 패널에 "비즈니스 크리티컬 데이터 구성"이라는 새로운 권장 조치가 표시됩니다.</block>
   <block id="e90b826155dae219948b9b2fca9feca3" category="section-title">BlueXP 랜섬웨어 보호는 보호 범주에서 거버넌스 범주로 이전되었습니다</block>
-  <block id="35083b11acbb58293019b38b8f232a5a" category="paragraph">계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. BlueXP 계층화는 .csv 파일을 생성하여 필요에 따라 회사의 다른 사람에게 검토 및 전송할 수 있습니다.<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>.</block>
   <block id="8c14896b1d1fc37f02aa2e6dfc06354a" category="paragraph">BlueXP 계층화가 변경되었기 때문에 BlueXP 계층화 작업을 성공적으로 수행하려면 다음 Connector 엔드포인트를 변경해야 합니다.</block>
   <block id="d128bda2634e1051cc984231da065144" category="list-text">이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
   <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">이제 BlueXP 디지털 지갑에서 PAYGO 구독 및 BlueXP 연간 계약을 보고 관리할 수 있습니다.</block>
-  <block id="12c7b4f361520fac32769892a3adb104" category="paragraph">현재 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템의 볼륨에 대한 지원이 제공됩니다.<block ref="cf92aa38511759ce0275086447e2bfa9" category="inline-link-rx"></block>.</block>
   <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023년 5월 7일</block>
   <block id="d13015f8ae4fd0f7f263eba9f81f4caa" category="section-title">커넥터 3.9.29</block>
   <block id="05263fcc56b50972b2dfe4be20698328" category="list-text">Ubuntu 22.04는 BlueXP 또는 클라우드 공급자의 마켓플레이스에서 커넥터를 배포할 때 커넥터를 위한 새로운 운영 체제입니다.</block>
@@ -435,14 +359,11 @@
   <block id="470821fb08a53bb45ecda66d23c58d6f" category="paragraph">Red Hat 7.6, 7.7, 7.8 및 7.9는 신규 및 기존 커넥터에서 계속 지원됩니다.</block>
   <block id="a2619f6db1e9fa217b857129c75384ab" category="list-text">Connector는 이제 Google Cloud의 Qatar 지역에서 지원됩니다.</block>
   <block id="368c64d1828dfb51f85a6ad8427db46c" category="list-text">Connector는 Microsoft Azure의 스웨덴 중앙 지역에서도 지원됩니다.</block>
-  <block id="cff120b14e79d2501e83070f59bb2387" category="paragraph"><block ref="cff120b14e79d2501e83070f59bb2387" category="inline-link-rx"></block></block>
   <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023년 5월 7일</block>
   <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">보안 그룹을 생성합니다</block>
   <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">추가 권한이 필요합니다</block>
-  <block id="85613cc2934a1e3d40c91656c94e331a" category="list-text">작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 <block ref="c4e69423da06cd62564882d11bcec12a" category="inline-link-macro-rx"></block> 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 <block ref="55b057d10246173e2440d2eae51abd9a" category="inline-link-macro-rx"></block>.</block>
   <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">추가</block>
   <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">수정</block>
-  <block id="158f074c96189eb946118a12a17762b5" category="list-text">선택적으로 을(를) 사용할 수 있습니다 <block ref="09047edca5075ad1c71cf5035a98ddf9" category="inline-link-macro-rx"></block> 및 <block ref="d0baf23f6aa987908b3cb85b94241056" category="inline-link-macro-rx"></block> 태그를 사용하여 볼륨을 분류합니다.</block>
   <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 프라이빗 클라우드 제공</block>
   <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Marketplace 구독을 식별하고 가입 종료 날짜 및 기간을 표시합니다. 이 개선 사항을 통해 프라이빗 오퍼에 성공적으로 수락되었는지 확인하고 해당 조건을 검증할 수 있습니다.</block>
   <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">충전 사용 내역이 없습니다</block>
@@ -461,10 +382,8 @@
   <block id="d38001cc976e394cf57ce77223bee1a1" category="section-title">Azure Australia East의 HA 다중 가용성 영역 배포 지원</block>
   <block id="bef0df4f898713881ef2098a621a3745" category="paragraph">Azure의 오스트레일리아 동부 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상을 위한 HA 다중 가용성 영역 구축을 지원합니다.</block>
   <block id="300bba824d9f2e68a0c89aef6da5fb8a" category="paragraph">이제 용량 기반 라이센스를 구독할 때 부과되는 요금을 확인할 수 있습니다. BlueXP의 디지털 지갑에서 다음 유형의 사용 보고서를 다운로드할 수 있습니다. 사용 현황 보고서는 구독의 용량 세부 정보를 제공하고 Cloud Volumes ONTAP 구독에 포함된 리소스에 대한 비용 청구 방식을 알려줍니다. 다운로드할 수 있는 보고서는 다른 사용자와 쉽게 공유할 수 있습니다.</block>
-  <block id="6ddb4c081e1822f2c34768a65c03eb8b" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="ebcf101f07f46d44ff28084ad0f8bce3" category="inline-link-macro-rx"></block>.</block>
   <block id="eaf72ee058835b38b417b55e2fb1c0af" category="section-title">마켓플레이스 가입 없이 BlueXP에 액세스할 때 알림 메시지가 표시됩니다</block>
   <block id="5cc1493ad28334fdb28f7ed57f0e1d41" category="paragraph">이제 시장에 가입하지 않고 BlueXP에서 Cloud Volumes ONTAP에 액세스할 때마다 알림이 표시됩니다. 알림에는 "이 작업 환경에 대한 마켓플레이스 가입이 Cloud Volumes ONTAP 약관을 준수해야 합니다."라고 나와 있습니다.</block>
-  <block id="d845f71cd5cacb5fdb671f6530007953" category="paragraph"><block ref="b614243ef1614b3040beb4428349cfdf" category="inline-link-rx"></block>.</block>
   <block id="ea42cbd645e47130e67a7cbb87fe5de8" category="section-title">2023년 5월 8일</block>
   <block id="93c8b08c928ba95dab5c066b4611e000" category="section-title">이제 폴더 레벨 복구 작업은 아카이브 스토리지 및 잠긴 백업에서 지원됩니다</block>
   <block id="2f57132a5aa255f3e276ff3b62b985c8" category="paragraph">DataLock 및 랜섬웨어 보호를 사용하여 백업 파일을 구성했거나 백업 파일이 아카이브 스토리지에 있는 경우 클러스터에서 ONTAP 9.13.1 이상이 실행 중인 경우 폴더 레벨 복원 작업이 지원됩니다.</block>
@@ -472,28 +391,21 @@
   <block id="679a2d98f8c7c05c4944b0d161a6d567" category="section-title">AWS China 지역에서 백업 파일이 지원됩니다</block>
   <block id="aad236ec8e2b61a79fb4bb3a416a2e06" category="paragraph">클러스터가 ONTAP 9.12.1 이상을 실행 중인 경우 AWS China Beijing(cn-North-1) 및 Ningxia(cn-북서쪽-1) 지역이 백업 파일의 대상으로 지원됩니다.</block>
   <block id="c93bfe725726f47fe3bfcc0e95f8ec7d" category="inline-link">사내 ONTAP 데이터를 Amazon S3에 백업</block>
-  <block id="afe182ec329d300711f89a81223f8fe1" category="paragraph">BlueXP Connector에 할당된 IAM 정책은 all_Resource_sections의 AWS 리소스 이름 "arn"을 "AWS"에서 "AWS-cn"로 변경해야 합니다. 예를 들어 "arn:AWS-cn:S3::NetApp-backup- *"를 변경할 수 있습니다. 을 참조하십시오<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 및<block ref="98f7c8e7ee596af91f0142606f0617c9" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="4d5789e8f025b3895d94f1b6a7225e4a" category="list-text">애플리케이션(하이브리드)에 대한 BlueXP 백업 및 복구는 SaaS 제어 플레인에서 주도하고 있습니다</block>
-  <block id="53eb0fdde70aa10525b581e17b5d6f86" category="paragraph">이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한된 모드"로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다.<block ref="18611796b9b4332697b6f9bb72b16e0b" category="inline-link-rx"></block>. 을 참조하십시오<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 및<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>.</block>
-  <block id="f1a109ae8d953da8e05cf5534df6b22b" category="list-text">이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.0 이상을 실행하는 Cloud Volumes ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.</block>
   <block id="2652537da62e22a06b22374119e6c40f" category="section-title">하드 링크 기능</block>
   <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">이제 사용자는 보안되지 않은 NFS와 NFS 간의 관계를 동기화하는 하드 링크를 포함할 수 있습니다.</block>
   <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">파일 형식 설정에 대해 자세히 알아보세요</block>
-  <block id="c2c4f3224fc131a75284695269fdeb1e" category="paragraph"><block ref="b8337b36588af87bdf82aa24c2fb92dc" category="inline-link-rx"></block>.</block>
   <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">보안 NFS 관계에서 데이터 브로커를 위한 사용자 인증서를 추가할 수 있습니다</block>
   <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">이제 사용자는 보안 NFS 관계를 생성할 때 타겟 데이터 브로커에 대한 자체 인증서를 설정할 수 있습니다. 서버 이름을 설정하고 개인 키와 인증서 ID를 제공해야 합니다. 이 기능은 모든 데이터 브로커에 사용할 수 있습니다.</block>
   <block id="3bf0932004501be46156880cfe858e8f" category="section-title">최근 수정된 파일의 제외 기간이 연장되었습니다</block>
   <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">이제 사용자는 예약된 동기화 전 최대 365일 전에 수정된 파일을 제외할 수 있습니다.</block>
   <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">최근에 수정한 파일 설정에 대해 자세히 알아보세요</block>
-  <block id="deca82fda63a32d6ff9637b293af8d58" category="paragraph"><block ref="721635a0a6bd58b504914b6d4beb3e0e" category="inline-link-rx"></block>.</block>
   <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">관계 ID를 기준으로 UI의 관계를 필터링합니다</block>
   <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">RESTful API를 사용하는 사용자는 관계 ID를 사용하여 관계를 필터링할 수 있습니다.</block>
   <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">BlueXP 복사 및 동기화와 함께 RESTful API를 사용하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="30033019c9002410c1dee9e19900cb24" category="paragraph"><block ref="e9b17dee7c6de8c1de2830a91fd1865f" category="inline-link-rx"></block>.</block>
   <block id="6e3d9df489c437a2601f627a5b8935c9" category="paragraph">BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다. PAYGO(pay-as-you-go) 서브스크립션에 대한 모든 라이센스는 이제 BlueXP 계층화 온-프레미스 대시보드에서 액세스할 수 있습니다. 또한 BlueXP 계층화 기능을 통해 BYOL(Bring-Your-Own-License)을 확인하고 관리할 수 있도록 해당 페이지에서 BlueXP 디지털 지갑까지 연결되는 링크도 있습니다.</block>
   <block id="f6e3b39522072e9cb3b0ffb8cecf9b0b" category="paragraph">"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.</block>
   <block id="5afb323d4a36e6ab79cd9d765c5934f7" category="inline-link">고객이 관리하는 암호화 키 설정에 대해 자세히 알아보십시오</block>
-  <block id="82e4d7bffd878c91fac874e48e729020" category="paragraph">이제 고객 관리 암호화 키(CMEK)의 프로젝트가 아닌 다른 프로젝트에 있는 버킷을 선택할 수 있습니다.<block ref="c27debe559c9dc72a10bc811f768bbff" category="inline-link-rx"></block>.</block>
   <block id="c325ed37b6a44d9e765cfd2dd7779cfb" category="paragraph">ONTAP 9.13.1 이상을 실행하는 온-프레미스 ONTAP 시스템의 경우 * 작업 모니터링 * 탭에서 이러한 지속적인 백업 작업과 같은 시스템 시작 작업을 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.</block>
   <block id="24794b3bdde84ec6ccbec9ca5a92cf43" category="section-title">BlueXP 디지털 지갑 기능 향상</block>
   <block id="ca8d7ad5e36d40f4e29b0a489cf94294" category="paragraph">이제 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
@@ -506,4 +418,87 @@
   <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">ONTAP 9.10.1부터 시스템 관리자(고급 보기)를 사용하여 ONTAP 버전 이미지 및 하드웨어 펌웨어를 업그레이드할 수 있습니다. 최신 상태를 유지하기 위해 자동 업그레이드를 받도록 선택하거나, 로컬 시스템이나 BlueXP를 사용하여 액세스할 수 있는 서버에서 수동 업데이트를 수행할 수 있습니다. <block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
   <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">커넥터가 없는 경우 로컬 컴퓨터에서 BlueXP를 사용하여 액세스할 수 있는 서버에서만 업데이트할 수 없습니다.</block>
   <block id="7d830b76e4f0014bb7468c045f40070d" category="paragraph">커넥터를 사용하지 않고 직접 검색한 온-프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있으므로 작업 환경을 열 때마다 입력하지 않아도 됩니다.</block>
+  <block id="b2bc6f51638406715d089920f0b12029" category="paragraph"><block ref="b2bc6f51638406715d089920f0b12029" category="inline-link-rx"></block></block>
+  <block id="0ce55dbe491d96365e2c6abd492cbf95" category="list-text"><block ref="0ce55dbe491d96365e2c6abd492cbf95" category="inline-link-rx"></block></block>
+  <block id="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="list-text"><block ref="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="inline-link-rx"></block></block>
+  <block id="1f3e69b8c3c594d1f0dafae12df4c312" category="list-text"><block ref="1f3e69b8c3c594d1f0dafae12df4c312" category="inline-link-rx"></block></block>
+  <block id="18c372e7815b508eb4ff2301938c4f7b" category="list-text"><block ref="18c372e7815b508eb4ff2301938c4f7b" category="inline-link-rx"></block></block>
+  <block id="b46ed1f8a8d612b4083a72f6247afc99" category="list-text"><block ref="b46ed1f8a8d612b4083a72f6247afc99" category="inline-link-rx"></block></block>
+  <block id="022c83aa96ec3f050227b2ccb4c728b3" category="list-text"><block ref="022c83aa96ec3f050227b2ccb4c728b3" category="inline-link-rx"></block></block>
+  <block id="6631ed7abd96469c08f3809e6a47378b" category="list-text"><block ref="6631ed7abd96469c08f3809e6a47378b" category="inline-link-rx"></block></block>
+  <block id="3cedba5ad56ab686cb35903bf92a53df" category="list-text"><block ref="3cedba5ad56ab686cb35903bf92a53df" category="inline-link-rx"></block></block>
+  <block id="667ebcd133842dc11bdd503b38152d69" category="list-text"><block ref="667ebcd133842dc11bdd503b38152d69" category="inline-link-rx"></block></block>
+  <block id="6b740eb52a8b4f3afc2e3fb691378878" category="list-text"><block ref="6b740eb52a8b4f3afc2e3fb691378878" category="inline-link-rx"></block></block>
+  <block id="ed6f4d59069b65b41bfb3cfba797ee42" category="list-text"><block ref="ed6f4d59069b65b41bfb3cfba797ee42" category="inline-link-rx"></block></block>
+  <block id="35ab587d29d669683f08424c60051957" category="list-text"><block ref="35ab587d29d669683f08424c60051957" category="inline-link-rx"></block></block>
+  <block id="d5bd7276f5a8c8218f75aba64cdfdeb0" category="list-text"><block ref="d5bd7276f5a8c8218f75aba64cdfdeb0" category="inline-link-rx"></block></block>
+  <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
+  <block id="b58c4ddee0575cfc72a18936b05df78a" category="list-text"><block ref="b58c4ddee0575cfc72a18936b05df78a" category="inline-link-rx"></block></block>
+  <block id="c821df2021ac7a846f6554ac1ed76719" category="list-text"><block ref="c821df2021ac7a846f6554ac1ed76719" category="inline-link-rx"></block></block>
+  <block id="367cb072fdec82ba883d66fadac7fc54" category="list-text"><block ref="367cb072fdec82ba883d66fadac7fc54" category="inline-link-rx"></block></block>
+  <block id="98ffac9f61e6bf431d54a18e34b9a53d" category="paragraph">NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다.<block ref="c202e01c48134f154e0a38e5e6d1aed9" category="inline-link-rx"></block></block>
+  <block id="4d5f6e2e2b72482865cac1c14f3d2d3d" category="paragraph"><block ref="4d5f6e2e2b72482865cac1c14f3d2d3d" category="inline-link-rx"></block></block>
+  <block id="0e243030d4d37c15e7b806556f21cdc3" category="paragraph"><block ref="07b6d38a8467f077daba3577bc2ba852" category="inline-link-rx"></block>.</block>
+  <block id="68dcffa7a1f20520450fc9a1fe7431e0" category="paragraph"><block ref="44a545209b596546dde53c0efadb310a" category="inline-link-rx"></block>.</block>
+  <block id="9676038d34e063194a28e72d0b24ba2b" category="paragraph"><block ref="3f659f48f22c3b837f26de72ef4f6428" category="inline-link-rx"></block>.</block>
+  <block id="e076d1de7062df2857bf544f4a4aa82d" category="paragraph"><block ref="c7a2ab7c05c0b984c7e95e609cb46e34" category="inline-link-rx"></block>.</block>
+  <block id="55a6750574b4447541f67bb4e01cab9a" category="list-text"><block ref="55a6750574b4447541f67bb4e01cab9a" category="inline-link-rx"></block></block>
+  <block id="6ee17626d7e1b5c782c10c267de6f85c" category="list-text"><block ref="6ee17626d7e1b5c782c10c267de6f85c" category="inline-link-rx"></block></block>
+  <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
+  <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
+  <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
+  <block id="b6f1ebb155eaf4c6e07d7a105b1d5a53" category="list-text">작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 <block ref="3ba2cfc3ef2a3c163fc4910682cfb7d6" category="inline-link-macro-rx"></block> 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 <block ref="097f8dd60847dad6062ac7ea2bd09c06" category="inline-link-macro-rx"></block>.</block>
+  <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">선택적으로 을(를) 사용할 수 있습니다 <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> 및 <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> 태그를 사용하여 볼륨을 분류합니다.</block>
+  <block id="c55a4ed0f55f8209574960c04bd36597" category="paragraph">이제 고객 관리 암호화 키(CMEK)의 프로젝트가 아닌 다른 프로젝트에 있는 버킷을 선택할 수 있습니다.<block ref="2425c9129a22c7135ee8a04ae0dae970" category="inline-link-rx"></block>.</block>
+  <block id="cfc826b330f7a25cc3c4e115a9fcca13" category="paragraph">BlueXP Connector에 할당된 IAM 정책은 all_Resource_sections의 AWS 리소스 이름 "arn"을 "AWS"에서 "AWS-cn"로 변경해야 합니다. 예를 들어 "arn:AWS-cn:S3::NetApp-backup- *"를 변경할 수 있습니다. 을 참조하십시오<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 및<block ref="bb86d78b7593b3e1252f277b7dd6e017" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="e440c82aa05a4e6e5bc3191ceeece3ae" category="paragraph">이제 AWS, Azure 및 GCP 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 "제한된 모드"로 백업할 수 있습니다. 이를 위해서는 먼저 "제한된" 상업 지역에 커넥터를 설치해야 합니다.<block ref="0eb8533d49e65dbfdd979d6ceb88ebff" category="inline-link-rx"></block>. 을 참조하십시오<block ref="27ee532be7d9f80c345fcb2108369dd1" category="inline-link-rx"></block> 및<block ref="eb65204a82ae962a8410421a1d6516bd" category="inline-link-rx"></block>.</block>
+  <block id="3e5afb80ef2b2c6b108c664e6550be33" category="list-text">이제 BlueXP 백업 및 복구 UI 및 API에서 시작된 사용자 시작 백업 및 복원 작업과 이러한 진행 중인 백업 작업을 ONTAP 9.13.1 이상을 실행하는 사내 ONTAP 시스템의 * 작업 모니터링 * 탭에서 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.</block>
+  <block id="3f95b7ff004c9ea7ba2c076aa81ddbd8" category="list-text">모든 작업에 대한 보고를 위해 CSV 파일을 다운로드할 수 있을 뿐만 아니라 단일 작업에 대한 JSON 파일을 다운로드하여 자세한 내용을 볼 수 있습니다.<block ref="c5e8ac86e60de65889ee067b8ca8ac22" category="inline-link-rx"></block>.</block>
+  <block id="aca6a48e798dafa8a873544468b60e06" category="list-text">두 가지 새로운 백업 작업 경고가 추가되었습니다. "예약된 작업 실패" 및 "복원 작업이 완료되지만 경고가 있음"<block ref="a4848a9ae757d04f84e693376feb04c0" category="inline-link-rx"></block>.</block>
+  <block id="cb388daef1ecf4d75abae922da7c4ccd" category="paragraph">이제 AWS 및 Azure 상업 지역에 설치된 Cloud Volumes ONTAP 시스템의 데이터를 Amazon S3 또는 Azure Blob으로 백업할 수 있습니다. 이 작업을 수행하려면 상업 지역의 Linux 호스트에 커넥터를 설치하고 Cloud Volumes ONTAP 시스템도 배포해야 합니다. 을 참조하십시오<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 및<block ref="e88a100423dadabfc9781439f925633d" category="inline-link-rx"></block>.</block>
+  <block id="7397c46a6bf6fde87c1217e8c8bbab15" category="list-text">작업 모니터링 페이지에 고급 필터링이 추가되어 시간, 워크로드(볼륨, 애플리케이션, 가상 머신 또는 Kubernetes) 별로 백업 및 복원 작업을 검색할 수 있습니다. 작업 유형, 상태, 작업 환경 및 스토리지 VM "application_3"과 같은 자원 검색을 위해 자유 텍스트를 입력할 수도 있습니다. <block ref="3ed9d480474f89776ff0bf3cbda69d30" category="inline-link-rx"></block>.</block>
+  <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
+  <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>.</block>
+  <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>.</block>
+  <block id="75e47d62ba360614f8cdea86c229c321" category="paragraph">이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP 분류에는 많은 기능이 있습니다<block ref="7587255274ad12f237a14fbd5f47a14a" category="inline-link-rx"></block>따라서 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 위치를 식별할 수 있습니다.</block>
+  <block id="740f66f04097135a7846557949061bf8" category="paragraph"><block ref="e14cfeac39419a4a8a842fd3611a27db" category="inline-link-rx"></block>.</block>
+  <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>.</block>
+  <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>.</block>
+  <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>.</block>
+  <block id="c51401ffdfb1031aea6f8a59f0b12ac5" category="paragraph"><block ref="364c24684858aaf9cf725ae1ec404c5d" category="inline-link-rx"></block>.</block>
+  <block id="75dbbfa0c63b5452f1dab4062180db11" category="paragraph"><block ref="096bf81f435bf11200f532bd4759e1e0" category="inline-link-rx"></block>.</block>
+  <block id="882ecc5b644de8aa6bd8f8ae2a69ef91" category="paragraph">과거에는 BlueXP 분류로 최대 100,000개의 소스 파일을 NFS 공유로 이동할 수 있었습니다. 이제 한 번에 최대 1,500만 개의 파일을 이동할 수 있습니다.<block ref="9bbad7a61d2ec2ac2169dcc43ec22874" category="inline-link-rx"></block>.</block>
+  <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">새로운 "부분 성공" 상태는 BlueXP 분류 작업이 완료되었고 일부 항목이 실패했으며 100개의 파일을 이동하거나 삭제하는 등 일부 항목이 성공했음을 나타냅니다. 또한 "완료됨" 상태의 이름이 "성공"으로 변경되었습니다. 과거에는 "완료" 상태에 성공했고 실패한 작업이 나열될 수 있습니다. 이제 "성공" 상태는 모든 작업이 모든 항목에 성공했음을 의미합니다.<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>.</block>
+  <block id="06765567af68358bde181ef7ae8a31b0" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="5aa81dcb1871cc4d565005ce5abe331d" category="inline-link-macro-rx"></block>.</block>
+  <block id="d0922b1e87a764a73d3cfca142d88a3e" category="paragraph"><block ref="43cde999a8a50b7abff143c352cabd37" category="inline-link-rx"></block>.</block>
+  <block id="15620bf0529e3d68b9f6b01095e269d3" category="paragraph"><block ref="15620bf0529e3d68b9f6b01095e269d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2f78492bd5f6bbe07383dadc5778fe8" category="paragraph"><block ref="c2f78492bd5f6bbe07383dadc5778fe8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="078d5a2ce174d1db14eba9ab521ae2a0" category="paragraph"><block ref="078d5a2ce174d1db14eba9ab521ae2a0" category="inline-link-macro-rx"></block></block>
+  <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>.</block>
+  <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block>.</block>
+  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>.</block>
+  <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>.</block>
+  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>.</block>
+  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>.</block>
+  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>.</block>
+  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
+  <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
+  <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
+  <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
+  <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">이제 가능합니다 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
+  <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">시기 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
+  <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>.</block>
+  <block id="50e595f4689430099172b96d0ac1c5b7" category="paragraph"><block ref="50e595f4689430099172b96d0ac1c5b7" category="inline-link-rx"></block></block>
+  <block id="6b5123d10bcaa20aedf265862fd00988" category="paragraph"><block ref="b8d5a3f5bf3c3f09de7cacb30a8225fd" category="inline-link-rx"></block>.</block>
+  <block id="d773758b323d5c30c9e4ae45fd81b118" category="paragraph">랜섬웨어 복구 대시보드는 랜섬웨어에 감염되었을 수 있는 데이터를 복구하는 옵션을 제공합니다. 이를 통해 시스템을 매우 빠르게 백업 및 실행할 수 있습니다. 이때 복구 작업을 수행하면 손상된 볼륨을 랜섬웨어의 영향을 받지 않는 스냅샷 복사본으로 대체할 수 있습니다.<block ref="1cfef95f6383739a4e12630b10e7eb2d" category="inline-link-rx"></block>.</block>
+  <block id="044a391323ce6d62701fd93c1d831b1c" category="paragraph"><block ref="6ae4b2bca0be046d4e2b16ecc9229d9a" category="inline-link-rx"></block>.</block>
+  <block id="6036aba79be1763af24e9806bf6aa269" category="paragraph">"기존 자원 찾기" 작업을 사용하면 작업 환경을 확인한 다음 볼륨 만들기와 같은 다른 템플릿 작업을 사용하여 기존 작업 환경에서 쉽게 작업을 수행할 수 있습니다.<block ref="1cc8e92b4ee69f285158646e972eb8d0" category="inline-link-rx"></block>.</block>
+  <block id="4bf671cced86fd4534b1e46341c4d33e" category="paragraph">AWS에서 Cloud Volumes ONTAP 작업 환경을 구축하기 위한 기존 지원이 확장되어 단일 노드 시스템 외에 고가용성 시스템을 구축할 수 있습니다.<block ref="4e312d070157c43d2c155d9ef416aea0" category="inline-link-rx"></block>.</block>
+  <block id="3ce8031a2a5efd8807d29dc5391ac03a" category="paragraph">현재 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템의 볼륨에 대한 지원이 제공됩니다.<block ref="71acbc1e86413ca32a85c458baf53529" category="inline-link-rx"></block>.</block>
+  <block id="c3f9f5f3154c847ae51038b02652e769" category="paragraph"><block ref="ebf81513d87da0002a3ac7ea6ee056cb" category="inline-link-rx"></block>.</block>
+  <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
+  <block id="af39bae06861b3074eed6e997f9a3ebf" category="paragraph">계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. BlueXP 계층화는 .csv 파일을 생성하여 필요에 따라 회사의 다른 사람에게 검토 및 전송할 수 있습니다.<block ref="aaab920374e84f87020f8ba8578ab877" category="inline-link-rx"></block>.</block>
+  <block id="fa2934d386823619966e2cc6e222496c" category="paragraph">의 전체 끝점 목록을 참조하십시오<block ref="42eb7f749d4ba3adb326aa0a5756ba02" category="inline-link-rx"></block>,<block ref="96a9d4916fc49c8f082f1cb217b818c4" category="inline-link-rx"></block>, 또는<block ref="4f16be4d60318c8ffb97ef574631956d" category="inline-link-rx"></block> 설명합니다.</block>
 </blocks>
