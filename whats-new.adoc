@@ -207,6 +207,14 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
+=== 2023년 7월 2일
+
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["스토리지 VM을 추가합니다"] BlueXP를 사용하는 NetApp ONTAP 파일 시스템용 Amazon FSx로
+* ** 내 기회** 탭은 지금 ** 내 부동산** 입니다. 새 이름이 반영되도록 문서가 업데이트됩니다.
+
+
+
+
 === 2023년 6월 4일
 
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
@@ -220,12 +228,6 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 * 작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["보안 그룹을 생성합니다"^] 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["추가 권한이 필요합니다"^].
 * 선택적으로 을(를) 사용할 수 있습니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["추가"^] 및 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["수정"^] 태그를 사용하여 볼륨을 분류합니다.
 
-
-
-
-=== 2023년 4월 2일
-
-IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.
 
 
 
@@ -501,6 +503,42 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 
 
+=== 2023년 7월 2일
+
+다음 변경 사항은 커넥터의 3.9.31 릴리스에 도입되었습니다.
+
+
+
+==== Azure에서 HA 다중 가용성 영역 구축 지원
+
+Azure의 Japan East 및 Korea Central은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상의 HA 다중 가용성 영역 배포를 지원합니다.
+
+여러 가용 영역을 지원하는 모든 지역 목록은 를 참조하십시오 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 아래의 글로벌 지역 지도"^].
+
+
+
+==== 자율주행 랜섬웨어 보호 지원
+
+Cloud Volumes ONTAP에서는 자율 ARP(랜섬웨어 보호)가 현재 지원됩니다. ARP 지원은 Cloud Volumes ONTAP 버전 9.12.1 이상에서 사용할 수 있습니다.
+
+Cloud Volumes ONTAP의 ARP에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-protecting-ransomware.html#autonomous-ransomware-protection["자율 랜섬웨어 보호"].
+
+
+
+=== 2023년 6월 26일
+
+다음 변경은 커넥터의 3.9.30 릴리스에 도입되었습니다.
+
+
+
+==== Cloud Volumes ONTAP 9.13.1 RC1
+
+이제 BlueXP는 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.13.1 을 배포하고 관리할 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
+
+
+
 === 2023년 6월 4일
 
 다음 변경은 커넥터의 3.9.30 릴리스에 도입되었습니다.
@@ -556,18 +594,6 @@ Azure의 오스트레일리아 동부 지역은 현재 Cloud Volumes ONTAP 9.12.
 ==== 마켓플레이스 가입 없이 BlueXP에 액세스할 때 알림 메시지가 표시됩니다
 
 이제 시장에 가입하지 않고 BlueXP에서 Cloud Volumes ONTAP에 액세스할 때마다 알림이 표시됩니다. 알림에는 "이 작업 환경에 대한 마켓플레이스 가입이 Cloud Volumes ONTAP 약관을 준수해야 합니다."라고 나와 있습니다.
-
-
-
-=== 2023년 4월 4일
-
-Cloud Volumes ONTAP 9.12.1 GA부터 중국 지역이 다음과 같이 AWS에서 지원됩니다.
-
-* 단일 노드 시스템이 지원됩니다.
-* NetApp에서 직접 구매한 라이센스가 지원됩니다.
-
-
-지역별 이용 가능 여부는 를 참조하십시오 link:https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes ONTAP를 위한 글로벌 지역 맵"^].
 
 
 
@@ -943,6 +969,18 @@ link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["BlueXP
 
 
 
+=== 2023년 7월 2일
+
+
+
+==== 내 부동산에서 클러스터 검색
+
+이제 BlueXP 로그인의 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP에서 사전 검색된 클러스터를 선택하여 * Canvas > 내 공간 * 에서 온-프레미스 ONTAP 클러스터를 검색할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다"].
+
+
+
 === 2023년 5월 4일
 
 
@@ -981,18 +1019,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["검색 및 관리 옵션에 대해 자세히 알아보십시오"].
-
-
-
-=== 2023년 1월 1일
-
-
-
-==== ONTAP 자격 증명을 저장합니다
-
-커넥터를 사용하지 않고 직접 검색한 온-프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있으므로 작업 환경을 열 때마다 입력하지 않아도 됩니다.
-
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["이 옵션에 대해 자세히 알아보십시오."]
 
 
 
