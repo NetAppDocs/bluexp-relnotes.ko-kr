@@ -27,6 +27,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 
 == 스토리지
 
+* https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["Azure Blob 저장소"^]
 * https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/whats-new.html["ONTAP용 Amazon FSx"^]
 * https://docs.netapp.com/us-en/bluexp-s3-storage/whats-new.html["Amazon S3 스토리지"^]
@@ -39,6 +40,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E-Series 시스템"^]
 * https://docs.netapp.com/us-en/bluexp-kubernetes/whats-new.html["Kubernetes 클러스터"^]
+* https://docs.netapp.com/us-en/bluexp-reports/release-notes/whats-new.html["마이그레이션 보고서"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html["온프레미스 ONTAP 클러스터"^]
 * https://docs.netapp.com/us-en/bluexp-storagegrid/whats-new.html["StorageGRID"^]
 
@@ -59,4 +61,5 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 * https://docs.netapp.com/us-en/bluexp-remediation/whats-new.html["해결"^]
 * https://docs.netapp.com/us-en/bluexp-replication/whats-new.html["복제"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/whats-new.html["계층화"^]
+* https://docs.netapp.com/us-en/bluexp-volume-caching/release-notes/cache-whats-new.html["볼륨 캐싱"^]
 

@@ -33,6 +33,58 @@ NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Ma
 
 
 
+=== 2023년 6월 4일
+
+
+
+==== 커넥터 3.9.30
+
+* 지원 대시보드에서 NetApp 지원 케이스를 열면 BlueXP에서 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 사용하여 케이스를 엽니다. BlueXP는 이전에 전체 BlueXP 계정과 연결된 NetApp Support 사이트 계정을 사용했습니다.
++
+이 변경 사항의 일환으로 BlueXP 계정에 대한 지원 등록은 사용자의 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 통해 수행됩니다. 이전에는 전체 BlueXP 계정과 연결된 NSS 계정을 통해 지원 등록을 수행했습니다. 따라서 다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 이전에 BlueXP 계정을 등록한 경우 등록 상태는 여전히 유효합니다. 상태를 보려면 사용자 수준 NSS 계정만 추가하면 됩니다.
+
++
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["NetApp 지원을 통해 케이스를 생성하는 방법을 알아보십시오"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-support-registration.html["지원 등록 방법을 알아보십시오"]
+
+
+* 이제 BlueXP 내에서 문서를 검색할 수 있습니다. 이제 검색 결과에 docs.netapp.com 및 kb.netapp.com 있는 콘텐츠에 대한 링크가 제공됩니다. 이 링크를 클릭하면 궁금한 사항을 해결하는 데 도움이 될 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search-docs.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
+
+* Connector는 이제 다음 AWS 지역에서 지원됩니다.
++
+** 하이데라바드(AP-남부-2)
+** 멜버른(AP-남동-4)
+** 스페인(EU-남부-2)
+** 아랍에미리트(ME-센트럴-1)
+** 취리히(EU-중부-2)
+
+
+* 이제 커넥터는 다음 Azure 지역에서 지원됩니다.
++
+** 브라질 남부
+** 프랑스 남쪽
+** Jio India Central을 참조하십시오
+** Jio India West
+** 폴란드 센트럴
+** 카타르 중부
+
+
+* Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
++
+** 콜럼버스(us-east5)
+** 댈러스(us-south1)
+
+
++
+https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
+
+
+
+
+
 === 2023년 5월 7일
 
 
@@ -83,41 +135,17 @@ NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성
 
 
 
-=== 2023년 4월 3일
+== Azure Blob 저장소
 
 
 
-==== 커넥터 3.9.28
-
-* 이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.
-+
-알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"].
-
-* Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
-* 이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.
-+
-설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
-
-* 이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#manage-your-support-cases["지원 케이스를 생성하고 관리하는 방법에 대해 알아보십시오"].
-
-* 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
-+
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#3-april-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#3-april-2023["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
+=== 2023년 6월 5일
 
 
 
+==== BlueXP에서 새 스토리지 계정을 추가할 수 있습니다
+
+BlueXP Canvas에서 Azure Blob Storage를 한동안 볼 수 있는 기능이 있습니다. 이제 새 저장소 계정을 추가하고 기존 저장소 계정의 속성을 BlueXP에서 직접 변경할 수 있습니다. https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["새 Azure Blob 저장소 계정을 추가하는 방법을 알아보십시오"^].
 
 
 
@@ -175,6 +203,14 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
+=== 2023년 6월 4일
+
+* 시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
+* 시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["볼륨을 생성하는 중입니다"]FlexGroup을 생성하여 데이터를 볼륨 간에 분산함으로써 데이터 최적화를 활성화할 수 있습니다.
+
+
+
+
 === 2023년 5월 7일
 
 * 작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["보안 그룹을 생성합니다"^] 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["추가 권한이 필요합니다"^].
@@ -186,12 +222,6 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 === 2023년 4월 2일
 
 IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.
-
-
-
-=== 2023년 3월 5일
-
-사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.
 
 
 
@@ -460,6 +490,20 @@ https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.ht
 
 
 
+=== 2023년 6월 4일
+
+다음 변경은 커넥터의 3.9.30 릴리스에 도입되었습니다.
+
+
+
+==== Cloud Volumes ONTAP 업그레이드 버전 선택기 업데이트
+
+Cloud Volumes ONTAP 업그레이드 페이지를 통해 최신 버전의 Cloud Volumes ONTAP 또는 이전 버전으로 업그레이드할 수 있습니다.
+
+BlueXP를 통한 Cloud Volumes ONTAP 업그레이드에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-cloud-volumes-ontap["Cloud Volumes ONTAP를 업그레이드합니다"^].
+
+
+
 === 2023년 5월 7일
 
 다음 변경 사항은 커넥터의 3.9.29 릴리스에 도입되었습니다.
@@ -513,53 +557,6 @@ Cloud Volumes ONTAP 9.12.1 GA부터 중국 지역이 다음과 같이 AWS에서 
 
 
 지역별 이용 가능 여부는 를 참조하십시오 link:https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes ONTAP를 위한 글로벌 지역 맵"^].
-
-
-
-=== 2023년 4월 3일
-
-다음 변경 사항은 커넥터의 3.9.28 릴리스에 도입되었습니다.
-
-
-
-==== Turin 지역이 이제 Google Cloud에서 지원됩니다
-
-Turin 지역은 현재 Google Cloud for Cloud Volumes ONTAP 및 Connector for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.
-
-
-
-==== BlueXP 디지털 지갑 기능 향상
-
-이제 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다"^].
-
-
-
-==== 볼륨 생성 중 주석 지원
-
-이 릴리즈를 사용하면 API를 사용할 때 Cloud Volumes ONTAP FlexGroup 볼륨 또는 FlexVol 볼륨을 생성할 때 주석을 작성할 수 있습니다.
-
-
-
-==== Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지를 위한 BlueXP 사용자 인터페이스 재설계
-
-BlueXP는 이제 Cloud Volumes ONTAP 개요, 볼륨 및 집계 페이지에 대한 사용자 인터페이스를 새롭게 설계했습니다. 타일 기반 디자인은 각 타일에 보다 포괄적인 정보를 제공하여 사용자 경험을 향상시킬 수 있습니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-resource-page-rn.png["이 스크린샷은 Cloud Volumes ONTAP 개요 페이지에서 재설계된 BlueXP 사용자 인터페이스를 보여줍니다. 다양한 타일이 스토리지 효율성, 버전, 용량 배포, Cloud Volumes ONTAP 구축, 볼륨, 애그리게이트, 복제 및 백업에 대한 정보를 보여줍니다."]
-
-
-
-==== FlexGroup 볼륨은 Cloud Volumes ONTAP를 통해 볼 수 있습니다
-
-CLI 또는 System Manager를 통해 직접 생성된 FlexGroup 볼륨은 이제 BlueXP의 재설계된 볼륨 타일을 통해 볼 수 있습니다. FlexVol 볼륨에 대해 제공된 정보와 동일한 BlueXP는 전용 볼륨 타일을 통해 생성된 FlexGroup 볼륨에 대한 자세한 정보를 제공합니다.
-
-
-NOTE: 현재 BlueXP에서만 기존 FlexGroup 볼륨을 볼 수 있습니다. BlueXP에서 FlexGroup 볼륨을 생성하는 기능은 사용할 수 없지만 향후 릴리스에서 제공될 예정입니다.
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-show-flexgroup-volume.png["볼륨 타일 아래에 FlexGroup 볼륨 아이콘 호버 텍스트를 보여 주는 스크린샷"]
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-volumes.html["생성된 FlexGroup 볼륨을 보는 방법에 대해 자세히 알아보십시오."^]
 
 
 
@@ -743,7 +740,7 @@ BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Market
 
 알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"^]
 
 
 
@@ -906,6 +903,20 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 === 2022년 11월 6일
 
 시기 link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스 정의"]이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.
+
+
+
+== 마이그레이션 보고서
+
+
+
+=== 2023년 6월 2일
+
+새로운 BlueXP 마이그레이션 보고서 서비스를 사용하면 스토리지 환경에서 파일, 디렉토리, 심볼 링크, 하드 링크, 파일 시스템 트리의 깊이와 폭, 가장 큰 파일 등을 신속하게 식별할 수 있습니다.
+
+이 정보를 통해 사용하려는 프로세스가 재고를 효율적으로 성공적으로 처리할 수 있음을 미리 알 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["BlueXP 마이그레이션 보고서에 대해 자세히 알아보십시오"].
 
 
 
@@ -1177,3 +1188,17 @@ BlueXP 계층화가 변경되었기 때문에 BlueXP 계층화 작업을 성공�
 | https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | https://*.api.bluexp.netapp.com 으로 문의하십시오 
 |===
 의 전체 끝점 목록을 참조하십시오 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-aws.html#outbound-internet-access["설치하고"^], https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-google.html#outbound-internet-access["Google 클라우드"^], 또는 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-azure.html#outbound-internet-access["Azure를 지원합니다"^] 설명합니다.
+
+
+
+== 볼륨 캐싱
+
+
+
+=== 2023년 6월 4일
+
+ONTAP 9 소프트웨어의 기능인 볼륨 캐싱은 파일 배포를 간소화하고, 사용자와 컴퓨팅 리소스의 위치에 리소스를 더 가깝게 배치함으로써 WAN 대기 시간을 줄이고, WAN 대역폭 비용을 절감하는 원격 캐싱 기능입니다. 볼륨 캐싱은 원격 위치에서 쓰기 가능한 영구 볼륨을 제공합니다. BlueXP 볼륨 캐싱을 사용하여 데이터 액세스 속도를 높이거나 자주 액세스하는 볼륨에서 트래픽을 오프로드할 수 있습니다. 캐시 볼륨은 특히 클라이언트가 동일한 데이터에 반복적으로 액세스해야 하는 읽기 집약적인 워크로드에 적합합니다.
+
+BlueXP 볼륨 캐싱을 사용하면 클라우드에 대한 캐싱 기능이 있으며, 특히 NetApp ONTAP, Cloud Volumes ONTAP 및 온-프레미스에서 작업 환경으로 사용되는 Amazon FSx를 지원합니다.
+
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP 볼륨 캐싱에 대해 자세히 알아보십시오"].
