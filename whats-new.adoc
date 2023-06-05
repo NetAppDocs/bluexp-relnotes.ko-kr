@@ -663,6 +663,26 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023년 6월 11일
+
+
+
+==== 분 단위로 자동 중단을 지원합니다
+
+아직 완료되지 않은 활성 동기화는 이제 * 동기화 시간 초과 * 기능을 사용하여 15분 후에 중단할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["동기화 시간 초과 설정에 대해 자세히 알아보십시오"].
+
+
+
+==== 복사 액세스 시간 메타데이터
+
+파일 시스템을 포함한 관계에서 * Copy for Objects * 기능은 이제 액세스 시간 메타데이터를 복사합니다.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["개체에 대한 복사 설정에 대해 자세히 알아보세요"].
+
+
+
 === 2023년 5월 8일
 
 
@@ -722,18 +742,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships
 이름을 기준으로 디렉토리를 필터링하는 것 외에도 전체 경로를 기준으로 디렉토리를 필터링할 수 있습니다.
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["디렉터리 제외 설정에 대해 자세히 알아보세요"].
-
-
-
-=== 2023년 3월 7일
-
-
-
-==== EBS Encryption for AWS 데이터 브로커
-
-이제 계정에서 KMS 키를 사용하여 AWS 데이터 브로커 볼륨을 암호화할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오"].
 
 
 
