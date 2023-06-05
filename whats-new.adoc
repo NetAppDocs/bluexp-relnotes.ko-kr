@@ -33,6 +33,36 @@ NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Ma
 
 
 
+=== 2023년 7월 2일
+
+
+
+==== 커넥터 3.9.31
+
+* 이제 * My Estate * 탭(이전 * My Opportunities *)에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다"].
+
+* Azure Government 지역에서 Connector를 사용하는 경우 Connector가 다음 끝점에 연결할 수 있는지 확인해야 합니다.
++
+\https://occmclientinfragov.azurecr.us
+
++
+Connector를 수동으로 설치하고 Connector 및 해당 Docker 구성 요소를 업그레이드하려면 이 끝점이 필요합니다.
+
++
+이러한 변경으로 인해 Azure Government 지역의 Connector는 더 이상 다음 끝점에 문의하지 않습니다.
+
++
+\https://cloudmanagerinfraprod.azurecr.io
+
++
+이 엔드포인트는 다른 모든 제한된 모드 구성 및 표준 모드에 대해 여전히 필요합니다.
+
+
+
+
+
 === 2023년 6월 4일
 
 
@@ -116,26 +146,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-may-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
-
-
-
-=== 2023년 4월 4일
-
-
-
-==== 배포 모드
-
-BlueXP_deployment mode_를 사용하면 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있습니다. 다음 세 가지 모드 중에서 선택할 수 있습니다.
-
-* 표준 모드
-* 제한된 모드
-* 비공개 모드
-
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
-
-
-NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.
 
 
 
