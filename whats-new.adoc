@@ -287,9 +287,9 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.
 
 
 
-==== 오브젝트 스토리지에 백업하기 위한 버킷 생성 기능
+==== 오브젝트 스토리지로 백업할 스토리지 컨테이너를 생성하는 기능
 
-오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.
+오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#do-you-want-to-create-your-own-object-storage-container["오브젝트 스토리지 버킷을 생성하는 방법을 알아보십시오"].
 
 StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.
 
@@ -405,6 +405,40 @@ ONTAP 9.13.1 이상을 실행하는 온-프레미스 ONTAP 시스템의 경우 *
 
 
 
+=== 2023년 7월 17일(버전 1.24)
+
+
+
+==== BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다
+
+BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.
+
+* 독일어 ID(Personalausweummer)
+* 독일 사회 보장 번호(소지아버서머스무머)
+
+
+https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"].
+
+
+
+==== Rocky Linux 9는 이제 BlueXP 분류를 설치할 수 있는 Linux 배포판입니다
+
+Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체제로 인증되었습니다. 설치 프로그램의 1.24 버전을 사용하는 경우, 네트워크의 Rocky Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["Rocky Linux가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 확인하십시오"].
+
+
+
+==== BlueXP 분류는 제한 모드 및 비공개 모드에서 완전히 지원됩니다
+
+현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다. https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Connector의 BlueXP 배포 모드에 대해 자세히 알아보십시오"^].
+
+
+
+==== BlueXP 분류의 비공개 모드 설치를 업그레이드할 때 버전을 건너뛸 수 있습니다
+
+이제 순차적이지 않더라도 최신 버전의 BlueXP 분류로 업그레이드할 수 있습니다. 즉, 한 번에 한 버전씩 BlueXP 분류를 업그레이드할 때 현재 제한이 없어진다는 의미입니다. 이 기능은 버전 1.24 이상부터 관련이 있습니다.
+
+
+
 === 2023년 6월 6일(버전 1.23)
 
 
@@ -458,65 +492,6 @@ AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기�
 ==== 이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다
 
 Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-test-linux-system.html["Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오"].
-
-
-
-=== 2023년 3월 7일(버전 1.21)
-
-
-
-==== BlueXP 분류 UI에서 사용자 지정 범주를 추가하는 새로운 기능
-
-이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP 분류에는 많은 기능이 있습니다 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-categories["미리 정의된 범주"]따라서 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 위치를 식별할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-categories["자세한 정보"^].
-
-
-
-==== 이제 BlueXP 분류 UI에서 사용자 지정 키워드를 추가할 수 있습니다
-
-BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 사용자 지정 키워드를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄 인터페이스를 사용하여 키워드를 추가해야 합니다. 이 릴리스에서 사용자 지정 키워드를 추가하는 기능은 BlueXP 분류 UI에 포함되어 있으므로 이러한 키워드를 쉽게 추가하고 편집할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words["BlueXP 분류 UI에서 사용자 지정 키워드를 추가하는 방법에 대해 자세히 알아보십시오"^].
-
-
-
-==== "마지막 액세스 시간"이 변경될 때 BlueXP 분류 * 파일 * 스캔 기능이 없음
-
-기본적으로 BlueXP 분류에 적절한 "쓰기" 권한이 없으면 BlueXP 분류가 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 그러나 파일의 마지막 액세스 시간이 원래 시간으로 재설정되는 것을 염려하지 않을 경우, BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 구성 페이지에서 이 동작을 재정의할 수 있습니다.
-
-이 기능과 함께 "Scan Analysis Event"라는 새 필터가 추가되어 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없거나, BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없는 경우에도 분류된 파일을 볼 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-classification/reference-collected-metadata.html#last-access-time-timestamp[""마지막 액세스 시간 타임스탬프" 및 BlueXP 분류에 필요한 권한에 대해 자세히 알아보십시오"].
-
-
-
-==== BlueXP 분류에서는 세 가지 새로운 유형의 개인 데이터를 식별합니다
-
-BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.
-
-* 보츠와나 ID 카드(오만) 번호
-* 보츠와나 여권 번호
-* 싱가포르 국가 등록 ID 카드(NRIC)
-
-
-https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"].
-
-
-
-==== 디렉토리의 기능이 업데이트되었습니다
-
-* 이제 데이터 조사 보고서에 대한 "Light CSV Report(라이트 CSV 보고서)" 옵션에 디렉토리의 정보가 포함됩니다.
-* 이제 "마지막 액세스" 시간 필터에 파일과 디렉터리 모두의 마지막 액세스 시간이 표시됩니다.
-
-
-
-
-==== 설치 개선 사항
-
-* 인터넷 접속(다크 사이트)이 없는 사이트의 BlueXP 분류 설치 관리자가 사전 검사를 수행하여 성공적인 설치를 위해 시스템 및 네트워킹 요구 사항이 제대로 갖추어져 있는지 확인합니다.
-* 설치 감사 로그 파일은 지금 저장되며 에 기록됩니다 `/ops/netapp/install_logs`.
-
 
 
 

@@ -136,16 +136,6 @@
   <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">이제 볼륨에 대한 계층화 보고서를 생성할 수 있습니다</block>
   <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">계층화 보고서를 다운로드하는 방법을 확인하십시오</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.</block>
-  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023년 3월 7일(버전 1.21)</block>
-  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">미리 정의된 범주</block>
-  <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="list-text">보츠와나 ID 카드(오만) 번호</block>
-  <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="list-text">보츠와나 여권 번호</block>
-  <block id="ff3bab043a00af2e37e7dcaf393aea61" category="list-text">싱가포르 국가 등록 ID 카드(NRIC)</block>
-  <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">디렉토리의 기능이 업데이트되었습니다</block>
-  <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">이제 데이터 조사 보고서에 대한 "Light CSV Report(라이트 CSV 보고서)" 옵션에 디렉토리의 정보가 포함됩니다.</block>
-  <block id="b2755be94249995adeed2a28b31a7393" category="list-text">이제 "마지막 액세스" 시간 필터에 파일과 디렉터리 모두의 마지막 액세스 시간이 표시됩니다.</block>
-  <block id="013efea19f002683e016d90789038d6e" category="section-title">설치 개선 사항</block>
-  <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">설치 감사 로그 파일은 지금 저장되며 에 기록됩니다<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>.</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">새로운 랜섬웨어 복구 대시보드가 추가되어 공격으로부터 시스템을 복구할 수 있습니다</block>
   <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3 스토리지</block>
@@ -218,18 +208,8 @@
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">클라우드 내 소규모 인스턴스에 BlueXP 분류 기능을 배포할 수 있습니다</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오</block>
-  <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="section-title">BlueXP 분류 UI에서 사용자 지정 범주를 추가하는 새로운 기능</block>
-  <block id="bca8069b731ea966c03da0cea318f9d1" category="section-title">이제 BlueXP 분류 UI에서 사용자 지정 키워드를 추가할 수 있습니다</block>
-  <block id="c9383e3b8d4c0ef8e217c6982644630b" category="paragraph">BlueXP 분류에서는 BlueXP 분류가 향후 검색에서 식별할 수 있는 사용자 지정 키워드를 추가할 수 있었습니다. 그러나 BlueXP 분류 Linux 호스트에 로그인하고 명령줄 인터페이스를 사용하여 키워드를 추가해야 합니다. 이 릴리스에서 사용자 지정 키워드를 추가하는 기능은 BlueXP 분류 UI에 포함되어 있으므로 이러한 키워드를 쉽게 추가하고 편집할 수 있습니다.</block>
-  <block id="bb81f229fc6d121a288d657aea60262e" category="inline-link">BlueXP 분류 UI에서 사용자 지정 키워드를 추가하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="7e5ec3b51659d16db2e72438a8ca680a" category="section-title">"마지막 액세스 시간"이 변경될 때 BlueXP 분류 * 파일 * 스캔 기능이 없음</block>
-  <block id="f9bee7a7e545f0d95664d3ccaa7b7151" category="paragraph">기본적으로 BlueXP 분류에 적절한 "쓰기" 권한이 없으면 BlueXP 분류가 "마지막 액세스 시간"을 원래 타임 스탬프로 되돌릴 수 없기 때문에 시스템에서 볼륨의 파일을 검색하지 않습니다. 그러나 파일의 마지막 액세스 시간이 원래 시간으로 재설정되는 것을 염려하지 않을 경우, BlueXP 분류가 권한에 관계없이 볼륨을 스캔하도록 구성 페이지에서 이 동작을 재정의할 수 있습니다.</block>
-  <block id="61d99226273ea30523883fe7209399c2" category="paragraph">이 기능과 함께 "Scan Analysis Event"라는 새 필터가 추가되어 BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없거나, BlueXP 분류로 마지막으로 액세스한 시간을 되돌릴 수 없는 경우에도 분류된 파일을 볼 수 있습니다.</block>
-  <block id="bf8521a1bd91dd809d1d007594f22498" category="inline-link">"마지막 액세스 시간 타임스탬프" 및 BlueXP 분류에 필요한 권한에 대해 자세히 알아보십시오</block>
-  <block id="9422d01ffeaf90b54d512834d7e52972" category="section-title">BlueXP 분류에서는 세 가지 새로운 유형의 개인 데이터를 식별합니다</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오</block>
-  <block id="27bfd524829d2f58c611b9380403face" category="list-text">인터넷 접속(다크 사이트)이 없는 사이트의 BlueXP 분류 설치 관리자가 사전 검사를 수행하여 성공적인 설치를 위해 시스템 및 네트워킹 요구 사항이 제대로 갖추어져 있는지 확인합니다.</block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="section-title">디지털 자문업체</block>
   <block id="fd31042d52571c6f22cae041d72fc4dd" category="paragraph">디지털 어드바이저(이전의 Active IQ)는 이제 BlueXP와 완전히 통합되어 로그인 환경이 향상되었습니다.</block>
   <block id="bde16c93c046fa9870a736978717607f" category="paragraph">BlueXP 디지털 어드바이저에게 액세스하면 시스템 관련 데이터를 볼 수 있도록 NetApp Support 사이트 자격 증명을 묻는 메시지가 표시됩니다. 로그인하는 NSS 계정은 사용자 로그인에만 연결됩니다. NetApp 계정의 다른 사용자와 연결되지 않습니다.</block>
@@ -342,10 +322,6 @@
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
   <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>.</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>.</block>
-  <block id="75e47d62ba360614f8cdea86c229c321" category="paragraph">이제 BlueXP 분류를 통해 사용자 지정 범주를 추가할 수 있으므로 BlueXP 분류에서 해당 범주에 적합한 파일을 식별할 수 있습니다. BlueXP 분류에는 많은 기능이 있습니다<block ref="7587255274ad12f237a14fbd5f47a14a" category="inline-link-rx"></block>따라서 이 기능을 사용하면 사용자 지정 범주를 추가하여 조직에서 고유한 정보를 데이터에서 찾을 위치를 식별할 수 있습니다.</block>
-  <block id="740f66f04097135a7846557949061bf8" category="paragraph"><block ref="e14cfeac39419a4a8a842fd3611a27db" category="inline-link-rx"></block>.</block>
-  <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>.</block>
-  <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>.</block>
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>.</block>
   <block id="06765567af68358bde181ef7ae8a31b0" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="5aa81dcb1871cc4d565005ce5abe331d" category="inline-link-macro-rx"></block>.</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>.</block>
@@ -535,8 +511,6 @@
   <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">볼륨 * 탭에서 * 백업 설정 * 을 선택합니다.</block>
   <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">백업 설정 페이지에서 * 이전 BlueXP 백업 및 복구 버전 표시 * 의 라디오 버튼을 클릭합니다.</block>
   <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">그런 다음 이전 버전의 소프트웨어를 사용하여 이전 클러스터를 관리할 수 있습니다.</block>
-  <block id="098acc7a6e2aef2e0ffd66cabdde369e" category="section-title">오브젝트 스토리지에 백업하기 위한 버킷 생성 기능</block>
-  <block id="7882c4532e24f1cac41cc043cde436b7" category="paragraph">오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.</block>
   <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
   <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
@@ -555,4 +529,19 @@
   <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">새로운 버킷을 추가하고 BlueXP의 기존 버킷을 관리할 수 있습니다</block>
   <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">새로운 Google Cloud Storage 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">BlueXP Canvas에서 Google Cloud Storage 버킷을 한동안 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>.</block>
+  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">오브젝트 스토리지로 백업할 스토리지 컨테이너를 생성하는 기능</block>
+  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">오브젝트 스토리지 버킷을 생성하는 방법을 알아보십시오</block>
+  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>.</block>
+  <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023년 7월 17일(버전 1.24)</block>
+  <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다</block>
+  <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="list-text">독일어 ID(Personalausweummer)</block>
+  <block id="ac01084f4d5a1af5de639eaf04ad94ff" category="list-text">독일 사회 보장 번호(소지아버서머스무머)</block>
+  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">Rocky Linux 9는 이제 BlueXP 분류를 설치할 수 있는 Linux 배포판입니다</block>
+  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">Rocky Linux가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 확인하십시오</block>
+  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체제로 인증되었습니다. 설치 프로그램의 1.24 버전을 사용하는 경우, 네트워크의 Rocky Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>.</block>
+  <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">BlueXP 분류는 제한 모드 및 비공개 모드에서 완전히 지원됩니다</block>
+  <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">Connector의 BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
+  <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다.<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>.</block>
+  <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">BlueXP 분류의 비공개 모드 설치를 업그레이드할 때 버전을 건너뛸 수 있습니다</block>
+  <block id="241957d9f6c696915858d43476112454" category="paragraph">이제 순차적이지 않더라도 최신 버전의 BlueXP 분류로 업그레이드할 수 있습니다. 즉, 한 번에 한 버전씩 BlueXP 분류를 업그레이드할 때 현재 제한이 없어진다는 의미입니다. 이 기능은 버전 1.24 이상부터 관련이 있습니다.</block>
 </blocks>
