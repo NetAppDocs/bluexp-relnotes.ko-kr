@@ -123,7 +123,6 @@
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP 인덱스</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
-  <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">지원되는 동기화 관계에 대해 자세히 알아보십시오</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023년 2월 5일</block>
   <block id="de7ceda1f3ad5462ebeba9b4e49bf946" category="section-title">비즈니스 크리티컬 데이터로 간주되는 데이터를 식별하는 정책을 정의할 수 있는 능력</block>
@@ -173,12 +172,6 @@
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
-  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2 2023년 4월</block>
-  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 관계에 대한 추가 지원</block>
-  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">이제 다음을 통해 Azure Data Lake Storage Gen2를 소스 및 타겟으로 동기화 관계를 생성할 수 있습니다.</block>
-  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">사내 ONTAP</block>
-  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">전체 경로를 기준으로 디렉토리를 필터링합니다</block>
-  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">이름을 기준으로 디렉토리를 필터링하는 것 외에도 전체 경로를 기준으로 디렉토리를 필터링할 수 있습니다.</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">디렉터리 제외 설정에 대해 자세히 알아보세요</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
@@ -361,7 +354,6 @@
   <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>.</block>
   <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>.</block>
   <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>.</block>
-  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>.</block>
   <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
@@ -546,4 +538,21 @@
   <block id="098acc7a6e2aef2e0ffd66cabdde369e" category="section-title">오브젝트 스토리지에 백업하기 위한 버킷 생성 기능</block>
   <block id="7882c4532e24f1cac41cc043cde436b7" category="paragraph">오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.</block>
   <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.</block>
+  <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
+  <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
+  <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023년 7월 9일</block>
+  <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">한 번에 여러 동기화 관계를 제거합니다</block>
+  <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">이제 사용자는 UI에서 한 번에 둘 이상의 동기화 관계를 삭제할 수 있습니다.</block>
+  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">동기화 재지정 을 삭제하는 방법에 대해 자세히 알아보십시오.</block>
+  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
+  <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">ACL만 복사합니다</block>
+  <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">사용자는 이제 CIF 및 NFS 관계에서 ACL 정보를 복사하기 위한 추가 옵션을 사용할 수 있습니다. 동기화 관계를 생성하거나 관리할 때 파일만 복사하거나 ACL 정보만 복사하거나 파일과 ACL 정보를 복사할 수 있습니다.</block>
+  <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">ACL 복제에 대해 자세히 알아보십시오.</block>
+  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
+  <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">Node.js 20으로 업데이트</block>
+  <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">복사 및 동기화가 Node.js 20으로 업데이트되었습니다. 사용 가능한 모든 데이터 브로커가 업데이트됩니다. 이 업데이트와 호환되지 않는 운영 체제는 설치할 수 없으며 호환되지 않는 기존 시스템에 성능 문제가 발생할 수 있습니다.</block>
+  <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">2023년 7월 10일</block>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">새로운 버킷을 추가하고 BlueXP의 기존 버킷을 관리할 수 있습니다</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">새로운 Google Cloud Storage 버킷을 추가하는 방법을 알아보십시오</block>
+  <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">BlueXP Canvas에서 Google Cloud Storage 버킷을 한동안 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>.</block>
 </blocks>

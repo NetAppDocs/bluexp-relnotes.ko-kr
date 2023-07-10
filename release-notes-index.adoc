@@ -39,6 +39,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E-Series 시스템"^]
+* https://docs.netapp.com/us-en/bluexp-google-cloud-storage/whats-new.html["Google 클라우드 스토리지"^]
 * https://docs.netapp.com/us-en/bluexp-kubernetes/whats-new.html["Kubernetes 클러스터"^]
 * https://docs.netapp.com/us-en/bluexp-reports/release-notes/whats-new.html["마이그레이션 보고서"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html["온프레미스 ONTAP 클러스터"^]
