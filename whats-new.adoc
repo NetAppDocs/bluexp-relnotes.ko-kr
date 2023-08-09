@@ -213,6 +213,14 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
+=== 2023년 7월 30일
+
+이제 고객은 유럽(취리히), 유럽(스페인), 아시아 태평양(하이데라바드)의 세 가지 새로운 AWS 지역에서 NetApp ONTAP 파일 시스템용 Amazon FSx를 생성할 수 있습니다.
+
+을 참조하십시오 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["NetApp ONTAP용 Amazon FSx는 이제 세 개의 추가 지역에서 사용할 수 있습니다"^] 를 참조하십시오.
+
+
+
 === 2023년 7월 2일
 
 * 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["스토리지 VM을 추가합니다"] BlueXP를 사용하는 NetApp ONTAP 파일 시스템용 Amazon FSx로
@@ -225,14 +233,6 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["볼륨을 생성하는 중입니다"]FlexGroup을 생성하여 데이터를 볼륨 간에 분산함으로써 데이터 최적화를 활성화할 수 있습니다.
-
-
-
-
-=== 2023년 5월 7일
-
-* 작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["보안 그룹을 생성합니다"^] 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["추가 권한이 필요합니다"^].
-* 선택적으로 을(를) 사용할 수 있습니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["추가"^] 및 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["수정"^] 태그를 사용하여 볼륨을 분류합니다.
 
 
 
@@ -435,6 +435,16 @@ Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체�
 
 
 
+==== BlueXP 분류 API가 이제 제공됩니다
+
+BlueXP 분류 API를 사용하면 작업을 수행하고, 쿼리를 생성하고, 스캔하는 데이터에 대한 정보를 내보낼 수 있습니다. 대화형 설명서는 Swagger를 사용하여 사용할 수 있습니다. 문서는 조사, 규정 준수, 거버넌스 및 구성을 포함한 여러 범주로 구분됩니다. 각 범주는 BlueXP 분류 UI의 탭에 대한 참조입니다.
+
+Swagger로 이동하려면 BlueXP 분류 인스턴스의 IP 주소가 필요합니다. 클라우드 배포의 경우 공용 IP 주소를 사용합니다. 그런 다음 이 끝점에 도달해야 합니다.
+
+https://<classification_ip>/documentation[]
+
+
+
 === 2023년 6월 6일(버전 1.23)
 
 
@@ -615,6 +625,38 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023년 8월 6일
+
+
+
+==== 데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용합니다
+
+이제 사용자는 데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용할 수 있습니다.
+
+데이터 브로커를 생성할 때 사용되는 서비스 계정에는 다음 권한이 있어야 합니다.
+
+* "Microsoft.Network/networkSecurityGroups/securityRules/read" 참조하십시오
+* "Microsoft.Network/networkSecurityGroups/read" 참조하십시오
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["Azure에서 데이터 브로커 생성에 대해 자세히 알아보십시오."]
+
+
+
+==== Google 스토리지로 동기화할 때 데이터를 암호화합니다
+
+이제 사용자는 Google Storage 버킷과 타겟의 동기화 관계를 생성할 때 고객이 관리하는 암호화 키를 지정할 수 있습니다. 수동으로 키를 입력하거나 단일 영역의 키 목록에서 선택할 수 있습니다.
+
+데이터 브로커를 생성할 때 사용되는 서비스 계정에는 다음 권한이 있어야 합니다.
+
+* cloudkms.cryptoKeys.list 를 참조하십시오
+* cloudkms.keyRings.list 를 클릭합니다
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["Google Cloud 스토리지 버킷 요구사항에 대해 자세히 알아보십시오."]
+
+
+
 === 2023년 7월 9일
 
 
@@ -658,42 +700,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 파일 시스템을 포함한 관계에서 * Copy for Objects * 기능은 이제 액세스 시간 메타데이터를 복사합니다.
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["개체에 대한 복사 설정에 대해 자세히 알아보세요"].
-
-
-
-=== 2023년 5월 8일
-
-
-
-==== 하드 링크 기능
-
-이제 사용자는 보안되지 않은 NFS와 NFS 간의 관계를 동기화하는 하드 링크를 포함할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["파일 형식 설정에 대해 자세히 알아보세요"].
-
-
-
-==== 보안 NFS 관계에서 데이터 브로커를 위한 사용자 인증서를 추가할 수 있습니다
-
-이제 사용자는 보안 NFS 관계를 생성할 때 타겟 데이터 브로커에 대한 자체 인증서를 설정할 수 있습니다. 서버 이름을 설정하고 개인 키와 인증서 ID를 제공해야 합니다. 이 기능은 모든 데이터 브로커에 사용할 수 있습니다.
-
-
-
-==== 최근 수정된 파일의 제외 기간이 연장되었습니다
-
-이제 사용자는 예약된 동기화 전 최대 365일 전에 수정된 파일을 제외할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["최근에 수정한 파일 설정에 대해 자세히 알아보세요"].
-
-
-
-==== 관계 ID를 기준으로 UI의 관계를 필터링합니다
-
-RESTful API를 사용하는 사용자는 관계 ID를 사용하여 관계를 필터링할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["BlueXP 복사 및 동기화와 함께 RESTful API를 사용하는 방법에 대해 자세히 알아보십시오"].
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["디렉터리 제외 설정에 대해 자세히 알아보세요"].
 
 
 
@@ -811,9 +817,15 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
+=== 2023년 8월 1일(버전 2.3)
+
+이 릴리스는 에 설명된 문제를 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"].
+
+
+
 === 2023년 4월 5일(버전 2.2)
 
-이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"].
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"].
 
 
 
@@ -862,38 +874,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#
 
 
 ==== Optimus UI(Edge Configuration)의 Edge Sync 기능이 향상되어 연결된 모든 클라이언트가 표시됩니다
-
-
-
-=== 2022년 7월 25일(버전 2.0)
-
-이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"].
-
-
-
-==== Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다
-
-새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
-
-
-
-==== 이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다
-
-NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다. 의 11장을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
-
-https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알아보십시오."]
-
-
-
-==== License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다
-
-라이센스 구성 중에 LMS(License Management Server)에서 NetApp/Zuora로부터 라이센스 세부 정보를 수집하기 위해 인터넷에 액세스할 수 있어야 합니다. 구성이 성공적으로 완료되면 LMS는 제한된 환경에도 불구하고 오프라인 모드에서 계속 작업하고 라이선스 기능을 제공할 수 있습니다.
-
-
-
-==== Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다
 
 
 
@@ -1166,6 +1146,22 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["데
 
 
 
+=== 2023년 8월 9일
+
+
+
+==== 계층화된 데이터가 저장되는 버킷 이름에 사용자 지정 접두사를 사용합니다
+
+이전에는 버킷 이름을 정의할 때 기본 "fabric-pool" 접두사를 사용해야 했습니다(예: _fabric-pool-bucket1_). 이제 버킷 이름을 지정할 때 사용자 지정 접두사를 사용할 수 있습니다. 이 기능은 데이터를 Amazon S3로 계층화하는 경우에만 사용할 수 있습니다. https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["자세한 정보"].
+
+
+
+==== 모든 BlueXP Connector에서 클러스터를 검색합니다
+
+사용자 환경의 모든 스토리지 시스템을 관리하기 위해 여러 커넥터를 사용하는 경우 계층화를 구현할 클러스터가 다른 커넥터에 있을 수 있습니다. 어떤 커넥터가 특정 클러스터를 관리하고 있는지 확실하지 않은 경우 BlueXP 계층화를 사용하여 모든 커넥터를 검색할 수 있습니다. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["자세한 정보"].
+
+
+
 === 2023년 7월 4일
 
 
@@ -1197,16 +1193,6 @@ BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다
 ==== 계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다
 
 "클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.
-
-
-
-=== 2023년 3월 5일
-
-
-
-==== 이제 볼륨에 대한 계층화 보고서를 생성할 수 있습니다
-
-계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. BlueXP 계층화는 .csv 파일을 생성하여 필요에 따라 회사의 다른 사람에게 검토 및 전송할 수 있습니다. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#download-a-tiering-report-for-your-volumes["계층화 보고서를 다운로드하는 방법을 확인하십시오"].
 
 
 

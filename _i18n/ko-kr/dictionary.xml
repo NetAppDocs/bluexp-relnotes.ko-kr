@@ -76,16 +76,7 @@
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">자세한 정보</block>
-  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022년 7월 25일(버전 2.0)</block>
-  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
-  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오.</block>
-  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다</block>
-  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights에 대해 자세히 알아보십시오.</block>
-  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
-  <block id="1f56bc157b53331171e2209738abd411" category="section-title">License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다</block>
-  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">라이센스 구성 중에 LMS(License Management Server)에서 NetApp/Zuora로부터 라이센스 세부 정보를 수집하기 위해 인터넷에 액세스할 수 있어야 합니다. 구성이 성공적으로 완료되면 LMS는 제한된 환경에도 불구하고 오프라인 모드에서 계속 작업하고 라이선스 기능을 제공할 수 있습니다.</block>
-  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
@@ -117,10 +108,7 @@
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">단일 Global File Cache Edge 인스턴스는 전용 물리적 Edge 인스턴스당 최대 500명의 사용자와 최대 300명의 전용 가상 구축 사용자를 지원할 수 있습니다. 최대 사용자 수는 400명, 200명입니다.</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">클라우드 라이센스를 구성하기 위한 Optimus PSM이 개선되었습니다</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Optimus UI(Edge Configuration)의 Edge Sync 기능이 향상되어 연결된 모든 클라이언트가 표시됩니다</block>
-  <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오</block>
-  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다. 의 11장을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">이제 BlueXP에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
-  <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP 인덱스</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
@@ -132,8 +120,6 @@
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.</block>
-  <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">이제 볼륨에 대한 계층화 보고서를 생성할 수 있습니다</block>
-  <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">계층화 보고서를 다운로드하는 방법을 확인하십시오</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023년 3월 7일</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">새로운 랜섬웨어 복구 대시보드가 추가되어 공격으로부터 시스템을 복구할 수 있습니다</block>
@@ -153,7 +139,6 @@
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
-  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">디렉터리 제외 설정에 대해 자세히 알아보세요</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
@@ -215,11 +200,6 @@
   <block id="d128bda2634e1051cc984231da065144" category="list-text">이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
   <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023년 5월 7일</block>
-  <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023년 5월 7일</block>
-  <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">보안 그룹을 생성합니다</block>
-  <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">추가 권한이 필요합니다</block>
-  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">추가</block>
-  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">수정</block>
   <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 프라이빗 클라우드 제공</block>
   <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Marketplace 구독을 식별하고 가입 종료 날짜 및 기간을 표시합니다. 이 개선 사항을 통해 프라이빗 오퍼에 성공적으로 수락되었는지 확인하고 해당 조건을 검증할 수 있습니다.</block>
   <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">충전 사용 내역이 없습니다</block>
@@ -235,17 +215,6 @@
   <block id="679a2d98f8c7c05c4944b0d161a6d567" category="section-title">AWS China 지역에서 백업 파일이 지원됩니다</block>
   <block id="aad236ec8e2b61a79fb4bb3a416a2e06" category="paragraph">클러스터가 ONTAP 9.12.1 이상을 실행 중인 경우 AWS China Beijing(cn-North-1) 및 Ningxia(cn-북서쪽-1) 지역이 백업 파일의 대상으로 지원됩니다.</block>
   <block id="c93bfe725726f47fe3bfcc0e95f8ec7d" category="inline-link">사내 ONTAP 데이터를 Amazon S3에 백업</block>
-  <block id="2652537da62e22a06b22374119e6c40f" category="section-title">하드 링크 기능</block>
-  <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">이제 사용자는 보안되지 않은 NFS와 NFS 간의 관계를 동기화하는 하드 링크를 포함할 수 있습니다.</block>
-  <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">파일 형식 설정에 대해 자세히 알아보세요</block>
-  <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">보안 NFS 관계에서 데이터 브로커를 위한 사용자 인증서를 추가할 수 있습니다</block>
-  <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">이제 사용자는 보안 NFS 관계를 생성할 때 타겟 데이터 브로커에 대한 자체 인증서를 설정할 수 있습니다. 서버 이름을 설정하고 개인 키와 인증서 ID를 제공해야 합니다. 이 기능은 모든 데이터 브로커에 사용할 수 있습니다.</block>
-  <block id="3bf0932004501be46156880cfe858e8f" category="section-title">최근 수정된 파일의 제외 기간이 연장되었습니다</block>
-  <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">이제 사용자는 예약된 동기화 전 최대 365일 전에 수정된 파일을 제외할 수 있습니다.</block>
-  <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">최근에 수정한 파일 설정에 대해 자세히 알아보세요</block>
-  <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">관계 ID를 기준으로 UI의 관계를 필터링합니다</block>
-  <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">RESTful API를 사용하는 사용자는 관계 ID를 사용하여 관계를 필터링할 수 있습니다.</block>
-  <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">BlueXP 복사 및 동기화와 함께 RESTful API를 사용하는 방법에 대해 자세히 알아보십시오</block>
   <block id="6e3d9df489c437a2601f627a5b8935c9" category="paragraph">BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다. PAYGO(pay-as-you-go) 서브스크립션에 대한 모든 라이센스는 이제 BlueXP 계층화 온-프레미스 대시보드에서 액세스할 수 있습니다. 또한 BlueXP 계층화 기능을 통해 BYOL(Bring-Your-Own-License)을 확인하고 관리할 수 있도록 해당 페이지에서 BlueXP 디지털 지갑까지 연결되는 링크도 있습니다.</block>
   <block id="f6e3b39522072e9cb3b0ffb8cecf9b0b" category="paragraph">"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.</block>
   <block id="5afb323d4a36e6ab79cd9d765c5934f7" category="inline-link">고객이 관리하는 암호화 키 설정에 대해 자세히 알아보십시오</block>
@@ -280,8 +249,6 @@
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
-  <block id="b6f1ebb155eaf4c6e07d7a105b1d5a53" category="list-text">작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 <block ref="3ba2cfc3ef2a3c163fc4910682cfb7d6" category="inline-link-macro-rx"></block> 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 <block ref="097f8dd60847dad6062ac7ea2bd09c06" category="inline-link-macro-rx"></block>.</block>
-  <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">선택적으로 을(를) 사용할 수 있습니다 <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> 및 <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> 태그를 사용하여 볼륨을 분류합니다.</block>
   <block id="c55a4ed0f55f8209574960c04bd36597" category="paragraph">이제 고객 관리 암호화 키(CMEK)의 프로젝트가 아닌 다른 프로젝트에 있는 버킷을 선택할 수 있습니다.<block ref="2425c9129a22c7135ee8a04ae0dae970" category="inline-link-rx"></block>.</block>
   <block id="cfc826b330f7a25cc3c4e115a9fcca13" category="paragraph">BlueXP Connector에 할당된 IAM 정책은 all_Resource_sections의 AWS 리소스 이름 "arn"을 "AWS"에서 "AWS-cn"로 변경해야 합니다. 예를 들어 "arn:AWS-cn:S3::NetApp-backup- *"를 변경할 수 있습니다. 을 참조하십시오<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 및<block ref="bb86d78b7593b3e1252f277b7dd6e017" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
@@ -290,14 +257,8 @@
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>.</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>.</block>
   <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block>.</block>
-  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>.</block>
-  <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>.</block>
-  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>.</block>
-  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
-  <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
   <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">이제 가능합니다 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
   <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">시기 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
   <block id="6b5123d10bcaa20aedf265862fd00988" category="paragraph"><block ref="b8d5a3f5bf3c3f09de7cacb30a8225fd" category="inline-link-rx"></block>.</block>
@@ -308,7 +269,6 @@
   <block id="3ce8031a2a5efd8807d29dc5391ac03a" category="paragraph">현재 Cloud Volumes ONTAP 및 온프레미스 ONTAP 시스템의 볼륨에 대한 지원이 제공됩니다.<block ref="71acbc1e86413ca32a85c458baf53529" category="inline-link-rx"></block>.</block>
   <block id="c3f9f5f3154c847ae51038b02652e769" category="paragraph"><block ref="ebf81513d87da0002a3ac7ea6ee056cb" category="inline-link-rx"></block>.</block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
-  <block id="af39bae06861b3074eed6e997f9a3ebf" category="paragraph">계층 볼륨 페이지에서 보고서를 다운로드할 수 있으므로 관리 중인 클러스터에 있는 모든 볼륨의 계층화 상태를 검토할 수 있습니다. BlueXP 계층화는 .csv 파일을 생성하여 필요에 따라 회사의 다른 사람에게 검토 및 전송할 수 있습니다.<block ref="aaab920374e84f87020f8ba8578ab877" category="inline-link-rx"></block>.</block>
   <block id="2b3e8f910d66604cd77f93b333670468" category="inline-link">Azure Blob 저장소</block>
   <block id="a1182a2fefa3fdd8128a983a3d666611" category="list-text"><block ref="a1182a2fefa3fdd8128a983a3d666611" category="inline-link-rx"></block></block>
   <block id="ac7b3cf10ea08c788a374e0291742517" category="inline-link">마이그레이션 보고서</block>
@@ -542,4 +502,53 @@
   <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroup 볼륨이 무엇인지 알아보십시오</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="30fee46958559c602b944cc387c72292" category="paragraph">이제 고객은 유럽(취리히), 유럽(스페인), 아시아 태평양(하이데라바드)의 세 가지 새로운 AWS 지역에서 NetApp ONTAP 파일 시스템용 Amazon FSx를 생성할 수 있습니다.</block>
+  <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">NetApp ONTAP용 Amazon FSx는 이제 세 개의 추가 지역에서 사용할 수 있습니다</block>
+  <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">을 참조하십시오 <block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP 분류 API가 이제 제공됩니다</block>
+  <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">BlueXP 분류 API를 사용하면 작업을 수행하고, 쿼리를 생성하고, 스캔하는 데이터에 대한 정보를 내보낼 수 있습니다. 대화형 설명서는 Swagger를 사용하여 사용할 수 있습니다. 문서는 조사, 규정 준수, 거버넌스 및 구성을 포함한 여러 범주로 구분됩니다. 각 범주는 BlueXP 분류 UI의 탭에 대한 참조입니다.</block>
+  <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">Swagger로 이동하려면 BlueXP 분류 인스턴스의 IP 주소가 필요합니다. 클라우드 배포의 경우 공용 IP 주소를 사용합니다. 그런 다음 이 끝점에 도달해야 합니다.</block>
+  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
+  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023년 8월 6일</block>
+  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용합니다</block>
+  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">이제 사용자는 데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용할 수 있습니다.</block>
+  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">데이터 브로커를 생성할 때 사용되는 서비스 계정에는 다음 권한이 있어야 합니다.</block>
+  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">"Microsoft.Network/networkSecurityGroups/securityRules/read" 참조하십시오</block>
+  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">"Microsoft.Network/networkSecurityGroups/read" 참조하십시오</block>
+  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">Azure에서 데이터 브로커 생성에 대해 자세히 알아보십시오.</block>
+  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
+  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">Google 스토리지로 동기화할 때 데이터를 암호화합니다</block>
+  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">이제 사용자는 Google Storage 버킷과 타겟의 동기화 관계를 생성할 때 고객이 관리하는 암호화 키를 지정할 수 있습니다. 수동으로 키를 입력하거나 단일 영역의 키 목록에서 선택할 수 있습니다.</block>
+  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.list 를 참조하십시오</block>
+  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keyRings.list 를 클릭합니다</block>
+  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">Google Cloud 스토리지 버킷 요구사항에 대해 자세히 알아보십시오.</block>
+  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
+  <block id="924b35617c7b4bb0713e5eedb1777802" category="section-title">2023년 8월 1일(버전 2.3)</block>
+  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">이 릴리스는 에 설명된 문제를 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
+  <block id="4bca0fdcdafed1e5f31435f4b19c8738" category="section-title">2023년 8월 9일</block>
+  <block id="b839d32c555694a5245fa2fa33d17d88" category="section-title">계층화된 데이터가 저장되는 버킷 이름에 사용자 지정 접두사를 사용합니다</block>
+  <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">이전에는 버킷 이름을 정의할 때 기본 "fabric-pool" 접두사를 사용해야 했습니다(예: _fabric-pool-bucket1_). 이제 버킷 이름을 지정할 때 사용자 지정 접두사를 사용할 수 있습니다. 이 기능은 데이터를 Amazon S3로 계층화하는 경우에만 사용할 수 있습니다.<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block>.</block>
+  <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">모든 BlueXP Connector에서 클러스터를 검색합니다</block>
+  <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">사용자 환경의 모든 스토리지 시스템을 관리하기 위해 여러 커넥터를 사용하는 경우 계층화를 구현할 클러스터가 다른 커넥터에 있을 수 있습니다. 어떤 커넥터가 특정 클러스터를 관리하고 있는지 확실하지 않은 경우 BlueXP 계층화를 사용하여 모든 커넥터를 검색할 수 있습니다.<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>.</block>
 </blocks>

@@ -15,8 +15,10 @@ sidebar:
     url: "/index.html"
   - title: 최근 변경 사항
     url: "/whats-new.html"
-  - title: BlueXP 인덱스
+  - title: 릴리스 노트 색인
     url: "/release-notes-index.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
 homepage:
   tiles:
   - title: 새로운 소식
