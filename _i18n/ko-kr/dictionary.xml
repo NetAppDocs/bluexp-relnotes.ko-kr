@@ -128,7 +128,6 @@
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
-  <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">Cloud Volumes ONTAP 데이터를 Amazon S3에 백업</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">이메일 알림을 설정하는 방법에 대해 알아봅니다</block>
@@ -143,7 +142,6 @@
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다</block>
-  <block id="a7393f4b2940dc4b2ad20a62564d25be" category="section-title">작업 모니터 기능 향상</block>
   <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023년 4월 3일(버전 1.22)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">새로운 데이터 검색 평가 보고서</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오</block>
@@ -173,10 +171,6 @@
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="inline-link">랜섬웨어 보호</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="inline-link">해결</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="inline-link">계층화</block>
-  <block id="197747cde80c31576877de78be696240" category="section-title">애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)</block>
-  <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Oracle 데이터베이스</block>
-  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">애플리케이션의 BlueXP 백업 및 복구 기능 향상(하이브리드)</block>
-  <block id="4788963de19a5204a352f3308b0395d8" category="inline-link">BlueXP 백업 및 복구가 전송할 수 있는 모든 경고를 검토합니다</block>
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">클라우드 내 소규모 인스턴스에 BlueXP 분류 기능을 배포할 수 있습니다</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오</block>
@@ -208,17 +202,8 @@
   <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">높은 수준의 사용</block>
   <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">스토리지 VM 사용량</block>
   <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">볼륨 사용량</block>
-  <block id="ea42cbd645e47130e67a7cbb87fe5de8" category="section-title">2023년 5월 8일</block>
-  <block id="93c8b08c928ba95dab5c066b4611e000" category="section-title">이제 폴더 레벨 복구 작업은 아카이브 스토리지 및 잠긴 백업에서 지원됩니다</block>
-  <block id="2f57132a5aa255f3e276ff3b62b985c8" category="paragraph">DataLock 및 랜섬웨어 보호를 사용하여 백업 파일을 구성했거나 백업 파일이 아카이브 스토리지에 있는 경우 클러스터에서 ONTAP 9.13.1 이상이 실행 중인 경우 폴더 레벨 복원 작업이 지원됩니다.</block>
-  <block id="8cb8abb20ae0b2e7c64136ae92b2250d" category="section-title">Google Cloud에 볼륨을 백업할 때 고객 관리 키를 지역 및 프로젝트 간 백업할 수 있습니다</block>
-  <block id="679a2d98f8c7c05c4944b0d161a6d567" category="section-title">AWS China 지역에서 백업 파일이 지원됩니다</block>
-  <block id="aad236ec8e2b61a79fb4bb3a416a2e06" category="paragraph">클러스터가 ONTAP 9.12.1 이상을 실행 중인 경우 AWS China Beijing(cn-North-1) 및 Ningxia(cn-북서쪽-1) 지역이 백업 파일의 대상으로 지원됩니다.</block>
-  <block id="c93bfe725726f47fe3bfcc0e95f8ec7d" category="inline-link">사내 ONTAP 데이터를 Amazon S3에 백업</block>
   <block id="6e3d9df489c437a2601f627a5b8935c9" category="paragraph">BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다. PAYGO(pay-as-you-go) 서브스크립션에 대한 모든 라이센스는 이제 BlueXP 계층화 온-프레미스 대시보드에서 액세스할 수 있습니다. 또한 BlueXP 계층화 기능을 통해 BYOL(Bring-Your-Own-License)을 확인하고 관리할 수 있도록 해당 페이지에서 BlueXP 디지털 지갑까지 연결되는 링크도 있습니다.</block>
   <block id="f6e3b39522072e9cb3b0ffb8cecf9b0b" category="paragraph">"클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.</block>
-  <block id="5afb323d4a36e6ab79cd9d765c5934f7" category="inline-link">고객이 관리하는 암호화 키 설정에 대해 자세히 알아보십시오</block>
-  <block id="c325ed37b6a44d9e765cfd2dd7779cfb" category="paragraph">ONTAP 9.13.1 이상을 실행하는 온-프레미스 ONTAP 시스템의 경우 * 작업 모니터링 * 탭에서 이러한 지속적인 백업 작업과 같은 시스템 시작 작업을 사용할 수 있습니다. 이전 ONTAP 버전은 사용자가 시작한 작업만 표시합니다.</block>
   <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023년 5월 4일</block>
   <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">BlueXP 백업 및 복구를 활성화합니다</block>
   <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">BlueXP 백업 및 복구 활성화에 대해 자세히 알아보십시오</block>
@@ -249,8 +234,6 @@
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
-  <block id="c55a4ed0f55f8209574960c04bd36597" category="paragraph">이제 고객 관리 암호화 키(CMEK)의 프로젝트가 아닌 다른 프로젝트에 있는 버킷을 선택할 수 있습니다.<block ref="2425c9129a22c7135ee8a04ae0dae970" category="inline-link-rx"></block>.</block>
-  <block id="cfc826b330f7a25cc3c4e115a9fcca13" category="paragraph">BlueXP Connector에 할당된 IAM 정책은 all_Resource_sections의 AWS 리소스 이름 "arn"을 "AWS"에서 "AWS-cn"로 변경해야 합니다. 예를 들어 "arn:AWS-cn:S3::NetApp-backup- *"를 변경할 수 있습니다. 을 참조하십시오<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 및<block ref="bb86d78b7593b3e1252f277b7dd6e017" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
   <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>.</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>.</block>
@@ -323,19 +306,6 @@
   <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">BlueXP 볼륨 캐싱을 사용하면 클라우드에 대한 캐싱 기능이 있으며, 특히 NetApp ONTAP, Cloud Volumes ONTAP 및 온-프레미스에서 작업 환경으로 사용되는 Amazon FSx를 지원합니다.</block>
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">BlueXP 볼륨 캐싱에 대해 자세히 알아보십시오</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>.</block>
-  <block id="47cb625c2251a650ce99bc5010f839ac" category="section-title">FlexGroup 볼륨은 DataLock 및 랜섬웨어 보호를 사용하여 백업 및 보호할 수 있습니다</block>
-  <block id="ea9b647c4b660963890b981cadc4c22f" category="paragraph">FlexGroup 볼륨에 대한 백업 정책은 클러스터에서 ONTAP 9.13.1 이상을 실행할 때 DataLock 및 랜섬웨어 보호를 사용할 수 있습니다.</block>
-  <block id="f6477043c28067a4e579493c6cbb2e5f" category="section-title">새로운 보고 기능</block>
-  <block id="7423bbe1d34880696cfb7dd51492349f" category="inline-link">데이터 보호 범위에 대한 보고</block>
-  <block id="90c3582e59f2cb06c1d746e0f983ffde" category="paragraph">이제 보고서 탭이 있으며 특정 계정, 작업 환경 또는 SVM 인벤토리에 대한 모든 백업이 포함된 백업 인벤토리 보고서를 생성할 수 있습니다. 또한 데이터 보호 작업 활동 보고서를 생성할 수 있습니다. 이 보고서는 서비스 수준 계약 모니터링에 도움이 되는 스냅샷, 백업, 클론 및 복원 작업에 대한 정보를 제공합니다. 을 참조하십시오<block ref="76fbdf5883fabf4a66bc2a9d2bdc8b58" category="inline-link-rx"></block>.</block>
-  <block id="5cc0a3c2b0d184efdd93deba5120c0b4" category="section-title">작업 모니터 기능 향상</block>
-  <block id="8931c68a06f64c8d4063f2e9132e3258" category="inline-link">백업 및 복원 작업의 상태를 모니터링합니다</block>
-  <block id="c17e5b19576d968cb68cb76a1904afca" category="paragraph">이제 Job Monitor 페이지에서 _backup lifeCycle_을 작업 유형으로 검토하여 전체 백업 주기를 추적할 수 있습니다. 또한 BlueXP 타임라인의 모든 작업에 대한 세부 정보를 볼 수 있습니다. 을 참조하십시오<block ref="757859ff46183d1407cb40e64e39a313" category="inline-link-rx"></block>.</block>
-  <block id="e5d5b752cdb14505ba3ec9b2bd2be013" category="section-title">불일치 정책 레이블에 대한 추가 알림 알림입니다</block>
-  <block id="92c58fc811dad1461929803e5f5d9205" category="paragraph">새 백업 경고가 추가되었습니다. "스냅샷 정책 레이블이 일치하지 않아 백업 파일이 생성되지 않았습니다." 백업 정책에 정의된 _label_이 스냅샷 정책에 matching_label_이 없는 경우 백업 파일이 생성되지 않습니다. 볼륨 스냅샷 정책에 누락 레이블을 추가하려면 시스템 관리자 또는 ONTAP CLI를 사용해야 합니다.</block>
-  <block id="809c5429fbc9708f2c659ca056b2c098" category="paragraph"><block ref="1fa18ad5aa31d9e300f41aa2d9a59bdd" category="inline-link-rx"></block>.</block>
-  <block id="5a4b2cac486281ad2280371043da8170" category="section-title">어두운 사이트에서 중요한 BlueXP 백업 및 복구 파일을 자동으로 백업합니다</block>
-  <block id="7109418f2cd9c52748bb2a769336a1d0" category="paragraph">"비공개 모드" 배포라고 하는 인터넷 액세스가 없는 사이트에서 BlueXP 백업 및 복구를 사용하는 경우 BlueXP 백업 및 복구 정보는 로컬 커넥터 시스템에만 저장됩니다. 이 새로운 기능은 중요한 BlueXP 백업 및 복구 데이터를 연결된 StorageGRID 시스템의 버킷에 자동으로 백업하므로 필요한 경우 이 데이터를 새 커넥터에 복원할 수 있습니다.<block ref="7987fffb3d9d5da865ce1f589e4bd463" category="inline-link-rx"></block></block>
   <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023년 6월 6일(버전 1.23)</block>
   <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다</block>
   <block id="3a3337f232548d40f54052862077499b" category="inline-link">데이터 주체 액세스 요청 보고서</block>
@@ -387,19 +357,6 @@
   <block id="49145759efbc79c21fc5ba75bb2aaf72" category="paragraph">이러한 변경으로 인해 Azure Government 지역의 Connector는 더 이상 다음 끝점에 문의하지 않습니다.</block>
   <block id="9dcb0a1d3281e001a6085626a264be49" category="paragraph">\https://cloudmanagerinfraprod.azurecr.io</block>
   <block id="979b0001d7bec41aff8509faf7b59bef" category="paragraph">이 엔드포인트는 다른 모든 제한된 모드 구성 및 표준 모드에 대해 여전히 필요합니다.</block>
-  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">2023년 7월 4일</block>
-  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANA 시스템</block>
-  <block id="bd8b9d76d990f261019903335a2c9e94" category="list-text">Azure NetApp Files 2차 보호 기능이 있는 비 데이터 볼륨 및 글로벌 비 데이터 볼륨의 연결 및 복사본 복원을 지원합니다</block>
-  <block id="0ba30ac65d6a9a5888d4dc02307879d6" category="list-text">Azure NetApp Files에서 Oracle 데이터베이스를 대체 위치로 복구할 수 있도록 지원합니다</block>
-  <block id="699e0e6ae8fec9f5e5e383a17f5ec630" category="list-text">Azure NetApp Files에서 Oracle 데이터베이스 백업의 Oracle RMAN(Recovery Manager) 카탈로그 작성을 지원합니다</block>
-  <block id="02794f70b3a16972197aaf346fca198e" category="list-text">데이터베이스 호스트를 유지 관리 모드로 전환하여 유지 관리 작업을 수행할 수 있습니다</block>
-  <block id="d7d2579b3be99740443be180188dedfc" category="list-text">대체 위치로 복원을 지원합니다</block>
-  <block id="b0e856a98075908a96697bb21ab6fe32" category="list-text">Oracle 데이터베이스 백업을 마운트할 수 있습니다</block>
-  <block id="9e9fa16d2206e067234a9dad53361ff4" category="list-text">GCP에서 아카이브 계층으로 백업 이동 지원</block>
-  <block id="e0d4183564323d306658a92b138bac87" category="section-title">가상 시스템의 BlueXP 백업 및 복구 기능 향상(하이브리드)</block>
-  <block id="64870b941ab2700a64f496038bfb77a9" category="list-text">NFS 및 VMFS 유형의 데이터 저장소 보호 지원</block>
-  <block id="c54bd2b10766a492ae36855e868d61eb" category="list-text">VMware vSphere 호스트용 SnapCenter 플러그인의 등록을 취소할 수 있습니다</block>
-  <block id="08c34207830d8869e05cd28a4543f5dc" category="list-text">최신 데이터 저장소 및 백업의 업데이트 및 검색을 지원합니다</block>
   <block id="28acda3f8bdb20220a5658f1cd81f226" category="section-title">2023년 7월 4일</block>
   <block id="f955a076eeae4df4466469593ff635ca" category="section-title">이제 비활성 데이터를 오브젝트 저장소에 업로드하는 데 사용되는 대역폭을 조정할 수 있습니다</block>
   <block id="1d59c82c13288b53f26d652175016f90" category="paragraph">BlueXP 계층화를 활성화하면 ONTAP는 무제한의 네트워크 대역폭을 사용하여 클러스터의 볼륨에서 객체 스토리지로 비활성 데이터를 전송할 수 있습니다. 계층화 트래픽이 일반 사용자 워크로드에 영향을 주는 경우 전송 중에 사용할 수 있는 대역폭의 양을 조절할 수 있습니다.<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block>.</block>
@@ -407,20 +364,6 @@
   <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">계층화 이벤트 "Tier additional data from cluster &lt;name&gt; to object storage to increase storage Efficiency"는 이제 클러스터가 데이터를 계층화하는 경우를 포함하여 콜드 데이터의 20% 미만을 계층화할 때 알림으로 표시됩니다.</block>
   <block id="3c23988fbf7c203a2c811a5ce84251c0" category="inline-link">BlueXP 계층화 총 소유 비용 및 절감 계산기</block>
   <block id="57f9b94b395c8e293b7f892fe5995ac7" category="paragraph">이 알림은 시스템의 효율성을 높이고 스토리지 비용을 절감하는 데 도움이 되는 "권장 사항"입니다. 에 대한 링크를 제공합니다<block ref="c9d262883689ef94201e8739cb50c7f6" category="inline-link-rx"></block> 비용 절감 효과를 계산하는 데 도움이 됩니다.</block>
-  <block id="f717b8ed4d751174af9f9438951b9a4f" category="section-title">2023년 7월 6일</block>
-  <block id="10ffd42b58d1ced7127bffaff7185e32" category="section-title">이제 BlueXP 백업 및 복구에는 스냅샷 복사본 및 복제된 볼륨을 예약 및 생성하는 기능이 포함되어 있습니다</block>
-  <block id="a2e06093d677add4ecd73d26ade99d66" category="paragraph">이제 BlueXP 백업 및 복구를 통해 3-2-1 전략을 구현할 수 있습니다. 이 전략을 통해 2개의 서로 다른 스토리지 시스템에 3개의 소스 데이터 복제본을 저장하고 1개의 복제본을 클라우드에 저장할 수 있습니다. 정품 인증 후 다음 사항이 있습니다.</block>
-  <block id="4dfb74d83687d8ca40ab05bac1885b0a" category="list-text">소스 시스템에 있는 볼륨의 스냅샷 복제본입니다</block>
-  <block id="00b4fe156d0b170f5196995dd8889b0d" category="list-text">다른 스토리지 시스템에 복제된 볼륨</block>
-  <block id="809b026ec469d1b8bfa79721e15f539b" category="list-text">오브젝트 스토리지에 있는 볼륨의 백업입니다</block>
-  <block id="4ae5ef4008b68e98ae1878294a66c9d1" category="inline-link">새로운 전체 스펙트럼 백업 및 복원 기능에 대해 자세히 알아보십시오</block>
-  <block id="e1ddbe5fcbded46fffd577b7a64c82ef" category="paragraph"><block ref="c0ade183535ec842bf30c511bd86bbf6" category="inline-link-rx"></block>.</block>
-  <block id="1afa76124f2d71427832cd0846eefa31" category="paragraph">이 새로운 기능은 복구 작업에도 적용됩니다. 스냅샷 복사본, 복제된 볼륨 또는 클라우드의 백업 파일에서 복원 작업을 수행할 수 있습니다. 따라서 복구 비용과 속도를 비롯하여 복구 요구 사항에 맞는 백업 파일을 유연하게 선택할 수 있습니다.</block>
-  <block id="6d50e6cd9c195849ff4bcb523527fb42" category="paragraph">이 새로운 기능과 사용자 인터페이스는 ONTAP 9.8 이상을 실행하는 클러스터에만 지원됩니다. 클러스터에 이전 버전의 소프트웨어가 있는 경우 이전 버전의 BlueXP 백업 및 복구를 계속 사용할 수 있습니다. 하지만 최신 기능을 사용하려면 지원되는 ONTAP 버전으로 업그레이드하는 것이 좋습니다. 이전 버전의 소프트웨어를 계속 사용하려면 다음 단계를 수행하십시오.</block>
-  <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">볼륨 * 탭에서 * 백업 설정 * 을 선택합니다.</block>
-  <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">백업 설정 페이지에서 * 이전 BlueXP 백업 및 복구 버전 표시 * 의 라디오 버튼을 클릭합니다.</block>
-  <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">그런 다음 이전 버전의 소프트웨어를 사용하여 이전 클러스터를 관리할 수 있습니다.</block>
-  <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
   <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
   <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023년 7월 9일</block>
@@ -438,9 +381,6 @@
   <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">새로운 버킷을 추가하고 BlueXP의 기존 버킷을 관리할 수 있습니다</block>
   <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">새로운 Google Cloud Storage 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">BlueXP Canvas에서 Google Cloud Storage 버킷을 한동안 볼 수 있었습니다. 이제 BlueXP에서 직접 새 버킷을 추가하고 기존 버킷을 위한 속성을 변경할 수 있습니다.<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>.</block>
-  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">오브젝트 스토리지로 백업할 스토리지 컨테이너를 생성하는 기능</block>
-  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">오브젝트 스토리지 버킷을 생성하는 방법을 알아보십시오</block>
-  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>.</block>
   <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023년 7월 17일(버전 1.24)</block>
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다</block>
   <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="list-text">독일어 ID(Personalausweummer)</block>
@@ -456,7 +396,6 @@
   <block id="9d5f9909bec8cf71910a31c50878914c" category="section-title">7월 30일</block>
   <block id="167693b239be0e2939d61376cd3a5487" category="section-title">커넥터 3.9.32</block>
   <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">이제 BlueXP 감사 서비스 API를 사용하여 감사 로그를 내보낼 수 있습니다.</block>
-  <block id="f7cc7ff5799b515f0c19fb83e0dd5098" category="paragraph">감사 서비스는 BlueXP 서비스에서 수행한 작업에 대한 정보를 기록합니다. 여기에는 원래 IP 주소, 작업 공간, 사용된 커넥터 및 기타 원격 측정 데이터가 포함됩니다. 이 데이터를 사용하여 어떤 작업을 수행했는지, 누가 수행했는지, 언제 수행했는지 확인할 수 있습니다.</block>
   <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">감사 서비스 API 사용에 대해 자세히 알아보십시오</block>
   <block id="23822bdcf5039c31a637229d8ca51ffa" category="paragraph"><block ref="23822bdcf5039c31a637229d8ca51ffa" category="inline-link-rx"></block></block>
   <block id="d00604985bd7a191952bde8a0cec39fd" category="paragraph">이 링크는 시각표 페이지의 BlueXP 사용자 인터페이스로도 액세스할 수 있습니다.</block>
@@ -551,4 +490,5 @@
   <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">이전에는 버킷 이름을 정의할 때 기본 "fabric-pool" 접두사를 사용해야 했습니다(예: _fabric-pool-bucket1_). 이제 버킷 이름을 지정할 때 사용자 지정 접두사를 사용할 수 있습니다. 이 기능은 데이터를 Amazon S3로 계층화하는 경우에만 사용할 수 있습니다.<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block>.</block>
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">모든 BlueXP Connector에서 클러스터를 검색합니다</block>
   <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">사용자 환경의 모든 스토리지 시스템을 관리하기 위해 여러 커넥터를 사용하는 경우 계층화를 구현할 클러스터가 다른 커넥터에 있을 수 있습니다. 어떤 커넥터가 특정 클러스터를 관리하고 있는지 확실하지 않은 경우 BlueXP 계층화를 사용하여 모든 커넥터를 검색할 수 있습니다.<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>.</block>
+  <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">감사 서비스는 BlueXP 서비스에서 수행한 작업에 대한 정보를 기록합니다. 여기에는 작업 공간, 사용된 커넥터 및 기타 원격 측정 데이터가 포함됩니다. 이 데이터를 사용하여 어떤 작업을 수행했는지, 누가 수행했는지, 언제 수행했는지 확인할 수 있습니다.</block>
 </blocks>
