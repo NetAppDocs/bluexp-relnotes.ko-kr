@@ -137,7 +137,6 @@
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023년 4월 2일</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
-  <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
@@ -554,4 +553,23 @@
   <block id="7109418f2cd9c52748bb2a769336a1d0" category="paragraph">"비공개 모드" 배포라고 하는 인터넷 액세스가 없는 사이트에서 BlueXP 백업 및 복구를 사용하는 경우 BlueXP 백업 및 복구 정보는 로컬 커넥터 시스템에만 저장됩니다. 이 새로운 기능은 중요한 BlueXP 백업 및 복구 데이터를 연결된 StorageGRID 시스템의 버킷에 자동으로 백업하므로 필요한 경우 이 데이터를 새 커넥터에 복원할 수 있습니다.<block ref="7987fffb3d9d5da865ce1f589e4bd463" category="inline-link-rx"></block></block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">BlueXP 분류 API에 관해 자세히 알아보십시오</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>.</block>
+  <block id="645a84975202e30700b572b49a5ee29d" category="inline-link">재해 복구</block>
+  <block id="86e83f14193f6e90a917a08348a9b031" category="list-text"><block ref="86e83f14193f6e90a917a08348a9b031" category="inline-link-rx"></block></block>
+  <block id="51c5a515e45f0732a46aadb31105d3df" category="list-text"><block ref="51c5a515e45f0732a46aadb31105d3df" category="inline-link-rx"></block></block>
+  <block id="cd0e5c36e226037e532c68c6f3cd3f6b" category="paragraph">BlueXP 재해 복구 베타는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.</block>
+  <block id="50a97e09c76187cbcefa298e70a3afb1" category="admonition">이 베타 서비스를 통해 NetApp는 일반 출시 이전에 서비스 세부 정보, 내용 및 일정을 수정할 권한을 보유합니다.</block>
+  <block id="7db717e772156b4bb93598d5d823ae9f" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
+  <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link-macro">리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다</block>
+  <block id="3d23f8b578249a5d053ce529d0f48f9b" category="list-text">* 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오 <block ref="1f3777444374951667cb1bf3cf287ba7" category="inline-link-macro-rx"></block>.</block>
+  <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link-macro">애플리케이션을 다른 사이트에 복제</block>
+  <block id="62cb227608f24cb15275f690d386de3d" category="list-text">* 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 <block ref="ed1db02de11c4d365ac64a594dde8a8e" category="inline-link-macro-rx"></block>.</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획을 생성합니다</block>
+  <block id="973abcfd1bd912231fdb7b2d3069fabb" category="list-text">* 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오 <block ref="8aa3c94c171b2c9d7252afb28ee019a7" category="inline-link-macro-rx"></block>.</block>
+  <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link-macro">재해 복구 작업을 모니터링합니다</block>
+  <block id="ffdfae72897378c87d20f63c36a85c95" category="list-text">* 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 <block ref="616b4ec313e92b15c3d84e62eae739b5" category="inline-link-macro-rx"></block>.</block>
+  <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link-macro">BlueXP 재해 복구에 대해 자세히 알아보십시오</block>
+  <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>.</block>
+  <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023년 5월 18일</block>
+  <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">BlueXP 재해 복구의 최초 릴리즈입니다.</block>
+  <block id="1ba37effd0ce32bb6cfe5ede3a761ee2" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.</block>
 </blocks>
