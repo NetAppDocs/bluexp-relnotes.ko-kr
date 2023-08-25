@@ -718,13 +718,42 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
-=== 2022년 11월 1일
+=== 2023년 7월 16일
 
-디지털 어드바이저(이전의 Active IQ)는 이제 BlueXP와 완전히 통합되어 로그인 환경이 향상되었습니다.
 
-BlueXP 디지털 어드바이저에게 액세스하면 시스템 관련 데이터를 볼 수 있도록 NetApp Support 사이트 자격 증명을 묻는 메시지가 표시됩니다. 로그인하는 NSS 계정은 사용자 로그인에만 연결됩니다. NetApp 계정의 다른 사용자와 연결되지 않습니다.
 
-https://docs.netapp.com/us-en/active-iq/index.html["BlueXP 디지털 어드바이저에게 대해 자세히 알아보십시오"^]
+==== 스토리지 효율성
+
+* 효율성 비율을 표시하는 * 스토리지 효율성 * 이라는 레이블의 이름이 * 데이터 축소 * 로 바뀌었습니다.
+* 스토리지 효율성으로 저장된 데이터 * 라는 레이블은 * 데이터 축소 절약 * 으로 바뀌었습니다.
+* 토글 * Snapshot 백업이 없는 절약 효과 * 는 기능의 변경과 함께 Snapshot 복사본 * 을 사용하여 * 로 이름이 변경됩니다. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["자세한 정보"].
+
+
+
+
+=== 2023년 6월 21일
+
+
+
+==== Sustainability 대시보드
+
+Sustainability Dashboard는 스토리지 시스템의 환경 지속 가능성에 대한 중요한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 평가하여 스토리지 시스템의 전체 효율성을 평가하고 NetApp의 권장 조치에 부합하여 지속 가능성을 향상할 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["자세한 정보"].
+
+
+
+=== 2023년 2월 22일
+
+
+
+==== 성능 차트
+
+볼륨 IOPS 차트에서 평균 읽기, 쓰기 및 기타 작업을 볼 수 있습니다.
+
+
+
+==== 스토리지 효율성
+
+SAN 및 NAS 스토리지 효율성은 노드 레벨에서 AFF A 시리즈, AFF C190, 모든 SAN 어레이 및 ONTAP 9.10 이상을 실행하는 FAS500을 포함한 ONTAP 시스템에 제공됩니다.
 
 
 
