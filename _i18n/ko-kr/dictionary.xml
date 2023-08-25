@@ -140,10 +140,6 @@
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다</block>
-  <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023년 4월 3일(버전 1.22)</block>
-  <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">새로운 데이터 검색 평가 보고서</block>
-  <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">데이터 검색 평가 보고서를 생성하고 사용하는 방법을 확인하십시오</block>
-  <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">사용 가능한 인스턴스 유형 및 제한 사항을 참조하십시오</block>
   <block id="e86989a1de71c911aa1dff7be51112bd" category="section-title">랜섬웨어 공격으로부터 데이터를 보호하기 위한 새로운 권장 조치</block>
   <block id="51ad14036a828a2a993258fe95046128" category="list-text">"데이터 원본에 대한 사이버 스토리지 구성 설정"을 위한 새로운 권장 조치에서는 데이터 보안을 유지하는 데 도움이 되는 6가지 ONTAP 기능이 설정되어 있는지 여부를 확인합니다. 이러한 기능은 모든 사내 ONTAP 및 Cloud Volumes ONTAP 시스템에서 사용해야 합니다.</block>
   <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">모든 권장 조치 목록을 참조하십시오</block>
@@ -168,9 +164,6 @@
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="inline-link">랜섬웨어 보호</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="inline-link">해결</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="inline-link">계층화</block>
-  <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">클라우드 내 소규모 인스턴스에 BlueXP 분류 기능을 배포할 수 있습니다</block>
-  <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">이제 BlueXP 분류 설치 전에 독립 실행형 스크립트를 사용하여 Linux 시스템을 검증할 수 있습니다</block>
-  <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">Linux 호스트가 BlueXP 분류를 설치할 준비가 되었는지 확인하는 방법을 참조하십시오</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식별하고 분류할 수 있습니다.</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오</block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="section-title">디지털 자문업체</block>
@@ -227,9 +220,6 @@
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
-  <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">데이터 검색 평가 보고서는 스캔한 환경에 대한 상위 수준의 분석을 통해 시스템의 결과를 강조하고 문제 영역 및 잠재적인 개선 단계를 보여줍니다. 이 보고서의 목표는 데이터 거버넌스 문제, 데이터 보안 노출 및 데이터 세트의 데이터 규정 준수 공백에 대한 인식을 높이는 것입니다.<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>.</block>
-  <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">AWS 환경의 BlueXP Connector에서 BlueXP 분류를 배포할 때 이제 기본 인스턴스에서 사용할 수 있는 것보다 두 가지 작은 인스턴스 유형 중에서 선택할 수 있습니다. 소규모 환경을 스캔하면 클라우드 비용을 절감할 수 있습니다. 그러나 더 작은 인스턴스를 사용할 때는 몇 가지 제한 사항이 있습니다.<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>.</block>
-  <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">Linux 시스템이 BlueXP 분류 설치를 실행하는 것과 관계없이 모든 필수 구성 요소를 충족하는지 확인하려면 사전 요구 사항에 대한 테스트만 다운로드할 수 있는 별도의 스크립트가 있습니다.<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>.</block>
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>.</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>.</block>
   <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
@@ -386,7 +376,6 @@
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다.<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>.</block>
   <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">BlueXP 분류의 비공개 모드 설치를 업그레이드할 때 버전을 건너뛸 수 있습니다</block>
   <block id="241957d9f6c696915858d43476112454" category="paragraph">이제 순차적이지 않더라도 최신 버전의 BlueXP 분류로 업그레이드할 수 있습니다. 즉, 한 번에 한 버전씩 BlueXP 분류를 업그레이드할 때 현재 제한이 없어진다는 의미입니다. 이 기능은 버전 1.24 이상부터 관련이 있습니다.</block>
-  <block id="9d5f9909bec8cf71910a31c50878914c" category="section-title">7월 30일</block>
   <block id="167693b239be0e2939d61376cd3a5487" category="section-title">커넥터 3.9.32</block>
   <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">이제 BlueXP 감사 서비스 API를 사용하여 감사 로그를 내보낼 수 있습니다.</block>
   <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">감사 서비스 API 사용에 대해 자세히 알아보십시오</block>
@@ -578,4 +567,26 @@
   <block id="e10f6958064ae5f36e8b132d4142e626" category="section-title">성능 차트</block>
   <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">볼륨 IOPS 차트에서 평균 읽기, 쓰기 및 기타 작업을 볼 수 있습니다.</block>
   <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN 및 NAS 스토리지 효율성은 노드 레벨에서 AFF A 시리즈, AFF C190, 모든 SAN 어레이 및 ONTAP 9.10 이상을 실행하는 FAS500을 포함한 ONTAP 시스템에 제공됩니다.</block>
+  <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
+  <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
+  <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
+  <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷</block>
+  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">이 업데이트에는 버그 수정도 포함되어 있습니다.</block>
+  <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9월 5일(버전 1.25)</block>
+  <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">조사 결과 페이지에서 최대 100,000개의 항목에 태그를 적용합니다</block>
+  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">방법을 확인하십시오</block>
+  <block id="6d37cd3f2b76637efa533f6623bf7ceb" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다. <block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
+  <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">최소 파일 크기가 1MB인 중복 파일을 식별합니다</block>
+  <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 분류는 파일이 50MB 이상인 경우에만 중복된 파일을 식별하는 데 사용됩니다. 이제 1MB로 시작하는 중복 파일을 식별할 수 있습니다. 조사 페이지에서 "파일 크기"와 "중복 항목"을 필터링하여 사용자 환경에서 특정 크기의 파일이 복제되었는지 확인할 수 있습니다.</block>
+  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023년 9월 3일</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">regex로 파일을 제외합니다</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">이제 사용자는 regex를 사용하여 파일을 제외할 수 있습니다.</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">파일 확장명 제외 * 기능에 대해 자세히 알아보십시오.</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">Azure 데이터 브로커를 생성할 때 S3 키를 추가합니다</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">이제 Azure 데이터 브로커를 생성할 때 사용자가 AWS S3 액세스 키와 비밀 키를 추가할 수 있습니다.</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
+  <block id="d687b97df8e082fb1a95e853c70aa1c2" category="section-title">2023년 9월 3일</block>
+  <block id="a0c145fadd8b464775a61d2f1a2e0474" category="paragraph">업데이트된 BlueXP 마이그레이션 보고서 서비스는 보고서 데이터에 대한 업데이트를 제공합니다. 이제 보고서에 할당된 용량이 포함됩니다.</block>
 </blocks>
