@@ -508,10 +508,6 @@
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023년 6월 21일</block>
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
   <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">Sustainability Dashboard는 스토리지 시스템의 환경 지속 가능성에 대한 중요한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 평가하여 스토리지 시스템의 전체 효율성을 평가하고 NetApp의 권장 조치에 부합하여 지속 가능성을 향상할 수 있습니다. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
-  <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">2023년 2월 22일</block>
-  <block id="e10f6958064ae5f36e8b132d4142e626" category="section-title">성능 차트</block>
-  <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">볼륨 IOPS 차트에서 평균 읽기, 쓰기 및 기타 작업을 볼 수 있습니다.</block>
-  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN 및 NAS 스토리지 효율성은 노드 레벨에서 AFF A 시리즈, AFF C190, 모든 SAN 어레이 및 ONTAP 9.10 이상을 실행하는 FAS500을 포함한 ONTAP 시스템에 제공됩니다.</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
@@ -556,4 +552,10 @@
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
+  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023년 9월 27일</block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
+  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">를 사용하여 기본 감시 목록 또는 대시보드에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 링크. 기본 감시 목록 또는 대시보드가 없는 경우 링크를 클릭하면 검색 페이지로 리디렉션됩니다.</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">업그레이드 계획</block>
+  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">업그레이드 계획을 사용하여 ONTAP 버전을 업그레이드합니다</block>
+  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">업그레이드 계획은 중복 업그레이드 단계를 제거하고, 정보 및 경고를 수정하고, 백아웃 계획을 간소화하도록 최적화되었습니다. 클러스터의 모든 노드에서 공통되는 단계는 일반 정보 섹션에서 통합되고 사용할 수 있습니다. 향상된 계획을 보려면 에 설명된 단계를 사용하여 업그레이드 계획을 생성합니다 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>.</block>
 </blocks>
