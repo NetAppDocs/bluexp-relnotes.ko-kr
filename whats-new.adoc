@@ -385,9 +385,15 @@ StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지
 
 
 
+==== 중소 규모 구축은 일시적으로 사용할 수 없습니다
+
+AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy > Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy > Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.
+
+
+
 ==== 조사 결과 페이지에서 최대 100,000개의 항목에 태그를 적용합니다
 
-이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.  https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["방법을 확인하십시오"].
+이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다. https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["방법을 확인하십시오"].
 
 
 
@@ -410,12 +416,6 @@ BlueXP 분류는 다음과 같은 유형의 데이터가 포함된 파일을 식
 
 
 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["BlueXP 분류에서 데이터에서 식별할 수 있는 모든 개인 데이터 유형을 확인하십시오"].
-
-
-
-==== Rocky Linux 9는 이제 BlueXP 분류를 설치할 수 있는 Linux 배포판입니다
-
-Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체제로 인증되었습니다. 설치 프로그램의 1.24 버전을 사용하는 경우, 네트워크의 Rocky Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["Rocky Linux가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 확인하십시오"].
 
 
 

@@ -346,9 +346,6 @@
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 분류에서는 두 가지 새로운 유형의 독일 개인 데이터를 식별합니다</block>
   <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="list-text">독일어 ID(Personalausweummer)</block>
   <block id="ac01084f4d5a1af5de639eaf04ad94ff" category="list-text">독일 사회 보장 번호(소지아버서머스무머)</block>
-  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">Rocky Linux 9는 이제 BlueXP 분류를 설치할 수 있는 Linux 배포판입니다</block>
-  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">Rocky Linux가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 확인하십시오</block>
-  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">Rocky Linux 9(9.0, 9.1 및 9.2)는 BlueXP 분류에서 지원되는 운영 체제로 인증되었습니다. 설치 프로그램의 1.24 버전을 사용하는 경우, 네트워크의 Rocky Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>.</block>
   <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">BlueXP 분류는 제한 모드 및 비공개 모드에서 완전히 지원됩니다</block>
   <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">Connector의 BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">현재 BlueXP 분류는 인터넷 액세스(비공개 모드)가 없는 사이트와 제한된 아웃바운드 인터넷 액세스(제한 모드)에서 완벽하게 지원됩니다.<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>.</block>
@@ -524,7 +521,6 @@
   <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9월 5일(버전 1.25)</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">조사 결과 페이지에서 최대 100,000개의 항목에 태그를 적용합니다</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">방법을 확인하십시오</block>
-  <block id="6d37cd3f2b76637efa533f6623bf7ceb" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다. <block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">최소 파일 크기가 1MB인 중복 파일을 식별합니다</block>
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 분류는 파일이 50MB 이상인 경우에만 중복된 파일을 식별하는 데 사용됩니다. 이제 1MB로 시작하는 중복 파일을 식별할 수 있습니다. 조사 페이지에서 "파일 크기"와 "중복 항목"을 필터링하여 사용자 환경에서 특정 크기의 파일이 복제되었는지 확인할 수 있습니다.</block>
   <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023년 9월 3일</block>
@@ -557,4 +553,7 @@
   <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">Azure에서 Cloud Volumes ONTAP의 스토리지 제한을 봅니다</block>
   <block id="7dd77d10e6ae3bee2c34fcea19d9c1ab" category="paragraph"><block ref="2e2ea5a0499f86c06503605a768ce8a2" category="inline-link-macro-rx"></block>
 <block ref="c1f4bd6aa6a7def50b28a0bec13e0184" category="inline-link-macro-rx"></block></block>
+  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
+  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
+  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
 </blocks>
