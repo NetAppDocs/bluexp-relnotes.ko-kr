@@ -287,7 +287,6 @@
   <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">이제 가능합니다 <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> BlueXP를 사용하는 NetApp ONTAP 파일 시스템용 Amazon FSx로</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">** 내 기회** 탭은 지금 ** 내 부동산** 입니다. 새 이름이 반영되도록 문서가 업데이트됩니다.</block>
   <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
-  <block id="a6d6a466484f2718bba09926e0dfb2c7" category="paragraph">다음 변경 사항은 커넥터의 3.9.31 릴리스에 도입되었습니다.</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
   <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">내 부동산에서 클러스터 검색</block>
   <block id="4573c689742769edc01e3f45205fd784" category="paragraph">이제 BlueXP 로그인의 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP에서 사전 검색된 클러스터를 선택하여 * Canvas &gt; 내 공간 * 에서 온-프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
@@ -364,9 +363,6 @@
   <block id="b259e22e76e27ad956b503941804b4c6" category="list-text">볼륨 유형 “보조”는 이제 “보조(DP)”로 표시됩니다.</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">사용 보고서를 다운로드합니다</block>
   <block id="a8c4bf4701c4d99d778be1176c8c8616" category="paragraph">사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 <block ref="b9c4007084372a89d5df93919658aa73" category="inline-link-macro-rx"></block>.</block>
-  <block id="8ccf37f65f5b32ae30e20faafe7dd9ba" category="section-title">2023년 7월 26일</block>
-  <block id="eccfb2b7d21b722b7e6659bf39e0f295" category="section-title">Cloud Volumes ONTAP 9.13.1 GA</block>
-  <block id="64118c9781a8b98caa35463a68a24220" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.13.1 일반 가용성 릴리스를 배포하고 관리할 수 있습니다.</block>
   <block id="c2282365523aa8fbb305c5432e90d5d7" category="paragraph"><block ref="6f9b2ccd962907ef2c43f6fa9517a053" category="inline-link-macro-rx"></block>.</block>
   <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">이제 Cloud Volumes ONTAP 사용 보고서의 몇 가지 개선 사항이 있습니다.</block>
   <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">이제 일련 번호에 대한 new_node_field가 포함됩니다.</block>
@@ -490,7 +486,6 @@
   <block id="2a88859b894ead28756789553bc66754" category="list-text">토글 * Snapshot 백업이 없는 절약 효과 * 는 기능의 변경과 함께 Snapshot 복사본 * 을 사용하여 * 로 이름이 변경됩니다. <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>.</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023년 6월 21일</block>
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
-  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">Sustainability Dashboard는 스토리지 시스템의 환경 지속 가능성에 대한 중요한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 평가하여 스토리지 시스템의 전체 효율성을 평가하고 NetApp의 권장 조치에 부합하여 지속 가능성을 향상할 수 있습니다. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
@@ -537,14 +532,20 @@
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023년 9월 27일</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
-  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">를 사용하여 기본 감시 목록 또는 대시보드에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 링크. 기본 감시 목록 또는 대시보드가 없는 경우 링크를 클릭하면 검색 페이지로 리디렉션됩니다.</block>
-  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">업그레이드 계획</block>
-  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">업그레이드 계획을 사용하여 ONTAP 버전을 업그레이드합니다</block>
-  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">업그레이드 계획은 중복 업그레이드 단계를 제거하고, 정보 및 경고를 수정하고, 백아웃 계획을 간소화하도록 최적화되었습니다. 클러스터의 모든 노드에서 공통되는 단계는 일반 정보 섹션에서 통합되고 사용할 수 있습니다. 향상된 계획을 보려면 에 설명된 단계를 사용하여 업그레이드 계획을 생성합니다 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>.</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
   <block id="620a73262e6956695319caae21506289" category="section-title">RHEL 버전 9를 사용한 온프레미스 설치 지원</block>
   <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
   <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.</block>
   <block id="db5b005cbaaba7a23899858892848a77" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
+  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
+  <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">커넥터 3.9.34</block>
+  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
+  <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Connector 3.9.34 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.</block>
+  <block id="44d133359b344c4542acdebe6209e101" category="section-title">Cloud Volumes ONTAP 9.14.0</block>
+  <block id="c5fa627d231c9a8813c9a2421d86136f" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.14.0 General Availability 릴리즈를 구축 및 관리할 수 있습니다.</block>
+  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">를 사용하여 기본 시청목록에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 링크.</block>
+  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">업그레이드 계획을 생성하고 보는 방법에 대해 알아봅니다</block>
+  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">업그레이드 계획은 중복 업그레이드 단계를 제거하고 백아웃 계획을 간소화하도록 최적화되어 있습니다. 클러스터의 모든 노드에 대한 공통 단계는 통합되며 업그레이드 계획의 일반 정보 섹션에서 사용할 수 있습니다. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>.</block>
+  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">지속 가능성 대시보드는 스토리지 시스템의 환경 지속 가능성에 대한 유용한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 기준으로 스토리지 시스템의 전반적인 효율성을 평가하고 지속 가능성을 개선하기 위해 NetApp이 권장하는 조치에 맞출 수 있습니다. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
 </blocks>

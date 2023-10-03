@@ -33,6 +33,16 @@ NetApp BlueXP는 2022년 11월 1일에 출시되었습니다. BlueXP는 Cloud Ma
 
 
 
+=== 2023년 10월 6일
+
+
+
+==== 커넥터 3.9.34
+
+이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.
+
+
+
 === 2023년 9월 10일
 
 
@@ -461,6 +471,20 @@ https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["Blu
 
 
 
+=== 2023년 10월 6일
+
+Connector 3.9.34 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.
+
+
+
+==== Cloud Volumes ONTAP 9.14.0
+
+BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.14.0 General Availability 릴리즈를 구축 및 관리할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
+
+
+
 === 2023년 9월 10일
 
 Connector 3.9.33 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.
@@ -511,20 +535,6 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp
 
 
 사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"^].
-
-
-
-=== 2023년 7월 26일
-
-다음 변경 사항은 커넥터의 3.9.31 릴리스에 도입되었습니다.
-
-
-
-==== Cloud Volumes ONTAP 9.13.1 GA
-
-BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.13.1 일반 가용성 릴리스를 배포하고 관리할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
 
 
 
@@ -690,13 +700,9 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 ==== Upgrade Advisor
 
-를 사용하여 기본 감시 목록 또는 대시보드에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] 링크. 기본 감시 목록 또는 대시보드가 없는 경우 링크를 클릭하면 검색 페이지로 리디렉션됩니다.
+* 를 사용하여 기본 시청목록에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] 링크.
+* 업그레이드 계획은 중복 업그레이드 단계를 제거하고 백아웃 계획을 간소화하도록 최적화되어 있습니다. 클러스터의 모든 노드에 대한 공통 단계는 통합되며 업그레이드 계획의 일반 정보 섹션에서 사용할 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["업그레이드 계획을 생성하고 보는 방법에 대해 알아봅니다"].
 
-
-
-==== 업그레이드 계획
-
-업그레이드 계획은 중복 업그레이드 단계를 제거하고, 정보 및 경고를 수정하고, 백아웃 계획을 간소화하도록 최적화되었습니다. 클러스터의 모든 노드에서 공통되는 단계는 일반 정보 섹션에서 통합되고 사용할 수 있습니다. 향상된 계획을 보려면 에 설명된 단계를 사용하여 업그레이드 계획을 생성합니다 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["업그레이드 계획을 사용하여 ONTAP 버전을 업그레이드합니다"].
 
 
 
@@ -719,7 +725,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 ==== Sustainability 대시보드
 
-Sustainability Dashboard는 스토리지 시스템의 환경 지속 가능성에 대한 중요한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 평가하여 스토리지 시스템의 전체 효율성을 평가하고 NetApp의 권장 조치에 부합하여 지속 가능성을 향상할 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["자세한 정보"].
+지속 가능성 대시보드는 스토리지 시스템의 환경 지속 가능성에 대한 유용한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 기준으로 스토리지 시스템의 전반적인 효율성을 평가하고 지속 가능성을 개선하기 위해 NetApp이 권장하는 조치에 맞출 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["자세한 정보"].
 
 
 
