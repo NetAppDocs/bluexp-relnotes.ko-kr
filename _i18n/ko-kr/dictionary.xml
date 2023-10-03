@@ -108,7 +108,6 @@
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">클라우드 라이센스를 구성하기 위한 Optimus PSM이 개선되었습니다</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Optimus UI(Edge Configuration)의 Edge Sync 기능이 향상되어 연결된 모든 클라이언트가 표시됩니다</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">이제 BlueXP에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
@@ -271,25 +270,9 @@
   <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">BlueXP 볼륨 캐싱을 사용하면 클라우드에 대한 캐싱 기능이 있으며, 특히 NetApp ONTAP, Cloud Volumes ONTAP 및 온-프레미스에서 작업 환경으로 사용되는 Amazon FSx를 지원합니다.</block>
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">BlueXP 볼륨 캐싱에 대해 자세히 알아보십시오</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>.</block>
-  <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023년 6월 6일(버전 1.23)</block>
-  <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다</block>
-  <block id="3a3337f232548d40f54052862077499b" category="inline-link">데이터 주체 액세스 요청 보고서</block>
-  <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">데이터 조사 페이지의 "데이터 제목" 필터</block>
-  <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 을 생성할 수 있습니다<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 결과 정보를 사용합니다. 에 일본어 이름을 입력할 수도 있습니다<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 제목 이름이 포함된 파일을 식별합니다.</block>
-  <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu는 이제 BlueXP 분류를 설치할 수 있는 지원되는 Linux 배포판입니다</block>
-  <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">Ubuntu가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 참조하십시오</block>
-  <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">Red Hat Enterprise Linux 8.6과 8.7은 새로운 BlueXP 분류 설치에서 더 이상 지원되지 않습니다</block>
-  <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 새로운 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 BlueXP 분류 시스템을 실행 중인 경우 NetApp는 계속해서 구성을 지원합니다.</block>
-  <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">ONTAP 시스템에서 FPolicy 이벤트를 수신하려면 BlueXP 분류를 FPolicy Collector로 구성할 수 있습니다</block>
-  <block id="88b2049c35386070297462047bca71cf" category="inline-link">파일 액세스 이벤트를 모니터링하고 관리하는 방법을 확인하십시오</block>
-  <block id="1c6f2c46440d2da9ff124f2379388cf8" category="paragraph">BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다.<block ref="e525234fcf42827b85ebd3e0f842cd71" category="inline-link-rx"></block>.</block>
-  <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다</block>
-  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오</block>
-  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다.<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>.</block>
   <block id="26e3ab611e399c831d813cdff5745975" category="list-text">이제 Connector를 사용하여 BlueXP에서 Azure 저장소 계정을 추가하고 관리할 수 있습니다.</block>
   <block id="8ffa5f25420a002d3aa8840ec0e7752f" category="inline-link">BlueXP에서 Azure 구독에 새 Azure 저장소 계정을 추가하는 방법을 알아보십시오</block>
   <block id="6c6c819a667ba8ce8119b4bf796894fc" category="paragraph"><block ref="fef6d7c0add7436be78fa3e990371931" category="inline-link-rx"></block>.</block>
-  <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다.<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>.</block>
   <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023년 6월 11일</block>
   <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">분 단위로 자동 중단을 지원합니다</block>
   <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">아직 완료되지 않은 활성 동기화는 이제 * 동기화 시간 초과 * 기능을 사용하여 15분 후에 중단할 수 있습니다.</block>
@@ -558,4 +541,10 @@
   <block id="9622c46ac664d07f743905654edd5f26" category="section-title">업그레이드 계획</block>
   <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">업그레이드 계획을 사용하여 ONTAP 버전을 업그레이드합니다</block>
   <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">업그레이드 계획은 중복 업그레이드 단계를 제거하고, 정보 및 경고를 수정하고, 백아웃 계획을 간소화하도록 최적화되었습니다. 클러스터의 모든 노드에서 공통되는 단계는 일반 정보 섹션에서 통합되고 사용할 수 있습니다. 향상된 계획을 보려면 에 설명된 단계를 사용하여 업그레이드 계획을 생성합니다 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>.</block>
+  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
+  <block id="620a73262e6956695319caae21506289" category="section-title">RHEL 버전 9를 사용한 온프레미스 설치 지원</block>
+  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
+  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.</block>
+  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
 </blocks>

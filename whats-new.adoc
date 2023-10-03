@@ -381,6 +381,24 @@ StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지
 
 
 
+=== 10월 4일(버전 1.26)
+
+
+
+==== RHEL 버전 9를 사용한 온프레미스 설치 지원
+
+Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.
+
+현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.
+
+
+
+==== 이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다
+
+이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.
+
+
+
 === 9월 5일(버전 1.25)
 
 
@@ -436,40 +454,6 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 BlueXP 분류 API를 사용하면 작업을 수행하고, 쿼리를 생성하고, 스캔하는 데이터에 대한 정보를 내보낼 수 있습니다. 대화형 설명서는 Swagger를 사용하여 사용할 수 있습니다. 문서는 조사, 규정 준수, 거버넌스 및 구성을 포함한 여러 범주로 구분됩니다. 각 범주는 BlueXP 분류 UI의 탭에 대한 참조입니다.
 
 https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["BlueXP 분류 API에 관해 자세히 알아보십시오"].
-
-
-
-=== 2023년 6월 6일(버전 1.23)
-
-
-
-==== 이제 데이터 제목 이름을 검색할 때 일본어가 지원됩니다
-
-Data Subject Access Request(SAR)에 대한 응답으로 시험대상자 이름을 검색할 때 일본어 이름을 입력할 수 있습니다. 을 생성할 수 있습니다 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html#what-is-a-data-subject-access-request["데이터 주체 액세스 요청 보고서"] 결과 정보를 사용합니다. 에 일본어 이름을 입력할 수도 있습니다 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-by-sensitivity-and-content["데이터 조사 페이지의 "데이터 제목" 필터"] 제목 이름이 포함된 파일을 식별합니다.
-
-
-
-==== Ubuntu는 이제 BlueXP 분류를 설치할 수 있는 지원되는 Linux 배포판입니다
-
-Ubuntu 22.04는 BlueXP 분류에 지원되는 운영 체제로 검증되었습니다. 설치 프로그램의 버전 1.23을 사용하는 경우 네트워크의 Ubuntu Linux 호스트 또는 클라우드의 Linux 호스트에 BlueXP 분류를 설치할 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["Ubuntu가 설치된 호스트에 BlueXP 분류를 설치하는 방법을 참조하십시오"].
-
-
-
-==== Red Hat Enterprise Linux 8.6과 8.7은 새로운 BlueXP 분류 설치에서 더 이상 지원되지 않습니다
-
-Red Hat은 더 이상 Docker를 지원하지 않으므로 이러한 버전은 새로운 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 BlueXP 분류 시스템을 실행 중인 경우 NetApp는 계속해서 구성을 지원합니다.
-
-
-
-==== ONTAP 시스템에서 FPolicy 이벤트를 수신하려면 BlueXP 분류를 FPolicy Collector로 구성할 수 있습니다
-
-BlueXP 분류 시스템에서 파일 액세스 감사 로그를 수집하여 작업 환경의 볼륨에서 감지된 파일 액세스 이벤트를 처리할 수 있습니다. BlueXP 분류는 다음 유형의 FPolicy 이벤트와 파일에서 작업을 수행한 사용자, 즉 만들기, 읽기, 쓰기, 삭제, 이름 바꾸기, 소유자/권한을 변경하고 SACL/DACL을 변경합니다. https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["파일 액세스 이벤트를 모니터링하고 관리하는 방법을 확인하십시오"].
-
-
-
-==== 이제 Data Sense BYOL 라이센스가 다크 사이트에서 지원됩니다
-
-이제 데이터 감지 BYOL 라이센스를 어두운 사이트의 BlueXP 디지털 지갑에 업로드하여 라이센스가 낮아지면 알림을 받을 수 있습니다. https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["Data Sense BYOL 라이센스를 획득하고 업로드하는 방법을 알아보십시오"].
 
 
 
