@@ -538,5 +538,15 @@
   <block id="9e06c986efeeff600f0b04c67d5d6354" category="paragraph">사우디아라비아 지역은 현재 Google Cloud for Cloud Volumes ONTAP 및 Connector for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.</block>
   <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud의 글로벌 지역 지도</block>
   <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>.</block>
-  <block id="e8b16e899245eb584f98d48e087aa975" category="paragraph">현재 Azure의 다음 지역에서는 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 고가용성 다중 가용성 영역 구축을 지원합니다.</block>
+  <block id="e95c0c487a8aec79b7d3484dc5452526" category="section-title">2023년 11월 10일</block>
+  <block id="8e40e7e4940e30b2ce260ff97ad74d25" category="paragraph">Connector 3.9.35 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.</block>
+  <block id="1c13ec96dac1171608b6dbd65bb2245c" category="section-title">베를린 지역은 현재 Google Cloud에서 지원됩니다</block>
+  <block id="56e0da46254ac9c6f784da40f466bda0" category="paragraph">베를린 지역은 현재 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.</block>
+  <block id="bbb4cf526641d95bbb8ab8bada56fa79" category="section-title">텔아비브 지역은 현재 AWS에서 지원됩니다</block>
+  <block id="04afad264aa486baec91a1ade145665a" category="paragraph">텔아비브 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 AWS에서 지원됩니다.</block>
+  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS에 따른 글로벌 지역 지도</block>
+  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>.</block>
+  <block id="8904b1f88c62ce8a8381c8474f2ccb42" category="paragraph">커넥터 3.9.34 릴리스에서 다음과 같은 변경 사항이 도입되었습니다.</block>
+  <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023년 11월 8일</block>
+  <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">이번 BlueXP의 경제적 효율성 릴리즈에는 자산을 평가하고 기술 업데이트가 권장되는지 여부를 확인할 수 있는 새로운 옵션이 포함되어 있습니다. 이 서비스에는 왼쪽 탐색 창에 있는 새로운 기술 업데이트 옵션, 현재 워크로드와 자산을 평가할 수 있는 새 페이지, 권장사항이 있는 보고서가 포함되어 있습니다.</block>
 </blocks>
