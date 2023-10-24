@@ -1,0 +1,37 @@
+= 애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)
+:allow-uri-read: 
+
+
+
+
+=== 애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)
+
+* Microsoft SQL Server 데이터베이스
++
+** 에서는 Amazon FSx for NetApp ONTAP에 상주하는 Microsoft SQL Server 데이터베이스의 백업, 복원, 복구를 지원합니다
+** 모든 작업은 REST API를 통해서만 지원됩니다.
+
+
+* SAP HANA 시스템
++
+** 시스템 새로 고침 중에 볼륨의 자동 마운트 및 마운트 해제는 스크립트 대신 워크플로우를 사용하여 수행됩니다
+** 추가, 제거, 편집, 삭제, 유지 관리, UI를 사용하여 플러그인 호스트를 업그레이드합니다
+
+
+
+
+
+
+=== 애플리케이션의 BlueXP 백업 및 복구 기능 향상(하이브리드)
+
+* 데이터 잠금 및 랜섬웨어 보호를 지원합니다
+* StorageGRID에서 아카이브 계층으로 백업을 이동할 수 있습니다
+* 온프레미스 ONTAP 시스템에서 Amazon Web Services, Microsoft Azure, Google Cloud Platform 및 StorageGRID로의 MongoDB, MySQL 및 PostgreSQL 애플리케이션 데이터 백업을 지원합니다. 필요할 때 데이터를 복원할 수 있습니다.
+
+
+
+
+=== 가상 머신을 위한 BlueXP 백업 및 복구 기능 개선
+
+* 커넥터 프록시 구축 모델 지원
+

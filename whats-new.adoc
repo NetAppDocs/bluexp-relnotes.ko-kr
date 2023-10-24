@@ -280,6 +280,66 @@ BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 B
 
 
 
+=== 2023년 10월 23일
+
+
+
+==== 백업 활성화 중 3-2-1 백업 정책 생성
+
+이전에는 스냅샷, 복제 또는 백업을 시작하기 전에 사용자 지정 정책을 생성해야 했습니다. 이제 백업 활성화 프로세스 중에 BlueXP 백업 및 복구 UI를 사용하여 정책을 생성할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["정책에 대해 자세히 알아보십시오"].
+
+
+
+==== ONTAP 볼륨의 온디맨드 빠른 복원 지원
+
+BlueXP 백업 및 복구를 통해 클라우드 스토리지에서 Cloud Volumes ONTAP 시스템으로 볼륨을 "빠르게 복원"할 수 있습니다. 빠른 복원은 가능한 한 빨리 볼륨에 대한 액세스를 제공해야 하는 재해 복구 상황에 이상적입니다. 빠른 복원은 전체 백업 파일을 복원하는 대신 백업 파일의 메타데이터를 볼륨으로 복원합니다.
+
+Cloud Volumes ONTAP 대상 시스템에서 ONTAP 버전 9.13.0 이상을 실행해야 합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["데이터 복원에 대해 자세히 알아보십시오"].
+
+BlueXP 백업 및 복구 작업 모니터에는 빠른 복원 작업의 진행률에 대한 정보도 표시됩니다.
+
+
+
+=== 2023년 10월 13일
+
+
+
+==== 애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)
+
+* Microsoft SQL Server 데이터베이스
++
+** 에서는 Amazon FSx for NetApp ONTAP에 상주하는 Microsoft SQL Server 데이터베이스의 백업, 복원, 복구를 지원합니다
+** 모든 작업은 REST API를 통해서만 지원됩니다.
+
+
+* SAP HANA 시스템
++
+** 시스템 새로 고침 중에 볼륨의 자동 마운트 및 마운트 해제는 스크립트 대신 워크플로우를 사용하여 수행됩니다
+** 추가, 제거, 편집, 삭제, 유지 관리, UI를 사용하여 플러그인 호스트를 업그레이드합니다
+
+
+
+
+
+
+==== 애플리케이션의 BlueXP 백업 및 복구 기능 향상(하이브리드)
+
+* 데이터 잠금 및 랜섬웨어 보호를 지원합니다
+* StorageGRID에서 아카이브 계층으로 백업을 이동할 수 있습니다
+* 온프레미스 ONTAP 시스템에서 Amazon Web Services, Microsoft Azure, Google Cloud Platform 및 StorageGRID로의 MongoDB, MySQL 및 PostgreSQL 애플리케이션 데이터 백업을 지원합니다. 필요할 때 데이터를 복원할 수 있습니다.
+
+
+
+
+==== 가상 머신을 위한 BlueXP 백업 및 복구 기능 개선
+
+* 커넥터 프록시 구축 모델 지원
+
+
+
+
 === 2023년 9월 11일
 
 
@@ -300,6 +360,12 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.
 
 
 
+==== 백업 데이터를 표준 스토리지에 처음 쓰는 대신 즉시 아카이빙할 수 있습니다
+
+이제 데이터를 표준 클라우드 스토리지에 기록하는 대신 백업 파일을 즉시 아카이브 스토리지로 보낼 수 있습니다. 이 기능은 클라우드 백업에서 데이터에 액세스할 필요가 거의 없는 사용자나 테이프 환경으로 백업을 교체하는 사용자에게 특히 유용합니다.
+
+
+
 ==== SnapLock 볼륨의 백업 및 복원을 위한 추가 지원
 
 이제 백업 및 복구를 통해 SnapLock Compliance 또는 SnapLock 엔터프라이즈 보호 모드를 사용하여 구성된 FlexVol 및 FlexGroup 볼륨을 모두 백업할 수 있습니다. 클러스터에서 ONTAP 9.14 이상을 실행해야 합니다. SnapLock 엔터프라이즈 모드를 사용한 FlexVol 볼륨 백업은 ONTAP 버전 9.11.1 이후로 지원됩니다. 이전 ONTAP 릴리즈에서는 SnapLock 보호 볼륨의 백업을 지원하지 않습니다.
@@ -312,9 +378,12 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-clo
 
 [IMPORTANT]
 ====
-중요한 보안 개선 사항으로 인해 이제 Connector는 공용 클라우드 환경 내에서 백업 및 복구 리소스를 관리하기 위해 추가 엔드포인트에 대한 아웃바운드 인터넷 액세스를 필요로 합니다. 이 끝점이 방화벽의 "허용" 목록에 추가되지 않은 경우 UI에 "서비스를 사용할 수 없음" 또는 "서비스 상태 확인 실패"에 대한 오류가 표시됩니다.
-
+* 중요한 보안 개선 사항으로 인해 이제 Connector는 공용 클라우드 환경 내에서 백업 및 복구 리소스를 관리하기 위해 추가 엔드포인트에 대한 아웃바운드 인터넷 액세스를 필요로 합니다. 이 끝점이 방화벽의 "허용" 목록에 추가되지 않은 경우 UI에 "서비스를 사용할 수 없음" 또는 "서비스 상태 확인 실패"에 대한 오류가 표시됩니다.
++
 \https://netapp-cloud-account.auth0.com
+
+* Cloud Volumes ONTAP 및 BlueXP 백업 및 복구를 번들로 제공할 수 있는 "CVO Professional" 패키지를 사용하는 경우 백업 및 복구 PAYGO 가입이 필요합니다. 과거에는 필요하지 않았습니다. 적격 Cloud Volumes ONTAP 시스템의 백업 및 복구 서브스크립션에는 비용이 청구되지 않지만 새 볼륨에 백업을 구성할 때 비용이 필요합니다.
+
 
 ====
 
@@ -351,42 +420,6 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
-=== 2023년 7월 6일
-
-
-
-==== 이제 BlueXP 백업 및 복구에는 스냅샷 복사본 및 복제된 볼륨을 예약 및 생성하는 기능이 포함되어 있습니다
-
-이제 BlueXP 백업 및 복구를 통해 3-2-1 전략을 구현할 수 있습니다. 이 전략을 통해 2개의 서로 다른 스토리지 시스템에 3개의 소스 데이터 복제본을 저장하고 1개의 복제본을 클라우드에 저장할 수 있습니다. 정품 인증 후 다음 사항이 있습니다.
-
-* 소스 시스템에 있는 볼륨의 스냅샷 복제본입니다
-* 다른 스토리지 시스템에 복제된 볼륨
-* 오브젝트 스토리지에 있는 볼륨의 백업입니다
-
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html["새로운 전체 스펙트럼 백업 및 복원 기능에 대해 자세히 알아보십시오"].
-
-이 새로운 기능은 복구 작업에도 적용됩니다. 스냅샷 복사본, 복제된 볼륨 또는 클라우드의 백업 파일에서 복원 작업을 수행할 수 있습니다. 따라서 복구 비용과 속도를 비롯하여 복구 요구 사항에 맞는 백업 파일을 유연하게 선택할 수 있습니다.
-
-이 새로운 기능과 사용자 인터페이스는 ONTAP 9.8 이상을 실행하는 클러스터에만 지원됩니다. 클러스터에 이전 버전의 소프트웨어가 있는 경우 이전 버전의 BlueXP 백업 및 복구를 계속 사용할 수 있습니다. 하지만 최신 기능을 사용하려면 지원되는 ONTAP 버전으로 업그레이드하는 것이 좋습니다. 이전 버전의 소프트웨어를 계속 사용하려면 다음 단계를 수행하십시오.
-
-. 볼륨 * 탭에서 * 백업 설정 * 을 선택합니다.
-. 백업 설정 페이지에서 * 이전 BlueXP 백업 및 복구 버전 표시 * 의 라디오 버튼을 클릭합니다.
-+
-그런 다음 이전 버전의 소프트웨어를 사용하여 이전 클러스터를 관리할 수 있습니다.
-
-
-
-
-
-==== 오브젝트 스토리지로 백업할 스토리지 컨테이너를 생성하는 기능
-
-오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#do-you-want-to-create-your-own-object-storage-container["오브젝트 스토리지 버킷을 생성하는 방법을 알아보십시오"].
-
-StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.
-
-
-
 == 분류
 
 
@@ -395,17 +428,11 @@ StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지
 
 
 
-==== RHEL 버전 9를 사용한 온프레미스 설치 지원
+==== RHEL 버전 9에서 BlueXP 분류의 사내 설치를 지원합니다
 
-Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.
+Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 현재 Podman 버전 4 이상을 컨테이너 인프라로 사용하여 RHEL 9.0, 9.1 및 9.2에서 BlueXP 분류 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.
 
-현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.
-
-
-
-==== 이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다
-
-이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.
+현재 RHEL 9.x를 사용하는 경우 다크 사이트 설치 또는 분산 스캐닝 환경(마스터 및 원격 스캐너 노드 사용)은 지원되지 않습니다
 
 
 
@@ -471,6 +498,30 @@ https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["Blu
 
 
 
+=== 2023년 10월 23일
+
+Connector 3.9.34 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.
+
+
+
+==== Azure에서 HA 다중 가용 영역 배포를 위해 새로운 영역이 지원됩니다
+
+현재 Azure의 다음 지역에서는 Cloud Volumes ONTAP 9.14.0 이상에 대해 가용성이 높은 다중 가용 영역 구축을 지원합니다.
+
+* 호주 동부
+* 동아시아
+* 프랑스 중부
+* 북유럽
+* 카타르 중부
+* 스웨덴 중부
+* 서유럽
+* 미국 서부 2
+
+
+여러 가용 영역을 지원하는 모든 지역 목록은 를 참조하십시오 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 아래의 글로벌 지역 지도"^].
+
+
+
 === 2023년 10월 6일
 
 Connector 3.9.34 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.
@@ -495,46 +546,8 @@ Connector 3.9.33 릴리스에서 다음과 같은 변경 사항이 적용되었�
 
 이제 L48s_v3 및 L64s_v3 인스턴스 유형이 Azure의 Cloud Volumes ONTAP에서 지원되므로 9.13.1 릴리즈부터 단일 및 여러 가용 영역의 공유 관리 디스크를 사용한 단일 노드 및 고가용성 쌍 구축이 가능합니다. 이러한 인스턴스 유형은 Flash Cache를 지원합니다.
 
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure에서 Cloud Volumes ONTAP에 대해 지원되는 구성을 봅니다"]
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["Azure에서 Cloud Volumes ONTAP의 스토리지 제한을 봅니다"]
-
-
-
-=== 2023년 7월 30일
-
-다음 변경 사항은 커넥터의 3.9.32 릴리스에 도입되었습니다.
-
-
-
-==== Flash Cache 및 Google Cloud의 고속 쓰기 지원
-
-Google Cloud for Cloud Volumes ONTAP 9.13.1 이상에서는 Flash Cache 및 고속 쓰기 속도를 별도로 활성화할 수 있습니다. 지원되는 모든 인스턴스 유형에서 빠른 쓰기 속도를 사용할 수 있습니다. Flash Cache는 다음과 같은 인스턴스 유형에서 지원됩니다.
-
-* N2-표준-16
-* N2-표준-32
-* N2-표준-48
-* N2-표준-64
-
-
-이러한 기능은 단일 노드 및 고가용성 쌍 구축 모두에서 개별적으로 또는 함께 사용할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP를 실행합니다"]
-
-
-
-==== 사용 보고서 기능 향상
-
-이제 사용 보고서 내에 표시되는 정보를 다양한 개선 사항을 사용할 수 있습니다. 다음은 사용 보고서의 향상된 기능입니다.
-
-* 이제 TiB 단위는 컬럼 이름에 포함됩니다.
-* 이제 일련 번호에 대한 새로운 "노드" 필드가 포함되었습니다.
-* 이제 새로운 "워크로드 유형" 열이 스토리지 VM 사용량 보고서에 포함됩니다.
-* 이제 스토리지 VM 및 볼륨 사용 보고서에 작업 환경 이름이 포함됩니다.
-* 볼륨 유형 “파일”은 이제 “기본(읽기/쓰기)”으로 표시됩니다.
-* 볼륨 유형 “보조”는 이제 “보조(DP)”로 표시됩니다.
-
-
-사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"^].
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure에서 Cloud Volumes ONTAP에 대해 지원되는 구성을 봅니다"^]
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["Azure에서 Cloud Volumes ONTAP의 스토리지 제한을 봅니다"^]
 
 
 
@@ -694,6 +707,16 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
+=== 2023년 10월 4일
+
+
+
+==== 계획 위젯
+
+기술 업데이트 권장 사항 수는 고객 레벨 대시보드의 계획 위젯에 포함됩니다. 다음 권장 사항은 하드웨어의 지원이 부족하거나 지원 종료가 가까워질 때 하드웨어 기술 업데이트 작업을 계획하는 데 도움이 됩니다.
+
+
+
 === 2023년 9월 27일
 
 
@@ -716,16 +739,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 * 스토리지 효율성으로 저장된 데이터 * 라는 레이블은 * 데이터 축소 절약 * 으로 바뀌었습니다.
 * 토글 * Snapshot 백업이 없는 절약 효과 * 는 기능의 변경과 함께 Snapshot 복사본 * 을 사용하여 * 로 이름이 변경됩니다. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["자세한 정보"].
 
-
-
-
-=== 2023년 6월 21일
-
-
-
-==== Sustainability 대시보드
-
-지속 가능성 대시보드는 스토리지 시스템의 환경 지속 가능성에 대한 유용한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 기준으로 스토리지 시스템의 전반적인 효율성을 평가하고 지속 가능성을 개선하기 위해 NetApp이 권장하는 조치에 맞출 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["자세한 정보"].
 
 
 
@@ -803,22 +816,74 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 
 
+=== 2023년 10월 20일
+
+이 BlueXP 재해 복구 기능의 사전 공개 릴리즈에는 다음 업데이트가 포함됩니다.
+
+이제 BlueXP 재해 복구를 사용하면 퍼블릭 클라우드와 더불어 다른 온프레미스 NFS 기반 VMware 환경 재해로부터 온프레미스 NFS 기반 VMware 워크로드를 보호할 수 있습니다. BlueXP 재해 복구를 통해 재해 복구 계획의 완료를 조율합니다.
+
+
+NOTE: 이 미리 보기 서비스를 통해 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
+
+
+
+=== 2023년 9월 27일
+
+이 BlueXP 재해 복구 사전 공개 릴리즈에는 다음 업데이트가 포함되어 있습니다.
+
+* * 대시보드 업데이트 * : 이제 대시보드의 옵션을 클릭하여 정보를 빠르게 검토할 수 있습니다. 또한 이제 대시보드에 페일오버 및 마이그레이션 상태가 표시됩니다.
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["대시보드에서 재해 복구 계획의 상태를 확인합니다"].
+
+* * 복제 계획 업데이트 *:
++
+** * RPO *: 이제 Replication Plan의 Datastores 섹션에 RPO(복구 지점 목표) 및 보존 카운트를 입력할 수 있습니다. 설정된 시간보다 오래되지 않은 존재해야 하는 데이터의 양을 나타냅니다. 예를 들어, 5분으로 설정할 경우 비즈니스 크리티컬 요구사항에 영향을 주지 않는 재해 발생 시 시스템에서 최대 5분의 데이터가 손실될 수 있습니다.
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+** * 네트워킹 개선 사항 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP 재해 복구는 이제 DHCP 또는 고정 IP의 두 가지 옵션을 제공합니다. 이전에는 DHCP만 지원되었습니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 이제 가상 머신에 대한 자격 증명을 입력할 수 있습니다.
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+** * 스케줄 편집 * : 이제 복제 계획 스케줄을 업데이트할 수 있습니다.
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["자원 관리"].
+
+** * SnapMirror 자동화 *: 이 릴리즈에서 복제 계획을 생성하는 동안 다음 구성 중 하나에서 소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 정의할 수 있습니다.
++
+*** 1 대 1
+*** 팬아웃 아키텍처에 1개 또는 다대다
+*** 정합성 보장 그룹으로서 다대수 1입니다
+*** 다대다
++
+을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+
+
+
+
+
+
+
+
+
 === 2023년 8월 1일
 
-BlueXP 재해 복구 베타는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.
+BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.
 
 
-NOTE: 이 베타 서비스를 통해 NetApp는 일반 출시 이전에 서비스 세부 정보, 내용 및 일정을 수정할 권한을 보유합니다.
+NOTE: 이 미리 보기 서비스를 통해 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
 
 이 릴리스에는 다음 업데이트가 포함됩니다.
 
-* * 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오 link:../use/drplan-create.html#select-applications-to-replicate-and-assign-resource-groups["리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다"].
-* * 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 link:../use/replicate.html["애플리케이션을 다른 사이트에 복제"].
-* * 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오 link:../use/drplan-create.html["복제 계획을 생성합니다"].
-* * 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 link:../use/monitor-jobs.html["재해 복구 작업을 모니터링합니다"].
+* * 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html#select-applications-to-replicate-and-assign-resource-groups["리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다"].
+* * 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/replicate.html["애플리케이션을 다른 사이트에 복제"].
+* * 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["복제 계획을 생성합니다"].
+* * 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["재해 복구 작업을 모니터링합니다"].
 
-
-link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
 
 
 
@@ -826,7 +891,7 @@ link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro
 
 BlueXP 재해 복구의 최초 릴리즈입니다.
 
-BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.
+BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["BlueXP 재해 복구에 대해 자세히 알아보십시오"].
 
@@ -842,7 +907,7 @@ link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro
 
 ==== E-Series 지원
 
-이제 BlueXP에서 E-Series 스토리지 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
+이제 BlueXP에서 E-Series 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
 
 
 

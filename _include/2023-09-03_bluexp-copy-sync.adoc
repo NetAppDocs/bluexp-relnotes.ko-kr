@@ -1,0 +1,19 @@
+= regex로 파일을 제외합니다
+:allow-uri-read: 
+
+
+
+
+=== regex로 파일을 제외합니다
+
+이제 사용자는 regex를 사용하여 파일을 제외할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["파일 확장명 제외 * 기능에 대해 자세히 알아보십시오."]
+
+
+
+=== Azure 데이터 브로커를 생성할 때 S3 키를 추가합니다
+
+이제 Azure 데이터 브로커를 생성할 때 사용자가 AWS S3 액세스 키와 비밀 키를 추가할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["Azure에서 데이터 브로커 생성에 대해 자세히 알아보십시오."]

@@ -97,7 +97,6 @@
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">BlueXP 소개</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">이제 BlueXP에서 직접 Cloud Volumes Service for Google Cloud를 관리할 수 있습니다.</block>
-  <block id="534171d3771a50398027a07275778b3e" category="paragraph">이제 BlueXP에서 E-Series 스토리지 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022년 10월 24일(버전 2.1)</block>
   <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">이제 글로벌 파일 캐시를 원하는 수의 라이센스로 사용할 수 있습니다</block>
   <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">이전에 최소 10개의 라이센스 또는 30TB의 스토리지가 제거되었습니다. 3TB의 스토리지당 하나의 글로벌 파일 캐시 라이센스가 발급됩니다.</block>
@@ -352,7 +351,6 @@
   <block id="7c347fcea29ffaea485ee6128a9d7a06" category="list-text">N2-표준-64</block>
   <block id="0891ba6a1f7a37c01cb3698c692751bc" category="paragraph">이러한 기능은 단일 노드 및 고가용성 쌍 구축 모두에서 개별적으로 또는 함께 사용할 수 있습니다.</block>
   <block id="5195e4b472b1871018c47fface61dc40" category="inline-link-macro">Google Cloud에서 Cloud Volumes ONTAP를 실행합니다</block>
-  <block id="1e69916eaa563a1da0ccff3715e2342d" category="paragraph"><block ref="1e69916eaa563a1da0ccff3715e2342d" category="inline-link-macro-rx"></block></block>
   <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">사용 보고서 기능 향상</block>
   <block id="ec123c8f161f9dfe4383b8db1d8883c4" category="paragraph">이제 사용 보고서 내에 표시되는 정보를 다양한 개선 사항을 사용할 수 있습니다. 다음은 사용 보고서의 향상된 기능입니다.</block>
   <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">이제 TiB 단위는 컬럼 이름에 포함됩니다.</block>
@@ -441,51 +439,24 @@
   <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">"백업 수명 주기" 유형 필터의 이름이 "보존"으로 변경되었습니다. 이 필터를 사용하여 백업 라이프사이클을 추적하고 모든 백업 복제본의 만료 날짜를 식별합니다. "보존" 작업 유형은 BlueXP 백업 및 복구로 보호되는 볼륨에서 시작된 모든 스냅샷 삭제 작업을 캡처합니다.</block>
   <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">업데이트된 작업 모니터에 대해 자세히 알아보십시오</block>
   <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block>.</block>
-  <block id="f717b8ed4d751174af9f9438951b9a4f" category="section-title">2023년 7월 6일</block>
-  <block id="10ffd42b58d1ced7127bffaff7185e32" category="section-title">이제 BlueXP 백업 및 복구에는 스냅샷 복사본 및 복제된 볼륨을 예약 및 생성하는 기능이 포함되어 있습니다</block>
-  <block id="a2e06093d677add4ecd73d26ade99d66" category="paragraph">이제 BlueXP 백업 및 복구를 통해 3-2-1 전략을 구현할 수 있습니다. 이 전략을 통해 2개의 서로 다른 스토리지 시스템에 3개의 소스 데이터 복제본을 저장하고 1개의 복제본을 클라우드에 저장할 수 있습니다. 정품 인증 후 다음 사항이 있습니다.</block>
-  <block id="4dfb74d83687d8ca40ab05bac1885b0a" category="list-text">소스 시스템에 있는 볼륨의 스냅샷 복제본입니다</block>
-  <block id="00b4fe156d0b170f5196995dd8889b0d" category="list-text">다른 스토리지 시스템에 복제된 볼륨</block>
-  <block id="809b026ec469d1b8bfa79721e15f539b" category="list-text">오브젝트 스토리지에 있는 볼륨의 백업입니다</block>
-  <block id="4ae5ef4008b68e98ae1878294a66c9d1" category="inline-link">새로운 전체 스펙트럼 백업 및 복원 기능에 대해 자세히 알아보십시오</block>
-  <block id="e1ddbe5fcbded46fffd577b7a64c82ef" category="paragraph"><block ref="c0ade183535ec842bf30c511bd86bbf6" category="inline-link-rx"></block>.</block>
-  <block id="1afa76124f2d71427832cd0846eefa31" category="paragraph">이 새로운 기능은 복구 작업에도 적용됩니다. 스냅샷 복사본, 복제된 볼륨 또는 클라우드의 백업 파일에서 복원 작업을 수행할 수 있습니다. 따라서 복구 비용과 속도를 비롯하여 복구 요구 사항에 맞는 백업 파일을 유연하게 선택할 수 있습니다.</block>
-  <block id="6d50e6cd9c195849ff4bcb523527fb42" category="paragraph">이 새로운 기능과 사용자 인터페이스는 ONTAP 9.8 이상을 실행하는 클러스터에만 지원됩니다. 클러스터에 이전 버전의 소프트웨어가 있는 경우 이전 버전의 BlueXP 백업 및 복구를 계속 사용할 수 있습니다. 하지만 최신 기능을 사용하려면 지원되는 ONTAP 버전으로 업그레이드하는 것이 좋습니다. 이전 버전의 소프트웨어를 계속 사용하려면 다음 단계를 수행하십시오.</block>
-  <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">볼륨 * 탭에서 * 백업 설정 * 을 선택합니다.</block>
-  <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">백업 설정 페이지에서 * 이전 BlueXP 백업 및 복구 버전 표시 * 의 라디오 버튼을 클릭합니다.</block>
-  <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">그런 다음 이전 버전의 소프트웨어를 사용하여 이전 클러스터를 관리할 수 있습니다.</block>
-  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">오브젝트 스토리지로 백업할 스토리지 컨테이너를 생성하는 기능</block>
-  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">오브젝트 스토리지 버킷을 생성하는 방법을 알아보십시오</block>
-  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">오브젝트 스토리지에서 백업 파일을 생성할 때 기본적으로 백업 및 복구 서비스는 오브젝트 스토리지에 버킷을 생성합니다. 특정 이름을 사용하거나 특수 속성을 할당하려면 직접 버킷을 생성할 수 있습니다. 고유한 버킷을 생성하려면 활성화 마법사를 시작하기 전에 생성해야 합니다.<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>.</block>
-  <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">StorageGRID 시스템에 백업 파일을 생성할 때 이 기능은 현재 지원되지 않습니다.</block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">BlueXP 분류 API에 관해 자세히 알아보십시오</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>.</block>
   <block id="645a84975202e30700b572b49a5ee29d" category="inline-link">재해 복구</block>
   <block id="86e83f14193f6e90a917a08348a9b031" category="list-text"><block ref="86e83f14193f6e90a917a08348a9b031" category="inline-link-rx"></block></block>
   <block id="51c5a515e45f0732a46aadb31105d3df" category="list-text"><block ref="51c5a515e45f0732a46aadb31105d3df" category="inline-link-rx"></block></block>
-  <block id="cd0e5c36e226037e532c68c6f3cd3f6b" category="paragraph">BlueXP 재해 복구 베타는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.</block>
-  <block id="50a97e09c76187cbcefa298e70a3afb1" category="admonition">이 베타 서비스를 통해 NetApp는 일반 출시 이전에 서비스 세부 정보, 내용 및 일정을 수정할 권한을 보유합니다.</block>
-  <block id="7db717e772156b4bb93598d5d823ae9f" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
   <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link-macro">리소스 그룹을 복제하고 할당할 애플리케이션을 선택합니다</block>
-  <block id="3d23f8b578249a5d053ce529d0f48f9b" category="list-text">* 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오 <block ref="1f3777444374951667cb1bf3cf287ba7" category="inline-link-macro-rx"></block>.</block>
   <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link-macro">애플리케이션을 다른 사이트에 복제</block>
-  <block id="62cb227608f24cb15275f690d386de3d" category="list-text">* 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 <block ref="ed1db02de11c4d365ac64a594dde8a8e" category="inline-link-macro-rx"></block>.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획을 생성합니다</block>
-  <block id="973abcfd1bd912231fdb7b2d3069fabb" category="list-text">* 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오 <block ref="8aa3c94c171b2c9d7252afb28ee019a7" category="inline-link-macro-rx"></block>.</block>
   <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link-macro">재해 복구 작업을 모니터링합니다</block>
-  <block id="ffdfae72897378c87d20f63c36a85c95" category="list-text">* 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 <block ref="616b4ec313e92b15c3d84e62eae739b5" category="inline-link-macro-rx"></block>.</block>
   <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link-macro">BlueXP 재해 복구에 대해 자세히 알아보십시오</block>
   <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>.</block>
   <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023년 5월 18일</block>
   <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">BlueXP 재해 복구의 최초 릴리즈입니다.</block>
-  <block id="1ba37effd0ce32bb6cfe5ede3a761ee2" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 베타를 사용하면 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware 클라우드(VMC)로 보호할 수 있습니다.</block>
   <block id="51f8ba1e739f07ed09f1ba20bff5e7fc" category="section-title">2023년 7월 16일</block>
   <block id="91b681e174a782226d26fb4056e14081" category="section-title">스토리지 효율성</block>
   <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">효율성 비율을 표시하는 * 스토리지 효율성 * 이라는 레이블의 이름이 * 데이터 축소 * 로 바뀌었습니다.</block>
   <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">스토리지 효율성으로 저장된 데이터 * 라는 레이블은 * 데이터 축소 절약 * 으로 바뀌었습니다.</block>
   <block id="2a88859b894ead28756789553bc66754" category="list-text">토글 * Snapshot 백업이 없는 절약 효과 * 는 기능의 변경과 함께 Snapshot 복사본 * 을 사용하여 * 로 이름이 변경됩니다. <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>.</block>
-  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023년 6월 21일</block>
-  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
@@ -525,19 +496,12 @@
   <block id="cc2bfd53f6bcbc23893aaa8fab8b1eb2" category="paragraph">이제 L48s_v3 및 L64s_v3 인스턴스 유형이 Azure의 Cloud Volumes ONTAP에서 지원되므로 9.13.1 릴리즈부터 단일 및 여러 가용 영역의 공유 관리 디스크를 사용한 단일 노드 및 고가용성 쌍 구축이 가능합니다. 이러한 인스턴스 유형은 Flash Cache를 지원합니다.</block>
   <block id="c2af1dd6b400531e930c62dad5095f7d" category="inline-link-macro">Azure에서 Cloud Volumes ONTAP에 대해 지원되는 구성을 봅니다</block>
   <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">Azure에서 Cloud Volumes ONTAP의 스토리지 제한을 봅니다</block>
-  <block id="7dd77d10e6ae3bee2c34fcea19d9c1ab" category="paragraph"><block ref="2e2ea5a0499f86c06503605a768ce8a2" category="inline-link-macro-rx"></block>
-<block ref="c1f4bd6aa6a7def50b28a0bec13e0184" category="inline-link-macro-rx"></block></block>
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023년 9월 27일</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
-  <block id="620a73262e6956695319caae21506289" category="section-title">RHEL 버전 9를 사용한 온프레미스 설치 지원</block>
-  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 이제 컨테이너 인프라로 Podman 버전 4 이상을 사용하는 RHEL 9.0, 9.1 및 9.2에 대한 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
-  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">현재는 마스터 및 원격 스캐너 노드를 사용하는 다크 사이트 설치 또는 분산 스캐닝 환경을 지원하지 않습니다.</block>
-  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
   <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">커넥터 3.9.34</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
@@ -547,5 +511,77 @@
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">를 사용하여 기본 시청목록에 대한 Upgrade Advisor 페이지에 액세스할 수 있습니다 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 링크.</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">업그레이드 계획을 생성하고 보는 방법에 대해 알아봅니다</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">업그레이드 계획은 중복 업그레이드 단계를 제거하고 백아웃 계획을 간소화하도록 최적화되어 있습니다. 클러스터의 모든 노드에 대한 공통 단계는 통합되며 업그레이드 계획의 일반 정보 섹션에서 사용할 수 있습니다. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>.</block>
-  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">지속 가능성 대시보드는 스토리지 시스템의 환경 지속 가능성에 대한 유용한 통찰력을 제공합니다. 지속 가능성 점수, 탄소 완화 비율, 예상 전력 사용, 직접 탄소, 열 등의 정보를 볼 수 있습니다. 특정 사이트에 대한 탄소 완화 비율을 조정할 수 있습니다. 또한 클러스터 수준에서 지속 가능성 점수를 볼 수도 있습니다. 지속 가능성 점수를 기준으로 스토리지 시스템의 전반적인 효율성을 평가하고 지속 가능성을 개선하기 위해 NetApp이 권장하는 조치에 맞출 수 있습니다. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
+  <block id="fb2530f9293a4ba59cfd3ca6492bb972" category="section-title">2023년 10월 23일</block>
+  <block id="f1d5b892646c28fdb747b890f0787976" category="section-title">백업 활성화 중 3-2-1 백업 정책 생성</block>
+  <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">이전에는 스냅샷, 복제 또는 백업을 시작하기 전에 사용자 지정 정책을 생성해야 했습니다. 이제 백업 활성화 프로세스 중에 BlueXP 백업 및 복구 UI를 사용하여 정책을 생성할 수 있습니다.</block>
+  <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">ONTAP 볼륨의 온디맨드 빠른 복원 지원</block>
+  <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">BlueXP 백업 및 복구를 통해 클라우드 스토리지에서 Cloud Volumes ONTAP 시스템으로 볼륨을 "빠르게 복원"할 수 있습니다. 빠른 복원은 가능한 한 빨리 볼륨에 대한 액세스를 제공해야 하는 재해 복구 상황에 이상적입니다. 빠른 복원은 전체 백업 파일을 복원하는 대신 백업 파일의 메타데이터를 볼륨으로 복원합니다.</block>
+  <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">Cloud Volumes ONTAP 대상 시스템에서 ONTAP 버전 9.13.0 이상을 실행해야 합니다.<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block>.</block>
+  <block id="a508551aa743c3098667d5ae32149739" category="paragraph">BlueXP 백업 및 복구 작업 모니터에는 빠른 복원 작업의 진행률에 대한 정보도 표시됩니다.</block>
+  <block id="eb018f0a377269905eb589a99448cf57" category="section-title">2023년 10월 13일</block>
+  <block id="197747cde80c31576877de78be696240" category="section-title">애플리케이션의 BlueXP 백업 및 복구 기능 향상(클라우드 네이티브)</block>
+  <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Microsoft SQL Server 데이터베이스</block>
+  <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">에서는 Amazon FSx for NetApp ONTAP에 상주하는 Microsoft SQL Server 데이터베이스의 백업, 복원, 복구를 지원합니다</block>
+  <block id="d4da4ec044327991fbcd43ca1778c38f" category="list-text">모든 작업은 REST API를 통해서만 지원됩니다.</block>
+  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANA 시스템</block>
+  <block id="3b05cd173ffd47ef0b4346901ab9e0d3" category="list-text">시스템 새로 고침 중에 볼륨의 자동 마운트 및 마운트 해제는 스크립트 대신 워크플로우를 사용하여 수행됩니다</block>
+  <block id="29db6fe351e2079efe0622a1b5bd15f4" category="list-text">추가, 제거, 편집, 삭제, 유지 관리, UI를 사용하여 플러그인 호스트를 업그레이드합니다</block>
+  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">애플리케이션의 BlueXP 백업 및 복구 기능 향상(하이브리드)</block>
+  <block id="b4445605950c5dae15c10f509d6f0f79" category="list-text">데이터 잠금 및 랜섬웨어 보호를 지원합니다</block>
+  <block id="188502bd01986373f9c31291dc835e82" category="list-text">StorageGRID에서 아카이브 계층으로 백업을 이동할 수 있습니다</block>
+  <block id="541019d49feaf31b8000318aac636f92" category="list-text">온프레미스 ONTAP 시스템에서 Amazon Web Services, Microsoft Azure, Google Cloud Platform 및 StorageGRID로의 MongoDB, MySQL 및 PostgreSQL 애플리케이션 데이터 백업을 지원합니다. 필요할 때 데이터를 복원할 수 있습니다.</block>
+  <block id="11a3809c55f7c25dbda24854a827db05" category="section-title">가상 머신을 위한 BlueXP 백업 및 복구 기능 개선</block>
+  <block id="60a7ad592c196ecee9eebdab38d4ed7e" category="list-text">커넥터 프록시 구축 모델 지원</block>
+  <block id="f63476943179d5dd83527cd0b9c7ade4" category="section-title">백업 데이터를 표준 스토리지에 처음 쓰는 대신 즉시 아카이빙할 수 있습니다</block>
+  <block id="cc702ed839181d5a4eb3655eba656f65" category="paragraph">이제 데이터를 표준 클라우드 스토리지에 기록하는 대신 백업 파일을 즉시 아카이브 스토리지로 보낼 수 있습니다. 이 기능은 클라우드 백업에서 데이터에 액세스할 필요가 거의 없는 사용자나 테이프 환경으로 백업을 교체하는 사용자에게 특히 유용합니다.</block>
+  <block id="9aa936e4dd7e0d3efaa0a77d15dc632b" category="list-text">Cloud Volumes ONTAP 및 BlueXP 백업 및 복구를 번들로 제공할 수 있는 "CVO Professional" 패키지를 사용하는 경우 백업 및 복구 PAYGO 가입이 필요합니다. 과거에는 필요하지 않았습니다. 적격 Cloud Volumes ONTAP 시스템의 백업 및 복구 서브스크립션에는 비용이 청구되지 않지만 새 볼륨에 백업을 구성할 때 비용이 필요합니다.</block>
+  <block id="74246010013353726bd9ff99866fa7d4" category="section-title">RHEL 버전 9에서 BlueXP 분류의 사내 설치를 지원합니다</block>
+  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 버전 8 및 9은 BlueXP 분류 설치에 필요한 Docker 엔진을 지원하지 않습니다. 현재 Podman 버전 4 이상을 컨테이너 인프라로 사용하여 RHEL 9.0, 9.1 및 9.2에서 BlueXP 분류 설치를 지원합니다. 환경에 최신 버전의 RHEL을 사용해야 하는 경우 이제 Podman을 사용할 때 BlueXP 분류(버전 1.26 이상)를 설치할 수 있습니다.</block>
+  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">현재 RHEL 9.x를 사용하는 경우 다크 사이트 설치 또는 분산 스캐닝 환경(마스터 및 원격 스캐너 노드 사용)은 지원되지 않습니다</block>
+  <block id="2bc953fcced4addf338156cc4681b683" category="section-title">Azure에서 HA 다중 가용 영역 배포를 위해 새로운 영역이 지원됩니다</block>
+  <block id="13ff77e69df5acabc2f0da9e5ebc94b8" category="paragraph">현재 Azure의 다음 지역에서는 Cloud Volumes ONTAP 9.14.0 이상에 대해 가용성이 높은 다중 가용 영역 구축을 지원합니다.</block>
+  <block id="cee3f0213dd8b7eb15d7b31824e01754" category="list-text">호주 동부</block>
+  <block id="f74e1c0c8ee8410fa5bfe03676347257" category="list-text">동아시아</block>
+  <block id="bea1bd3d23555c539dab5f3f5426184c" category="list-text">프랑스 중부</block>
+  <block id="d0fe0e3b6520479f718b98f0d471b7d0" category="list-text">북유럽</block>
+  <block id="7def8b46a24f875959130a855cd80918" category="list-text">스웨덴 중부</block>
+  <block id="8fb2033d01e3efa2825282a13f86c14e" category="list-text">서유럽</block>
+  <block id="c349d3a26cf4231660785a0c5b4cb007" category="list-text">미국 서부 2</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 아래의 글로벌 지역 지도</block>
+  <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">여러 가용 영역을 지원하는 모든 지역 목록은 를 참조하십시오<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
+  <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block>
+<block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023년 10월 4일</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">계획 위젯</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">기술 업데이트 권장 사항 수는 고객 레벨 대시보드의 계획 위젯에 포함됩니다. 다음 권장 사항은 하드웨어의 지원이 부족하거나 지원 종료가 가까워질 때 하드웨어 기술 업데이트 작업을 계획하는 데 도움이 됩니다.</block>
+  <block id="2971377ab46c11db3998ef23731b52cf" category="section-title">2023년 10월 20일</block>
+  <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">이 BlueXP 재해 복구 기능의 사전 공개 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">이제 BlueXP 재해 복구를 사용하면 퍼블릭 클라우드와 더불어 다른 온프레미스 NFS 기반 VMware 환경 재해로부터 온프레미스 NFS 기반 VMware 워크로드를 보호할 수 있습니다. BlueXP 재해 복구를 통해 재해 복구 계획의 완료를 조율합니다.</block>
+  <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">이 미리 보기 서비스를 통해 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.</block>
+  <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block>.</block>
+  <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">이 BlueXP 재해 복구 사전 공개 릴리즈에는 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">* 대시보드 업데이트 * : 이제 대시보드의 옵션을 클릭하여 정보를 빠르게 검토할 수 있습니다. 또한 이제 대시보드에 페일오버 및 마이그레이션 상태가 표시됩니다.</block>
+  <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">대시보드에서 재해 복구 계획의 상태를 확인합니다</block>
+  <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">을 참조하십시오<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block>.</block>
+  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">* 복제 계획 업데이트 *:</block>
+  <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">* RPO *: 이제 Replication Plan의 Datastores 섹션에 RPO(복구 지점 목표) 및 보존 카운트를 입력할 수 있습니다. 설정된 시간보다 오래되지 않은 존재해야 하는 데이터의 양을 나타냅니다. 예를 들어, 5분으로 설정할 경우 비즈니스 크리티컬 요구사항에 영향을 주지 않는 재해 발생 시 시스템에서 최대 5분의 데이터가 손실될 수 있습니다.</block>
+  <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
+  <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">* 네트워킹 개선 사항 *: 복제 계획의 가상 머신 섹션에서 소스 및 대상 위치 간의 네트워킹을 매핑할 때 BlueXP 재해 복구는 이제 DHCP 또는 고정 IP의 두 가지 옵션을 제공합니다. 이전에는 DHCP만 지원되었습니다. 정적 IP의 경우 서브넷, 게이트웨이 및 DNS 서버를 구성합니다. 또한 이제 가상 머신에 대한 자격 증명을 입력할 수 있습니다.</block>
+  <block id="fe329f91281efd1c71c4145c82444ecd" category="list-text">* 스케줄 편집 * : 이제 복제 계획 스케줄을 업데이트할 수 있습니다.</block>
+  <block id="ecd36d02576c4fe28ab61b5c14fa69c4" category="inline-link">자원 관리</block>
+  <block id="4cfb152ee6cdcd5bb952055f0451eb1e" category="paragraph">을 참조하십시오<block ref="62052e6a6f987a8752e8d90cacdd602d" category="inline-link-rx"></block>.</block>
+  <block id="58adec32627fd44ceeefdcc62aeec6fc" category="list-text">* SnapMirror 자동화 *: 이 릴리즈에서 복제 계획을 생성하는 동안 다음 구성 중 하나에서 소스 볼륨과 타겟 볼륨 간의 SnapMirror 관계를 정의할 수 있습니다.</block>
+  <block id="92b7daac1d86d399dc5b1e009d09f0f5" category="list-text">1 대 1</block>
+  <block id="352d4f9f99cbd649fab2edc17c761e66" category="list-text">팬아웃 아키텍처에 1개 또는 다대다</block>
+  <block id="7d2e89736c1e0a679ed3c86b8b5e6141" category="list-text">정합성 보장 그룹으로서 다대수 1입니다</block>
+  <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">다대다</block>
+  <block id="b1026ebb435e887031ec24334255046b" category="paragraph">BlueXP 재해 복구 사전 공개는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.</block>
+  <block id="8f34806925352860a20b553ca661087f" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
+  <block id="3c588cce706af28ae858573fe547adee" category="list-text">* 부트 순서를 위한 리소스 그룹 업데이트 *: 재해 복구 또는 복제 계획을 작성할 때 가상 컴퓨터를 기능 리소스 그룹에 추가할 수 있습니다. 리소스 그룹을 사용하면 요구 사항을 충족하는 논리적 그룹에 종속 가상 머신 세트를 배치할 수 있습니다. 예를 들어, 복구 시 실행할 수 있는 부팅 순서가 그룹에 포함될 수 있습니다. 이 릴리즈에서는 각 리소스 그룹에 하나 이상의 가상 머신을 포함할 수 있습니다. 가상 머신은 계획에 가상 머신을 포함하는 순서에 따라 전원이 켜집니다. 을 참조하십시오<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>.</block>
+  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">* 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>.</block>
+  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">* 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
+  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">* 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>.</block>
+  <block id="25d037b5df7f2e04a4d6a1a3bc33caa7" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.</block>
+  <block id="8060a341461a61edc489285d4c464062" category="paragraph">이제 BlueXP에서 E-Series 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
+  <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
 </blocks>

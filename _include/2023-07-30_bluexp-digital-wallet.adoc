@@ -1,0 +1,19 @@
+= 사용 보고서 기능 향상
+:allow-uri-read: 
+
+
+
+
+=== 사용 보고서 기능 향상
+
+이제 Cloud Volumes ONTAP 사용 보고서의 몇 가지 개선 사항이 있습니다.
+
+* 이제 TiB 단위는 컬럼 이름에 포함됩니다.
+* 이제 일련 번호에 대한 new_node_field가 포함됩니다.
+* 이제 Storage VMs Usage 보고서에 new_Workload Type_column이 포함됩니다.
+* 이제 작업 환경 이름이 스토리지 VM 및 볼륨 사용 보고서에 포함됩니다.
+* 이제 볼륨 type_file_은 _Primary(읽기/쓰기)_로 레이블이 지정됩니다.
+* 이제 볼륨 type_secondary_이(가) _Secondary(DP)_로 표시됩니다.
+
+
+사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"].
