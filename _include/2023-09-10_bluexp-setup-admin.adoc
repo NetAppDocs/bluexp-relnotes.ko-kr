@@ -1,10 +1,6 @@
-= 커넥터 3.9.33
+= 
 :allow-uri-read: 
 
-
-
-
-=== 커넥터 3.9.33
 
 * AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.
 +
