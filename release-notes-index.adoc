@@ -5,15 +5,12 @@ keywords: release notes
 summary: 각 개별 서비스에 대한 릴리스 정보 전체 세트를 확인합니다. 
 ---
 = 릴리스 노트 색인
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
