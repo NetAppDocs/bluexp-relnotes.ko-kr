@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">릴리스 노트 색인</block>
-  <block id="58c23c6ea3bae0f0d75bd2cd80d15108" category="paragraph">각 개별 서비스에 대한 릴리스 정보 전체 세트를 확인합니다.</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">스토리지</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">ONTAP용 Amazon FSx</block>
@@ -236,15 +235,6 @@
   <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">BlueXP 볼륨 캐싱을 사용하면 클라우드에 대한 캐싱 기능이 있으며, 특히 NetApp ONTAP, Cloud Volumes ONTAP 및 온-프레미스에서 작업 환경으로 사용되는 Amazon FSx를 지원합니다.</block>
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">BlueXP 볼륨 캐싱에 대해 자세히 알아보십시오</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>.</block>
-  <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023년 6월 11일</block>
-  <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">분 단위로 자동 중단을 지원합니다</block>
-  <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">아직 완료되지 않은 활성 동기화는 이제 * 동기화 시간 초과 * 기능을 사용하여 15분 후에 중단할 수 있습니다.</block>
-  <block id="44856e8753e0c19c0341499a434c7c97" category="inline-link">동기화 시간 초과 설정에 대해 자세히 알아보십시오</block>
-  <block id="3266d16b8714caecb4f4231dca5dae65" category="paragraph"><block ref="bfd432c58dd0bb0c71b937c5a3336867" category="inline-link-rx"></block>.</block>
-  <block id="69540ae9a9da395711f1e900d88e4cc5" category="section-title">복사 액세스 시간 메타데이터</block>
-  <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">파일 시스템을 포함한 관계에서 * Copy for Objects * 기능은 이제 액세스 시간 메타데이터를 복사합니다.</block>
-  <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">개체에 대한 복사 설정에 대해 자세히 알아보세요</block>
-  <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>.</block>
   <block id="942e802a236d6542c0c6f797428d8abb" category="section-title">2023년 7월 2일</block>
   <block id="d41b120a4f792ebe6195de3355c6309a" category="inline-link-macro">스토리지 VM을 추가합니다</block>
   <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">이제 가능합니다 <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> BlueXP를 사용하는 NetApp ONTAP 파일 시스템용 Amazon FSx로</block>
@@ -264,17 +254,6 @@
   <block id="57f9b94b395c8e293b7f892fe5995ac7" category="paragraph">이 알림은 시스템의 효율성을 높이고 스토리지 비용을 절감하는 데 도움이 되는 "권장 사항"입니다. 에 대한 링크를 제공합니다<block ref="c9d262883689ef94201e8739cb50c7f6" category="inline-link-rx"></block> 비용 절감 효과를 계산하는 데 도움이 됩니다.</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google 클라우드 스토리지</block>
   <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
-  <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023년 7월 9일</block>
-  <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">한 번에 여러 동기화 관계를 제거합니다</block>
-  <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">이제 사용자는 UI에서 한 번에 둘 이상의 동기화 관계를 삭제할 수 있습니다.</block>
-  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">동기화 재지정 을 삭제하는 방법에 대해 자세히 알아보십시오.</block>
-  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
-  <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">ACL만 복사합니다</block>
-  <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">사용자는 이제 CIF 및 NFS 관계에서 ACL 정보를 복사하기 위한 추가 옵션을 사용할 수 있습니다. 동기화 관계를 생성하거나 관리할 때 파일만 복사하거나 ACL 정보만 복사하거나 파일과 ACL 정보를 복사할 수 있습니다.</block>
-  <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">ACL 복제에 대해 자세히 알아보십시오.</block>
-  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
-  <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">Node.js 20으로 업데이트</block>
-  <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">복사 및 동기화가 Node.js 20으로 업데이트되었습니다. 사용 가능한 모든 데이터 브로커가 업데이트됩니다. 이 업데이트와 호환되지 않는 운영 체제는 설치할 수 없으며 호환되지 않는 기존 시스템에 성능 문제가 발생할 수 있습니다.</block>
   <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">2023년 7월 10일</block>
   <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">새로운 버킷을 추가하고 BlueXP의 기존 버킷을 관리할 수 있습니다</block>
   <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">새로운 Google Cloud Storage 버킷을 추가하는 방법을 알아보십시오</block>
@@ -394,13 +373,6 @@
   <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>.</block>
   <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023년 5월 18일</block>
   <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">BlueXP 재해 복구의 최초 릴리즈입니다.</block>
-  <block id="51f8ba1e739f07ed09f1ba20bff5e7fc" category="section-title">2023년 7월 16일</block>
-  <block id="91b681e174a782226d26fb4056e14081" category="section-title">스토리지 효율성</block>
-  <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">효율성 비율을 표시하는 * 스토리지 효율성 * 이라는 레이블의 이름이 * 데이터 축소 * 로 바뀌었습니다.</block>
-  <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">스토리지 효율성으로 저장된 데이터 * 라는 레이블은 * 데이터 축소 절약 * 으로 바뀌었습니다.</block>
-  <block id="2a88859b894ead28756789553bc66754" category="list-text">토글 * Snapshot 백업이 없는 절약 효과 * 는 기능의 변경과 함께 Snapshot 복사본 * 을 사용하여 * 로 이름이 변경됩니다. <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>.</block>
-  <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
-  <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
   <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷</block>
   <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
@@ -495,7 +467,6 @@
 <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023년 10월 4일</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">계획 위젯</block>
-  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">기술 업데이트 권장 사항 수는 고객 레벨 대시보드의 계획 위젯에 포함됩니다. 다음 권장 사항은 하드웨어의 지원이 부족하거나 지원 종료가 가까워질 때 하드웨어 기술 업데이트 작업을 계획하는 데 도움이 됩니다.</block>
   <block id="2971377ab46c11db3998ef23731b52cf" category="section-title">2023년 10월 20일</block>
   <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">이 BlueXP 재해 복구 기능의 사전 공개 릴리즈에는 다음 업데이트가 포함됩니다.</block>
   <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">이제 BlueXP 재해 복구를 사용하면 퍼블릭 클라우드와 더불어 다른 온프레미스 NFS 기반 VMware 환경 재해로부터 온프레미스 NFS 기반 VMware 워크로드를 보호할 수 있습니다. BlueXP 재해 복구를 통해 재해 복구 계획의 완료를 조율합니다.</block>
@@ -554,4 +525,32 @@
   <block id="04c6b318fe9c7f19ae925a90e52c6569" category="paragraph">이제 BlueXP 백업 및 복구 작업 모니터에 로컬 스냅샷, 복제 및 오브젝트 스토리지로의 백업에 대해 예약된 작업이 포함됩니다.</block>
   <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">2023년 11월 13일</block>
   <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">이제 SMB/CIFS 프로토콜을 사용하는 볼륨에 대한 보고서를 생성할 수 있습니다.</block>
+  <block id="563cbb5befcc35d67fb204c94be0bffb" category="summary">개별 BlueXP 서비스에 관한 전체 릴리즈 노트 보기</block>
+  <block id="e8a0c291b754a75e0e91ecf69d567912" category="section-title">2023년 12월 5일</block>
+  <block id="1771e2f4014c6ccd829b84cf9e8c7d27" category="section-title">비공개 모드 해제</block>
+  <block id="5a78b457c661dc3d01c5125da794f0ed" category="paragraph">이제 BlueXP에 새로운 프라이빗 모드 릴리즈가 제공됩니다. 이 릴리즈에는 2023년 10월 현재 프라이빗 모드에서 지원되는 Connector 버전 3.9.35 및 BlueXP 서비스 버전이 포함됩니다.</block>
+  <block id="ec34e91164e39c9df1bfb906cff07162" category="paragraph">이 새로운 릴리스는 NetApp Support 사이트에서 다운로드할 수 있습니다.</block>
+  <block id="2e57b160bcd31ccd527a6670d94879de" category="inline-link">프라이빗 모드에 포함된 BlueXP 서비스에 대해 알아보십시오</block>
+  <block id="d51183b71ba843f2f97d0b54a084f7e8" category="list-text"><block ref="d51183b71ba843f2f97d0b54a084f7e8" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
+  <block id="4e208e7f54024bf731fae02025ce34d9" category="list-text"><block ref="4e208e7f54024bf731fae02025ce34d9" category="inline-link-rx"></block></block>
+  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023년 11월 26일</block>
+  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blob을 위한 콜드 스토리지 클래스 지원</block>
+  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">이제 동기화 관계를 생성할 때 콜드 스토리지 Azure Blob 계층을 사용할 수 있습니다.</block>
+  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">동기화 관계 만들기에 대해 자세히 알아봅니다.</block>
+  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
+  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">AWS 데이터 브로커에서 Tel Aviv 지역 지원</block>
+  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">Tel Aviv는 이제 AWS에서 데이터 브로커를 생성할 때 지원되는 지역이 되었습니다.</block>
+  <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오</block>
+  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>.</block>
+  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">데이터 브로커용 노드 버전으로 업데이트</block>
+  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">모든 새로운 데이터 브로커는 이제 노드 버전 21.2.0을 사용합니다. CentOS 7.0 및 Ubuntu Server 18.0과 같이 이 업데이트와 호환되지 않는 데이터 브로커는 더 이상 BlueXP 복사본 및 동기화를 수행할 수 없습니다.</block>
+  <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">2023년 11월 16일</block>
+  <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">시청목록</block>
+  <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">이제 최대 100개의 시청자 목록을 만들 수 있습니다.</block>
+  <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">이제 관심 목록, 사이트 및 그룹 대시보드에서 기술 업데이트 권장 사항을 사용할 수 있습니다.</block>
+  <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">이제 기술 업데이트 권장 사항 수가 0일 때 잠재적인 기술 업데이트 후보를 볼 수 있습니다.</block>
+  <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">기술 업데이트 권장 사항 수는 고객 레벨 대시보드의 계획 위젯에 포함됩니다. 다음 권장 사항은 하드웨어의 지원이 부족하거나 지원 종료가 가까워질 때 하드웨어 기술 업데이트 작업을 계획하는 데 도움이 됩니다.</block>
 </blocks>
