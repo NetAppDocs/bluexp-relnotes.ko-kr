@@ -19,24 +19,6 @@ sidebar:
     url: "/release-notes-index.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 새로운 소식
-    links:
-    - title: BlueXP의 최근 변경 사항
-      url: whats-new.html
-  - title: 서비스별 릴리스 정보
-    links:
-    - title: 릴리스 노트 색인
-      url: release-notes-index.html
-  - title: 블로그 커뮤니티
-    links:
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/Public-Cloud-Services/ct-p/CDS
-    - title: BlueXP 블로그
-      url: https://bluexp.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
