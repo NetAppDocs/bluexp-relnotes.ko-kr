@@ -566,7 +566,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#googl
 
 
 
-=== Upgrade Advisor
+==== Upgrade Advisor
 
 Upgrade Advisor는 단일 클러스터와 여러 클러스터에 대해 자동화된 무중단 업그레이드 계획을 제공하도록 개선되었습니다. 위험 요약, 업그레이드 전 확인 보고서, 새로운 기능 및 향상된 기능에 대한 정보가 포함된 단일 클러스터에 대해서만 업그레이드 권장 사항을 볼 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["업그레이드 권장 사항을 확인하고 업그레이드 계획을 생성하는 방법에 대해 알아봅니다."]
 
@@ -576,7 +576,7 @@ Upgrade Advisor는 단일 클러스터와 여러 클러스터에 대해 자동�
 
 
 
-=== 시청목록
+==== 시청목록
 
 이제 최대 100개의 시청자 목록을 만들 수 있습니다.
 
