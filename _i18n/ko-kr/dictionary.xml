@@ -529,11 +529,6 @@
   <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">업그레이드 권장 사항을 확인하고 업그레이드 계획을 생성하는 방법에 대해 알아봅니다.</block>
   <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">Upgrade Advisor는 단일 클러스터와 여러 클러스터에 대해 자동화된 무중단 업그레이드 계획을 제공하도록 개선되었습니다. 위험 요약, 업그레이드 전 확인 보고서, 새로운 기능 및 향상된 기능에 대한 정보가 포함된 단일 클러스터에 대해서만 업그레이드 권장 사항을 볼 수 있습니다. <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
-  <block id="35588fa7f53bdbd040bfa9c96c87bf3d" category="section-title">2024년 1월 16일</block>
-  <block id="9ed7d4ae8d042664394e899e9c1f5e9a" category="section-title">BlueXP의 패치 릴리즈</block>
-  <block id="5c04c0351e9f1e168f13ca5689c21d92" category="paragraph">BlueXP에서 패치 릴리즈는 최신 3가지 버전의 Cloud Volumes ONTAP에 대해서만 사용할 수 있습니다.</block>
-  <block id="3a3843b2672bd389702bef2d50b13ac2" category="inline-link-macro">Cloud Volumes ONTAP를 업그레이드합니다</block>
-  <block id="debc8fcbe9103b95d21857d1276dbb26" category="paragraph"><block ref="debc8fcbe9103b95d21857d1276dbb26" category="inline-link-macro-rx"></block></block>
   <block id="4e1f7d458412b18adef0e5ff0db2eee8" category="section-title">2024년 2월 1일</block>
   <block id="a409179aac0b12213b3fa77e0a22bd61" category="list-text">가상 시스템을 대체 위치로 복구하는 기능을 지원합니다</block>
   <block id="9c75b0f26dddf07ed827e32aaf28bee9" category="list-text">데이터 저장소 보호 해제 지원</block>
@@ -668,4 +663,8 @@
   <block id="1647534ed4603d68f73fd3f261af9b65" category="paragraph">2억 5천만 개 이상의 파일을 스캔하기 위해 BlueXP 분류가 필요한 경우 클라우드 구축 또는 온프레미스 설치에서 초대형 인스턴스를 사용할 수 있습니다. 이 유형의 시스템은 최대 5억 개의 파일을 스캔할 수 있습니다.</block>
   <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>.</block>
   <block id="7c3d026f5f0bf0d01848d386f69159eb" category="paragraph"><block ref="7295f02a3c546b103864aa8261ac9cab" category="inline-link-rx"></block>.</block>
+  <block id="1582ce9c3a0b0079717e0b0c6edf2347" category="section-title">Amazon Instant Metadata Service v2 지원</block>
+  <block id="4ac5b49185bd4b8f8b0ef6b8869d149f" category="paragraph">AWS, Cloud Volumes ONTAP, 중재자 및 커넥터는 이제 모든 기능에 대해 아마존 인스턴트 메타데이터 서비스 v2(IMDSv2)를 지원합니다. IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다. 이전에 IMDSv1만 지원되었습니다.</block>
+  <block id="7fcd14ee7d62b2a6f712b7ed775cdbc3" category="inline-link-macro">기존 커넥터 관리를 위한 BlueXP 설정 및 관리 설명서</block>
+  <block id="6aec236f70c9d11e5073fa187bf36fd1" category="paragraph">보안 정책에서 요구하는 경우 IMDSv2를 사용하도록 EC2 인스턴스를 구성할 수 있습니다. 자세한 지침은 을 참조하십시오 <block ref="437fb94a00c6c9b10a9ad9095b6680bc" category="inline-link-macro-rx"></block>.</block>
 </blocks>
