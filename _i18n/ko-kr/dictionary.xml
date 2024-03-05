@@ -117,7 +117,6 @@
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="section-title">경제적인 효율성</block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023년 4월 2일</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
-  <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
@@ -315,7 +314,6 @@
   <block id="30fee46958559c602b944cc387c72292" category="paragraph">이제 고객은 유럽(취리히), 유럽(스페인), 아시아 태평양(하이데라바드)의 세 가지 새로운 AWS 지역에서 NetApp ONTAP 파일 시스템용 Amazon FSx를 생성할 수 있습니다.</block>
   <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">NetApp ONTAP용 Amazon FSx는 이제 세 개의 추가 지역에서 사용할 수 있습니다</block>
   <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">을 참조하십시오 <block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023년 8월 6일</block>
   <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용합니다</block>
   <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">이제 사용자는 데이터 브로커를 생성할 때 기존 Azure 보안 그룹을 사용할 수 있습니다.</block>
   <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">데이터 브로커를 생성할 때 사용되는 서비스 계정에는 다음 권한이 있어야 합니다.</block>
@@ -337,7 +335,6 @@
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">모든 BlueXP Connector에서 클러스터를 검색합니다</block>
   <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">사용자 환경의 모든 스토리지 시스템을 관리하기 위해 여러 커넥터를 사용하는 경우 계층화를 구현할 클러스터가 다른 커넥터에 있을 수 있습니다. 어떤 커넥터가 특정 클러스터를 관리하고 있는지 확실하지 않은 경우 BlueXP 계층화를 사용하여 모든 커넥터를 검색할 수 있습니다.<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>.</block>
   <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">감사 서비스는 BlueXP 서비스에서 수행한 작업에 대한 정보를 기록합니다. 여기에는 작업 공간, 사용된 커넥터 및 기타 원격 측정 데이터가 포함됩니다. 이 데이터를 사용하여 어떤 작업을 수행했는지, 누가 수행했는지, 언제 수행했는지 확인할 수 있습니다.</block>
-  <block id="ca8395d0f02816c74d48e7e263466096" category="section-title">2023년 8월 1일</block>
   <block id="94798620994cb827b675957027c80437" category="paragraph">중요한 보안 개선 사항으로 인해 이제 Connector는 공용 클라우드 환경 내에서 백업 및 복구 리소스를 관리하기 위해 추가 엔드포인트에 대한 아웃바운드 인터넷 액세스를 필요로 합니다. 이 끝점이 방화벽의 "허용" 목록에 추가되지 않은 경우 UI에 "서비스를 사용할 수 없음" 또는 "서비스 상태 확인 실패"에 대한 오류가 표시됩니다.</block>
   <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
   <block id="e752fa0925615f823987d88e457d59fd" category="section-title">S3 구성 ONTAP 시스템의 버킷에 볼륨을 백업하도록 지원이 추가되었습니다</block>
@@ -361,9 +358,6 @@
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">복제 계획을 생성합니다</block>
   <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link-macro">재해 복구 작업을 모니터링합니다</block>
   <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link-macro">BlueXP 재해 복구에 대해 자세히 알아보십시오</block>
-  <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>.</block>
-  <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023년 5월 18일</block>
-  <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">BlueXP 재해 복구의 최초 릴리즈입니다.</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
   <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷</block>
   <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
@@ -402,9 +396,7 @@
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">중소 규모 구축은 일시적으로 사용할 수 없습니다</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">AWS에 BlueXP 분류의 인스턴스를 구축할 때 * Deploy &gt; Configuration * 을 선택하고 소형 또는 중형 인스턴스를 선택하는 옵션은 현재 사용할 수 없습니다. Deploy &gt; Deploy * 를 선택하여 대규모 인스턴스 크기를 사용하여 인스턴스를 배포할 수 있습니다.</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">이전에는 조사 결과 페이지에서 한 번에 한 페이지에만 태그를 적용할 수 있었습니다(20개 항목). 이제 조사 결과 페이지에서 * 모든 * 항목을 선택하고 모든 항목에 태그를 적용할 수 있습니다. 한 번에 최대 100,000개 항목까지 가능합니다.<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>.</block>
-  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023년 9월 27일</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">Upgrade Advisor</block>
-  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10월 4일(버전 1.26)</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
   <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Connector 3.9.34 릴리스에서 다음과 같은 변경 사항이 적용되었습니다.</block>
   <block id="44d133359b344c4542acdebe6209e101" category="section-title">Cloud Volumes ONTAP 9.14.0</block>
@@ -480,16 +472,11 @@
   <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">* 복제 검증 *: 재해 복구 또는 복제 계획을 생성한 후 마법사에서 재발을 식별하고 재해 복구 사이트로의 복제를 시작하면 BlueXP 재해 복구에서는 30분마다 계획이 실제로 이루어지고 있는지 확인합니다. 작업 모니터 페이지에서 진행 상황을 모니터링할 수 있습니다. 을 참조하십시오 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>.</block>
   <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">* 복제 계획에는 복구 지점 목표(RPO) 전송 일정이 표시됩니다. *: 재해 복구 또는 복제 계획을 생성할 때 VM을 선택합니다. 이 릴리즈에서는 이제 데이터 저장소 또는 VM과 연결된 각 볼륨과 연결된 SnapMirror를 볼 수 있습니다. SnapMirror 일정과 연결된 RPO 전송 일정을 확인할 수도 있습니다. RPO는 백업 일정이 재해 발생 후 복구하기에 충분한지 여부를 확인하는 데 도움이 됩니다. 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
   <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">* 작업 모니터 업데이트 *: 작업 모니터 페이지에는 작업의 최신 상태를 확인할 수 있도록 새로 고침 옵션이 포함되어 있습니다. 을 참조하십시오 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>.</block>
-  <block id="25d037b5df7f2e04a4d6a1a3bc33caa7" category="paragraph">BlueXP 재해 복구는 재해 복구 워크플로우를 자동화하는 클라우드 기반 재해 복구 서비스입니다. 처음에는 BlueXP 재해 복구 미리보기를 통해 Amazon FSx for ONTAP를 통해 NetApp 스토리지를 실행하는 온프레미스 NFS 기반 VMware 워크로드를 AWS의 VMware Cloud(VMC)로 보호할 수 있습니다.</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">이제 BlueXP에서 E-Series 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
   <block id="d64cd771f2e77e7c0e4209d28afed019" category="section-title">2023년 11월 8일</block>
   <block id="82a9cd2bfcf44ef6090c93dcb2ee0451" category="section-title">커넥터 3.9.35</block>
   <block id="77fe99ef9ead4490d30142892f6b5fec" category="paragraph">이 릴리스에는 사소한 보안 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
-  <block id="abff2804f60c6da51fe02e78167abad1" category="section-title">11월 6일(버전 1.26.3)</block>
-  <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">이 릴리스에서는 다음 문제가 해결되었습니다</block>
-  <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">시스템에서 스캔된 파일 수를 대시보드에 표시할 때 불일치 문제가 해결되었습니다.</block>
-  <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">이름 및 메타데이터에 특수 문자가 있는 파일과 디렉터리를 처리하고 보고함으로써 검색 동작을 개선했습니다.</block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023년 11월 8일</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">이번 BlueXP의 경제적 효율성 릴리즈에는 자산을 평가하고 기술 업데이트가 권장되는지 여부를 확인할 수 있는 새로운 옵션이 포함되어 있습니다. 이 서비스에는 왼쪽 탐색 창에 있는 새로운 기술 업데이트 옵션, 현재 워크로드와 자산을 평가할 수 있는 새 페이지, 권장사항이 있는 보고서가 포함되어 있습니다.</block>
   <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">작업 모니터에서 예약된 작업을 지원합니다</block>
@@ -545,18 +532,10 @@
   <block id="2a7d8d5d92a8e8110b2bc2ab71c0c002" category="paragraph">이전에는 Catalog.zip 백업이 7일 동안 보존되었습니다. 지금은 30일 동안 보관됩니다.</block>
   <block id="16f6196e265bdbd3f9da022848c51d8a" category="inline-link">다크 사이트에서 BlueXP 백업 및 복구 데이터를 복원합니다</block>
   <block id="89b2c6f6be45f8f05d713b7bae69cd15" category="paragraph">을 참조하십시오<block ref="5596168e45150b1d53148898addeba07" category="inline-link-rx"></block>.</block>
-  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1월 10일(버전 1.27)</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
-  <block id="fd9107be3db2a4144e054c68a7eab15f" category="section-title">2024년 1월 8일</block>
-  <block id="dba248d0d18e6170f9bd4a4286edda53" category="section-title">Azure에 대한 새로운 VM이 여러 가용 영역</block>
-  <block id="c8d113632e2ef2b901829a0843658f2c" category="paragraph">Cloud Volumes ONTAP 9.13.1부터 다음 VM 유형은 신규 및 기존 고가용성 쌍 구축에 Azure 다중 가용성 영역을 지원합니다.</block>
-  <block id="ceac2355e7d70d7e31592bc8ded88ab3" category="list-text">L16s_v3</block>
-  <block id="2b89a58d3269391f70f9c7fb8d68f746" category="list-text">L32s_v3</block>
-  <block id="c7316b16841dc002d14d45c38a750287" category="list-text">L48s_v3를 참조하십시오</block>
-  <block id="b9f4aa39433f5232d4ce50f2a9a3c403" category="list-text">L64s_v3을 참조하십시오</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link-macro">Azure에서 지원되는 구성</block>
   <block id="22342037237200e034fd29c9cfd5bfd4" category="paragraph"><block ref="22342037237200e034fd29c9cfd5bfd4" category="inline-link-macro-rx"></block></block>
   <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024년 1월 3일</block>
@@ -580,4 +559,101 @@
   <block id="708880d509c52585ca0500cd17ef2166" category="list-text">E32ds_v5</block>
   <block id="843cc0b63b36e79d0bdf4097a1b84b6a" category="list-text">E48ds_v5</block>
   <block id="6ec5cb856eb24c85cf7368cdfd11627f" category="list-text">E64ds_v5</block>
+  <block id="5985540cd0cc5c0e58eaebe95659534e" category="section-title">2024년 2월 15일</block>
+  <block id="875cabf7fcb6d8f631b842029efd2117" category="section-title">커넥터 3.9.37</block>
+  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.</block>
+  <block id="937efe0b961bcb892e05e19e0c147973" category="paragraph">현재 3.9.37 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="f1c2261d89d52febeed15edf1f34a5b7" category="section-title">이름을 편집합니다</block>
+  <block id="c42458c54134318669b685ee8730a478" category="paragraph">NetApp 클라우드 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이제 * 사용자 설정 * 에서 이름을 편집할 수 있습니다.</block>
+  <block id="ab15c21485050b3b0c09a3b7b31d97d7" category="inline-image-macro">사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷.</block>
+  <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a784443543a41df794122c52fae1df7" category="paragraph">페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.</block>
+  <block id="c7f67b21e0c8d093756f7b3a59e8d2e8" category="section-title">EC2 인스턴스에 대한 IMDSv1 요구 사항</block>
+  <block id="09477b433fb18272d0d3ee6b7a7e23ad" category="paragraph">AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 Amazon EC2 인스턴스에서 IMDSv1(인스턴스 메타데이터 서비스 버전 1)이 필요하다는 것을 알고 있어야 합니다.</block>
+  <block id="f8197842b4e7ad7b7b15ef36dcb4ae78" category="inline-link">AWS에서 IMDSv1의 요구 사항에 대해 자세히 알아보십시오</block>
+  <block id="ae1d4316f9a8104fa910e65fd2096cb3" category="paragraph"><block ref="3fb75bc46ec80b0989f43707450cda37" category="inline-link-rx"></block>.</block>
+  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
+  <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
+  <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
+  <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>.</block>
+  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
+  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023년 12월 14일(버전 1.26.6)</block>
+  <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
+  <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">이 릴리스에서는 다음 옵션도 일시적으로 제거되었습니다.</block>
+  <block id="aebeafb9d6b45d6e3629685737b0b510" category="inline-link-macro">파일 액세스 이벤트 모니터링 및 관리</block>
+  <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>.</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">조직에 저장된 데이터를 조사합니다</block>
+  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 참조하십시오 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>.</block>
+  <block id="e87b43c3f65a9e6b5fc0f778e155e091" category="inline-link-macro">개인 데이터를 구성합니다</block>
+  <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>.</block>
+  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
+  <block id="cf8f238c2116738b5ed3bacdbd527d14" category="section-title">Cloud Volumes ONTAP 9.14.1 GA</block>
+  <block id="fc0f9e3eef3a6eff3efe2fe7cf358466" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.14.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다.</block>
+  <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">2024년 2월 11일</block>
+  <block id="66a743c4896414f00b485685ab377a19" category="section-title">regex를 기준으로 디렉토리를 필터링합니다</block>
+  <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">이제 사용자는 regex를 사용하여 디렉토리를 필터링할 수 있습니다.</block>
+  <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">디렉터리 제외 * 기능에 대해 자세히 알아보십시오.</block>
+  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">2024년 2월 8일</block>
+  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Sustainability 대시보드</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">이제 를 사용하여 기본 대시보드 또는 시청목록에 대한 Sustainability 메트릭에 직접 액세스할 수 있습니다 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 링크.</block>
+  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">클러스터 뷰어</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">이제 디스크 요약 섹션에서 디스크 RPM 정보를 볼 수 있습니다. 디스크 요약 섹션은 Storage 탭 및 ClusterViewer 보고서에서 사용할 수 있습니다.</block>
+  <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP 재해 복구</block>
+  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 디지털 지갑을 통해 이제 BlueXP 재해 복구용 라이센스를 관리할 수 있습니다. 라이센스를 추가하고 라이센스를 업데이트하며 라이센스 용량에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">BlueXP 데이터 서비스용 라이센스를 관리하는 방법에 관해 알아보십시오</block>
+  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="23f1adcf87ca650c2ac077f4be520c97" category="paragraph">BlueXP 재해 복구의 일반 가용성 릴리즈로, 다음 업데이트가 포함됩니다.</block>
+  <block id="5751cbd481f2486866a7e6d4339df621" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판 또는 BYOL(Bring Your Own License File)에 가입할 수 있습니다. BYOL은 NetApp 영업 담당자로부터 얻은 NetApp 라이센스 파일(NLF)입니다 라이센스 일련 번호를 사용하여 BlueXP 디지털 지갑에서 BYOL을 활성화할 수 있습니다. BlueXP 재해 복구 비용은 데이터 저장소의 프로비저닝된 용량을 기반으로 합니다.</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link">라이센스를 설정합니다</block>
+  <block id="cba500373ea886a2bb3e508440756918" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>.</block>
+  <block id="c32aede135606fbfc51d8bd7581b4201" category="inline-link">모든 BlueXP 서비스의 라이센스 관리</block>
+  <block id="4d2e644b683b6f34426a63ff3961ea9d" category="paragraph">모든 * BlueXP 서비스의 라이센스 관리에 대한 자세한 내용은 을 참조하십시오<block ref="834374a0b207d980c4d47827175a6637" category="inline-link-rx"></block>.</block>
+  <block id="5938c93734fbca9c12e3827aa5218ed8" category="list-text">* 일정 편집 * : 이번 릴리스에서는 규정 준수 및 장애 조치 테스트를 테스트하는 일정을 설정하여 필요할 때 올바르게 작동하도록 할 수 있습니다.</block>
+  <block id="4b2bfa262e877a668b7102f58d207f63" category="inline-link">복제 계획을 생성합니다</block>
+  <block id="976dcedce9d4c9dc14db60abc49c5867" category="paragraph">자세한 내용은 을 참조하십시오<block ref="8026234d3eaba16fdffb266108c2804b" category="inline-link-rx"></block>.</block>
+  <block id="578e9059da07f7d858d4746bbf9af55a" category="section-title">2024년 2월 1일</block>
+  <block id="0468e5ced7eddf7112cb542d124a006f" category="paragraph">이 BlueXP 재해 복구 사전 공개 릴리즈에는 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="c61970ed6417395a368e95032dbce932" category="list-text">* 네트워크 향상 * : 이 릴리스에서는 이제 VM CPU 및 RAM 값의 크기를 조정할 수 있습니다. 이제 VM에 대한 네트워크 DHCP 또는 정적 IP 주소를 선택할 수도 있습니다.</block>
+  <block id="bb3e5e687ab316872aaebfbeeb4a6605" category="list-text">DHCP: 이 옵션을 선택하면 VM에 대한 자격 증명을 제공합니다.</block>
+  <block id="302dd2d13eb7b51a95fccbe2fc1ba0b8" category="list-text">정적 IP: 소스 VM에서 동일하거나 다른 정보를 선택할 수 있습니다. 원본과 동일한 을 선택하면 자격 증명을 입력할 필요가 없습니다. 반면 원본과 다른 정보를 사용하도록 선택한 경우 자격 증명, IP 주소, 서브넷 마스크, DNS 및 게이트웨이 정보를 제공할 수 있습니다.</block>
+  <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">자세한 내용은 을 참조하십시오<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>.</block>
+  <block id="18d156337647f6bf6b3408e6bf902c50" category="list-text">* 사용자 정의 스크립트 * 는 이제 사후 장애 조치 프로세스로 포함될 수 있습니다. 사용자 지정 스크립트를 사용하면 페일오버 프로세스 후에 BlueXP 재해 복구로 스크립트를 실행할 수 있습니다. 예를 들어, 페일오버가 완료된 후 사용자 지정 스크립트를 사용하여 모든 데이터베이스 트랜잭션을 재개할 수 있습니다.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link">원격 사이트로 페일오버</block>
+  <block id="162522900f68ffca5220e53ec0e2c907" category="paragraph">자세한 내용은 을 참조하십시오<block ref="7cdfded96340b83fb1e5d3c286b13377" category="inline-link-rx"></block>.</block>
+  <block id="8d416397bb32c8298a01a75068b98f3c" category="list-text">* SnapMirror 관계 *: 이제 복제 계획을 개발하는 동안 SnapMirror 관계를 생성할 수 있습니다. 이전에는 BlueXP 재해 복구 외부에 관계를 생성해야 했습니다.</block>
+  <block id="1d73761c9dd4b9338f6974eee8d2a449" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.</block>
+  <block id="ed38b69c5713d5b42f77e9c3ec5872a8" category="list-text">* VM 전원 공급 지연 옵션 *: 복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.</block>
+  <block id="193634e2d37697e73e8a9d15d4dca73d" category="list-text">* 애플리케이션 정합성 보장 스냅샷 복사본 *: 애플리케이션 정합성이 보장된 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
+  <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
+  <block id="8fb6114a69ebd8d03454bf88226c2699" category="inline-link">BlueXP 재해 복구에 대해 자세히 알아보십시오</block>
+  <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
+  <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">랜섬웨어 보호</block>
+  <block id="5a62a1aba4b0b7df087f145049f2b71f" category="paragraph">BlueXP 랜섬웨어 방어 프리뷰 릴리즈에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
+  <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">정책 관리에 대해 자세히 알아보십시오</block>
+  <block id="2c32a45feb7d83419121ac60cd93f581" category="list-text">* 보호 정책 관리 *: 사전 정의된 정책을 사용하는 것 외에도 이제 정책을 생성, 변경 및 삭제할 수 있습니다.<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block>.</block>
+  <block id="ac623dda99022aa586562b6804c2f1b8" category="inline-link">보호 정책 만들기에 대해 자세히 알아보십시오</block>
+  <block id="0fd4c934346a4b20a9b03012b080912b" category="list-text">* 보조 스토리지에서의 불능(DataLock) * : 이제 개체 저장소의 NetApp DataLock 기술을 사용하여 보조 스토리지에서 백업을 불변 상태로 만들 수 있습니다.<block ref="a216e61ae0b0740b7be8287c615fa066" category="inline-link-rx"></block>.</block>
+  <block id="732b7b17a4dd9ae4a4359cee4b9b391d" category="inline-link">백업 대상 구성에 대해 자세히 알아보십시오</block>
+  <block id="6baf05b01e83bd3d4b8a2024f16a20f6" category="list-text">* NetApp StorageGRID에 자동 백업 *: AWS를 사용하는 것 외에도 이제 StorageGRID를 백업 대상으로 선택할 수 있습니다.<block ref="563323d59981c5d050897f7686a7f9d8" category="inline-link-rx"></block>.</block>
+  <block id="9e599e81fbf58f35a4e8ea8d4d14b0f6" category="inline-link">감지된 랜섬웨어 경고에 대응하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="e3647ee6d2bf29ee74ee9f4e9ff4e201" category="list-text">* 잠재적 공격을 조사하기 위한 추가 기능 *: 이제 더 많은 포렌식 세부 정보를 보고 감지된 잠재적인 공격을 조사할 수 있습니다.<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block>.</block>
+  <block id="bda01efb679b0ca92bc4e76a23294328" category="inline-link">랜섬웨어 공격에서 복구하는 방법에 대해 자세히 알아보십시오(인시던트가 중립화된 후).</block>
+  <block id="1661fc233cecf8b9c070d8d398293283" category="list-text">* 복구 프로세스 *. 복구 프로세스가 개선되었습니다. 이제 볼륨별, 워크로드의 모든 볼륨 또는 볼륨의 일부 파일을 단일 워크플로우에서 복구할 수 있습니다.<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>.</block>
+  <block id="8aea370efa0da7f8c985a03488d3b9a7" category="inline-link">BlueXP 랜섬웨어 보호에 대해 알아보십시오</block>
+  <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>.</block>
+  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
+  <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP 랜섬웨어 방어 서비스는 데이터를 보호하고, 잠재적 공격을 감지하며, 랜섬웨어 공격으로부터 데이터를 복구하는 SaaS 솔루션입니다.</block>
+  <block id="4c77961875ba555ef50d5063c1b6fad0" category="paragraph">미리 보기 버전의 경우 이 서비스는 온프레미스 NAS 스토리지의 Oracle, MySQL, VM 데이터 저장소 및 파일 공유와 BlueXP 계정 전체에서 AWS 기반 Cloud Volumes ONTAP(NFS 프로토콜 사용)의 애플리케이션 기반 워크로드를 개별적으로 보호하고 Amazon Web Services 클라우드 스토리지에 데이터를 백업합니다.</block>
+  <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP 랜섬웨어 보호 서비스는 여러 NetApp 기술을 최대한 활용할 수 있으므로 데이터 보안 관리자 또는 보안 운영 엔지니어가 다음 목표를 달성할 수 있습니다.</block>
+  <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">모든 워크로드에서 랜섬웨어 방지 기능을 한눈에 확인하십시오.</block>
+  <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">랜섬웨어 방지 권장 사항에 대한 인사이트를 얻을 수 있습니다</block>
+  <block id="39a3e38e85bba8b90ed1e5b7d1f36cb3" category="list-text">BlueXP 랜섬웨어 방어 권장 사항에 따라 보호 태세를 개선하십시오.</block>
+  <block id="41315f1df6d709866390b219f4b1adac" category="list-text">랜섬웨어 방지 정책을 할당하여 랜섬웨어 공격으로부터 상위 워크로드와 높은 위험의 데이터를 보호합니다.</block>
+  <block id="0f1fe9be7b1943507afe2ef939f76423" category="list-text">데이터 변칙을 찾는 랜섬웨어 공격으로부터 워크로드의 상태를 모니터링합니다.</block>
+  <block id="12bcfe65b7fb19c1dbe60c374599be1e" category="list-text">랜섬웨어 사고가 워크로드에 미치는 영향을 빠르게 평가합니다.</block>
+  <block id="f4d7f013aee4ff8dd19b36611ba3f3c6" category="list-text">데이터를 복원하고 저장된 데이터로부터 재감염이 발생하지 않도록 하여 랜섬웨어 인시던트에서 지능적으로 복구합니다.</block>
+  <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
+  <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
 </blocks>
