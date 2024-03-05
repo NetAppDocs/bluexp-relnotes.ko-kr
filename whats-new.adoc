@@ -48,7 +48,7 @@ EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다�
 * Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
 
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#require-the-use-of-imdsv2-on-amazon-ec2-instances["기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다"].
 
 
 
@@ -105,33 +105,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 * AWS의 이스라엘(텔아비브) 지역
 * Google Cloud의 사우디아라비아 지역
 
-
-
-
-=== 2023년 12월 5일
-
-
-
-==== 비공개 모드 해제
-
-이제 BlueXP에 새로운 프라이빗 모드 릴리즈가 제공됩니다. 이 릴리즈에는 2023년 10월 현재 프라이빗 모드에서 지원되는 Connector 버전 3.9.35 및 BlueXP 서비스 버전이 포함됩니다.
-
-이 새로운 릴리스는 NetApp Support 사이트에서 다운로드할 수 있습니다.
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#private-mode["프라이빗 모드에 포함된 BlueXP 서비스에 대해 알아보십시오"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
-
-
-
-
-=== 2023년 11월 8일
-
-
-
-==== 커넥터 3.9.35
-
-이 릴리스에는 사소한 보안 개선 사항 및 버그 픽스가 포함되어 있습니다.
 
 
 
