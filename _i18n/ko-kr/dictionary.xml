@@ -526,15 +526,6 @@
   <block id="708880d509c52585ca0500cd17ef2166" category="list-text">E32ds_v5</block>
   <block id="843cc0b63b36e79d0bdf4097a1b84b6a" category="list-text">E48ds_v5</block>
   <block id="6ec5cb856eb24c85cf7368cdfd11627f" category="list-text">E64ds_v5</block>
-  <block id="5985540cd0cc5c0e58eaebe95659534e" category="section-title">2024년 2월 15일</block>
-  <block id="875cabf7fcb6d8f631b842029efd2117" category="section-title">커넥터 3.9.37</block>
-  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.</block>
-  <block id="937efe0b961bcb892e05e19e0c147973" category="paragraph">현재 3.9.37 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="f1c2261d89d52febeed15edf1f34a5b7" category="section-title">이름을 편집합니다</block>
-  <block id="c42458c54134318669b685ee8730a478" category="paragraph">NetApp 클라우드 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이제 * 사용자 설정 * 에서 이름을 편집할 수 있습니다.</block>
-  <block id="ab15c21485050b3b0c09a3b7b31d97d7" category="inline-image-macro">사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷.</block>
-  <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4a784443543a41df794122c52fae1df7" category="paragraph">페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.</block>
   <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
@@ -613,7 +604,6 @@
   <block id="8035ec6377ab933cc4bc2a70b5416a29" category="paragraph"><block ref="8035ec6377ab933cc4bc2a70b5416a29" category="inline-link-rx"></block></block>
   <block id="89f5243637c4f72512944130a95ee3e5" category="paragraph">EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다음과 같이 활성화됩니다.</block>
   <block id="baebea4bbd59d6c8efcae96586b2e199" category="inline-link">Terraform 스크립트</block>
-  <block id="0b18bb2eadaff9912e9bbefb3accbc90" category="list-text">BlueXP, AWS Marketplace 또는 를 사용하여 새로운 Connector를 구축하는 경우<block ref="d5789cbcfe02eb67db017173bcddbe49" category="inline-link-rx"></block>, IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.</block>
   <block id="0319f9ec57f9eeb8250ac949896c30fd" category="list-text">AWS에서 새 EC2 인스턴스를 시작한 다음 Connector 소프트웨어를 수동으로 설치하면 IMDSv2도 기본적으로 사용하도록 설정됩니다.</block>
   <block id="1fac08ada9902743d92641fbbd32d13f" category="list-text">기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.</block>
   <block id="d0371cc329d08bb54c28e8881cc93db7" category="list-text">Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
@@ -704,4 +694,10 @@
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024년 3월 28일</block>
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">업그레이드 권장 사항을 확인하고 업그레이드 계획을 생성하는 방법에 대해 알아봅니다.</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">이전 버전의 Upgrade Advisor는 이제 더 이상 사용되지 않습니다. 향상된 버전의 Upgrade Advisor를 사용하여 단일 클러스터 및 여러 클러스터에 대한 업그레이드 계획을 생성할 수 있습니다. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
+  <block id="779956d8a8a5dbf08bbf655892abfefb" category="section-title">2024년 4월 11일</block>
+  <block id="b0672ad18e27e61949a210d3369455e0" category="section-title">Docker 엔진 업데이트</block>
+  <block id="0427fd4cf4edaa5749da5792252fcd70" category="paragraph">Connector에서 지원되는 최대 버전(25.0.5)을 지정하기 위해 Docker Engine 요구 사항을 업데이트했습니다. 지원되는 최소 버전은 여전히 19.3.1입니다.</block>
+  <block id="a7d713b0c0233ee2a3bbb328d82ba606" category="inline-link">커넥터 호스트 요구 사항을 확인합니다</block>
+  <block id="10f6464912ab27695ba4f7df57c14783" category="paragraph"><block ref="19b43e2419dde639b2fba3d57b5bca52" category="inline-link-rx"></block>.</block>
+  <block id="91c7ed7e9c640df79f6bf153c6642ae5" category="list-text">BlueXP에서 또는 를 사용하여 새로운 Connector를 구축하는 경우<block ref="d5789cbcfe02eb67db017173bcddbe49" category="inline-link-rx"></block>, IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.</block>
 </blocks>
