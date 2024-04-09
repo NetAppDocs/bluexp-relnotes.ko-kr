@@ -366,7 +366,6 @@
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">방법을 확인하십시오</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">최소 파일 크기가 1MB인 중복 파일을 식별합니다</block>
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 분류는 파일이 50MB 이상인 경우에만 중복된 파일을 식별하는 데 사용됩니다. 이제 1MB로 시작하는 중복 파일을 식별할 수 있습니다. 조사 페이지에서 "파일 크기"와 "중복 항목"을 필터링하여 사용자 환경에서 특정 크기의 파일이 복제되었는지 확인할 수 있습니다.</block>
-  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023년 9월 3일</block>
   <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">regex로 파일을 제외합니다</block>
   <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">이제 사용자는 regex를 사용하여 파일을 제외할 수 있습니다.</block>
   <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">파일 확장명 제외 * 기능에 대해 자세히 알아보십시오.</block>
@@ -541,15 +540,6 @@
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
   <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>.</block>
   <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
-  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023년 12월 14일(버전 1.26.6)</block>
-  <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">이 릴리스에는 몇 가지 사소한 개선 사항이 포함되어 있습니다.</block>
-  <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">이 릴리스에서는 다음 옵션도 일시적으로 제거되었습니다.</block>
-  <block id="aebeafb9d6b45d6e3629685737b0b510" category="inline-link-macro">파일 액세스 이벤트 모니터링 및 관리</block>
-  <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>.</block>
-  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">조직에 저장된 데이터를 조사합니다</block>
-  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">디렉터리 조사 중에는 디렉터리별 개인 식별 정보(PII) 데이터 수를 계산하는 옵션을 사용할 수 없습니다. 을 참조하십시오 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>.</block>
-  <block id="e87b43c3f65a9e6b5fc0f778e155e091" category="inline-link-macro">개인 데이터를 구성합니다</block>
-  <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">AIP(Azure Information Protection) 레이블을 사용하여 데이터를 통합하는 옵션이 비활성화되었습니다. 을 참조하십시오 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>.</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
   <block id="cf8f238c2116738b5ed3bacdbd527d14" category="section-title">Cloud Volumes ONTAP 9.14.1 GA</block>
   <block id="fc0f9e3eef3a6eff3efe2fe7cf358466" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.14.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다.</block>
@@ -558,12 +548,6 @@
   <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">이제 사용자는 regex를 사용하여 디렉토리를 필터링할 수 있습니다.</block>
   <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">디렉터리 제외 * 기능에 대해 자세히 알아보십시오.</block>
   <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
-  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">2024년 2월 8일</block>
-  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
-  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Sustainability 대시보드</block>
-  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">이제 를 사용하여 기본 대시보드 또는 시청목록에 대한 Sustainability 메트릭에 직접 액세스할 수 있습니다 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 링크.</block>
-  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">클러스터 뷰어</block>
-  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">이제 디스크 요약 섹션에서 디스크 RPM 정보를 볼 수 있습니다. 디스크 요약 섹션은 Storage 탭 및 ClusterViewer 보고서에서 사용할 수 있습니다.</block>
   <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP 재해 복구</block>
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 디지털 지갑을 통해 이제 BlueXP 재해 복구용 라이센스를 관리할 수 있습니다. 라이센스를 추가하고 라이센스를 업데이트하며 라이센스 용량에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">BlueXP 데이터 서비스용 라이센스를 관리하는 방법에 관해 알아보십시오</block>
@@ -696,4 +680,28 @@
   <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">이 기능은 이제 왼쪽 탐색 창의 Tech Refresh 옵션에 포함됩니다.</block>
   <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link-macro">기술 업데이트를 평가합니다</block>
   <block id="914b4ad9ada7977f36d427a9664a4235" category="paragraph">에 대해 자세히 알아보십시오 <block ref="4305c0855ed1712385868c1ca4414cc5" category="inline-link-macro-rx"></block>.</block>
+  <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024년 4월 1일(버전 1.30)</block>
+  <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">RHEL v8.8 및 v9.3 BlueXP 분류에 대한 지원이 추가되었습니다</block>
+  <block id="bed0a63060826a7b1ed8cba91cb12ba6" category="paragraph">이 릴리스는 이전에 지원되는 9.x 외에도 Red Hat Enterprise Linux v8.8 및 v9.3에 대한 지원을 제공하며, Docker 엔진 대신 Podman이 필요합니다. 이는 BlueXP 분류의 수동 온프레미스 설치에 적용할 수 있습니다.</block>
+  <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">Podman 컨테이너 엔진을 사용해야 하는 운영 체제에는 BlueXP 분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2 및 9.3 이상이 필요합니다.</block>
+  <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link">BlueXP 분류 구축 개요</block>
+  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">에 대해 자세히 알아보십시오<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>.</block>
+  <block id="efdeb6220b979140e56f16caceb1d7e9" category="section-title">감사 로그 수집을 활성화하는 옵션이 제거되었습니다</block>
+  <block id="bd387dbe20d15a2a0ff5e7602549388e" category="paragraph">감사 로그 수집을 활성화하는 옵션이 비활성화되었습니다.</block>
+  <block id="6cf7e053021d02a6a394c1e69f8e8352" category="section-title">스캔 속도가 향상되었습니다</block>
+  <block id="0989b495229f449df36968cf973306ca" category="inline-link">인터넷에 액세스할 수 있는 호스트에 BlueXP 분류를 설치합니다</block>
+  <block id="9d343bee917ed42deed4a08429d2e86f" category="paragraph">보조 스캐너 노드의 스캔 성능이 향상되었습니다. 스캔 처리 능력이 추가로 필요한 경우 스캐너 노드를 더 추가할 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="bccb2247e180b6227640eec7d70d0351" category="inline-link-rx"></block>.</block>
+  <block id="747585a36be1e14a4dd3ff25c4bf1e48" category="section-title">자동 업그레이드</block>
+  <block id="7c454725651fa93e75c3603da01e3ae2" category="inline-link">인터넷에 액세스할 수 있는 Linux 호스트에 설치합니다</block>
+  <block id="5908128f01988745be85a67845195980" category="paragraph">인터넷에 액세스할 수 있는 시스템에 BlueXP 분류를 구축한 경우 시스템이 자동으로 업그레이드됩니다. 이전에는 마지막 사용자 작업 이후 특정 시간이 경과한 후에 업그레이드가 발생했습니다. 이 릴리즈에서는 현지 시간이 오전 1시에서 오전 5시 사이인 경우 BlueXP 분류가 자동으로 업그레이드됩니다. 로컬 시간이 이 시간을 벗어난 경우 마지막 사용자 작업 이후 특정 시간이 경과하면 업그레이드가 수행됩니다. 자세한 내용은 을 참조하십시오<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>.</block>
+  <block id="f943db85a7c2edd799890ddb18f29cab" category="inline-link">인터넷에 액세스할 수 없는 Linux 호스트에 BlueXP 분류를 설치합니다</block>
+  <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">인터넷에 액세스하지 않고 BlueXP 분류를 구축한 경우 수동으로 업그레이드해야 합니다. 자세한 내용은 을 참조하십시오<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>.</block>
+  <block id="8580342935824bb5edc626fa6371115e" category="section-title">2024년 4월 8일</block>
+  <block id="cd5e0880386a1f1f9deebd1fe0422847" category="section-title">RHEL 8.9 지원</block>
+  <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">이제 데이터 브로커는 Red Hat Enterprise Linux 8.9를 실행하는 호스트에서 지원됩니다.</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">Linux 호스트 요구 사항 보기</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>.</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024년 3월 28일</block>
+  <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">업그레이드 권장 사항을 확인하고 업그레이드 계획을 생성하는 방법에 대해 알아봅니다.</block>
+  <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">이전 버전의 Upgrade Advisor는 이제 더 이상 사용되지 않습니다. 향상된 버전의 Upgrade Advisor를 사용하여 단일 클러스터 및 여러 클러스터에 대한 업그레이드 계획을 생성할 수 있습니다. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
 </blocks>
