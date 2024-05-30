@@ -51,7 +51,6 @@
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">자세한 정보</block>
-  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오.</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">ONTAP용 FSX를 데이터 소스로 사용합니다</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">이제 Amazon FSx for ONTAP 파일 시스템에서 다음 대상으로 데이터를 복제할 수 있습니다.</block>
@@ -91,11 +90,6 @@
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다</block>
-  <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023년 4월 5일(버전 2.2)</block>
-  <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloud에 구축된 Cloud Volumes ONTAP 시스템에서 글로벌 파일 캐시 지원</block>
-  <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.</block>
-  <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">설정 마법사와 GFC 구성 UI는 NetApp 라이센스 등록을 수행할 수 있도록 향상되었습니다</block>
-  <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.</block>
   <block id="6d924727c00a77a63749e2f8aa0860d4" category="summary">본 릴리즈 노트에서는 BlueXP의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">설정 및 관리</block>
@@ -151,8 +145,6 @@
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>.</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>.</block>
   <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
-  <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
   <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">이제 가능합니다 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
   <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">시기 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
@@ -431,17 +423,6 @@
   <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">2023년 11월 13일</block>
   <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">이제 SMB/CIFS 프로토콜을 사용하는 볼륨에 대한 보고서를 생성할 수 있습니다.</block>
   <block id="563cbb5befcc35d67fb204c94be0bffb" category="summary">개별 BlueXP 서비스에 관한 전체 릴리즈 노트 보기</block>
-  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023년 11월 26일</block>
-  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blob을 위한 콜드 스토리지 클래스 지원</block>
-  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">이제 동기화 관계를 생성할 때 콜드 스토리지 Azure Blob 계층을 사용할 수 있습니다.</block>
-  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">동기화 관계 만들기에 대해 자세히 알아봅니다.</block>
-  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
-  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">AWS 데이터 브로커에서 Tel Aviv 지역 지원</block>
-  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">Tel Aviv는 이제 AWS에서 데이터 브로커를 생성할 때 지원되는 지역이 되었습니다.</block>
-  <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">AWS에서 데이터 브로커 생성에 대해 자세히 알아보십시오</block>
-  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>.</block>
-  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">데이터 브로커용 노드 버전으로 업데이트</block>
-  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">모든 새로운 데이터 브로커는 이제 노드 버전 21.2.0을 사용합니다. CentOS 7.0 및 Ubuntu Server 18.0과 같이 이 업데이트와 호환되지 않는 데이터 브로커는 더 이상 BlueXP 복사본 및 동기화를 수행할 수 없습니다.</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">시청목록</block>
   <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
@@ -698,4 +679,11 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024년 6월 2일</block>
+  <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP 복사 및 동기화 서비스가 몇 가지 버그를 수정하도록 업데이트되었습니다. 보안 업데이트를 적용하기 위해 데이터 브로커도 업데이트되었습니다. 새 데이터 브로커 버전은 1.0.52입니다.</block>
+  <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024년 5월 31일</block>
+  <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp은 2024년 5월 31일 부로 NetApp Global File Cache의 공급 중지(EOA)를 발표했습니다. EOA는 독립 실행형 Global File Cache 소프트웨어 구독 및 NetApp Cloud Volumes Edge Cache라고 하는 NetApp Cloud Volumes ONTAP와 Global File Cache 번들 솔루션을 포함한 모든 NetApp Global File Cache 제품에 영향을 미칩니다.</block>
+  <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">NetApp Global File Cache의 공급 중지 세부 정보를 참조하십시오</block>
+  <block id="84037427a2c8d669a1e7b95e23492189" category="paragraph">NetApp은 기존 고객을 위해 최소 3년 동안 이러한 제품을 계속 지원할 것입니다.<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>.</block>
+  <block id="ce6cf9ea6138c79aab74ff110d376b23" category="paragraph">또한 BlueXP 사용자 인터페이스에서 Global File Cache 구성요소를 사용, 구축 및 관리하는 기능이 제거되었습니다.</block>
 </blocks>
