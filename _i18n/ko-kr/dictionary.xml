@@ -398,7 +398,6 @@
   <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">여러 가용 영역을 지원하는 모든 지역 목록은 를 참조하십시오<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block>
 <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
-  <block id="2971377ab46c11db3998ef23731b52cf" category="section-title">2023년 10월 20일</block>
   <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">이 BlueXP 재해 복구 기능의 사전 공개 릴리즈에는 다음 업데이트가 포함됩니다.</block>
   <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">이제 BlueXP 재해 복구를 사용하면 퍼블릭 클라우드와 더불어 다른 온프레미스 NFS 기반 VMware 환경 재해로부터 온프레미스 NFS 기반 VMware 워크로드를 보호할 수 있습니다. BlueXP 재해 복구를 통해 재해 복구 계획의 완료를 조율합니다.</block>
   <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">이 미리 보기 서비스를 통해 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.</block>
@@ -444,20 +443,11 @@
   <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">데이터 브로커용 노드 버전으로 업데이트</block>
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">모든 새로운 데이터 브로커는 이제 노드 버전 21.2.0을 사용합니다. CentOS 7.0 및 Ubuntu Server 18.0과 같이 이 업데이트와 호환되지 않는 데이터 브로커는 더 이상 BlueXP 복사본 및 동기화를 수행할 수 없습니다.</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">시청목록</block>
-  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
-  <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">이제 조사 페이지 결과에 총 항목 수와 함께 총 크기가 표시됩니다</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">이제 조사 페이지의 필터링된 결과에 총 파일 수와 함께 항목의 총 크기가 표시됩니다. 이 기능은 파일 이동, 파일 삭제 등에 도움이 될 수 있습니다.</block>
-  <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">추가 그룹 ID를 "조직에 열기"로 구성</block>
-  <block id="617de59f0823cef046ababc40408cb92" category="inline-link">추가 그룹 ID를 "조직에 열려 있음"으로 추가</block>
-  <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">이제 그룹이 처음에 해당 권한으로 설정되지 않은 경우, NFS의 그룹 ID를 BlueXP 분류에서 직접 "Open to Organization"으로 간주하도록 구성할 수 있습니다. 이러한 그룹 ID가 첨부된 파일 및 폴더는 조사 세부 정보 페이지에서 "조직에 열기"로 표시됩니다. 자세한 내용은 를 참조하십시오<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>.</block>
   <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024년 3월 4일(버전 1.29)</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">이제 특정 데이터 소스 디렉토리에 있는 데이터 검사를 제외할 수 있습니다</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">BlueXP 분류를 통해 특정 데이터 소스 디렉토리에 있는 스캔 데이터를 제외하려면 이러한 디렉토리 이름을 BlueXP 분류 프로세스를 수행하는 구성 파일에 추가할 수 있습니다. 이 기능을 사용하면 불필요한 디렉터리를 검색하지 않거나 잘못된 개인 데이터 결과를 반환할 수 있습니다.</block>
   <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>.</block>
-  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024년 1월 10일(버전 1.27)</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
-  <block id="cf8f238c2116738b5ed3bacdbd527d14" category="section-title">Cloud Volumes ONTAP 9.14.1 GA</block>
-  <block id="fc0f9e3eef3a6eff3efe2fe7cf358466" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.14.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다.</block>
   <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">2024년 2월 11일</block>
   <block id="66a743c4896414f00b485685ab377a19" category="section-title">regex를 기준으로 디렉토리를 필터링합니다</block>
   <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">이제 사용자는 regex를 사용하여 디렉토리를 필터링할 수 있습니다.</block>
@@ -489,9 +479,6 @@
   <block id="1d73761c9dd4b9338f6974eee8d2a449" category="list-text">* 정합성 보장 그룹 *: 복제 계획을 생성할 때 다른 볼륨과 다른 SVM의 VM을 포함할 수 있습니다. BlueXP 재해 복구를 통해 모든 볼륨을 포함하여 일관성 그룹 스냅샷을 생성하고 모든 2차 위치를 업데이트합니다.</block>
   <block id="ed38b69c5713d5b42f77e9c3ec5872a8" category="list-text">* VM 전원 공급 지연 옵션 *: 복제 계획을 생성할 때 리소스 그룹에 VM을 추가할 수 있습니다. 리소스 그룹을 사용하면 각 VM에 지연 시간을 설정하여 지연된 시퀀스에서 전원을 켤 수 있습니다.</block>
   <block id="193634e2d37697e73e8a9d15d4dca73d" category="list-text">* 애플리케이션 정합성 보장 스냅샷 복사본 *: 애플리케이션 정합성이 보장된 스냅샷 복사본을 생성하도록 지정할 수 있습니다. 이 서비스는 응용 프로그램을 중지한 다음 스냅샷을 생성하여 응용 프로그램의 일관된 상태를 확보합니다.</block>
-  <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">이 릴리즈를 사용하면 대시보드에서 다른 페이지의 정보에 더 빠르게 액세스할 수 있습니다.</block>
-  <block id="8fb6114a69ebd8d03454bf88226c2699" category="inline-link">BlueXP 재해 복구에 대해 자세히 알아보십시오</block>
-  <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>.</block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">랜섬웨어 보호</block>
   <block id="5a62a1aba4b0b7df087f145049f2b71f" category="paragraph">BlueXP 랜섬웨어 방어 프리뷰 릴리즈에는 다음과 같은 업데이트가 포함되어 있습니다.</block>
   <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">정책 관리에 대해 자세히 알아보십시오</block>
@@ -680,4 +667,35 @@
   <block id="858c0eb001d380e6c1276da7ebebbd32" category="inline-image-macro">세로 동작 옵션</block>
   <block id="cd336e06464d96c3b5ece4caa37cc727" category="list-text">* 설명서 보기 * 링크가 UI에 포함되어 있습니다. Dasbhoard Vertical * Actions * 에서 이 설명서에 액세스할 수 있습니다 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 옵션을 선택합니다. BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.</block>
   <block id="d8689490b3697bc11eb889288d616515" category="list-text">* 복구 프로세스 *. 복구 프로세스가 개선되었습니다. 이제 볼륨별, 워크로드의 모든 볼륨 또는 볼륨의 일부 파일을 단일 워크플로우에서 복구할 수 있습니다.<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>.</block>
+  <block id="c817ad6139f116906ee3d7991cfdcba9" category="section-title">온프레미스 커넥터에 RHEL 8 및 RHEL 9를 사용할 때의 제한 사항</block>
+  <block id="5462103113dfca7582cf43f266db09a2" category="inline-link">호스트 요구 사항</block>
+  <block id="6aa3862f9073595cb60208eb918da431" category="paragraph">BlueXP Connector 버전 3.9.40은 에 언급된 운영 체제 및 위치와 관계없이 RHEL 8 또는 9 호스트에 Connector 소프트웨어를 수동으로 설치하는 데 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를 지원합니다<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block>. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 현재 BlueXP 백업 및 복구에는 Podman 엔진을 사용할 때 두 가지 제한 사항이 있습니다.</block>
+  <block id="9e767927964c6ec4f221f081786309ff" category="inline-link">백업 및 복원 제한 사항</block>
+  <block id="a12249435e2897b8262bf872eceb315c" category="paragraph">을 참조하십시오<block ref="b39c49af0833241002651f8610590fbf" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="c6472844da6003c7b7e74ed16527d122" category="paragraph">다음 절차에는 새로운 Podman 지침이 포함되어 있습니다.</block>
+  <block id="64d3d37e27efd6f22e6fa648ce465b2e" category="inline-link">BlueXP 백업 및 복구를 다시 시작합니다</block>
+  <block id="92617b18f6079084c5380cf97f72f43a" category="list-text"><block ref="92617b18f6079084c5380cf97f72f43a" category="inline-link-rx"></block></block>
+  <block id="5e8c098d325749413b23d5eba5837aad" category="inline-link">어두운 사이트에서 BlueXP 백업 및 복구 데이터를 복원합니다</block>
+  <block id="b682afa0ff8a1d136b51d3115421ac1b" category="list-text"><block ref="b682afa0ff8a1d136b51d3115421ac1b" category="inline-link-rx"></block></block>
+  <block id="240debedb0b95c0376b930ba9355ecf4" category="section-title">2024년 5월 15일(버전 1.31)</block>
+  <block id="d1e72f4d21bb915d180e5f6d1e9d4264" category="section-title">BlueXP 내에서 핵심 서비스로 분류할 수 있습니다</block>
+  <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
+  <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오</block>
+  <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>.</block>
+  <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
+  <block id="b3e67e9d7f5be7902fd87917d0acb3e0" category="section-title">Amazon Web Services 로컬 영역 지원</block>
+  <block id="6f9fa4d02a6081aa6d33b131d8532328" category="paragraph">Cloud Volumes ONTAP HA 구축 환경에서 AWS 로컬 영역 지원을 사용할 수 있습니다. AWS Local Zones 는 스토리지, 컴퓨팅, 데이터베이스 및 기타 엄선된 AWS 서비스가 대도시와 산업 영역에 가깝게 위치하는 인프라 구축입니다.</block>
+  <block id="e0b08acf0828bf4594a0b9bd6411df1b" category="inline-link-macro">AWS 로컬 영역</block>
+  <block id="b75accaa363606f733ab4203f45f8193" category="paragraph">HA 배포가 포함된 AWS Local Zones에 대한 자세한 내용은 을 참조하십시오 <block ref="6830ae69d7be576a68a954338edafef9" category="inline-link-macro-rx"></block>.</block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
+  <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
+  <block id="7f1d1e9df7ef6953a6e373e29826ca55" category="list-text">* 온프레미스에서 온프레미스로 VMware 워크로드 복제 * 는 이제 일반적인 가용성 기능으로 출시되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.</block>
+  <block id="b7005516f0c1f875afae2146a2fb3617" category="list-text">* 라이센스 업데이트 *: BlueXP 재해 복구를 사용하면 90일 무료 평가판에 등록하거나, Amazon Marketplace에서 PAYGO(Pay-as-you-Go) 구독 요금을 구매하거나, NetApp 세일즈 담당자 또는 NSS(NetApp Support 사이트)로부터 얻은 NLF(NetApp 라이센스 파일)인 BYOL(Bring Your Own License File)을 받을 수 있습니다.</block>
+  <block id="eb9506998f4dca4bcb82fe962448b79b" category="paragraph">BlueXP 재해 복구의 라이센스 설정에 대한 자세한 내용은 을 참조하십시오 <block ref="eaa54a57026891d12cbf928afd176564" category="inline-link-macro-rx"></block>.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">서비스별 릴리스 정보</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP 블로그</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
 </blocks>
