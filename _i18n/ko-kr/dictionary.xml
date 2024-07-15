@@ -682,4 +682,5 @@
   <block id="b40d9759dcac80d0440a4f4b7e2d3f1a" category="list-text">* 보호, 경고 및 복구 페이지에서 CSV 파일 * 을 다운로드합니다.</block>
   <block id="9863ce048fc9f300b1fbc248aa66783e" category="list-text">* 설명서 보기 * 링크가 UI에 포함되어 있습니다. 대시보드 수직 * 작업 * 옵션에서 이 설명서에 액세스할 수 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 있습니다. BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.</block>
   <block id="ea8652a0fce10e4424e5611e6298f09b" category="list-text">* 설정 옵션 *: 이제 BlueXP 랜섬웨어 방어 설정에서 백업 대상을 설정할 수 있습니다.</block>
+  <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.</block>
 </blocks>
