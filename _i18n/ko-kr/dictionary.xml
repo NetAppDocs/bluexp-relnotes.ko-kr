@@ -683,4 +683,6 @@
   <block id="9863ce048fc9f300b1fbc248aa66783e" category="list-text">* 설명서 보기 * 링크가 UI에 포함되어 있습니다. 대시보드 수직 * 작업 * 옵션에서 이 설명서에 액세스할 수 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 있습니다. BlueXP 랜섬웨어 보호 문서 홈 페이지를 보려면 * 새로운 기능 * 을 선택하여 릴리즈 노트 또는 * 설명서 * 에서 자세한 내용을 확인하십시오.</block>
   <block id="ea8652a0fce10e4424e5611e6298f09b" category="list-text">* 설정 옵션 *: 이제 BlueXP 랜섬웨어 방어 설정에서 백업 대상을 설정할 수 있습니다.</block>
   <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.</block>
+  <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024년 7월 14일</block>
+  <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.53입니다.</block>
 </blocks>
