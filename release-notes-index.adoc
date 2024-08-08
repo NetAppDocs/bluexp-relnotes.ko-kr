@@ -39,8 +39,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E-Series 시스템"^]
 * https://docs.netapp.com/us-en/bluexp-google-cloud-storage/whats-new.html["Google 클라우드 스토리지"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/whats-new.html["Kubernetes 클러스터"^]
-* https://docs.netapp.com/us-en/bluexp-reports/release-notes/whats-new.html["마이그레이션 보고서"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html["온프레미스 ONTAP 클러스터"^]
 * https://docs.netapp.com/us-en/bluexp-storagegrid/whats-new.html["StorageGRID"^]
 
@@ -56,7 +54,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["디지털 지갑"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/release-notes/dr-whats-new.html["재해 복구"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/release-notes/whats-new.html["경제적인 효율성"^]
-* https://docs.netapp.com/us-en/bluexp-edge-caching/whats-new.html["에지 캐싱"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/release-notes/whats-new.html["운영 복원력"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/whats-new.html["랜섬웨어 보호"^]
 * https://docs.netapp.com/us-en/bluexp-replication/whats-new.html["복제"^]
