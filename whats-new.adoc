@@ -589,6 +589,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024년 8월 11일
+
+BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.54입니다.
+
+
+
 === 2024년 7월 14일
 
 BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.53입니다.
@@ -598,30 +604,6 @@ BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트�
 === 2024년 6월 2일
 
 BlueXP 복사 및 동기화 서비스가 몇 가지 버그를 수정하도록 업데이트되었습니다. 보안 업데이트를 적용하기 위해 데이터 브로커도 업데이트되었습니다. 새 데이터 브로커 버전은 1.0.52입니다.
-
-
-
-=== 2024년 4월 8일
-
-
-
-==== RHEL 8.9 지원
-
-이제 데이터 브로커는 Red Hat Enterprise Linux 8.9를 실행하는 호스트에서 지원됩니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linux 호스트 요구 사항 보기"].
-
-
-
-=== 2024년 2월 11일
-
-
-
-==== regex를 기준으로 디렉토리를 필터링합니다
-
-이제 사용자는 regex를 사용하여 디렉토리를 필터링할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["디렉터리 제외 * 기능에 대해 자세히 알아보십시오."]
 
 
 
