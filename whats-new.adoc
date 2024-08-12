@@ -24,6 +24,30 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 
 
+=== 2024년 8월 22일
+
+
+
+==== 커넥터 3.9.43 패치
+
+Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이트했습니다.
+
+이 릴리스에 대한 지원에는 Azure용 커넥터 정책에 대한 업데이트가 포함되어 있습니다. 이제 정책에 다음 권한이 포함됩니다.
+
+[source, json]
+----
+"Microsoft.Compute/virtualMachineScaleSets/write",
+"Microsoft.Compute/virtualMachineScaleSets/read",
+"Microsoft.Compute/virtualMachineScaleSets/delete"
+----
+이러한 권한은 Cloud Volumes ONTAP의 가상 머신 확장 세트 지원에 필요합니다. 기존 연결선이 있고 이 새 기능을 사용하려면 Azure 자격 증명과 연결된 사용자 지정 역할에 이러한 권한을 추가해야 합니다.
+
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["가상 머신 확장 세트에 대한 Cloud Volumes ONTAP 지원에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["Connector에 대한 Azure 권한을 봅니다"]..
+
+
+
+
 === 2024년 8월 8일
 
 
@@ -476,6 +500,18 @@ link:reference-free-paid.html["더 이상 사용되지 않는 기능에 대해 �
 
 
 
+=== 2024년 8월 22일
+
+
+
+==== Cloud Volumes ONTAP 9.15.1 GA
+
+BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.15.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
+
+
+
 === 2024년 8월 8일
 
 
@@ -488,7 +524,7 @@ Edge Cache 용량 기반 라이센스 패키지는 향후 Cloud Volumes ONTAP �
 
 ==== Azure 기반 Flash Cache에 대해 지원되는 최소 ONTAP 버전
 
-Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.13.1 GA입니다. ONTAP 9.13.1 GA 이상 버전만 Azure용 Cloud Volumes ONTAP 시스템에 Flash Cache를 구축하는 데 사용할 수 있습니다.
+Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.13.1 GA입니다. ONTAP 9.13.1 GA 이상 버전만 사용하여 Azure용 Cloud Volumes ONTAP 시스템에 Flash Cache를 구축할 수 있습니다.
 
 지원되는 구성은 를 참조하십시오 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#single-node-systems["Azure에서 지원되는 구성"^].
 
@@ -497,14 +533,6 @@ Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.1
 ==== 마켓플레이스 구독에 대한 무료 평가판은 더 이상 사용되지 않습니다
 
 클라우드 제공업체의 마켓플레이스에서 선불 종량제 구독에 대한 30일 자동 무료 평가판은 더 이상 Cloud Volumes ONTAP에서 사용할 수 없습니다. 모든 유형의 마켓플레이스 가입(PAYGO 또는 연간 계약)에 대한 청구는 무료 평가판 기간 없이 처음 사용할 때 활성화됩니다.
-
-
-
-==== 캐나다 서부 지역은 현재 AWS에서 지원됩니다
-
-캐나다 서부 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 AWS에서 지원됩니다.
-
-모든 지역 목록은 를 참조하십시오 https://bluexp.netapp.com/cloud-volumes-global-regions["AWS에 따른 글로벌 지역 지도"^].
 
 
 
@@ -517,21 +545,6 @@ Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.1
 BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.15.0을 구축 및 관리할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
-
-
-
-=== 2024년 5월 17일
-
-
-
-==== Amazon Web Services 로컬 영역 지원
-
-Cloud Volumes ONTAP HA 구축 환경에서 AWS 로컬 영역 지원을 사용할 수 있습니다. AWS Local Zones 는 스토리지, 컴퓨팅, 데이터베이스 및 기타 엄선된 AWS 서비스가 대도시와 산업 영역에 가깝게 위치하는 인프라 구축입니다.
-
-
-NOTE: AWS 로컬 영역은 표준 모드에서 BlueXP를 사용하는 경우 지원됩니다. 현재 BlueXP를 제한된 모드 또는 프라이빗 모드로 사용하는 경우 AWS 로컬 영역이 지원되지 않습니다.
-
-HA 배포가 포함된 AWS Local Zones에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha.html#aws-local-zones["AWS 로컬 영역"^].
 
 
 
@@ -608,6 +621,16 @@ BlueXP 복사 및 동기화 서비스가 몇 가지 버그를 수정하도록 �
 
 
 == 디지털 자문업체
+
+
+
+=== 2024년 8월 21일
+
+
+
+==== 보고서
+
+7-Mode 시스템이 제한된 지원이 종료되었으므로 * 7-Mode Upgrade Advisor 계획 * 보고서를 더 이상 사용할 수 없습니다. 자세한 내용은 을 link:https://mysupport.netapp.com/site/info/version-support["소프트웨어 버전 지원"^]참조하십시오. 에 대해 자세히 link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["7-Mode에서 운영 중인 Data ONTAP 스토리지 시스템의 업그레이드"^]알아보십시오.
 
 
 

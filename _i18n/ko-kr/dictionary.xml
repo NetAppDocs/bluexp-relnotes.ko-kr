@@ -468,10 +468,6 @@
   <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP 분류는 이제 최대 500TiB의 스캔 데이터에 대해 추가 비용 없이 BlueXP 내에서 핵심 기능으로 제공됩니다. 분류 라이선스 또는 유료 가입이 필요하지 않습니다. 이 새 버전으로 NetApp 스토리지 시스템을 검사하는 데 BlueXP 분류 기능을 집중하므로 일부 기존 기능은 이전에 라이센스 비용을 지불한 고객에게만 제공됩니다. 이러한 레거시 기능의 사용은 유료 계약이 종료일에 도달하면 만료됩니다.</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">더 이상 사용되지 않는 기능에 대해 자세히 알아보십시오</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>.</block>
-  <block id="b3e67e9d7f5be7902fd87917d0acb3e0" category="section-title">Amazon Web Services 로컬 영역 지원</block>
-  <block id="6f9fa4d02a6081aa6d33b131d8532328" category="paragraph">Cloud Volumes ONTAP HA 구축 환경에서 AWS 로컬 영역 지원을 사용할 수 있습니다. AWS Local Zones 는 스토리지, 컴퓨팅, 데이터베이스 및 기타 엄선된 AWS 서비스가 대도시와 산업 영역에 가깝게 위치하는 인프라 구축입니다.</block>
-  <block id="e0b08acf0828bf4594a0b9bd6411df1b" category="inline-link-macro">AWS 로컬 영역</block>
-  <block id="b75accaa363606f733ab4203f45f8193" category="paragraph">HA 배포가 포함된 AWS Local Zones에 대한 자세한 내용은 을 참조하십시오 <block ref="6830ae69d7be576a68a954338edafef9" category="inline-link-macro-rx"></block>.</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024년 5월 15일</block>
   <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">이 BlueXP 재해 복구 릴리즈에는 다음 업데이트가 포함됩니다.</block>
   <block id="7f1d1e9df7ef6953a6e373e29826ca55" category="list-text">* 온프레미스에서 온프레미스로 VMware 워크로드 복제 * 는 이제 일반적인 가용성 기능으로 출시되었습니다. 이전에는 기능이 제한된 기술 미리 보기였습니다.</block>
@@ -485,7 +481,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024년 6월 2일</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP 복사 및 동기화 서비스가 몇 가지 버그를 수정하도록 업데이트되었습니다. 보안 업데이트를 적용하기 위해 데이터 브로커도 업데이트되었습니다. 새 데이터 브로커 버전은 1.0.52입니다.</block>
-  <block id="d4cffcdfb4fe4fc69dc234950d0f4151" category="admonition">AWS 로컬 영역은 표준 모드에서 BlueXP를 사용하는 경우 지원됩니다. 현재 BlueXP를 제한된 모드 또는 프라이빗 모드로 사용하는 경우 AWS 로컬 영역이 지원되지 않습니다.</block>
   <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024년 6월 5일(버전 1.32)</block>
   <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">이 릴리스에는 다음 업데이트가 포함됩니다.</block>
   <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">매핑 검사는 메타데이터를 수집합니다</block>
@@ -700,15 +695,10 @@
   <block id="e84c1e70dc9a2186ec21e22a3e9cbda0" category="section-title">Edge Cache 라이선스 패키지는 더 이상 사용되지 않습니다</block>
   <block id="882b50ca44d46bfb8d9502390cfeaf96" category="paragraph">Edge Cache 용량 기반 라이센스 패키지는 향후 Cloud Volumes ONTAP 배포에 더 이상 사용할 수 없습니다. 그러나 API를 사용하여 이 기능을 사용할 수 있습니다.</block>
   <block id="a5729938408dc232ea97fb5d7d00b71c" category="section-title">Azure 기반 Flash Cache에 대해 지원되는 최소 ONTAP 버전</block>
-  <block id="9eed4224485f0ec8f22ac2ca0b031514" category="paragraph">Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.13.1 GA입니다. ONTAP 9.13.1 GA 이상 버전만 Azure용 Cloud Volumes ONTAP 시스템에 Flash Cache를 구축하는 데 사용할 수 있습니다.</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure에서 지원되는 구성</block>
   <block id="2936dc7efe93e6248aca38d21b92cc62" category="paragraph">지원되는 구성은 를 참조하십시오<block ref="10c1bb30d666a83202b9e687d7b06d1b" category="inline-link-rx"></block>.</block>
   <block id="bc5af032a5cd69ef4ac57b8c2cd1f1d6" category="section-title">마켓플레이스 구독에 대한 무료 평가판은 더 이상 사용되지 않습니다</block>
   <block id="860dc5e7395e0f2c15a42ffdef98eca4" category="paragraph">클라우드 제공업체의 마켓플레이스에서 선불 종량제 구독에 대한 30일 자동 무료 평가판은 더 이상 Cloud Volumes ONTAP에서 사용할 수 없습니다. 모든 유형의 마켓플레이스 가입(PAYGO 또는 연간 계약)에 대한 청구는 무료 평가판 기간 없이 처음 사용할 때 활성화됩니다.</block>
-  <block id="2c8ad7deb621eae9ecb23ccf84d9c22c" category="section-title">캐나다 서부 지역은 현재 AWS에서 지원됩니다</block>
-  <block id="184c928c73aa00c7569ba55c0b9e0064" category="paragraph">캐나다 서부 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 AWS에서 지원됩니다.</block>
-  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS에 따른 글로벌 지역 지도</block>
-  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>.</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024년 8월 7일</block>
   <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 업데이트</block>
   <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  소프트웨어 업데이트 서비스는 위험을 완화하고 고객이 ONTAP 기능을 최대한 활용할 수 있도록 함으로써 사용자에게 원활한 업데이트 환경을 제공합니다.</block>
@@ -716,4 +706,22 @@
   <block id="3b51dbc206ff39db31b586cff27b62b6" category="paragraph">에 대해 자세히 <block ref="5932964ef1a5389f9863c988396d1e93" category="inline-link-macro-rx"></block>알아보십시오.</block>
   <block id="a5cfb1c769f5b79bb515811f8e2d3256" category="section-title">2024년 8월 11일</block>
   <block id="91c579c47837abf6f4d04e29b24b1d72" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.54입니다.</block>
+  <block id="22e645000db07af6682e1c6517a3c82a" category="section-title">2024년 8월 22일</block>
+  <block id="335b63351c39337de35ede84c3852d4d" category="section-title">커넥터 3.9.43 패치</block>
+  <block id="262115d0d4a65fe9bcd074ab5666018a" category="paragraph">Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이트했습니다.</block>
+  <block id="ede74fed38968a6f0c0dcebc3102b859" category="paragraph">이 릴리스에 대한 지원에는 Azure용 커넥터 정책에 대한 업데이트가 포함되어 있습니다. 이제 정책에 다음 권한이 포함됩니다.</block>
+  <block id="c78a856f5972910d86f9b588fe9783e6" category="paragraph">이러한 권한은 Cloud Volumes ONTAP의 가상 머신 확장 세트 지원에 필요합니다. 기존 연결선이 있고 이 새 기능을 사용하려면 Azure 자격 증명과 연결된 사용자 지정 역할에 이러한 권한을 추가해야 합니다.</block>
+  <block id="33deee49118b5c8f42cddf68ea82eb12" category="inline-link">가상 머신 확장 세트에 대한 Cloud Volumes ONTAP 지원에 대해 알아보십시오</block>
+  <block id="d68b9311c71dab46bbfe2456fb69212b" category="list-text"><block ref="d68b9311c71dab46bbfe2456fb69212b" category="inline-link-rx"></block></block>
+  <block id="21952e368aec0a06297b408b56d39588" category="inline-link">Connector에 대한 Azure 권한을 봅니다</block>
+  <block id="aee78f717e27d8af727663a423980af9" category="list-text"><block ref="30ea7e04713feb92caddbe86eeb922d8" category="inline-link-rx"></block>..</block>
+  <block id="bfe1024d3c9f1a02aa5dd1d7e5dccb34" category="section-title">2024년 8월 22일</block>
+  <block id="cf153c7d2cb432b6e772832926525a09" category="section-title">Cloud Volumes ONTAP 9.15.1 GA</block>
+  <block id="ffa2c93a775db2cb6243bf2a224cf240" category="paragraph">BlueXP는 이제 AWS, Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.15.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다.</block>
+  <block id="5e5a8323b53f79c61a277215cb801b01" category="paragraph">Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.13.1 GA입니다. ONTAP 9.13.1 GA 이상 버전만 사용하여 Azure용 Cloud Volumes ONTAP 시스템에 Flash Cache를 구축할 수 있습니다.</block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">2024년 8월 21일</block>
+  <block id="c91c7b93c28cd18741b71f727ee81ee3" category="section-title">보고서</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">소프트웨어 버전 지원</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">7-Mode에서 운영 중인 Data ONTAP 스토리지 시스템의 업그레이드</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">7-Mode 시스템이 제한된 지원이 종료되었으므로 * 7-Mode Upgrade Advisor 계획 * 보고서를 더 이상 사용할 수 없습니다. 자세한 내용은 을 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>참조하십시오. 에 대해 자세히 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>알아보십시오.</block>
 </blocks>
