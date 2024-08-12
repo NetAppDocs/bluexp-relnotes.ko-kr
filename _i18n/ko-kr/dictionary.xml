@@ -453,22 +453,6 @@
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 개선 서비스가 2024년 4월 22일에 제거되었습니다.</block>
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">볼륨 템플릿은 더 이상 지원되지 않습니다</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.</block>
-  <block id="31e2ca9cb7755d06bc40e30fd8e408d3" category="section-title">2024년 4월 23일</block>
-  <block id="a2fefc65df2136938b995f8abbe643c2" category="section-title">Azure에서 여러 가용 영역 배포를 위해 새로운 영역이 지원됩니다</block>
-  <block id="0cc914ed23f0f7d6bc902ae731843213" category="paragraph">현재 다음 지역에서는 Azure for Cloud Volumes ONTAP 9.12.1 GA 이상에서 HA 다중 가용 영역 배포를 지원합니다.</block>
-  <block id="1dab3491cdeeb2a6d567b21ee3063ae4" category="list-text">독일 웨스트 센트럴</block>
-  <block id="26b4bdc11dfead08029a688129c42cf9" category="list-text">폴란드 센트럴</block>
-  <block id="64fb50bb758fe12b94faa568a567e13c" category="list-text">서부 미국 3</block>
-  <block id="eb1aea8107eeeb90c841d5710262dd52" category="list-text">이스라엘 중부</block>
-  <block id="6c2cb03afda0af373b8df47f9dc47ed7" category="list-text">이탈리아 북부</block>
-  <block id="1d0f99876d748759fce5e852f79fca96" category="list-text">캐나다 중부</block>
-  <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
-  <block id="0b745a8416b0a8e3b89e7e01ba13af65" category="section-title">요하네스버그 지역은 현재 Google Cloud에서 지원됩니다</block>
-  <block id="ec826289e3407edb59d3c5ed0aca5c74" category="paragraph">요하네스버그 지역 <block ref="6d1d2d77b70fb38d060e5653977838a2" prefix="(" category="inline-code"></block> 지역)은 현재 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 이상에서 지원됩니다.</block>
-  <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud의 글로벌 지역 지도</block>
-  <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>.</block>
-  <block id="ee94ea94211470599a81d49f8c4b586f" category="section-title">볼륨 템플릿 및 태그는 더 이상 지원되지 않습니다</block>
-  <block id="96b0b2a19dd9deb6b94e53f2e29f4387" category="paragraph">더 이상 템플릿에서 볼륨을 생성하거나 볼륨의 태그를 편집할 수 없습니다. 이러한 작업을 BlueXP 해결 서비스와 연계하면 더 이상 사용할 수 없습니다.</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 전체 릴리스 기록을 보려면 로 이동하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024년 5월 17일</block>
   <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오</block>
@@ -704,4 +688,40 @@
   <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">이제 BlueXP 에서 StorageGRID 시스템을 검색할 때 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수 있습니다. 검색된 그리드에서 최신 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수도 있습니다.</block>
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법에 대해 알아봅니다.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">소프트웨어 업데이트</block>
+  <block id="7c26a70dd4c64672aaff5da10a3afaec" category="list-text"><block ref="7c26a70dd4c64672aaff5da10a3afaec" category="inline-link-rx"></block></block>
+  <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024년 8월 8일</block>
+  <block id="34c56ac41d4e5a004cc5b7c87b0e2d87" category="section-title">커넥터 3.9.43</block>
+  <block id="be1b4db310d7b6590c7af9eb4751b6ce" category="paragraph">이 릴리스에는 사소한 개선 사항, 버그 수정 및 새로운 Azure 권한 요구 사항이 포함되어 있습니다.</block>
+  <block id="05797637e0cfec59d8a5478eba1acfdf" category="paragraph">3.9.43 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="45c4fb485dfa6a5d0af975aa668648a9" category="section-title">CPU 및 RAM 요구 사항이 업데이트되었습니다</block>
+  <block id="07279af47b8b78d8d96257fb42d7c5d9" category="paragraph">BlueXP  및 Connector의 안정성을 높이고 성능을 개선하기 위해 이제 커넥터 가상 머신에 다음과 같은 추가 CPU 및 RAM이 필요합니다.</block>
+  <block id="ab0a05181cb2ac15cc8151f858731517" category="list-text">CPU: 코어 8개 또는 vCPU 8개(이전 요구 사항은 4개)</block>
+  <block id="f8cac741f7a99da8594b5802a47567ab" category="list-text">RAM: 32GB(이전 요구 사항은 14GB)</block>
+  <block id="de1d56fb73daa2b65c2efd1f73d24a1b" category="paragraph">이러한 변경으로 인해 BlueXP  또는 클라우드 공급자의 마켓플레이스에서 커넥터를 구축할 때 기본 VM 인스턴스 유형은 다음과 같습니다.</block>
+  <block id="43a4336ace07071a0817d23211d30402" category="list-text">AWS: t3.2xlarge</block>
+  <block id="70e7db9a896d903493a8716aa3885ee7" category="list-text">Azure: Standard_D8s_v3</block>
+  <block id="1a0e003291457a847a85677ad5244c4e" category="list-text">Google Cloud: n2-standard-8</block>
+  <block id="7ef0b49c93a0c955c309b5fea693d698" category="paragraph">이 요구 사항은 새 커넥터와 기존 커넥터에 적용됩니다.</block>
+  <block id="fecbdb7e41beb7c2b4125b62d71b116d" category="section-title">RHEL 8.10에서 Podman 4.9.4 지원</block>
+  <block id="601e92646453def880eec16da18e4390" category="paragraph">이제 Red Hat Enterprise Linux 8.10 호스트에 Connector를 설치할 때 Podman 버전 4.3.4가 지원됩니다.</block>
+  <block id="18ecc589a4f329e3ba95ac4e285b4504" category="section-title">ID 페더레이션에 대한 사용자 유효성 검사</block>
+  <block id="8b71299c32997f38948f7e56b11d69b8" category="paragraph">BlueXP 와 ID 페더레이션을 사용하는 경우 처음으로 BlueXP 에 로그인하는 각 사용자는 빠른 양식을 작성하여 ID를 확인해야 합니다.</block>
+  <block id="e84c1e70dc9a2186ec21e22a3e9cbda0" category="section-title">Edge Cache 라이선스 패키지는 더 이상 사용되지 않습니다</block>
+  <block id="882b50ca44d46bfb8d9502390cfeaf96" category="paragraph">Edge Cache 용량 기반 라이센스 패키지는 향후 Cloud Volumes ONTAP 배포에 더 이상 사용할 수 없습니다. 그러나 API를 사용하여 이 기능을 사용할 수 있습니다.</block>
+  <block id="a5729938408dc232ea97fb5d7d00b71c" category="section-title">Azure 기반 Flash Cache에 대해 지원되는 최소 ONTAP 버전</block>
+  <block id="9eed4224485f0ec8f22ac2ca0b031514" category="paragraph">Azure에서 Flash Cache를 구성하는 데 필요한 최소 ONTAP 버전은 9.13.1 GA입니다. ONTAP 9.13.1 GA 이상 버전만 Azure용 Cloud Volumes ONTAP 시스템에 Flash Cache를 구축하는 데 사용할 수 있습니다.</block>
+  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure에서 지원되는 구성</block>
+  <block id="2936dc7efe93e6248aca38d21b92cc62" category="paragraph">지원되는 구성은 를 참조하십시오<block ref="10c1bb30d666a83202b9e687d7b06d1b" category="inline-link-rx"></block>.</block>
+  <block id="bc5af032a5cd69ef4ac57b8c2cd1f1d6" category="section-title">마켓플레이스 구독에 대한 무료 평가판은 더 이상 사용되지 않습니다</block>
+  <block id="860dc5e7395e0f2c15a42ffdef98eca4" category="paragraph">클라우드 제공업체의 마켓플레이스에서 선불 종량제 구독에 대한 30일 자동 무료 평가판은 더 이상 Cloud Volumes ONTAP에서 사용할 수 없습니다. 모든 유형의 마켓플레이스 가입(PAYGO 또는 연간 계약)에 대한 청구는 무료 평가판 기간 없이 처음 사용할 때 활성화됩니다.</block>
+  <block id="2c8ad7deb621eae9ecb23ccf84d9c22c" category="section-title">캐나다 서부 지역은 현재 AWS에서 지원됩니다</block>
+  <block id="184c928c73aa00c7569ba55c0b9e0064" category="paragraph">캐나다 서부 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 AWS에서 지원됩니다.</block>
+  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS에 따른 글로벌 지역 지도</block>
+  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>.</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024년 8월 7일</block>
+  <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 업데이트</block>
+  <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  소프트웨어 업데이트 서비스는 위험을 완화하고 고객이 ONTAP 기능을 최대한 활용할 수 있도록 함으로써 사용자에게 원활한 업데이트 환경을 제공합니다.</block>
+  <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  소프트웨어 업데이트</block>
+  <block id="3b51dbc206ff39db31b586cff27b62b6" category="paragraph">에 대해 자세히 <block ref="5932964ef1a5389f9863c988396d1e93" category="inline-link-macro-rx"></block>알아보십시오.</block>
 </blocks>
