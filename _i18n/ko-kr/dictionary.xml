@@ -748,4 +748,11 @@
   <block id="98f1cb1ebd09ccf6e678d5bae1920213" category="list-text">* 역할 기반 액세스 제어 *: 이제 RBAC(역할 기반 액세스 제어)를 사용하여 특정 활동에 대한 액세스를 제한할 수 있습니다. BlueXP  랜섬웨어 방어는 BlueXP 의 두 가지 역할, 즉 BlueXP  계정 관리자 와 계정 관리자(뷰어)를 사용합니다.</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">역할 기반 액세스 제어 Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>.</block>
+  <block id="f258c97f55e85bfbd607e70e86d840dc" category="section-title">새로 설치한 Docker Engine 26 지원</block>
+  <block id="5c968eab53d6065ccf63e9766935cb7b" category="paragraph">Connector의 3.9.44 릴리즈부터 이제 Ubuntu 호스트에 _NEW_Connector를 설치할 때 Docker Engine 26이 지원됩니다.</block>
+  <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">3.9.44 릴리스 이전에 생성된 기존 Connector가 있는 경우 Ubuntu 호스트에서 지원되는 최대 버전은 Docker Engine 25.0.5입니다.</block>
+  <block id="c64c773fbe16e4df6ae417c106a467ef" category="inline-link">Docker Engine 요구사항에 대해 자세히 알아보십시오</block>
+  <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>..</block>
+  <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024년 9월 16일</block>
+  <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.55입니다.</block>
 </blocks>
