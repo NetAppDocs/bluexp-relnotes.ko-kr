@@ -24,6 +24,61 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 
 
+=== 2024년 9월 30일
+
+
+
+==== 비공개 모드 해제(3.9.44)
+
+이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다.
+
+이 릴리스에는 전용 모드에서 지원되는 다음 버전의 BlueXP  구성 요소 및 서비스가 포함되어 있습니다.
+
+[cols="2*"]
+|===
+| 서비스 | 버전이 포함됩니다 
+
+
+| 커넥터 | 3.9.44 
+
+
+| 백업 및 복구 | 2024년 9월 27일 
+
+
+| 분류 | 2024년 5월 15일(버전 1.31) 
+
+
+| Cloud Volumes ONTAP 관리 | 2024년 9월 9일 
+
+
+| 디지털 지갑 | 2023년 7월 30일 
+
+
+| 온프레미스 ONTAP 클러스터 관리 | 2024년 4월 22일 
+
+
+| 복제 | 2022년 9월 18일 
+|===
+커넥터의 경우 3.9.44 비공개 모드 릴리스에는 2024년 8월 및 2024년 9월 릴리스에 도입된 업데이트가 포함되어 있습니다. 특히 Red Hat Enterprise Linux 9.4 지원.
+
+이러한 BlueXP  구성 요소 및 서비스 버전에 포함된 기능에 대한 자세한 내용은 각 BlueXP  서비스에 대한 릴리스 노트를 참조하십시오.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#9-september-2024["Connector의 2024년 9월 릴리즈의 새로운 기능"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#8-august-2024["Connector의 2024년 8월 릴리즈의 새로운 기능"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  백업 및 복구의 새로운 기능"^]
+* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  분류의 새로운 기능"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP 의 Cloud Volumes ONTAP 관리 기능에 대한 새로운 기능"^]
+
+
+업그레이드 방법을 포함하여 개인 모드에 대한 자세한 내용은 다음을 참조하십시오.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
+
+
+
+
 === 2024년 9월 9일
 
 
@@ -117,142 +172,6 @@ Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이�
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["Cloud Volumes ONTAP 9.15.1 릴리스에 대해 알아봅니다"^]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["Connector에 대한 Azure 권한을 봅니다"]..
 
-
-
-
-=== 2024년 8월 8일
-
-
-
-==== 커넥터 3.9.43
-
-이 릴리스에는 사소한 개선 사항 및 버그 수정이 포함되어 있습니다.
-
-3.9.43 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
-
-
-
-==== CPU 및 RAM 요구 사항이 업데이트되었습니다
-
-BlueXP  및 Connector의 안정성을 높이고 성능을 개선하기 위해 이제 커넥터 가상 머신에 다음과 같은 추가 CPU 및 RAM이 필요합니다.
-
-* CPU: 코어 8개 또는 vCPU 8개(이전 요구 사항은 4개)
-* RAM: 32GB(이전 요구 사항은 14GB)
-
-
-이러한 변경으로 인해 BlueXP  또는 클라우드 공급자의 마켓플레이스에서 커넥터를 구축할 때 기본 VM 인스턴스 유형은 다음과 같습니다.
-
-* AWS: t3.2xlarge
-* Azure: Standard_D8s_v3
-* Google Cloud: n2-standard-8
-
-
-업데이트된 CPU 및 RAM 요구 사항은 모든 새 커넥터에 적용됩니다. 기존 커넥터의 경우 향상된 성능과 안정성을 제공하기 위해 CPU 및 RAM을 늘리는 것이 좋습니다.
-
-
-
-==== RHEL 8.10에서 Podman 4.9.4 지원
-
-이제 Red Hat Enterprise Linux 8.10 호스트에 Connector를 설치할 때 Podman 버전 4.3.4가 지원됩니다.
-
-
-
-==== ID 페더레이션에 대한 사용자 유효성 검사
-
-BlueXP 와 ID 페더레이션을 사용하는 경우 처음으로 BlueXP 에 로그인하는 각 사용자는 빠른 양식을 작성하여 ID를 확인해야 합니다.
-
-
-
-=== 2024년 7월 31일
-
-
-
-==== 비공개 모드 해제(3.9.42)
-
-이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다.
-
-
-
-===== RHEL 8 및 9 지원
-
-이 릴리즈에는 BlueXP를 프라이빗 모드로 사용할 때 Red Hat Enterprise Linux 8 또는 9 호스트에 Connector를 설치하는 지원이 포함되어 있습니다. 지원되는 RHEL 버전은 다음과 같습니다.
-
-* 8.6 - 8.10
-* 9.1 - 9.3
-
-
-Podman은 이러한 운영 체제의 컨테이너 오케스트레이션 툴로 필요합니다.
-
-Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 숙지해야 합니다.
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
-
-
-
-===== 이 릴리스에 포함된 버전입니다
-
-이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.
-
-[cols="2*"]
-|===
-| 서비스 | 버전이 포함됩니다 
-
-
-| 커넥터 | 3.9.42 
-
-
-| 백업 및 복구 | 2024년 7월 18일 
-
-
-| 분류 | 2024년 7월 1일(버전 1.33) 
-
-
-| Cloud Volumes ONTAP 관리 | 2024년 6월 10일 
-
-
-| 디지털 지갑 | 2023년 7월 30일 
-
-
-| 온프레미스 ONTAP 클러스터 관리 | 2023년 7월 30일 
-
-
-| 복제 | 2022년 9월 18일 
-|===
-BlueXP 서비스 버전에 포함된 기능에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리즈 노트를 참조하십시오.
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP 분류의 새로운 기능에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오"^]
-
-
-
-
-=== 2024년 7월 15일
-
-
-
-==== RHEL 8.10 지원
-
-BlueXP는 이제 표준 모드 또는 제한된 모드를 사용할 때 Red Hat Enterprise Linux 8.10 호스트에 Connector 설치를 지원합니다.
-
-RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
-
-
-
-=== 2024년 7월 8일
-
-
-
-==== 커넥터 3.9.42
-
-이 릴리스에는 AWS 캐나다 서부(캘거리) 지역의 커넥터에 대한 사소한 개선 사항, 버그 수정 및 지원이 포함되어 있습니다.
-
-3.9.42 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
 
 
 
@@ -362,6 +281,28 @@ BlueXP Canvas에서 Amazon S3 버킷을 잠시 볼 수 있었습니다. 이제 B
 
 
 
+=== 2024년 9월 27일
+
+
+
+==== Browse and Restore를 사용하여 RHEL 8 또는 9에서 Podman을 지원합니다
+
+이제 BlueXP  백업 및 복구는 Podman 엔진을 사용하여 RHEL(Red Hat Enterprise Linux) 버전 8 및 9에서 파일 및 폴더 복원을 지원합니다. 이는 BlueXP  백업 및 복구 찾아보기 및 복원 방법에 적용됩니다.
+
+BlueXP  커넥터 버전 3.9.40은 에 언급된 운영 체제 외에 위치에 관계없이 RHEL 8 또는 9 호스트에 커넥터 소프트웨어를 수동으로 설치할 수 있도록 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를 https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-private-mode.html#step-3-review-host-requirements["호스트 요구 사항"^] 지원합니다. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 이전에는 BlueXP  백업 및 복구에 Podman 엔진을 사용할 때 두 가지 제한 사항이 있었습니다. 이러한 제한 사항은 제거되었습니다.
+
+https://review.docs.netapp.com/us-en/bluexp-backup-recovery_br-se-ja/task-restore-backups-ontap.html["백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오"]..
+
+
+
+==== 빠른 카탈로그 인덱싱으로 검색 및 복원 향상
+
+이 릴리스에는 기본 인덱싱을 훨씬 빠르게 완료할 수 있는 향상된 카탈로그 인덱스가 포함되어 있습니다. 인덱싱 속도가 빨라지면 검색 및 복원 기능을 보다 빠르게 사용할 수 있습니다.
+
+https://review.docs.netapp.com/us-en/bluexp-backup-recovery_br-se-ja/task-restore-backups-ontap.html["백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오"]..
+
+
+
 === 2024년 7월 22일
 
 
@@ -419,68 +360,6 @@ BlueXP Connector 버전 3.9.40은 에 언급된 운영 체제 및 위치와 관�
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-restart-backup.html["BlueXP 백업 및 복구를 다시 시작합니다"]
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-backup-cbs-db-in-dark-site.html["어두운 사이트에서 BlueXP 백업 및 복구 데이터를 복원합니다"]
 
-
-
-
-=== 2024년 4월 30일
-
-
-
-==== 예약된 랜섬웨어 검사를 활성화 또는 비활성화합니다
-
-이전에는 랜섬웨어 검사를 활성화 또는 비활성화할 수 있었지만 예약된 검사에 대해서는 그렇게 할 수 없었습니다.
-
-이 릴리즈에서는 이제 고급 설정 페이지의 옵션을 사용하여 최신 스냅샷 복사본에 대해 예약된 랜섬웨어 검사를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 기능을 활성화하면 기본적으로 스캔이 매주 수행됩니다. 이 일정을 일 또는 주로 변경하거나 사용하지 않도록 설정하여 비용을 절감할 수 있습니다.
-
-자세한 내용은 다음 정보를 참조하십시오.
-
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-manage-backup-settings-ontap.html["백업 설정을 관리합니다"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ONTAP 볼륨에 대한 정책을 관리합니다"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-cloud-backup-policies.html["오브젝트에 백업 정책 설정"]
-
-
-
-
-=== 2024년 4월 4일
-
-
-
-==== 랜섬웨어 검사를 활성화 또는 비활성화할 수 있습니다
-
-이전에는 백업 정책에서 랜섬웨어 탐지를 활성화했을 때 첫 번째 백업이 생성될 때 그리고 백업을 복원할 때 검사가 자동으로 수행되었습니다. 이전에는 이 서비스에서 스냅샷 복사본을 모두 스캔했지만 사용자가 검사를 비활성화할 수 없었습니다.
-
-이 릴리즈에서 고급 설정 페이지의 옵션을 사용하여 최신 스냅샷 복사본에 대한 랜섬웨어 검사를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 기능을 활성화하면 기본적으로 스캔이 매주 수행됩니다.
-
-자세한 내용은 다음 정보를 참조하십시오.
-
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-manage-backup-settings-ontap.html["백업 설정을 관리합니다"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["ONTAP 볼륨에 대한 정책을 관리합니다"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-cloud-backup-policies.html["오브젝트에 백업 정책 설정"]
-
-
-
-
-=== 2024년 3월 12일
-
-
-
-==== 클라우드 백업에서 사내 ONTAP 볼륨으로 "빠른 복원"을 수행할 수 있습니다
-
-이제 클라우드 스토리지에서 온프레미스 ONTAP 타겟 볼륨으로 _ 빠른 복원 _ 을(를) 수행할 수 있습니다. 이전에는 Cloud Volumes ONTAP 시스템에만 빠른 복원을 수행할 수 있었습니다. 빠른 복원은 가능한 한 빨리 볼륨에 대한 액세스를 제공해야 하는 재해 복구 상황에 이상적입니다. 빠른 복원은 전체 볼륨 복원보다 훨씬 빠르며 클라우드 스냅샷에서 ONTAP 타겟 볼륨으로 메타데이터를 복원합니다. 소스는 AWS S3, Azure Blob, Google Cloud Services 또는 NetApp StorageGRID에서 가져올 수 있습니다.
-
-온프레미스 ONTAP 대상 시스템에서 ONTAP 버전 9.14.1 이상을 실행해야 합니다.
-
-검색 및 복원 프로세스가 아닌 찾아보기 및 복원 프로세스를 사용하여 이 작업을 수행할 수 있습니다.
-
-자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["백업 파일에서 ONTAP 데이터를 복원합니다"].
-
-
-
-==== 스냅샷 및 복제 복제본에서 파일 및 폴더를 복구하는 기능
-
-이전에는 AWS, Azure 및 Google Cloud Services의 백업 사본에서만 파일과 폴더를 복원할 수 있었습니다. 이제 로컬 스냅샷 복사본 및 복제 복사본에서 파일과 폴더를 복원할 수 있습니다.
-
-이 기능은 찾아보기 및 복원 프로세스를 사용하는 것이 아니라 검색 및 복원 프로세스를 사용하여 수행할 수 있습니다.
 
 
 
@@ -809,18 +688,18 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 
 
-=== eaecda6db64f5346d5c63bfe0094e040
+=== 2024년 9월 20일
 
-ee811bd919a27bd2eb705f65ed45e4f6
+이 BlueXP  재해 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.
 
-* b077aa4f9a421cc2e2782608fb5caf4f
+* * 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함됩니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.
 +
-0eb65976c0b0c5ffa90b07d4a062e509
+다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.
 
 +
-** d671bd2f503deef1e03581ce8d516507
-** cf1967c6d778937fae37b9e43582b1b6
-** f3a37c3560d0027bc0f49abfab4ab0e3
+** FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.
+** BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.
+** 모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.
 
 
 
@@ -1076,6 +955,15 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 == 랜섬웨어 보호
+
+
+
+=== 2024년 9월 30일
+
+이 BlueXP  랜섬웨어 방어 릴리스에는 다음 업데이트가 포함됩니다.
+
+* * 파일 공유 워크로드의 사용자 지정 그룹화 * : 이번 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오"]..
+
 
 
 

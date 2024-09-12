@@ -406,16 +406,6 @@
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">랜섬웨어 보호</block>
   <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
   <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
-  <block id="2d67cd05b64a3416bc8bae12b4ef5685" category="cell">2024년 3월 12일</block>
-  <block id="e713d6072685bf32f36150e9f76ce0c1" category="section-title">클라우드 백업에서 사내 ONTAP 볼륨으로 "빠른 복원"을 수행할 수 있습니다</block>
-  <block id="5a9ee632cba573d0f7355f7d12d908ca" category="paragraph">이제 클라우드 스토리지에서 온프레미스 ONTAP 타겟 볼륨으로 _ 빠른 복원 _ 을(를) 수행할 수 있습니다. 이전에는 Cloud Volumes ONTAP 시스템에만 빠른 복원을 수행할 수 있었습니다. 빠른 복원은 가능한 한 빨리 볼륨에 대한 액세스를 제공해야 하는 재해 복구 상황에 이상적입니다. 빠른 복원은 전체 볼륨 복원보다 훨씬 빠르며 클라우드 스냅샷에서 ONTAP 타겟 볼륨으로 메타데이터를 복원합니다. 소스는 AWS S3, Azure Blob, Google Cloud Services 또는 NetApp StorageGRID에서 가져올 수 있습니다.</block>
-  <block id="07f61dfe973846130f7066ef7bc459ef" category="paragraph">온프레미스 ONTAP 대상 시스템에서 ONTAP 버전 9.14.1 이상을 실행해야 합니다.</block>
-  <block id="1a68bb97275f0f5acd506d7ad906fa05" category="paragraph">검색 및 복원 프로세스가 아닌 찾아보기 및 복원 프로세스를 사용하여 이 작업을 수행할 수 있습니다.</block>
-  <block id="bb03c52ec2a68c9eed4513c8ecf6c24d" category="inline-link">백업 파일에서 ONTAP 데이터를 복원합니다</block>
-  <block id="2c3b2694da8405de44d10ad024f9a37a" category="paragraph">자세한 내용은 을 참조하십시오<block ref="d2c90c25b1a6379e29db7390401794cc" category="inline-link-rx"></block>.</block>
-  <block id="0b15186b9aa75ae921c55dd69591ae94" category="section-title">스냅샷 및 복제 복제본에서 파일 및 폴더를 복구하는 기능</block>
-  <block id="8f859da29f9bc64e255dd02fc2821d0a" category="paragraph">이전에는 AWS, Azure 및 Google Cloud Services의 백업 사본에서만 파일과 폴더를 복원할 수 있었습니다. 이제 로컬 스냅샷 복사본 및 복제 복사본에서 파일과 폴더를 복원할 수 있습니다.</block>
-  <block id="71931edd27b41979c47f73ca3194f9c3" category="paragraph">이 기능은 찾아보기 및 복원 프로세스를 사용하는 것이 아니라 검색 및 복원 프로세스를 사용하여 수행할 수 있습니다.</block>
   <block id="bd43fc9501d9e9ddb964eda155be38b8" category="section-title">2024년 3월 14일</block>
   <block id="2910a4560c79f740cc97d113def24905" category="paragraph">기존 자산이 있고 기술을 업데이트해야 하는지 여부를 확인하려면 BlueXP의 경제적 효율성 기술 업데이트 옵션을 사용할 수 있습니다. 현재 워크로드에 대한 간단한 평가를 검토하여 추천을 하거나 지난 90일 이내에 AutoSupport 로그를 NetApp에 보낸 경우, 이제 워크로드 시뮬레이션을 제공하여 새로운 하드웨어에서 워크로드가 어떻게 수행되는지 확인할 수 있습니다.</block>
   <block id="10fa032662780ff6f01bd6647d92c626" category="paragraph">또한 워크로드를 추가하고 기존 워크로드를 시뮬레이션에서 제외할 수 있습니다.</block>
@@ -427,17 +417,7 @@
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">업그레이드 권장 사항을 확인하고 업그레이드 계획을 생성하는 방법에 대해 알아봅니다.</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">이전 버전의 Upgrade Advisor는 이제 더 이상 사용되지 않습니다. 향상된 버전의 Upgrade Advisor를 사용하여 단일 클러스터 및 여러 클러스터에 대한 업그레이드 계획을 생성할 수 있습니다. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024년 4월 22일</block>
-  <block id="22c5942eb497ecdc45ab31895da620cb" category="section-title">2024년 4월 4일</block>
-  <block id="58ca11ae6c2b33188443fbfd95e6b93d" category="section-title">랜섬웨어 검사를 활성화 또는 비활성화할 수 있습니다</block>
-  <block id="6dc490eff019755a2978212c0ff0515d" category="paragraph">이전에는 백업 정책에서 랜섬웨어 탐지를 활성화했을 때 첫 번째 백업이 생성될 때 그리고 백업을 복원할 때 검사가 자동으로 수행되었습니다. 이전에는 이 서비스에서 스냅샷 복사본을 모두 스캔했지만 사용자가 검사를 비활성화할 수 없었습니다.</block>
-  <block id="d48498af5a5419c6130b506ce86226aa" category="paragraph">이 릴리즈에서 고급 설정 페이지의 옵션을 사용하여 최신 스냅샷 복사본에 대한 랜섬웨어 검사를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 기능을 활성화하면 기본적으로 스캔이 매주 수행됩니다.</block>
-  <block id="d7e0995e5e0ecfb32470e10070175d63" category="paragraph">자세한 내용은 다음 정보를 참조하십시오.</block>
-  <block id="cb79697c10a273ae05f814fdc378a3b6" category="inline-link">백업 설정을 관리합니다</block>
-  <block id="b9efb0b81ee5dede04d703accaa3ac50" category="list-text"><block ref="b9efb0b81ee5dede04d703accaa3ac50" category="inline-link-rx"></block></block>
-  <block id="6b28ac02ff2a9de6b423b9f57d6a4d09" category="inline-link">ONTAP 볼륨에 대한 정책을 관리합니다</block>
-  <block id="4987d2d58127a881e304bbe4ce3b5f7b" category="list-text"><block ref="4987d2d58127a881e304bbe4ce3b5f7b" category="inline-link-rx"></block></block>
   <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">오브젝트에 백업 정책 설정</block>
-  <block id="9e59a4332ff7e195837a4721f8adaf92" category="list-text"><block ref="9e59a4332ff7e195837a4721f8adaf92" category="inline-link-rx"></block></block>
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 개선 서비스가 2024년 4월 22일에 제거되었습니다.</block>
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">볼륨 템플릿은 더 이상 지원되지 않습니다</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.</block>
@@ -445,10 +425,6 @@
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024년 5월 17일</block>
   <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오</block>
   <block id="5fb3739fbc4ea4c4f6ecf12db77ae604" category="paragraph"><block ref="a34a36a25f711a4d3e7acd813af66ea1" category="inline-link-rx"></block>.</block>
-  <block id="701c188698e8adc8e0dffa2a107bf9f4" category="section-title">2024년 4월 30일</block>
-  <block id="24c8d17b3d2e5d56e90675c0755252e0" category="section-title">예약된 랜섬웨어 검사를 활성화 또는 비활성화합니다</block>
-  <block id="1d5d9f598ed0ef9d579321fc5f2dea76" category="paragraph">이전에는 랜섬웨어 검사를 활성화 또는 비활성화할 수 있었지만 예약된 검사에 대해서는 그렇게 할 수 없었습니다.</block>
-  <block id="c05a6e1c401ef496decb0a82c8e569e3" category="paragraph">이 릴리즈에서는 이제 고급 설정 페이지의 옵션을 사용하여 최신 스냅샷 복사본에 대해 예약된 랜섬웨어 검사를 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 기능을 활성화하면 기본적으로 스캔이 매주 수행됩니다. 이 일정을 일 또는 주로 변경하거나 사용하지 않도록 설정하여 비용을 절감할 수 있습니다.</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">라이선스 설정에 대해 자세히 알아보세요</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>.</block>
   <block id="c817ad6139f116906ee3d7991cfdcba9" category="section-title">온프레미스 커넥터에 RHEL 8 및 RHEL 9를 사용할 때의 제한 사항</block>
@@ -494,13 +470,6 @@
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Sustainability 대시보드</block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="inline-link-macro">Sustainability 대시보드 개요</block>
   <block id="73cb3e305b75665c1f29817b70dd8a1f" category="summary">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오.</block>
-  <block id="5bde46ec5f2d435355447c38b00c1d9c" category="section-title">2024년 7월 15일</block>
-  <block id="415b27bc5d78b639dc8c74a6e8f93e19" category="section-title">RHEL 8.10 지원</block>
-  <block id="562442342bba071ba7f2e5fa834d4464" category="paragraph">BlueXP는 이제 표준 모드 또는 제한된 모드를 사용할 때 Red Hat Enterprise Linux 8.10 호스트에 Connector 설치를 지원합니다.</block>
-  <block id="8d330209f05c51bacefbee76e24d82e9" category="section-title">2024년 7월 8일</block>
-  <block id="cfcc30e7f5ca49191957ff6a4f02c34d" category="section-title">커넥터 3.9.42</block>
-  <block id="b1360a775c6891602e0321f2a2a1aa2b" category="paragraph">이 릴리스에는 AWS 캐나다 서부(캘거리) 지역의 커넥터에 대한 사소한 개선 사항, 버그 수정 및 지원이 포함되어 있습니다.</block>
-  <block id="096051910b67309e40aa0d0e1d279007" category="paragraph">3.9.42 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024년 6월 12일</block>
   <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">새 권한이 필요합니다</block>
   <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">이제 BlueXP에서 Azure NetApp Files 볼륨을 관리하려면 다음 권한이 필요합니다.</block>
@@ -512,7 +481,6 @@
   <block id="3b08fbca8f3b3deaf466cedfd425cfc6" category="section-title">2024년 7월 1일 (버전 1.33)</block>
   <block id="d61892207457d808cffbfc18b9dcd8ad" category="section-title">Ubuntu 지원</block>
   <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">이 릴리스는 Ubuntu 24.04 Linux 플랫폼을 지원합니다.</block>
-  <block id="8009eebf05fd33b87750f8b4048986f7" category="section-title">2024년 6월 10일</block>
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024년 7월 4일</block>
   <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">스토리지 시스템의 환경 상태에 대한 통찰력을 제공하는 환경 지표는 고급 예측 모델을 기반으로 예상 전력 사용, 직접 탄소 사용량 및 열 배출에 대한 더욱 정확한 값을 제공합니다. 자세한 내용은 을 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">지속가능성은 현재 E-Series 및 StorageGRID 시스템에서 지원됩니다. 이러한 시스템에 대한 Sustainability 대시보드에서 전력, 직접 탄소 사용량 및 열에 대한 예측을 표시하는 권장 조치 및 환경 지표 목록을 볼 수 있습니다. 자세한 내용은 을 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -546,41 +514,21 @@
   <block id="5bc0cd3e3204e2ab72bd03661373648f" category="inline-link">워크로드 보호 및 랜섬웨어 보호 전략 관리에 대해 자세히 알아보십시오</block>
   <block id="20eb1918e9de308789133c5a0b0cc2c4" category="paragraph"><block ref="88ddee768f79e382777baf84277fe57c" category="inline-link-rx"></block>..</block>
   <block id="4c57408166809e028adf9be27b861c0a" category="paragraph">이 BlueXP 랜섬웨어 방어 릴리즈에는 다음 업데이트가 포함됩니다.</block>
-  <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.</block>
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024년 7월 14일</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.53입니다.</block>
-  <block id="4f11400d5bfc49418f8fe9e78ffbc58c" category="section-title">2024년 7월 31일</block>
-  <block id="b9cf377931ad2ee7b1d42618c6c12fa5" category="section-title">비공개 모드 해제(3.9.42)</block>
   <block id="5d515ef1c3774ed67ad6115621a1ca59" category="paragraph">이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다.</block>
-  <block id="a5dacfcdb1adb3167b081f091b368732" category="section-title">RHEL 8 및 9 지원</block>
-  <block id="de4d4b8489d091cd028889fa8739a4a3" category="paragraph">이 릴리즈에는 BlueXP를 프라이빗 모드로 사용할 때 Red Hat Enterprise Linux 8 또는 9 호스트에 Connector를 설치하는 지원이 포함되어 있습니다. 지원되는 RHEL 버전은 다음과 같습니다.</block>
   <block id="597f1630cd21d22c527f63002e42f059" category="list-text">8.6 - 8.10</block>
-  <block id="d80ef147e70626ef64e723b33860d715" category="list-text">9.1 - 9.3</block>
-  <block id="00ed051332ed28fe5b1ab0a4ae7aa4f6" category="paragraph">Podman은 이러한 운영 체제의 컨테이너 오케스트레이션 툴로 필요합니다.</block>
-  <block id="3d007e1710eb9efcb8c51296efc8eb4f" category="paragraph">Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 숙지해야 합니다.</block>
-  <block id="2791ae5af0f1b2a708aaa92b1fddb49e" category="section-title">이 릴리스에 포함된 버전입니다</block>
-  <block id="ee91704d04c9c24001ba7aa413122767" category="paragraph">이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.</block>
   <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">서비스</block>
   <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">버전이 포함됩니다</block>
   <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">커넥터</block>
-  <block id="58660abbd738b63f91f751c0fcd3787d" category="cell">3.9.42</block>
-  <block id="09fcc3c3a46a63684b907c89bb2e4b7b" category="cell">2024년 7월 18일</block>
-  <block id="4736cb006ef02fa673f618379e2106bd" category="cell">2024년 7월 1일(버전 1.33)</block>
   <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 관리</block>
   <block id="900dd8f50d2294930a102034524e26b7" category="cell">온프레미스 ONTAP 클러스터 관리</block>
-  <block id="64cc8195fcb01e582343c910736d1abd" category="paragraph">BlueXP 서비스 버전에 포함된 기능에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리즈 노트를 참조하십시오.</block>
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">비공개 모드에 대해 알아봅니다</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
   <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오</block>
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
   <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
-  <block id="451cc12943297b25b1cf250cc5d0e60a" category="inline-link">BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오</block>
-  <block id="d846859679a4eca86e97e1887623b347" category="list-text"><block ref="d846859679a4eca86e97e1887623b347" category="inline-link-rx"></block></block>
-  <block id="dd890c1f1f06a084e8274154f3f07ebe" category="inline-link">BlueXP 분류의 새로운 기능에 대해 알아보십시오</block>
-  <block id="0dcda936d538d36f9e02f54b88ffefca" category="list-text"><block ref="0dcda936d538d36f9e02f54b88ffefca" category="inline-link-rx"></block></block>
-  <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오</block>
-  <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
   <block id="ba874eb3ffbdba518b95ce26bc81a861" category="section-title">2024년 7월 22일</block>
   <block id="9d5f0e2f1682000ac365243e21301823" category="section-title">1GB 미만의 볼륨을 복원합니다</block>
   <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">이 릴리스에서는 이제 ONTAP에서 만든 1GB 미만의 볼륨을 복원할 수 있습니다. ONTAP를 사용하여 만들 수 있는 최소 볼륨 크기는 20MB입니다.</block>
@@ -648,21 +596,6 @@
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">소프트웨어 업데이트</block>
   <block id="7c26a70dd4c64672aaff5da10a3afaec" category="list-text"><block ref="7c26a70dd4c64672aaff5da10a3afaec" category="inline-link-rx"></block></block>
-  <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024년 8월 8일</block>
-  <block id="34c56ac41d4e5a004cc5b7c87b0e2d87" category="section-title">커넥터 3.9.43</block>
-  <block id="05797637e0cfec59d8a5478eba1acfdf" category="paragraph">3.9.43 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="45c4fb485dfa6a5d0af975aa668648a9" category="section-title">CPU 및 RAM 요구 사항이 업데이트되었습니다</block>
-  <block id="07279af47b8b78d8d96257fb42d7c5d9" category="paragraph">BlueXP  및 Connector의 안정성을 높이고 성능을 개선하기 위해 이제 커넥터 가상 머신에 다음과 같은 추가 CPU 및 RAM이 필요합니다.</block>
-  <block id="ab0a05181cb2ac15cc8151f858731517" category="list-text">CPU: 코어 8개 또는 vCPU 8개(이전 요구 사항은 4개)</block>
-  <block id="f8cac741f7a99da8594b5802a47567ab" category="list-text">RAM: 32GB(이전 요구 사항은 14GB)</block>
-  <block id="de1d56fb73daa2b65c2efd1f73d24a1b" category="paragraph">이러한 변경으로 인해 BlueXP  또는 클라우드 공급자의 마켓플레이스에서 커넥터를 구축할 때 기본 VM 인스턴스 유형은 다음과 같습니다.</block>
-  <block id="43a4336ace07071a0817d23211d30402" category="list-text">AWS: t3.2xlarge</block>
-  <block id="70e7db9a896d903493a8716aa3885ee7" category="list-text">Azure: Standard_D8s_v3</block>
-  <block id="1a0e003291457a847a85677ad5244c4e" category="list-text">Google Cloud: n2-standard-8</block>
-  <block id="fecbdb7e41beb7c2b4125b62d71b116d" category="section-title">RHEL 8.10에서 Podman 4.9.4 지원</block>
-  <block id="601e92646453def880eec16da18e4390" category="paragraph">이제 Red Hat Enterprise Linux 8.10 호스트에 Connector를 설치할 때 Podman 버전 4.3.4가 지원됩니다.</block>
-  <block id="18ecc589a4f329e3ba95ac4e285b4504" category="section-title">ID 페더레이션에 대한 사용자 유효성 검사</block>
-  <block id="8b71299c32997f38948f7e56b11d69b8" category="paragraph">BlueXP 와 ID 페더레이션을 사용하는 경우 처음으로 BlueXP 에 로그인하는 각 사용자는 빠른 양식을 작성하여 ID를 확인해야 합니다.</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024년 8월 7일</block>
   <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 업데이트</block>
   <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  소프트웨어 업데이트 서비스는 위험을 완화하고 고객이 ONTAP 기능을 최대한 활용할 수 있도록 함으로써 사용자에게 원활한 업데이트 환경을 제공합니다.</block>
@@ -715,8 +648,6 @@
   <block id="b0c050c316c776928b8b8bc0c327449e" category="list-text"><block ref="aff0e765a5d2f4e281feabd61d1dd500" category="inline-link-rx"></block>..</block>
   <block id="2f036a4385aa02ab7c67e7932bd4036f" category="inline-link">Azure 정책의 변경된 사항에 대해 알아봅니다</block>
   <block id="31fa3b726cc2ab8e192bc70a792168a7" category="list-text"><block ref="c65ef862e4776cf4a66f5e1d7163d89e" category="inline-link-rx"></block>..</block>
-  <block id="d30916c53949113e97a8033f02e41364" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
-  <block id="9d97f1d57b6500707266656cdf2bf526" category="paragraph">업데이트된 CPU 및 RAM 요구 사항은 모든 새 커넥터에 적용됩니다. 기존 커넥터의 경우 향상된 성능과 안정성을 제공하기 위해 CPU 및 RAM을 늘리는 것이 좋습니다.</block>
   <block id="597f26a63507bfee99f67909c68d5354" category="section-title">2024년 9월 2일(버전 1.35)</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">StorageGRID 데이터를 스캔합니다</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">이제 BlueXP  분류를 통해 StorageGRID에서 데이터를 스캔할 수 있습니다.</block>
@@ -755,4 +686,39 @@
   <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>..</block>
   <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024년 9월 16일</block>
   <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.55입니다.</block>
+  <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024년 9월 30일</block>
+  <block id="0beb94109608ff82d313b33947162f96" category="section-title">비공개 모드 해제(3.9.44)</block>
+  <block id="f1fb6fd189345cf04ef77974b58bcbfc" category="paragraph">이 릴리스에는 전용 모드에서 지원되는 다음 버전의 BlueXP  구성 요소 및 서비스가 포함되어 있습니다.</block>
+  <block id="8dd8dbe371973ff01954f1d0db6a6c30" category="cell">3.9.44</block>
+  <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="cell">2024년 9월 27일</block>
+  <block id="918de91f5332dad6620331712ef5c21d" category="cell">2024년 5월 15일(버전 1.31)</block>
+  <block id="48f2931f061b9d56d7805eddf6969cea" category="paragraph">커넥터의 경우 3.9.44 비공개 모드 릴리스에는 2024년 8월 및 2024년 9월 릴리스에 도입된 업데이트가 포함되어 있습니다. 특히 Red Hat Enterprise Linux 9.4 지원.</block>
+  <block id="288ce8ff800de0648500c62f0658b96c" category="paragraph">이러한 BlueXP  구성 요소 및 서비스 버전에 포함된 기능에 대한 자세한 내용은 각 BlueXP  서비스에 대한 릴리스 노트를 참조하십시오.</block>
+  <block id="65439cdb7546ae11a93a141421129d1a" category="inline-link">Connector의 2024년 9월 릴리즈의 새로운 기능</block>
+  <block id="46c02b08a8d12f7b5b9a43c01b252fe0" category="list-text"><block ref="46c02b08a8d12f7b5b9a43c01b252fe0" category="inline-link-rx"></block></block>
+  <block id="c531086859410bbf7d79b1d007644e8c" category="inline-link">Connector의 2024년 8월 릴리즈의 새로운 기능</block>
+  <block id="3447cde4c00b98b6428bff77da46fd8c" category="list-text"><block ref="3447cde4c00b98b6428bff77da46fd8c" category="inline-link-rx"></block></block>
+  <block id="116a2755907d33cc76c6cdc442c467b0" category="inline-link">BlueXP  백업 및 복구의 새로운 기능</block>
+  <block id="4e02af58c02d9f0704b79eb4e000eb20" category="list-text"><block ref="4e02af58c02d9f0704b79eb4e000eb20" category="inline-link-rx"></block></block>
+  <block id="cdcec1bb4c8f6524979a702b1691d4f7" category="inline-link">BlueXP  분류의 새로운 기능</block>
+  <block id="9212eddb7e41302606e7873d754ab3aa" category="list-text"><block ref="9212eddb7e41302606e7873d754ab3aa" category="inline-link-rx"></block></block>
+  <block id="00dc7f0b165829f9f81bfaf12a8db2e4" category="inline-link">BlueXP 의 Cloud Volumes ONTAP 관리 기능에 대한 새로운 기능</block>
+  <block id="941cdb6d27c83c929d4abe28f2321665" category="list-text"><block ref="941cdb6d27c83c929d4abe28f2321665" category="inline-link-rx"></block></block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">업그레이드 방법을 포함하여 개인 모드에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="aa6a53998d98bae73a6913ff1c2eecbc" category="section-title">Browse and Restore를 사용하여 RHEL 8 또는 9에서 Podman을 지원합니다</block>
+  <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">이제 BlueXP  백업 및 복구는 Podman 엔진을 사용하여 RHEL(Red Hat Enterprise Linux) 버전 8 및 9에서 파일 및 폴더 복원을 지원합니다. 이는 BlueXP  백업 및 복구 찾아보기 및 복원 방법에 적용됩니다.</block>
+  <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  커넥터 버전 3.9.40은 에 언급된 운영 체제 외에 위치에 관계없이 RHEL 8 또는 9 호스트에 커넥터 소프트웨어를 수동으로 설치할 수 있도록 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block> 지원합니다. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 이전에는 BlueXP  백업 및 복구에 Podman 엔진을 사용할 때 두 가지 제한 사항이 있었습니다. 이러한 제한 사항은 제거되었습니다.</block>
+  <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="007a407431de4321913728dae6423904" category="paragraph"><block ref="056f97dce802386385ce3734740613e1" category="inline-link-rx"></block>..</block>
+  <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">빠른 카탈로그 인덱싱으로 검색 및 복원 향상</block>
+  <block id="9353e94049314c6236b51712848f2572" category="paragraph">이 릴리스에는 기본 인덱싱을 훨씬 빠르게 완료할 수 있는 향상된 카탈로그 인덱스가 포함되어 있습니다. 인덱싱 속도가 빨라지면 검색 및 복원 기능을 보다 빠르게 사용할 수 있습니다.</block>
+  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024년 9월 20일</block>
+  <block id="ee811bd919a27bd2eb705f65ed45e4f6" category="paragraph">이 BlueXP  재해 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.</block>
+  <block id="b077aa4f9a421cc2e2782608fb5caf4f" category="list-text">* 온-프레미스 VMware VMFS 데이터 저장소 지원 *: 이 릴리스에는 온-프레미스 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함됩니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.</block>
+  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.</block>
+  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
+  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
+  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.</block>
+  <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">* 파일 공유 워크로드의 사용자 지정 그룹화 * : 이번 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다. <block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>..</block>
 </blocks>
