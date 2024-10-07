@@ -723,7 +723,6 @@
   <block id="6a9f822bb587b015bf3224364464cbed" category="section-title">지원 서비스</block>
   <block id="65077e068c20e8afeca74c12711e893e" category="paragraph">NetApp SupportEdge Basic 서비스 제품에는 현재 SupportEdge Advisor 및 SupportEdge Expert에서 사용할 수 있는 모든 디지털 어드바이저 기능이 포함되어 있으며, 전체 스택 토폴로지(VMware)는 활성화되어 있더라도 VMware 전체 스택 모니터링에 대한 가시성을 제공하지 않습니다.</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">ASA R2 시스템 지원</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">이제 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA R2 시스템에 대해 자세히 알아보십시오</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -757,4 +756,8 @@
   <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">에 대해 자세히<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>알아보십시오.</block>
   <block id="7062dd46798946172bc9078744756dfc" category="section-title">향상된 스캔 성능</block>
   <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">이번 릴리스에서는 향상된 스캔 성능을 제공합니다.</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">이제 표준 모드 또는 전용 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
