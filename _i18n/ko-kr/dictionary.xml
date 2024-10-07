@@ -534,7 +534,6 @@
   <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">이 릴리스에서는 이제 ONTAP에서 만든 1GB 미만의 볼륨을 복원할 수 있습니다. ONTAP를 사용하여 만들 수 있는 최소 볼륨 크기는 20MB입니다.</block>
   <block id="ccbf8c45039ba817be81bbf5fa2a7521" category="section-title">DataLock 비용을 줄이는 방법에 대한 팁</block>
   <block id="f959c5a51fb8f2a9e9c0063bbb8adb63" category="paragraph">DataLock 기능은 지정된 기간 동안 백업 파일이 수정되거나 삭제되지 않도록 보호합니다. 이 기능은 랜섬웨어 공격으로부터 파일을 보호하는 데 도움이 됩니다.</block>
-  <block id="4822bd9fd85c6d5438ecd9963b5c6897" category="paragraph">DataLock에 대한 자세한 내용과 관련 비용을 줄이는 방법에 대한 팁은 을 <block ref="d72e0969f8971a4b91ad44a04438bfb9" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="79cfacda817c1e599649823ffa32c8d7" category="section-title">AWS IAM 역할 어디서나 통합</block>
   <block id="bebfb016f9defe9a78fff65f418f213b" category="paragraph">AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스를 사용하면 AWS의 words_outside_of AWS에 대한 IAM 역할 및 단기 자격 증명을 사용하여 AWS API에 안전하게 액세스할 수 있으며, 이때 words_on_AWS에 IAM 역할을 사용하는 것과 같은 방법으로 AWS API에 안전하게 액세스할 수 있습니다. 어디서나 개인 키 인프라 및 AWS 토큰을 사용할 경우 장기 AWS 액세스 키와 비밀 키가 필요하지 않습니다. 이렇게 하면 자격 증명을 더 자주 순환할 수 있으므로 보안이 향상됩니다.</block>
   <block id="24c6cf6b2747b390a5d9eb672e1d54d4" category="paragraph">이 릴리스에서 AWS IAM 역할 Anywhere 서비스에 대한 지원은 기술 미리 보기입니다.</block>
@@ -544,7 +543,6 @@
   <block id="a821e6c079044462f6ffc9a01ed28fc9" category="paragraph">이전에는 FlexVol 볼륨을 복원할 수 있었지만 FlexGroup 폴더 또는 디렉토리를 복원할 수 없었습니다. ONTAP 9.15.1 P2에서는 찾아보기 및 복원 옵션을 사용하여 FlexGroup 폴더를 복원할 수 있습니다.</block>
   <block id="cd4619af82dfe7627dc934e29e85a6e9" category="paragraph">이 릴리스에서 FlexGroup 폴더 복원에 대한 지원은 기술 미리 보기입니다.</block>
   <block id="abbf2484b45da9fd7be677fe96c511eb" category="inline-link-macro">Browse &amp; Amp; Restore를 사용하여 폴더 및 파일을 복원합니다</block>
-  <block id="9b7af6cb2e410e55ce793003b7110047" category="paragraph">자세한 내용은 을 <block ref="07023d18b01371174abc5a157da41b99" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="707304f314bfa71975e8ffb352535092" category="paragraph">수동으로 활성화하는 방법에 대한 자세한 내용은 을<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="70d1ac1a529ac546d3e60b81ee464a1d" category="paragraph">이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.</block>
   <block id="44a73383773bebac3194e73bd06397a8" category="section-title">CentOS에서 Ubuntu로 변경합니다</block>
@@ -694,7 +692,6 @@
   <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">이제 BlueXP  백업 및 복구는 Podman 엔진을 사용하여 RHEL(Red Hat Enterprise Linux) 버전 8 및 9에서 파일 및 폴더 복원을 지원합니다. 이는 BlueXP  백업 및 복구 찾아보기 및 복원 방법에 적용됩니다.</block>
   <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  커넥터 버전 3.9.40은 에 언급된 운영 체제 외에 위치에 관계없이 RHEL 8 또는 9 호스트에 커넥터 소프트웨어를 수동으로 설치할 수 있도록 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block> 지원합니다. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 이전에는 BlueXP  백업 및 복구에 Podman 엔진을 사용할 때 두 가지 제한 사항이 있었습니다. 이러한 제한 사항은 제거되었습니다.</block>
   <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="007a407431de4321913728dae6423904" category="paragraph"><block ref="056f97dce802386385ce3734740613e1" category="inline-link-rx"></block>..</block>
   <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">빠른 카탈로그 인덱싱으로 검색 및 복원 향상</block>
   <block id="9353e94049314c6236b51712848f2572" category="paragraph">이 릴리스에는 기본 인덱싱을 훨씬 빠르게 완료할 수 있는 향상된 카탈로그 인덱스가 포함되어 있습니다. 인덱싱 속도가 빨라지면 검색 및 복원 기능을 보다 빠르게 사용할 수 있습니다.</block>
   <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024년 9월 20일</block>
@@ -726,7 +723,6 @@
   <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_규정 준수 뷰어_는 현재_분류 뷰어_입니다</block>
   <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다</block>
   <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷.</block>
-  <block id="bc9b550d1734b431c662a14aa92c06df" category="paragraph"><block ref="bc9b550d1734b431c662a14aa92c06df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">기존 사용자 또는 작업 환경에는 아무런 변화가 없습니다.</block>
   <block id="31243c2d285073a1e31df388c65d726f" category="list-text">역할 이름은 변경되었지만 사용 권한 관점에서는 차이가 없습니다. 사용자는 이전과 동일한 작업 환경에 계속 액세스할 수 있습니다.</block>
@@ -739,9 +735,7 @@
   <block id="a737f6ac26156f3770a49e30a21f7d73" category="paragraph">BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. 제한된 모드 또는 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.</block>
   <block id="3163b3d4dc92f42d04ad4c79906dcdc3" category="section-title">다음 단계로 넘어갑니다</block>
   <block id="a5a81005322e1187e396e2f1252dca71" category="inline-link-macro">BlueXP  IAM에 대해 알아보십시오</block>
-  <block id="0a3f88a939958973fc19097a4507c320" category="list-text"><block ref="0a3f88a939958973fc19097a4507c320" category="inline-link-macro-rx"></block></block>
   <block id="c12e8c3134a6d5ff2ec2657f6357e8ec" category="inline-link-macro">BlueXP  IAM을 시작하십시오</block>
-  <block id="8e537ea51347d673ce98d63017478ab1" category="list-text"><block ref="8e537ea51347d673ce98d63017478ab1" category="inline-link-macro-rx"></block></block>
   <block id="52b3f16d7e534fa9f1eb5be8603ccd2e" category="section-title">커넥터 3.9.45</block>
   <block id="7cecac935b533838cda5bd0fc68012c1" category="paragraph">이 릴리스에는 확장된 운영 체제 지원 및 버그 수정이 포함되어 있습니다.</block>
   <block id="5a45d9d610a1bb698a260ef7f9494081" category="paragraph">3.9.45 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
@@ -776,4 +770,10 @@
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">Cloud Volumes ONTAP 소프트웨어를 업그레이드합니다</block>
   <block id="c2f5c6d8ccd2cc8bdc92db0ad0c79342" category="paragraph"><block ref="c2f5c6d8ccd2cc8bdc92db0ad0c79342" category="inline-link-rx"></block></block>
   <block id="c5686848892b4de33534dcc294c33fff" category="paragraph">WORM(Write Once Read Many) 및 ARP(자율적 랜섬웨어 방어)의 내장 데이터 보호 및 보안 기능이 추가 비용 없이 Cloud Volumes ONTAP 라이센스와 함께 제공됩니다. 새로운 가격 모델은 AWS, Azure 및 Google Cloud의 신규 및 기존 BYOL 및 PAYGO/마켓플레이스 구독에 모두 적용됩니다. 용량 기반 라이센스와 노드 기반 라이센스 모두 추가 비용 없이 단일 노드 및 고가용성(HA) 쌍을 포함한 모든 구성에 대한 ARP 및 WORM을 포함합니다.</block>
+  <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
+  <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
+  <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>..</block>
+  <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">DataLock에 대한 자세한 내용과 관련 비용을 줄이는 방법에 대한 팁은 을<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">자세한 내용은 을<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
