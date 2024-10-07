@@ -47,6 +47,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 
 == 데이터 서비스
 
+* https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["경고"^]
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["백업 및 복구"^]
 * https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["분류"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-ops/whats-new.html["클라우드 운영"^]
