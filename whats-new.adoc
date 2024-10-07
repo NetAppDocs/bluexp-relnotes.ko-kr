@@ -970,7 +970,7 @@ BlueXP  마이그레이션 보고서 서비스가 2024년 8월 7일에 제거�
 
 ==== ASA R2 시스템 지원
 
-이제 표준 모드 또는 전용 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.
+이제 표준 모드 또는 제한된 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.
 
 ASA R2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.
 
@@ -1217,7 +1217,7 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 
 
-==== 계층화된 데이터가 저장되는 버킷 이름에 사용자 지정 접두사를 사용합니다
+==== 버킷 이름에 사용자 지정 접두사를 사용합니다
 
 이전에는 버킷 이름을 정의할 때 기본 "fabric-pool" 접두사를 사용해야 했습니다(예: _fabric-pool-bucket1_). 이제 버킷 이름을 지정할 때 사용자 지정 접두사를 사용할 수 있습니다. 이 기능은 데이터를 Amazon S3로 계층화하는 경우에만 사용할 수 있습니다. https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["자세한 정보"].
 
@@ -1233,13 +1233,13 @@ https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[
 
 
 
-==== 이제 비활성 데이터를 오브젝트 저장소에 업로드하는 데 사용되는 대역폭을 조정할 수 있습니다
+==== 대역폭을 조정하여 비활성 데이터를 전송합니다
 
 BlueXP 계층화를 활성화하면 ONTAP는 무제한의 네트워크 대역폭을 사용하여 클러스터의 볼륨에서 객체 스토리지로 비활성 데이터를 전송할 수 있습니다. 계층화 트래픽이 일반 사용자 워크로드에 영향을 주는 경우 전송 중에 사용할 수 있는 대역폭의 양을 조절할 수 있습니다. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["자세한 정보"].
 
 
 
-==== "낮은 계층화"에 대한 계층화 이벤트가 알림 센터에 표시됩니다
+==== 알림 센터에 계층화 이벤트가 표시됩니다
 
 계층화 이벤트 "Tier additional data from cluster <name> to object storage to increase storage Efficiency"는 이제 클러스터가 데이터를 계층화하는 경우를 포함하여 콜드 데이터의 20% 미만을 계층화할 때 알림으로 표시됩니다.
 
@@ -1257,7 +1257,7 @@ BlueXP 계층화 인터페이스에서 라이센스 탭이 제거되었습니다
 
 
 
-==== 계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다
+==== 계층화 탭의 이름이 변경되고 업데이트되었습니다
 
 "클러스터 대시보드" 탭의 이름이 "클러스터"로 바뀌고 "온프레미스 개요" 탭의 이름이 "온-프레미스 대시보드"로 바뀌었습니다. 이러한 페이지에는 추가 계층화 구성으로 스토리지 공간을 최적화할 수 있는지 평가하는 데 도움이 되는 몇 가지 정보가 추가되었습니다.
 

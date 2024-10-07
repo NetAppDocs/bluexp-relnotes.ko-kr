@@ -78,7 +78,6 @@
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">운영 복원력</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">라이센스 탭이 제거되었습니다</block>
-  <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">계층화 탭의 이름이 바뀌었으며 내용이 업데이트되었습니다</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">운영 복원력 은 서비스 및 솔루션의 상태, 가동 시간, 성능을 유지하기 위해 경고 및 이벤트를 분석하는 데 도움이 되는 서비스입니다.</block>
   <block id="6d924727c00a77a63749e2f8aa0860d4" category="summary">본 릴리즈 노트에서는 BlueXP의 일부인 클라우드 서비스의 최근 향상된 기능에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">설정 및 관리</block>
@@ -163,9 +162,7 @@
   <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다</block>
   <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>.</block>
   <block id="28acda3f8bdb20220a5658f1cd81f226" category="section-title">2023년 7월 4일</block>
-  <block id="f955a076eeae4df4466469593ff635ca" category="section-title">이제 비활성 데이터를 오브젝트 저장소에 업로드하는 데 사용되는 대역폭을 조정할 수 있습니다</block>
   <block id="1d59c82c13288b53f26d652175016f90" category="paragraph">BlueXP 계층화를 활성화하면 ONTAP는 무제한의 네트워크 대역폭을 사용하여 클러스터의 볼륨에서 객체 스토리지로 비활성 데이터를 전송할 수 있습니다. 계층화 트래픽이 일반 사용자 워크로드에 영향을 주는 경우 전송 중에 사용할 수 있는 대역폭의 양을 조절할 수 있습니다.<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block>.</block>
-  <block id="eb516d1f8f028dbd0333948ae6fc06a5" category="section-title">"낮은 계층화"에 대한 계층화 이벤트가 알림 센터에 표시됩니다</block>
   <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">계층화 이벤트 "Tier additional data from cluster &lt;name&gt; to object storage to increase storage Efficiency"는 이제 클러스터가 데이터를 계층화하는 경우를 포함하여 콜드 데이터의 20% 미만을 계층화할 때 알림으로 표시됩니다.</block>
   <block id="3c23988fbf7c203a2c811a5ce84251c0" category="inline-link">BlueXP 계층화 총 소유 비용 및 절감 계산기</block>
   <block id="57f9b94b395c8e293b7f892fe5995ac7" category="paragraph">이 알림은 시스템의 효율성을 높이고 스토리지 비용을 절감하는 데 도움이 되는 "권장 사항"입니다. 에 대한 링크를 제공합니다<block ref="c9d262883689ef94201e8739cb50c7f6" category="inline-link-rx"></block> 비용 절감 효과를 계산하는 데 도움이 됩니다.</block>
@@ -756,8 +753,12 @@
   <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">에 대해 자세히<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>알아보십시오.</block>
   <block id="7062dd46798946172bc9078744756dfc" category="section-title">향상된 스캔 성능</block>
   <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">이번 릴리스에서는 향상된 스캔 성능을 제공합니다.</block>
-  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">이제 표준 모드 또는 전용 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">이제 표준 모드 또는 제한된 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
+  <block id="101e8e97885c05702335faecd0fb3f50" category="section-title">버킷 이름에 사용자 지정 접두사를 사용합니다</block>
+  <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">대역폭을 조정하여 비활성 데이터를 전송합니다</block>
+  <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">알림 센터에 계층화 이벤트가 표시됩니다</block>
+  <block id="344a2fbdf46c3a4ef07e7c73566f42f3" category="section-title">계층화 탭의 이름이 변경되고 업데이트되었습니다</block>
 </blocks>
