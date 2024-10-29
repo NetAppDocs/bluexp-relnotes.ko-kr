@@ -14,8 +14,6 @@
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">관리 기능</block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">쿠버네티스</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
-  <block id="f7d121e2a54c62002dd74f6b9dac8069" category="inline-link">Cloud Volumes ONTAP 릴리스 정보</block>
-  <block id="ca138f4890a80dcb981add74fa328598" category="list-text"><block ref="ca138f4890a80dcb981add74fa328598" category="inline-link-rx"></block></block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">볼륨 템플릿 지원</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
@@ -59,7 +57,6 @@
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">E-Series 지원</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP 릴리스 정보</block>
-  <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP의 Cloud Volumes ONTAP 관리 릴리스 정보</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">BlueXP의 최근 변경 사항</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">이제 BlueXP에서 직접 Cloud Volumes Service for Google Cloud를 관리할 수 있습니다.</block>
@@ -115,7 +112,6 @@
   <block id="b2bc6f51638406715d089920f0b12029" category="paragraph"><block ref="b2bc6f51638406715d089920f0b12029" category="inline-link-rx"></block></block>
   <block id="0ce55dbe491d96365e2c6abd492cbf95" category="list-text"><block ref="0ce55dbe491d96365e2c6abd492cbf95" category="inline-link-rx"></block></block>
   <block id="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="list-text"><block ref="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="inline-link-rx"></block></block>
-  <block id="1f3e69b8c3c594d1f0dafae12df4c312" category="list-text"><block ref="1f3e69b8c3c594d1f0dafae12df4c312" category="inline-link-rx"></block></block>
   <block id="18c372e7815b508eb4ff2301938c4f7b" category="list-text"><block ref="18c372e7815b508eb4ff2301938c4f7b" category="inline-link-rx"></block></block>
   <block id="b46ed1f8a8d612b4083a72f6247afc99" category="list-text"><block ref="b46ed1f8a8d612b4083a72f6247afc99" category="inline-link-rx"></block></block>
   <block id="6631ed7abd96469c08f3809e6a47378b" category="list-text"><block ref="6631ed7abd96469c08f3809e6a47378b" category="inline-link-rx"></block></block>
@@ -597,11 +593,6 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">소프트웨어 버전 지원</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">7-Mode에서 운영 중인 Data ONTAP 스토리지 시스템의 업그레이드</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">7-Mode 시스템이 제한된 지원이 종료되었으므로 * 7-Mode Upgrade Advisor 계획 * 보고서를 더 이상 사용할 수 없습니다. 자세한 내용은 을 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>참조하십시오. 에 대해 자세히 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>알아보십시오.</block>
-  <block id="caf47538a5b97cacf4aba3098b6f9924" category="section-title">2024년 8월 23일</block>
-  <block id="2c8ad7deb621eae9ecb23ccf84d9c22c" category="section-title">캐나다 서부 지역은 현재 AWS에서 지원됩니다</block>
-  <block id="184c928c73aa00c7569ba55c0b9e0064" category="paragraph">캐나다 서부 지역은 현재 Cloud Volumes ONTAP 9.12.1 GA 이상에 대해 AWS에서 지원됩니다.</block>
-  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS에 따른 글로벌 지역 지도</block>
-  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">모든 지역 목록은 를 참조하십시오<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>.</block>
   <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="section-title">2024년 9월 9일</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">RHEL 9.4 지원</block>
   <block id="597f26a63507bfee99f67909c68d5354" category="section-title">2024년 9월 2일(버전 1.35)</block>
@@ -726,9 +717,7 @@
   <block id="df583ae7ba964fd4806b55904da81813" category="inline-link">경고</block>
   <block id="4f721f83f0a49dae4f329f77ae2221d5" category="list-text"><block ref="4f721f83f0a49dae4f329f77ae2221d5" category="inline-link-rx"></block></block>
   <block id="32981b0c6558eec412787b4c28c9f7a5" category="paragraph">이번 BlueXP  알림의 초기 릴리즈에는 다음과 같은 기능이 포함되어 있습니다.</block>
-  <block id="d75b9d6acc7b490b5df3a8425ace3e5a" category="list-text">* BlueXP  알림 목록 페이지 *: 용량이 낮거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고 가용성 범위를 측정하며 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
   <block id="335c0f5b63e966d180738ce07c85dc3f" category="list-text">* 경고 세부 정보 * : 경고 세부 정보로 드릴다운하고 권장 사항을 찾을 수 있습니다.</block>
-  <block id="963a0580f34d0876630a188f398484de" category="list-text">* System Manager에 연결된 클러스터 세부 정보 보기 *: BlueXP  알림을 사용하면 ONTAP 스토리지 환경과 연결된 알림을 보고 NetApp System Manager에 연결된 세부 정보를 확인할 수 있습니다.</block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">BlueXP  알림에 대해 자세히 알아봅니다</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>..</block>
   <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">업그레이드를 위한 버전 선택 시 사용자 환경이 향상되었습니다</block>
@@ -761,4 +750,29 @@
   <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">대역폭을 조정하여 비활성 데이터를 전송합니다</block>
   <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">알림 센터에 계층화 이벤트가 표시됩니다</block>
   <block id="344a2fbdf46c3a4ef07e7c73566f42f3" category="section-title">계층화 탭의 이름이 변경되고 업데이트되었습니다</block>
+  <block id="d5cf0012c1559cd0fc39cf41bafb6cd2" category="list-text"><block ref="d5cf0012c1559cd0fc39cf41bafb6cd2" category="inline-link-rx"></block></block>
+  <block id="85c278d276efbdfebd873e93e881e42d" category="inline-link">BlueXP 의 Cloud Volumes ONTAP 관리 기능</block>
+  <block id="a34dda22ffea87f7068da01b5dd851c0" category="list-text"><block ref="a34dda22ffea87f7068da01b5dd851c0" category="inline-link-rx"></block></block>
+  <block id="d7a02621d52c29a3c5f7895e817cba5b" category="inline-link">자동화 카탈로그</block>
+  <block id="4201d45b889a30d645c44cd087e150b0" category="list-text"><block ref="4201d45b889a30d645c44cd087e150b0" category="inline-link-rx"></block></block>
+  <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
+  <block id="f728ea34fcbb13e7fd98fc40d7498dfc" category="paragraph">다음 제한 사항을 참고하십시오.</block>
+  <block id="3ad7f37470dd6a33dee8070e9cccbeb4" category="list-text">운영 체제에서 SELinux가 활성화된 커넥터에서 지원되지 않는 Cloud Volumes ONTAP 시스템 관리.</block>
+  <block id="221e1ce85a4c0e9e170e711608695972" category="list-text">* BlueXP  alerts list page *: 용량이 부족하거나 성능이 낮은 ONTAP 클러스터를 신속하게 식별하고 가용성 범위를 측정하며 보안 위험을 식별할 수 있습니다. 용량, 성능, 보호, 가용성, 보안 및 구성과 관련된 경고를 볼 수 있습니다.</block>
+  <block id="584c54dd31b512867535ecfbc6397a6f" category="list-text">* System Manager에 연결된 클러스터 세부 정보 보기 *: BlueXP  알림을 사용하면 ONTAP 스토리지 환경과 연결된 알림을 보고 ONTAP System Manager에 연결된 세부 정보를 확인할 수 있습니다.</block>
+  <block id="479422755a82da93d381b0baab5f8fe7" category="section-title">3개의 추가 지역 지원</block>
+  <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">스토리지 VM을 추가합니다</block>
+  <block id="c63d5220743c53eaddaae4ea5f0511e7" category="section-title">** My Opportunities** 탭이 지금 ** My Rest** 입니다</block>
+  <block id="c0fde7a894f20194ba5123471f8cf7e7" category="section-title">유지 보수 기간 시작 시간입니다</block>
+  <block id="12ad4af5f024e558448bad702ec7ef28" category="section-title">FlexGroups를 사용하여 볼륨 데이터를 배포합니다</block>
+  <block id="2bb8a9ed1433f0f845b92c7da5440dea" category="section-title">2024년 10월 25일</block>
+  <block id="dc1815932afdea52f1a4c12d73f2eed0" category="section-title">N1 시리즈 장비는 BlueXP 에서 선택할 수 없습니다</block>
+  <block id="1bb0d11a534c8ee967cd62e4d75e3da3" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP의 새 인스턴스를 배포할 때 BlueXP 에서 n1 시리즈 머신을 더 이상 선택할 수 없습니다. n1 시리즈 머신은 기존 시스템에서만 유지되고 지원됩니다. Cloud Volumes ONTAP의 새로운 배포는 9.8 릴리스부터 Google Cloud에서만 지원됩니다. Cloud Volumes ONTAP 9.8 이상과 호환되는 n2 시리즈 기계 유형으로 전환하는 것이 좋습니다. 그러나 n1 시리즈 시스템은 API를 통해 수행되는 새로운 구축 환경에서 사용할 수 있습니다.</block>
+  <block id="9e931b1cee40a7346d1f06dd6a75ba8e" category="inline-link">Google Cloud에서 지원되는 구성</block>
+  <block id="e55067e1e9c0716bdbc0866b4393aa68" category="paragraph"><block ref="55218e2079fe45aad8bd65bcb61a1a9f" category="inline-link-rx"></block>..</block>
+  <block id="e8ae21b110baed89680dca18585c158c" category="section-title">개인 모드에서 Amazon Web Services에 대한 로컬 영역 지원</block>
+  <block id="b32702079d81c2fd1e39448319edfa06" category="paragraph">BlueXP 은 이제 프라이빗 모드에서 Cloud Volumes ONTAP HA(고가용성) 구축을 위한 AWS 로컬 영역을 지원합니다. 이전에는 표준 모드에만 제한되었던 지원이 이제 프라이빗 모드까지 포함되도록 확장되었습니다.</block>
+  <block id="648169096ce56c8569ce36a4abebe9c7" category="admonition">BlueXP 를 제한된 모드로 사용하는 경우 AWS 로컬 영역은 지원되지 않습니다.</block>
+  <block id="e0b08acf0828bf4594a0b9bd6411df1b" category="inline-link-macro">AWS 로컬 영역</block>
+  <block id="b75accaa363606f733ab4203f45f8193" category="paragraph">HA 배포가 포함된 AWS Local Zones에 대한 자세한 내용은 을 <block ref="6830ae69d7be576a68a954338edafef9" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

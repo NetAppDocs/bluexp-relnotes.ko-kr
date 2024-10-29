@@ -26,16 +26,12 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 
 == 스토리지
 
-* https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["Azure Blob 저장소"^]
-* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/whats-new.html["ONTAP용 Amazon FSx"^]
 * https://docs.netapp.com/us-en/bluexp-s3-storage/whats-new.html["Amazon S3 스토리지"^]
-* Cloud Volumes ONTAP
-+
-** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP 릴리스 정보"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP의 Cloud Volumes ONTAP 관리 릴리스 정보"^]
-
-
+* https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["Azure Blob 저장소"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP 의 Cloud Volumes ONTAP 관리 기능"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E-Series 시스템"^]
 * https://docs.netapp.com/us-en/bluexp-google-cloud-storage/whats-new.html["Google 클라우드 스토리지"^]
@@ -48,10 +44,12 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 == 데이터 서비스
 
 * https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["경고"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["자동화 카탈로그"^]
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["백업 및 복구"^]
 * https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["분류"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-ops/whats-new.html["클라우드 운영"^]
 * https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html["복사 및 동기화"^]
+* https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["디지털 자문업체"^]
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["디지털 지갑"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/release-notes/dr-whats-new.html["재해 복구"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/release-notes/whats-new.html["경제적인 효율성"^]
