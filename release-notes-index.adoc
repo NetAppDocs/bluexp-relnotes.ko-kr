@@ -59,4 +59,5 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 * https://docs.netapp.com/us-en/bluexp-software-updates/release-notes/whats-new.html["소프트웨어 업데이트"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/whats-new.html["계층화"^]
 * https://docs.netapp.com/us-en/bluexp-volume-caching/release-notes/cache-whats-new.html["볼륨 캐싱"^]
+* https://docs.netapp.com/us-en/workload-relnotes/whats-new.html["워크로드 공장"^]
 
