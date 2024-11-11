@@ -296,32 +296,6 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-=== 2024년 11월 6일
-
-
-
-==== SnapLock Compliance 및 SnapLock Enterprise 보호 모드
-
-BlueXP  백업 및 복구 기능은 이제 SnapLock Compliance 또는 SnapLock Enterprise 보호 모드를 사용하여 구성된 FlexVol 및 FlexGroup 온프레미스 볼륨을 모두 백업할 수 있습니다. 클러스터에서 ONTAP 9.14 이상을 실행해야 합니다. SnapLock 엔터프라이즈 모드를 사용한 FlexVol 볼륨 백업은 ONTAP 버전 9.11.1 이후로 지원됩니다. 이전 ONTAP 릴리즈에서는 SnapLock 보호 볼륨의 백업을 지원하지 않습니다.
-
-에서 지원되는 볼륨의 전체 목록을 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 백업 및 복구에 대해 알아보십시오"] 참조하십시오.
-
-
-
-==== 볼륨 페이지에서 검색 및 복원 프로세스를 위한 인덱싱
-
-검색 및 복원을 사용하려면 볼륨 데이터를 복원할 각 소스 작업 환경에서 "인덱싱"을 활성화해야 합니다. 따라서 인덱스화된 카탈로그에서 모든 볼륨의 백업 파일을 추적할 수 있습니다. 이제 볼륨 페이지에 인덱싱 상태가 표시됩니다.
-
-* 인덱싱됨: 볼륨이 인덱싱되었습니다.
-* 진행 중
-* 인덱싱되지 않았습니다
-* 인덱싱이 일시 중지되었습니다
-* 오류
-* 활성화되지 않음
-
-
-
-
 === 2024년 9월 27일
 
 
@@ -483,7 +457,7 @@ BlueXP 에서는 노드 기반 라이센스를 사용하여 Cloud Volumes ONTAP
 
 NetApp은 계약 의무 및 운영 요구 사항에 따라 다음과 같은 고유한 라이센스 요구 사항을 인지하고 있으며, 이러한 상황에서 노드 기반 라이센스를 계속 지원합니다.
 
-* USPS 고객
+* 미국 공공 부문 고객
 * 비공개 모드로 배포
 * 중국 지역에 AWS에서 Cloud Volumes ONTAP를 구축했습니다
 * 유효하며 만료되지 않은 노드 BYOL 라이센스(BYOL 라이센스)가 있는 경우
@@ -606,6 +580,16 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024년 10월 27일
+
+
+
+==== 버그 수정
+
+BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.56입니다.
+
+
+
 === 2024년 9월 16일
 
 
@@ -623,16 +607,6 @@ BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트�
 ==== 버그 수정
 
 BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.54입니다.
-
-
-
-=== 2024년 7월 14일
-
-
-
-==== 버그 수정
-
-BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.53입니다.
 
 
 
@@ -1024,73 +998,99 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 === 2024년 11월 7일
 
-이번 BlueXP  랜섬웨어 방어 릴리스에는 다음 업데이트가 포함됩니다.
 
-* * 데이터 분류 활성화 및 개인 식별 정보(PII) 검색 *: 이번 릴리스에서는 BlueXP  제품군의 핵심 구성 요소인 BlueXP  분류를 활성화하여 파일 공유 작업 부하에서 데이터를 검색 및 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다. 또한 이 프로세스는 작업 부하의 중요도에 영향을 미치며 적절한 수준의 보호를 통해 워크로드를 보호합니다.
-+
+
+==== 데이터 분류 활성화 및 개인 식별 정보(PII) 검색
+
+이번 릴리즈에서는 BlueXP  제품군의 핵심 구성 요소인 BlueXP  분류를 사용하여 파일 공유 작업 부하에서 데이터를 스캔하고 분류할 수 있습니다. 데이터를 분류하면 데이터에 개인 정보가 포함되어 있는지 아니면 개인 정보가 포함되어 있는지 식별하는 데 도움이 되므로 보안 위험이 증가할 수 있습니다. 또한 이 프로세스는 작업 부하의 중요도에 영향을 미치며 적절한 수준의 보호를 통해 워크로드를 보호합니다.
+
 BlueXP  랜섬웨어 보호에서 PII 데이터를 검사하는 것은 일반적으로 BlueX 분류를 구축한 고객에게 제공됩니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.
 
-+
 BlueXP  분류는 기술 미리보기의 일부로 SaaS 모델로 배포될 수도 있습니다. 미리보기 기능을 활성화하려면 BlueXP  랜섬웨어 방지 * 설정 * 옵션을 사용하십시오. 미리보기를 활성화하면 보호 페이지의 * 프라이버시 노출 * 열 옆에 "미리보기" 레이블이 다른 위치와 함께 나타납니다.
 
-+
 을 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP 랜섬웨어 보호 설정을 구성합니다"]참조하십시오.
 
-+
 스캔을 시작하려면 보호 페이지에서 개인 정보 노출 열에 있는 * 노출 식별 * 을 클릭합니다.
 
-+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["BlueXP  분류를 사용하여 개인 식별이 가능한 중요 데이터를 검색합니다"]..
 
-* * 출시 전에 미리 보기 기능을 사용해 보십시오. *: "미리 보기"라는 레이블이 붙은 몇 가지 기능을 사용할 수 있습니다. 이렇게 하려면 * 설정 * 옵션을 사용하여 이러한 기능을 표시합니다. 이 기능은 "미리보기" 레이블로 태그가 지정됩니다.
-+
+
+
+==== 미리 보기 기능이 릴리스되기 전에 미리 봅니다
+
+이제 "미리보기"라는 레이블이 붙은 몇 가지 피처를 릴리스하기 전에 시험해 볼 수 있습니다. 이렇게 하려면 * 설정 * 옵션을 사용하여 이러한 기능을 표시합니다. 이 기능은 "미리보기" 레이블로 태그가 지정됩니다.
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  랜섬웨어 차단 설정 구성 에 대해 자세히 알아보십시오"]..
 
-* * SIEM과 Microsoft Sentinel 통합 *: 이제 Microsoft Sentinel을 사용하여 위협 분석 및 감지를 위해 SIEM(보안 및 이벤트 관리 시스템)으로 데이터를 전송할 수 있습니다. 이전에는 AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있었습니다.
-+
+
+
+==== SIEM과 Microsoft Sentinel 통합
+
+이제 Microsoft Sentinel을 사용하여 보안 및 이벤트 관리 시스템(SIEM)에 데이터를 전송하여 위협 분석 및 감지를 수행할 수 있습니다. 이전에는 AWS Security Hub 또는 Splunk Cloud를 SIEM으로 선택할 수 있었습니다.
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  랜섬웨어 차단 설정 구성 에 대해 자세히 알아보십시오"]..
 
 
 
-* * 무료 평가판 지금 30일 *: 이 릴리즈에서는 BlueXP  랜섬웨어 보호를 새로 배포한 후 30일 동안 무료 평가판을 사용할 수 있습니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.
-* * Podman의 파일 레벨에서 응용 프로그램 워크로드 복원 *: 파일 레벨에서 응용 프로그램 워크로드를 복원하기 전에 이제 공격에 의해 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. 이전에는 조직의 BlueXP  커넥터(이전의 계정)가 Podman을 사용하고 있었다면 이 기능을 사용할 수 없었습니다. 이제 Podman에서 사용할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.
-+
+==== 30일 무료 평가판을 사용해 보십시오
+
+이 릴리즈에서 새로운 BlueXP  랜섬웨어 방지 솔루션을 배포한 경우 30일 무료 평가판이 제공됩니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.
+
+
+
+==== Podman의 파일 레벨에서 애플리케이션 워크로드 복원
+
+파일 수준에서 애플리케이션 워크로드를 복원하기 전에 공격의 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. 이전에는 조직의 BlueXP  커넥터(이전의 계정)가 Podman을 사용하고 있었다면 이 기능을 사용할 수 없었습니다. 이제 Podman에서 사용할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보십시오"]..
-
-
 
 
 
 === 2024년 9월 30일
 
-이 BlueXP  랜섬웨어 방어 릴리스에는 다음 업데이트가 포함됩니다.
 
-* * 파일 공유 워크로드의 사용자 지정 그룹화 * : 이번 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다. https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오"]..
 
+==== 파일 공유 워크로드의 사용자 지정 그룹화
+
+이 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다.
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오"]..
 
 
 
 === 2024년 9월 2일
 
-이번 BlueXP  랜섬웨어 방어 릴리스에는 다음 업데이트가 포함됩니다.
 
-* * 디지털 어드바이저의 보안 위험 평가 *: BlueXP  랜섬웨어 방어는 이제 NetApp 디지털 어드바이저에서 클러스터와 관련된 높은 중요 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP  랜섬웨어 방어는 대시보드의 * 권장 작업 * 창에서 "클러스터 <name>에서 알려진 보안 취약점을 해결합니다."라는 권장 사항을 제공합니다. 대시보드의 권장 사항에서 * 검토 및 수정 * 을 클릭하면 Digital Advisor 및 CVE(Common Vulnerability & Exposure) 문서를 검토하여 보안 위험을 해결할 수 있습니다. 여러 보안 위험이 있는 경우 Digital Advisor의 정보를 검토하십시오.
-+
+
+==== Digital Advisor의 보안 위험 평가
+
+BlueXP  랜섬웨어 방어는 이제 NetApp Digital Advisor에서 클러스터와 관련된 높은 중요 보안 위험에 대한 정보를 수집합니다. 위험이 발견되면 BlueXP  랜섬웨어 방어는 대시보드의 * 권장 작업 * 창에서 "클러스터 <name>에서 알려진 보안 취약점을 해결합니다."라는 권장 사항을 제공합니다. 대시보드의 권장 사항에서 * 검토 및 수정 * 을 클릭하면 Digital Advisor 및 CVE(Common Vulnerability & Exposure) 문서를 검토하여 보안 위험을 해결할 수 있습니다. 여러 보안 위험이 있는 경우 Digital Advisor의 정보를 검토하십시오.
+
 을 https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisor 설명서"^]참조하십시오.
 
-* * Google Cloud Platform으로 백업 * : 이 릴리스에서 Google Cloud Platform 버킷으로 백업 대상을 설정할 수 있습니다. 이전에는 백업 대상을 NetApp StorageGRID, Amazon Web Services, Microsoft Azure에만 추가할 수 있었습니다.
-+
+
+
+==== Google Cloud Platform으로 백업하십시오
+
+이 릴리즈에서는 백업 대상을 Google Cloud Platform 버킷으로 설정할 수 있습니다. 이전에는 백업 대상을 NetApp StorageGRID, Amazon Web Services, Microsoft Azure에만 추가할 수 있었습니다.
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  랜섬웨어 차단 설정 구성 에 대해 자세히 알아보십시오"]..
 
-* * Google Cloud Platform 지원 *: 이 서비스는 이제 Google Cloud Platform용 Cloud Volumes ONTAP를 지원하여 스토리지 보호를 제공합니다. 이전에는 이 서비스는 Amazon Web Services 및 Microsoft Azure와 사내 NAS를 위한 Cloud Volumes ONTAP만 지원했습니다.
-+
+
+
+==== Google Cloud Platform 지원
+
+이 서비스는 현재 스토리지 보호를 위해 Cloud Volumes ONTAP for Google Cloud Platform을 지원합니다. 이전에는 이 서비스는 Amazon Web Services 및 Microsoft Azure와 사내 NAS를 위한 Cloud Volumes ONTAP만 지원했습니다.
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP  랜섬웨어 차단 및 지원되는 데이터 소스, 백업 대상 및 작업 환경에 대해 알아보십시오"]..
 
-* * 역할 기반 액세스 제어 *: 이제 RBAC(역할 기반 액세스 제어)를 사용하여 특정 활동에 대한 액세스를 제한할 수 있습니다. BlueXP  랜섬웨어 방어는 BlueXP 의 두 가지 역할, 즉 BlueXP  계정 관리자 와 계정 관리자(뷰어)를 사용합니다.
-+
+
+
+==== 역할 기반 액세스 제어
+
+이제 RBAC(역할 기반 액세스 제어)를 사용하여 특정 활동에 대한 액세스를 제한할 수 있습니다. BlueXP  랜섬웨어 방어는 BlueXP 의 두 가지 역할, 즉 BlueXP  계정 관리자 와 계정 관리자(뷰어)를 사용합니다.
+
 각 역할이 수행할 수 있는 작업에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["역할 기반 액세스 제어 Privileges"].
-
-
 
 
 
