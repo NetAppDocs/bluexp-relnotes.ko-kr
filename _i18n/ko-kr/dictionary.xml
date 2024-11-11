@@ -475,19 +475,10 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">소프트웨어 버전 지원</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">7-Mode에서 운영 중인 Data ONTAP 스토리지 시스템의 업그레이드</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">7-Mode 시스템이 제한된 지원이 종료되었으므로 * 7-Mode Upgrade Advisor 계획 * 보고서를 더 이상 사용할 수 없습니다. 자세한 내용은 을 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>참조하십시오. 에 대해 자세히 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>알아보십시오.</block>
-  <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="section-title">2024년 9월 9일</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">RHEL 9.4 지원</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">StorageGRID 데이터를 스캔합니다</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">이제 BlueXP  분류를 통해 StorageGRID에서 데이터를 스캔할 수 있습니다.</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">자세한 내용은 을 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="cdd78645b017b927a25b5449e345f823" category="section-title">웜 및 ARP 기능은 더 이상 요금이 부과되지 않습니다</block>
-  <block id="9dab6b96899670128353b1e92c2b8997" category="paragraph">단순화된 가격으로 다음과 같은 이점을 얻을 수 있습니다.</block>
-  <block id="000f6c26eec43af35931bc5e6fbf9f49" category="list-text">현재 WORM 및 ARP가 포함된 계정에는 이러한 기능에 대한 비용이 더 이상 부과되지 않습니다. 향후 청구에는 이 변경 전과 마찬가지로 용량 사용량에 대한 비용만 부과됩니다. 웜과 ARP는 더 이상 미래의 청구서에 포함되지 않습니다.</block>
-  <block id="3817bf50b7761fc5155c59e4a334d37a" category="list-text">현재 계정에 이러한 기능이 포함되어 있지 않으면 추가 비용 없이 WORM 및 ARP를 선택할 수 있습니다.</block>
-  <block id="1974af11cb1ac87d0b58d8696f893e4d" category="list-text">모든 새 계정에 대한 모든 Cloud Volumes ONTAP 오퍼링은 WORM 및 ARP에 대한 비용을 제외합니다.</block>
-  <block id="0e3986fb787ff1e55f1d15206f8b39d9" category="paragraph">다음 기능에 대한 자세한 정보:</block>
-  <block id="0c0c93dcca58dc6ba5a46ef2bf56980b" category="inline-link">랜섬웨어에 대한 보호 개선</block>
-  <block id="8aca368ccd90320c96e8a69a43545003" category="inline-link">WORM 스토리지</block>
   <block id="ec6210d470db7cd7b6f5408f088e1c02" category="paragraph">일부 BlueXP 의 경제적 효율성 기능이 일시적으로 비활성화되었습니다.</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">기술 교체</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">용량 추가</block>
@@ -579,7 +570,6 @@
   <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">업그레이드를 위한 버전 선택 시 사용자 환경이 향상되었습니다</block>
   <block id="76723ae6fdfacae29242fdb7085394b0" category="paragraph">이 릴리스부터 BlueXP  알림을 사용하여 Cloud Volumes ONTAP를 업그레이드하려고 하면 사용할 기본, 최신 및 호환 버전에 대한 지침을 받게 됩니다. 또한 이제 Cloud Volumes ONTAP 인스턴스와 호환되는 최신 패치 또는 주요 버전을 선택하거나 업그레이드할 버전을 수동으로 입력할 수 있습니다.</block>
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">Cloud Volumes ONTAP 소프트웨어를 업그레이드합니다</block>
-  <block id="c5686848892b4de33534dcc294c33fff" category="paragraph">WORM(Write Once Read Many) 및 ARP(자율적 랜섬웨어 방어)의 내장 데이터 보호 및 보안 기능이 추가 비용 없이 Cloud Volumes ONTAP 라이센스와 함께 제공됩니다. 새로운 가격 모델은 AWS, Azure 및 Google Cloud의 신규 및 기존 BYOL 및 PAYGO/마켓플레이스 구독에 모두 적용됩니다. 용량 기반 라이센스와 노드 기반 라이센스 모두 추가 비용 없이 단일 노드 및 고가용성(HA) 쌍을 포함한 모든 구성에 대한 ARP 및 WORM을 포함합니다.</block>
   <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
   <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
@@ -654,8 +644,6 @@
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">버전 1.36</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">버전 1.35</block>
   <block id="448c087351c52cb72f971666e2159491" category="paragraph"><block ref="448c087351c52cb72f971666e2159491" category="inline-link-rx"></block></block>
-  <block id="7a73f560e215c4ff952d3384c5435ae9" category="list-text"><block ref="7a73f560e215c4ff952d3384c5435ae9" category="inline-link-rx"></block></block>
-  <block id="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="list-text"><block ref="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="inline-link-rx"></block></block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">버그 수정</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">지원 서비스</block>
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">스토리지 시스템의 환경 상태에 대한 통찰력을 제공하는 환경 지표는 고급 예측 모델을 기반으로 예상 전력 사용, 직접 탄소 사용량 및 열 배출에 대한 더욱 정확한 값을 제공합니다. 자세한 내용은 을 <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>참조하십시오.</block>
@@ -736,4 +724,33 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오</block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">ONTAP 시스템 관리자를 사용하여 FSx for ONTAP 파일 시스템을 관리할 수 있는 _advanced view_option을 찾고 있다면 작업 환경을 선택한 후 BlueXP  캔버스에서 해당 옵션을 찾을 수 있습니다.</block>
+  <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">시스템 관리자 옵션을 보여 주는 작업 환경을 선택한 후 BlueXP  Canvas의 오른쪽 패널 스크린샷</block>
+  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="059b6fdd2ea839d9327c322a4c87e168" category="section-title">노드 기반 라이센스에 대한 공급 중지</block>
+  <block id="73dfeef5d38f87e4c1d9e4b6417db109" category="paragraph">NetApp은 Cloud Volumes ONTAP 노드 기반 라이센스의 공급 중지(EOA)와 지원 종료(EOS)를 계획했습니다. 2024년 11월 11일부터 노드 기반 라이센스의 제한된 가용성이 종료되었습니다. 노드 기반 라이센스에 대한 지원은 2024년 12월 31일에 종료됩니다. 노드 기반 라이센스의 EOA 후 BlueXP  라이센스 변환 툴을 사용하여 용량 기반 라이센스로 전환해야 합니다.</block>
+  <block id="412842ace3db013f5cc3f99342aac206" category="paragraph">연간 또는 장기 약정의 경우, NetApp은 EOA 날짜 또는 라이센스 만료일 전에 NetApp 담당자에게 연락하여 전환을 위한 사전 요구사항이 충족되는지 확인하는 것이 좋습니다. Cloud Volumes ONTAP 노드에 대한 장기 계약이 없고 온디맨드 PAYGO 구독에 대해 시스템을 실행하는 경우 EOS 날짜 전에 전환을 계획하는 것이 중요합니다. 장기 계약 및 PAYGO 서브스크립션의 경우 BlueXP  라이선스 변환 도구를 사용하여 원활한 전환을 수행할 수 있습니다.</block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">노드 기반 라이센스의 공급 중지</block>
+  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link">노드 기반 라이센스를 용량 기반으로 변환</block>
+  <block id="2293617fe352e42e5a1e5d757463cb39" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block> <block ref="5987d844b1ad687ea551a96a31c7c0df" category="inline-link-rx"></block></block>
+  <block id="a4b4a128b8ea43df8551a18d37b0bfcd" category="section-title">BlueXP 에서 노드 기반 배포를 제거합니다</block>
+  <block id="04b144a0be31129b4ac9a0f2751271d9" category="paragraph">BlueXP 에서는 노드 기반 라이센스를 사용하여 Cloud Volumes ONTAP 시스템을 배포하는 옵션이 더 이상 사용되지 않습니다. 몇 가지 특별한 경우를 제외하고 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP 구축에 노드 기반 라이센스를 사용할 수 없습니다.</block>
+  <block id="11c97a8e296f1428a1d4c9a2253b1bfb" category="paragraph">NetApp은 계약 의무 및 운영 요구 사항에 따라 다음과 같은 고유한 라이센스 요구 사항을 인지하고 있으며, 이러한 상황에서 노드 기반 라이센스를 계속 지원합니다.</block>
+  <block id="57389c1aef6c1264d9ad4bbe74640b2e" category="list-text">USPS 고객</block>
+  <block id="43b1a7bfd4243a44cf321f03e7878ffd" category="list-text">비공개 모드로 배포</block>
+  <block id="bbef1435f544b56bbed0e1c536c2515e" category="list-text">중국 지역에 AWS에서 Cloud Volumes ONTAP를 구축했습니다</block>
+  <block id="e6eb4bcca3ad358d710ea99dd5c577d1" category="list-text">유효하며 만료되지 않은 노드 BYOL 라이센스(BYOL 라이센스)가 있는 경우</block>
+  <block id="677ce77d69762bd9f63d8a2760e6a0c4" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block></block>
+  <block id="02077474df02850d5f691ab4c25f3b7c" category="section-title">Azure Blob 스토리지에서 Cloud Volumes ONTAP 데이터에 대한 콜드 계층 추가</block>
+  <block id="b37931f01938eae6736d1bea8fd72fed" category="paragraph">BlueXP 은 이제 Azure Blob 스토리지에 비활성 용량 계층 데이터를 저장할 콜드 계층을 선택할 수 있도록 지원합니다. 기존 핫 계층과 쿨 계층에 콜드 계층을 추가하면 보다 경제적인 스토리지 옵션과 향상된 비용 효율성을 누릴 수 있습니다.</block>
+  <block id="176cd61977ca55fd13eff7c7ba3659f5" category="inline-link">Azure의 데이터 계층화</block>
+  <block id="2ede20fe3152113b3c27cd841c879ccf" category="paragraph"><block ref="2ede20fe3152113b3c27cd841c879ccf" category="inline-link-rx"></block></block>
+  <block id="7a315b4592c0ed57964da376a6b04868" category="section-title">Azure용 저장소 계정에 대한 공용 액세스를 제한하는 옵션입니다</block>
+  <block id="c11ad5eeb4b3088d2c151593e9c1204e" category="paragraph">이제 Azure에서 Cloud Volumes ONTAP 시스템의 저장소 계정에 대한 공용 액세스를 제한할 수 있습니다. 액세스를 비활성화하면 조직의 보안 정책을 준수해야 하는 경우 동일한 VNet 내에서도 개인 IP 주소가 노출되지 않도록 보호할 수 있습니다. 이 옵션은 Cloud Volumes ONTAP 시스템의 데이터 계층화도 비활성화하며 단일 노드와 고가용성 쌍에 모두 적용할 수 있습니다.</block>
+  <block id="390a3dfacd9551e05363b9eb09a0464c" category="inline-link">보안 그룹 규칙</block>
+  <block id="69e89afe4b2013c34ff51df883ddc022" category="paragraph"><block ref="9064ea2dae3c9dc76b91a834ab88d8bf" category="inline-link-rx"></block>..</block>
+  <block id="f87269f0bcffd4dd379148db58c41b11" category="section-title">Cloud Volumes ONTAP 구축 후 WORM 지원</block>
+  <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">이전 버전에서는 BlueXP 에 Cloud Volumes ONTAP 작업 환경을 생성할 때 WORM 스토리지를 활성화할 수 있었습니다. 이제 BlueXP 에서는 생성 중에 WORM이 활성화되지 않은 경우에도 작업 환경에서 WORM을 활성화할 수 있는 옵션을 제공합니다. 활성화한 후에는 WORM을 비활성화할 수 없습니다.</block>
+  <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">Cloud Volumes ONTAP 작업 환경에서 WORM 활성화</block>
+  <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
 </blocks>
