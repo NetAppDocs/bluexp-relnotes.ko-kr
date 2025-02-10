@@ -796,4 +796,10 @@
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">이제 BlueXP 를 사용하여 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.16.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다. 그러나 이 버전은 AWS의 배포 및 업그레이드에 사용할 수 없습니다.</block>
   <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">Azure에서 뉴질랜드 북부 지역 지원</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">버전 1.41</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다. 여기에는 다음이 포함됩니다.</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
+  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
 </blocks>
