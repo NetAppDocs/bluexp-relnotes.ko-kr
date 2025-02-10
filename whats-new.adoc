@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
 summary: BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 
 ---
 = BlueXP의 최근 변경 사항
@@ -21,6 +21,85 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 == 관리 기능
 
 이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.
+
+
+
+=== 2025년 2월 10일
+
+
+
+==== 커넥터 3.9.49
+
+이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
+
+현재 3.9.49 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+==== BlueXP  ID 및 액세스 관리(IAM)
+
+* 사용자에게 둘 이상의 역할을 할당할 수 있습니다.
+* 이제 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주 중 하나에 연결됩니다.
+* 애플리케이션 범주에는 스토리지 뷰어와 스토리지 관리자의 두 가지 새로운 역할이 연결됩니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["IAM 역할에 대해 알아보십시오"]
+* 이제 IAM이 BlueXP  제한 모드에서 사용됩니다
+
+
+
+
+===== 이제 제한 모드에서 BlueXP  IAM을 사용합니다
+
+BlueXP  IAM(Identity and Access Management)은 이제 제한된 모드에서 사용됩니다.
+
+BlueXP  IAM(Identity and Access Management)은 표준 및 제한 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 리소스 및 액세스 관리 모델입니다.
+
+.관련 정보
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+
+
+BlueXP  IAM은 리소스 및 사용 권한을 보다 세밀하게 관리합니다.
+
+* 최상위 _organization_은(는) 다양한_프로젝트_에 대한 액세스를 관리할 수 있게 해줍니다.
+* _Folders_관련된 프로젝트를 함께 그룹화할 수 있습니다.
+* 향상된 자원 관리를 사용하면 자원을 하나 이상의 폴더 또는 프로젝트에 연결할 수 있습니다.
++
+예를 들어, Cloud Volumes ONTAP 시스템을 여러 프로젝트에 연결할 수 있습니다.
+
+* 향상된 액세스 관리를 통해 조직 계층 구조의 다양한 수준에 있는 구성원에게 역할을 할당할 수 있습니다.
+
+
+이러한 향상된 기능을 통해 사용자가 수행할 수 있는 작업과 액세스할 수 있는 리소스를 보다 효율적으로 제어할 수 있습니다.
+
+.제한된 모드에서 BlueXP  IAM이 기존 계정에 미치는 영향
+BlueXP 에 로그인하면 다음과 같은 변경 사항이 나타납니다.
+
+* 귀하의 계정 _ 은(는) 이제 _ 조직 _ 이라고 합니다
+* 작업 공간 _ 은(는) 이제 _ projects _(으)로 불립니다
+* 사용자 역할의 이름이 변경되었습니다.
++
+** _ 계정 관리자 _ 는(는) 현재 _ 조직 관리자 _ 입니다
+** _Workspace admin_은(는) 현재 _ 폴더 또는 프로젝트 관리자 _ 입니다
+** _규정 준수 뷰어_는 현재_분류 뷰어_입니다
+
+
+* 설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다
+
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-iam-introduction.png["인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷."]
+
+다음 사항에 유의하십시오.
+
+* 기존 사용자 또는 작업 환경에는 아무런 변화가 없습니다.
+* 역할 이름은 변경되었지만 사용 권한 관점에서는 차이가 없습니다. 사용자는 이전과 동일한 작업 환경에 계속 액세스할 수 있습니다.
+* BlueXP  로그인 방법은 변경되지 않습니다. BlueXP  IAM은 NetApp 클라우드 로그인, NetApp Support 사이트 자격 증명 및 BlueXP  계정과 같은 통합 연결과 연동됩니다.
+* BlueXP  계정이 여러 개 있는 경우 여러 BlueXP  조직이 있는 것입니다.
+
+
+.BlueXP  IAM용 API
+이러한 변경으로 BlueXP  IAM용 새로운 API가 도입되지만 이전 테넌시 API와 역호환됩니다. https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
+
+.지원되는 배포 모드
+BlueXP  IAM은 표준 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.
 
 
 
@@ -99,29 +178,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["지원 케�
 
 
 
-=== 2024년 12월 9일
-
-
-
-==== 커넥터 3.9.47
-
-이 BlueXP  커넥터 릴리스에는 버그 수정 및 커넥터 설치 중에 접촉된 끝점에 대한 변경 사항이 포함되어 있습니다.
-
-현재 3.9.47 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
-
-.설치 중에 NetApp 지원에 문의하는 엔드포인트입니다
-커넥터를 수동으로 설치하면 설치 프로그램이 더 이상 \https://support.NetApp.com에 연결하지 않습니다.
-
-설치 프로그램에서 \https://mysupport.NetApp.com에 계속 연락합니다.
-
-
-
-==== BlueXP  ID 및 액세스 관리
-
-커넥터 페이지에는 현재 사용 가능한 커넥터만 나열됩니다. 제거했던 커넥터가 더 이상 표시되지 않습니다.
-
-
-
 == 경고
 
 
@@ -154,6 +210,42 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["BlueXP  알림
 
 
 
+=== 2025년 2월 2일
+
+
+
+==== FSx for ONTAP 파일 시스템을 BlueXP 의 작업 공간과 연결합니다
+
+2024년 11월 BlueXP  통합 이후 새로 생성된 FSx for ONTAP 파일 시스템이 BlueXP 의 한 작업 영역과 연결되지 않았습니다. 이제 FSx for ONTAP 파일 시스템을 생성하거나 검색할 때 BlueXP  계정 내의 한 작업 공간에 연결됩니다.
+
+작업 영역과 연결되지 않은 기존 FSx for ONTAP 파일 시스템이 있는 경우 BlueXP 의 작업 영역과 연결할 수 있도록 도와 드리겠습니다. BlueXP  콘솔 내에서 수행할 수 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["NetApp 지원에 케이스를 생성합니다"^]있습니다. Workload Factory * 를 서비스로 선택합니다.
+
+
+
+==== BlueXP  캔버스에서 파일 시스템 제거
+
+이제 BlueXP  캔버스의 작업 공간에서 FSx for ONTAP 파일 시스템을 제거할 수 있습니다. 이 작업을 수행하면 동일한 BlueXP  계정 내의 다른 작업 영역과 연결할 수 있도록 한 작업 영역에서 파일 시스템이 분리됩니다.
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["BlueXP 의 작업 공간에서 FSx for ONTAP 파일 시스템을 제거하는 방법에 대해 알아보십시오"^]
+
+
+
+==== 추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다
+
+새로운 모니터링 기능인 Tracker를 BlueXP  Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다. Tracker를 사용하여 자격 증명, 저장소 및 링크 작업의 진행 상태 및 상태를 모니터링하고 추적하며, 작업 및 하위 작업에 대한 세부 정보를 검토하고, 문제 또는 장애를 진단하고, 실패한 작업에 대한 매개 변수를 편집하고, 실패한 작업을 재시도할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["BlueXP 에서 FSx for ONTAP 운영을 모니터링하고 추적하는 방법에 관해 알아보십시오"^]
+
+
+
+==== BlueXP  워크로드에서 사용 가능한 CloudShell
+
+CloudShell은 BlueXP  콘솔 내의 BlueXP  워크로드를 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에서 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸과 유사한 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShell을 사용합니다"^]
+
+
+
 === 2025년 1월 6일
 
 
@@ -179,18 +271,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#featu
 ONTAP 시스템 관리자를 사용하여 FSx for ONTAP 파일 시스템을 관리할 수 있는 _advanced view_option을 찾고 있다면 작업 환경을 선택한 후 BlueXP  캔버스에서 해당 옵션을 찾을 수 있습니다.
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["시스템 관리자 옵션을 보여 주는 작업 환경을 선택한 후 BlueXP  Canvas의 오른쪽 패널 스크린샷"]
-
-
-
-=== 2023년 7월 30일
-
-
-
-==== 3개의 추가 지역 지원
-
-이제 고객은 유럽(취리히), 유럽(스페인), 아시아 태평양(하이데라바드)의 세 가지 새로운 AWS 지역에서 NetApp ONTAP 파일 시스템용 Amazon FSx를 생성할 수 있습니다.
-
-을 참조하십시오 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["NetApp ONTAP용 Amazon FSx는 이제 세 개의 추가 지역에서 사용할 수 있습니다"^] 를 참조하십시오.
 
 
 
@@ -364,6 +444,36 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
+=== 2025년 1월 22일
+
+
+
+==== 버전 1.39
+
+이 BlueXP  분류 릴리스는 데이터 조사 보고서의 내보내기 프로세스를 업데이트합니다. 이 내보내기 업데이트는 데이터에 대한 추가 분석을 수행하거나, 데이터에 대한 추가 시각화를 만들거나, 데이터 조사 결과를 다른 사람과 공유하는 데 유용합니다.
+
+이전에는 데이터 조사 보고서 내보내기가 10,000행으로 제한되었습니다. 이 릴리스에서는 모든 데이터를 내보낼 수 있도록 제한이 제거되었습니다. 이 변경 사항을 통해 데이터 조사 보고서에서 더 많은 데이터를 내보낼 수 있으므로 보다 유연하게 데이터를 분석할 수 있습니다.
+
+작업 환경, 볼륨, 대상 폴더 및 JSON 또는 CSV 형식을 선택할 수 있습니다. 내보낸 파일 이름에는 타임스탬프가 포함되어 있어 데이터를 내보낸 시기를 식별할 수 있습니다.
+
+지원되는 작업 환경은 다음과 같습니다.
+
+* Cloud Volumes ONTAP
+* ONTAP용 FSX
+* ONTAP
+* 공유 그룹
+
+
+데이터 조사 보고서에서 데이터를 내보내는 데는 다음과 같은 제한 사항이 있습니다.
+
+* 다운로드할 최대 레코드 수는 유형(파일, 디렉터리 및 테이블)당 5억 개입니다.
+* 100만 개의 레코드를 내보내는 데 약 35분이 걸릴 것으로 예상됩니다.
+
+
+데이터 조사 및 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["조직에 저장된 데이터를 조사합니다"].
+
+
+
 === 2024년 12월 16일
 
 
@@ -396,25 +506,40 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
-=== 2024년 10월 10일
-
-
-
-==== 버전 1.36
-
-.RHEL 9.4 지원
-이 릴리스는 Red Hat Enterprise Linux v9.4 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.
-
-다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 9.0, 9.1, 9.2, 9.3 및 9.4.
-
-에 대해 자세히 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["BlueXP 분류 구축 개요"]알아보십시오.
-
-.향상된 스캔 성능
-이번 릴리스에서는 향상된 스캔 성능을 제공합니다.
-
-
-
 == Cloud Volumes ONTAP
+
+
+
+=== 2025년 2월 10일
+
+
+
+==== BlueXP 에서 System Manager에 액세스할 수 있도록 사용자 인증을 설정했습니다
+
+이제 BlueXP  관리자는 BlueXP 에서 ONTAP System Manager에 액세스하는 ONTAP 사용자에 대해 인증을 활성화할 수 있습니다. BlueXP  커넥터 설정을 편집하여 이 옵션을 활성화할 수 있습니다. 이 옵션은 표준 및 개인 모드에서 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["System Manager를 사용하여 Cloud Volumes ONTAP를 관리합니다"^]..
+
+
+
+==== BlueXP  고급 보기의 이름이 System Manager로 바뀌었습니다
+
+BlueXP 에서 ONTAP 시스템 관리자를 통해 Cloud Volumes ONTAP의 고급 관리 옵션이 * 고급 보기 * 에서 * 시스템 관리자 * 로 변경되었습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["System Manager를 사용하여 Cloud Volumes ONTAP를 관리합니다"^]..
+
+
+
+==== BlueXP  디지털 지갑으로 라이선스를 관리하는 간단한 방법을 소개합니다
+
+이제 BlueXP  디지털 지갑의 향상된 탐색 지점을 사용하여 Cloud Volumes ONTAP 라이선스 관리를 간소화할 수 있습니다.
+
+* 거버넌스 > 디지털 지갑 > 개요/데이터 서비스 라이센스 * 탭을 통해 Cloud Volumes ONTAP 라이센스 정보에 쉽게 액세스할 수 있습니다.
+* 개요 * 탭의 Cloud Volume ONTAP 패널에서 * 보기 * 를 클릭하면 용량 기반 라이센스에 대한 포괄적인 이해를 얻을 수 있습니다. 이 고급 보기는 라이선스 및 구독에 대한 자세한 정보를 제공합니다.
+* 이전 인터페이스를 선호하는 경우 * 레거시 보기로 전환 * 버튼을 클릭하여 유형별로 라이센스 세부 정보를 보고 라이센스에 대한 청구 방법을 수정할 수 있습니다.
+
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["용량 기반 라이센스 관리"^]..
 
 
 
@@ -484,29 +609,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabl
 
 
 
-=== 2024년 10월 25일
-
-
-
-==== 모범 사례에 맞게 Google Cloud에서 업데이트된 지원되는 VM 목록
-
-Google Cloud에서 Cloud Volumes ONTAP의 새 인스턴스를 배포할 때 BlueXP 에서 n1 시리즈 머신을 더 이상 선택할 수 없습니다. n1 시리즈 머신은 기존 시스템에서만 유지되고 지원됩니다. Cloud Volumes ONTAP의 새로운 배포는 9.8 릴리스부터 Google Cloud에서만 지원됩니다. Cloud Volumes ONTAP 9.8 이상과 호환되는 n2 시리즈 기계 유형으로 전환하는 것이 좋습니다. 그러나 n1 시리즈 시스템은 API를 통해 수행되는 새로운 구축 환경에서 사용할 수 있습니다.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud에서 지원되는 구성"^]..
-
-
-
-==== 개인 모드에서 Amazon Web Services에 대한 로컬 영역 지원
-
-BlueXP 은 이제 프라이빗 모드에서 Cloud Volumes ONTAP HA(고가용성) 구축을 위한 AWS 로컬 영역을 지원합니다. 이전에는 표준 모드에만 제한되었던 지원이 이제 프라이빗 모드까지 포함되도록 확장되었습니다.
-
-
-NOTE: BlueXP 를 제한된 모드로 사용하는 경우 AWS 로컬 영역은 지원되지 않습니다.
-
-HA 배포가 포함된 AWS Local Zones에 대한 자세한 내용은 을 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha.html#aws-local-zones["AWS 로컬 영역"^]참조하십시오.
-
-
-
 == Google Cloud용 Cloud Volumes Service
 
 
@@ -561,6 +663,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2025년 2월 2일
+
+
+
+==== 데이터 브로커를 위한 새로운 OS 지원
+
+이제 Red Hat Enterprise 9.4, Ubuntu 23.04 및 Ubuntu 24.04를 실행하는 호스트에서 데이터 브로커가 지원됩니다.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["Linux 호스트 요구 사항 보기"]..
+
+
+
 === 2024년 10월 27일
 
 
@@ -578,16 +692,6 @@ BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트�
 ==== 버그 수정
 
 BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.55입니다.
-
-
-
-=== 2024년 8월 11일
-
-
-
-==== 버그 수정
-
-BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.54입니다.
 
 
 
@@ -1234,6 +1338,38 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
+=== 2025년 2월 2일
+
+
+
+==== BlueXP  워크로드 공장 콘솔에서 사용할 수 있는 CloudShell
+
+CloudShell은 BlueXP  워크로드 공장 콘솔의 모든 곳에서 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸 유사 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShell을 사용합니다"]
+
+
+
+==== 데이터베이스에 대한 사용 권한 업데이트
+
+이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수 `iam:SimulatePrincipalPolicy` 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]
+
+
+
+=== 2025년 1월 22일
+
+
+
+==== BlueXP  워크로드 팩토리 권한
+
+이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  워크로드 팩토리 권한"]
+
+
+
 === 2025년 1월 5일
 
 
@@ -1243,15 +1379,3 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 이제 서비스 계정이 BlueXP  워크로드 팩토리에서 지원됩니다. 서비스 계정을 생성하여 인프라 운영을 자동화할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["서비스 계정 생성 및 관리"]
-
-
-
-=== 2024년 11월 11일
-
-
-
-==== BlueXP  콘솔에 워크로드 팩토리 통합
-
-이제 에서 워크로드 팩토리를 사용할 수 link:https://console.bluexp.netapp.com["BlueXP 콘솔"^]있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오"]
