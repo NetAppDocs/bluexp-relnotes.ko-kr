@@ -409,11 +409,6 @@
   <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">에 대해 자세히 <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block>알아보십시오.</block>
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">워크로드 공장</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
-  <block id="67c7aeb67508aad4a1a5b35bdab67864" category="inline-link-macro">BlueXP  워크로드 팩토리의 FSx for ONTAP 기능에 대해 알아보십시오</block>
-  <block id="9043e597fd1a3537f95cd09a004d83dc" category="paragraph"><block ref="9043e597fd1a3537f95cd09a004d83dc" category="inline-link-macro-rx"></block></block>
-  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">ONTAP 시스템 관리자를 사용하여 FSx for ONTAP 파일 시스템을 관리할 수 있는 _advanced view_option을 찾고 있다면 작업 환경을 선택한 후 BlueXP  캔버스에서 해당 옵션을 찾을 수 있습니다.</block>
-  <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">시스템 관리자 옵션을 보여 주는 작업 환경을 선택한 후 BlueXP  Canvas의 오른쪽 패널 스크린샷</block>
-  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.56입니다.</block>
   <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>..</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">BlueXP  백업 및 복구 기능은 이제 SnapLock Compliance 또는 SnapLock Enterprise 보호 모드를 사용하여 구성된 FlexVol 및 FlexGroup 온프레미스 볼륨을 모두 백업할 수 있습니다. 클러스터에서 ONTAP 9.14 이상을 실행해야 합니다. SnapLock 엔터프라이즈 모드를 사용한 FlexVol 볼륨 백업은 ONTAP 버전 9.11.1 이후로 지원됩니다. 이전 ONTAP 릴리즈에서는 SnapLock 보호 볼륨의 백업을 지원하지 않습니다.</block>
@@ -426,9 +421,6 @@
   <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="list-text">오류</block>
   <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">활성화되지 않음</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">이제 프라이빗 모드에서 BlueXP 를 사용할 때 NetApp ASA R2 시스템을 검색할 수 있습니다. 이 지원은 BlueXP  3.9.46 비공개 모드 릴리즈부터 사용할 수 있습니다.</block>
-  <block id="a295598082ec4c1c06fb5a3e2ad3e1d1" category="paragraph">Azure에서 Cloud Volumes ONTAP의 새 인스턴스를 배포할 때 BlueXP 에서 DS_v2 및 ES_v3 시스템 제품군을 더 이상 선택할 수 없습니다. 이러한 제품군은 이전 버전의 기존 시스템에서만 유지 및 지원됩니다. Cloud Volumes ONTAP의 새로운 배포는 9.12.1 릴리즈부터 Azure에서만 지원됩니다. ES_v4 또는 Cloud Volumes ONTAP 9.12.1 이상과 호환되는 다른 시리즈로 전환하는 것이 좋습니다. 그러나 DS_v2 및 ES_v3 시리즈 시스템은 API를 통해 새로 배포될 때 사용할 수 있습니다.</block>
-  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure에서 지원되는 구성</block>
-  <block id="ef57b1c89cee8819c5de2b079e4b0640" category="paragraph"><block ref="ef57b1c89cee8819c5de2b079e4b0640" category="inline-link-rx"></block></block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">BlueXP  랜섬웨어 보호에서 PII 데이터를 검사하는 것은 일반적으로 BlueXP  분류를 구축한 고객에게 사용할 수 있습니다. BlueXP  분류는 BlueXP  플랫폼의 일부로 추가 비용 없이 사용할 수 있으며 사내 또는 고객 클라우드에 구축할 수 있습니다.</block>
   <block id="78efdac7339a3a2a767f54e63e415b79" category="paragraph">커넥터를 설치할 때 또는 자동 업그레이드가 발생하면 커넥터가 리포지토리에 연결하여 설치 또는 업그레이드를 위한 이미지를 다운로드합니다. 기본적으로 Connector는 항상 다음 끝점에 연결되었습니다.</block>
   <block id="f55e31da35f47937201bdbf54e964315" category="list-text">https://*.blob.core.windows.net 으로 문의하십시오</block>
@@ -569,9 +561,6 @@
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025년 1월 6일</block>
   <block id="16e305f77c7a0272aceac8c95312d98a" category="section-title">NetApp에서 추가 CloudFormation 리소스를 릴리스합니다</block>
   <block id="c043b3439543ebfc027a3c1fcb5613a5" category="paragraph">NetApp에서 이제 AWS 콘솔 내에 노출되지 않는 고급 ONTAP 구성 요소를 활용할 수 있는 CloudFormation 리소스를 제공합니다. CloudFormation은 AWS를 위한 코드형 인프라 메커니즘입니다. 복제 관계, CIFS 공유, NFS 내보내기 정책, 스냅샷 등을 생성할 수 있습니다.</block>
-  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
-  <block id="844ae8089b7faaed0a2b7abc588969d9" category="section-title">FSx for ONTAP은 BlueXP  워크로드 팩토리의 스토리지와 통합됩니다</block>
-  <block id="dc13de95ece93019b115a46e9259730f" category="paragraph">볼륨 추가, 파일 시스템 용량 확장 및 스토리지 VM 관리와 같은 FSx for ONTAP 파일 시스템 관리 작업이 이제 NetApp 및 Amazon FSx for NetApp ONTAP에서 제공하는 새로운 서비스인 BlueXP  워크로드 팩토리에서 관리됩니다. 이전과 마찬가지로 기존 자격 증명과 사용 권한을 사용할 수 있습니다. 차이점은 이제 BlueXP  워크로드 팩토리로부터 더 많은 작업을 수행하여 파일 시스템을 관리할 수 있다는 점입니다. BlueXP  캔버스에서 FSx for ONTAP 작업 환경을 열면 BlueXP  워크로드 팩토리로 바로 이동합니다.</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
   <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023년 6월 5일</block>
@@ -610,8 +599,6 @@
   <block id="d34aa8cf529fee89c49e6c7c38dbf1e7" category="paragraph">BlueXP 에서 ONTAP 시스템 관리자를 통해 Cloud Volumes ONTAP의 고급 관리 옵션이 * 고급 보기 * 에서 * 시스템 관리자 * 로 변경되었습니다.</block>
   <block id="75b76b021da36b8e8bf9678596449aa4" category="section-title">BlueXP  디지털 지갑으로 라이선스를 관리하는 간단한 방법을 소개합니다</block>
   <block id="5fbce01b2fa5bcad467f74186949bef5" category="paragraph">이제 BlueXP  디지털 지갑의 향상된 탐색 지점을 사용하여 Cloud Volumes ONTAP 라이선스 관리를 간소화할 수 있습니다.</block>
-  <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">2024년 12월 9일</block>
-  <block id="497e698cad27d6346959de7394ab5df8" category="section-title">모범 사례에 맞춰 Azure에 대해 업데이트된 지원되는 VM 목록입니다</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
   <block id="7ee45649520b61796809750e472a8000" category="section-title">2020년 12월 7일</block>
@@ -814,4 +801,11 @@
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">범주화 모델 정확도 향상</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">미리 정의된 범주</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">의 머신 러닝 모델의 정확도는 <block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>11% 향상되었습니다.</block>
+  <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025년 3월 2일</block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
+  <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">CloudShell을 사용하여 BlueXP  워크로드에서 FSx for ONTAP 작업을 실행할 때 Tracker에 이벤트가 표시됩니다.</block>
+  <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">2025년 3월 3일</block>
+  <block id="62c9277e75aee50ddfb792de79bd94d3" category="section-title">이제 Azure에서 뉴질랜드 북부 지역이 지원됩니다</block>
+  <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">뉴질랜드 북부 지역은 이제 Cloud Volumes ONTAP 9.12.1 GA 이상의 단일 노드 및 고가용성(HA) 구성에 대해 Azure에서 지원됩니다. Lsv3 인스턴스 유형은 이 지역에서 지원되지 않습니다.</block>
+  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">지원되는 모든 지역 목록은 을<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block> 참조하십시오.</block>
 </blocks>
