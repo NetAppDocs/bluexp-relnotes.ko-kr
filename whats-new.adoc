@@ -536,6 +536,9 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 . 실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.
 
 
+.범주화 모델 정확도 향상
+의 머신 러닝 모델의 정확도는 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-datapredefined-categories["미리 정의된 범주"]11% 향상되었습니다.
+
 
 
 === 2025년 1월 22일

@@ -475,8 +475,6 @@
   <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">현재 3.9.49 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="99acbaa3cb87e4fe6650072fa6b0a905" category="section-title">BlueXP  ID 및 액세스 관리(IAM)</block>
   <block id="36cef198e9fac4b4a194f5e01017b8d1" category="list-text">사용자에게 둘 이상의 역할을 할당할 수 있습니다.</block>
-  <block id="6708a31732ccaf29d9ba72b524255e3e" category="list-text">이제 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주 중 하나에 연결됩니다.</block>
-  <block id="035261365b324f2942fd56c2f10f6ed5" category="inline-link">IAM 역할에 대해 알아보십시오</block>
   <block id="4fafa85612a8b2fff96d593213d6a0ec" category="paragraph">BlueXP  IAM(Identity and Access Management)은 이제 제한된 모드에서 사용됩니다.</block>
   <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">BlueXP  IAM(Identity and Access Management)은 표준 및 제한 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 리소스 및 액세스 관리 모델입니다.</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="list-title">관련 정보</block>
@@ -548,9 +546,6 @@
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  디지털 지갑은 사용하기 쉽도록 다시 디자인되었으며 이제 추가 구독 및 라이선스 관리 기능을 제공합니다.</block>
   <block id="5a1f7548d3f8b383dfe658d26f915cce" category="list-text">이제 역할은 플랫폼과 데이터 서비스의 두 가지 범주 중 하나에 연결됩니다.</block>
   <block id="2a3e7caa563b2592e27f3890e8d21765" category="section-title">이제 제한 모드에서 BlueXP  IAM을 사용합니다</block>
-  <block id="3a85c700de68ae35770a964c115eb7cb" category="list-title">추가 IAM 개선 사항</block>
-  <block id="afa69926e5d0001214117331ecb2e622" category="list-text">애플리케이션 범주에는 스토리지 뷰어와 스토리지 관리자의 두 가지 새로운 역할이 연결됩니다.</block>
-  <block id="df90fe85a844ffa5c11d99e37754376f" category="paragraph"><block ref="df90fe85a844ffa5c11d99e37754376f" category="inline-link-rx"></block></block>
   <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">2025년 1월 13일</block>
   <block id="19cb29a89a6fbf6d87da92950ea8482c" category="section-title">커넥터 3.9.48</block>
   <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">BlueXP  ID 및 액세스 관리</block>
@@ -816,4 +811,7 @@
   <block id="ba7df4741bd77385c236fcf981dd357a" category="paragraph">글로벌 검색과 관련된 고려 사항은 다음과 같습니다.</block>
   <block id="03602fc4621dad9ee00f9e5d533ff5ea" category="list-text">새 인덱스는 시간별 스냅샷으로 레이블이 지정된 스냅샷에 대해 수행되지 않습니다.</block>
   <block id="2bacd7c8c96302172c5d0324d784cf03" category="list-text">새로운 인덱싱 기능은 FlexVol의 스냅샷에만 작동하며, FlexGroups의 스냅샷에는 작동하지 않습니다.</block>
+  <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">범주화 모델 정확도 향상</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">미리 정의된 범주</block>
+  <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">의 머신 러닝 모델의 정확도는 <block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>11% 향상되었습니다.</block>
 </blocks>
