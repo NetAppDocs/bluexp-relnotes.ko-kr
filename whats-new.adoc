@@ -733,6 +733,36 @@ NetApp SupportEdge Basic 서비스 제품에는 현재 SupportEdge Advisor 및 S
 
 
 
+=== 2025년 2월 10일
+
+BlueXP  디지털 지갑은 사용하기 쉽도록 다시 디자인되었으며 이제 추가 구독 및 라이선스 관리 기능을 제공합니다.
+
+
+
+==== 새로운 개요 대시보드
+
+디지털 지갑 홈페이지에는 NetApp 라이선스 및 마켓플레이스 구독에 대한 업데이트된 대시보드가 있으며, 특정 서비스, 라이선스 유형 및 필요한 작업을 드릴다운할 수 있습니다.
+
+
+
+==== 자격 증명에 대한 구독을 구성하는 중입니다
+
+이제 BlueXP  디지털 지갑을 사용하여 공급자 자격 증명에 대한 구독을 구성할 수 있습니다. 일반적으로 마켓플레이스 구독 또는 연간 계약을 처음 구독할 때 이 작업을 수행합니다. 이전에는 구독 자격 증명을 변경할 수 있었습니다. 자격 증명 페이지에서만 변경할 수 있었습니다.
+
+
+
+==== 구독을 조직과 연결합니다
+
+이제 구독이 디지털 지갑에서 직접 연결되는 조직을 업데이트할 수 있습니다.
+
+
+
+==== Cloud Volume ONTAP 라이센스 관리
+
+이제 홈 페이지 또는 * 데이터 서비스 라이센스 * 탭을 통해 Cloud Volumes ONTAP 라이센스를 관리할 수 있습니다. 마켓플레이스 구독 * 탭을 사용하여 구독 정보를 봅니다.
+
+
+
 === 2024년 3월 5일
 
 
@@ -759,30 +789,6 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-li
 * 이제 작업 환경 이름이 스토리지 VM 및 볼륨 사용 보고서에 포함됩니다.
 * 이제 볼륨 type_file_은 _Primary(읽기/쓰기)_로 레이블이 지정됩니다.
 * 이제 볼륨 type_secondary_이(가) _Secondary(DP)_로 표시됩니다.
-
-
-사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"].
-
-
-
-=== 2023년 5월 7일
-
-
-
-==== Google Cloud 프라이빗 클라우드 제공
-
-BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Marketplace 구독을 식별하고 가입 종료 날짜 및 기간을 표시합니다. 이 개선 사항을 통해 프라이빗 오퍼에 성공적으로 수락되었는지 확인하고 해당 조건을 검증할 수 있습니다.
-
-
-
-==== 충전 사용 내역이 없습니다
-
-이제 용량 기반 라이센스를 구독할 때 부과되는 요금을 확인할 수 있습니다. BlueXP 디지털 지갑에서 다운로드할 수 있는 사용 보고서는 다음과 같습니다. 사용 현황 보고서는 구독의 용량 세부 정보를 제공하고 Cloud Volumes ONTAP 구독에 포함된 리소스에 대한 비용 청구 방식을 알려줍니다. 다운로드할 수 있는 보고서는 다른 사용자와 쉽게 공유할 수 있습니다.
-
-* Cloud Volumes ONTAP 패키지 사용
-* 높은 수준의 사용
-* 스토리지 VM 사용량
-* 볼륨 사용량
 
 
 사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"].
