@@ -205,7 +205,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["지원 케�
 
 
 
-==== System Manager에 연결된 클러스터 세부 정보를 봅니다
+==== ONTAP System Manager에 연결된 클러스터 세부 정보를 봅니다
 
 BlueXP  경고를 사용하면 ONTAP 스토리지 환경과 연결된 경고를 확인하고 ONTAP System Manager에 연결된 세부 정보를 드릴다운할 수 있습니다.
 
@@ -451,6 +451,48 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
+=== 2025년 2월 19일
+
+
+
+==== 버전 1.40
+
+이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.
+
+.RHEL 9.5 지원
+이 릴리스는 Red Hat Enterprise Linux v9.5 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.
+
+다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5.
+
+.스캔 우선 순위 지정
+매핑 전용 스캔을 수행할 때 가장 중요한 스캔의 우선 순위를 지정할 수 있습니다. 이 기능은 작업 환경이 많고 우선 순위가 높은 검사가 먼저 완료되도록 하려는 경우에 유용합니다.
+
+기본적으로 스캔은 시작된 순서에 따라 대기합니다. 스캔 우선 순위 지정 기능을 통해 이제 스캔을 대기열 앞으로 이동할 수 있습니다. 여러 스캔의 우선 순위를 지정할 수 있습니다. 우선 순위는 선입선출 순서로 지정됩니다. 즉, 우선 순위를 지정한 첫 번째 스캔이 대기열의 맨 앞으로 이동하고 우선 순위를 지정한 두 번째 스캔은 대기열의 두 번째 스캔이 됩니다.
+
+우선 순위는 한 번만 부여됩니다. 매핑 데이터의 자동 재검색이 기본 순서로 수행됩니다.
+
+우선 순위 지정은 로 link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["매핑 전용 스캔"]제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.
+
+우선 순위를 변경하려면:
+
+. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
+. 우선 순위를 지정할 자원을 선택합니다.
+. 작업... 옵션에서 * 스캔 우선 순위 * 를 선택합니다.
+
+
+.모든 스캔을 재시도합니다
+이제 BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 지원합니다.
+
+이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.
+
+모든 스캔을 재시도하려면:
+
+. BlueXP  classification 메뉴에서 * Configuration * 을 선택합니다.
+. 실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.
+
+
+
+
 === 2025년 1월 22일
 
 
@@ -491,29 +533,21 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
-=== 2024년 11월 4일
-
-
-
-==== 버전 1.37
-
-이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.
-
-.RHEL 8.10 지원
-이 릴리스는 Red Hat Enterprise Linux v8.10 및 이전에 지원되는 버전을 지원합니다. 이는 다크 사이트 배포를 포함하여 BlueXP  분류의 수동 온-프레미스 설치에 적용됩니다.
-
-다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3 및 9.4.
-
-에 대해 자세히 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류"]알아보십시오.
-
-.NFS v4.1 지원
-이 릴리즈에서는 이전에 지원된 버전 외에 NFS v4.1에 대한 지원도 제공합니다.
-
-에 대해 자세히 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류"]알아보십시오.
-
-
-
 == Cloud Volumes ONTAP
+
+
+
+=== 2025년 2월 18일
+
+
+
+==== Azure 마켓플레이스 직접 구축을 소개합니다
+
+이제 Azure 마켓플레이스 직접 배포를 활용하여 Azure 마켓플레이스에서 Cloud Volumes ONTAP을 직접 쉽고 빠르게 배포할 수 있습니다. 이처럼 간소화된 방법을 사용하면 BlueXP  커넥터를 설정할 필요 없이 사용자 환경에서 Cloud Volumes ONTAP의 핵심 기능을 살펴보거나 BlueXP 를 통해 Cloud Volumes ONTAP를 배포하는 데 필요한 다른 온보딩 기준을 충족할 수 있습니다.
+
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-azure-mktplace-direct.html["Azure의 Cloud Volumes ONTAP 배포 옵션에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다"^]
+
 
 
 
@@ -559,60 +593,6 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capaci
 Azure에서 Cloud Volumes ONTAP의 새 인스턴스를 배포할 때 BlueXP 에서 DS_v2 및 ES_v3 시스템 제품군을 더 이상 선택할 수 없습니다. 이러한 제품군은 이전 버전의 기존 시스템에서만 유지 및 지원됩니다. Cloud Volumes ONTAP의 새로운 배포는 9.12.1 릴리즈부터 Azure에서만 지원됩니다. ES_v4 또는 Cloud Volumes ONTAP 9.12.1 이상과 호환되는 다른 시리즈로 전환하는 것이 좋습니다. 그러나 DS_v2 및 ES_v3 시리즈 시스템은 API를 통해 새로 배포될 때 사용할 수 있습니다.
 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure에서 지원되는 구성"^]
-
-
-
-=== 2024년 11월 11일
-
-
-
-==== 노드 기반 라이센스에 대한 공급 중지
-
-NetApp은 Cloud Volumes ONTAP 노드 기반 라이센스의 공급 중지(EOA)와 지원 종료(EOS)를 계획했습니다. 2024년 11월 11일부터 노드 기반 라이센스의 제한된 가용성이 종료되었습니다. 노드 기반 라이센스에 대한 지원은 2024년 12월 31일에 종료됩니다. 노드 기반 라이센스의 EOA 후 BlueXP  라이센스 변환 툴을 사용하여 용량 기반 라이센스로 전환해야 합니다.
-
-연간 또는 장기 약정의 경우, NetApp은 EOA 날짜 또는 라이센스 만료일 전에 NetApp 담당자에게 연락하여 전환을 위한 사전 요구사항이 충족되는지 확인하는 것이 좋습니다. Cloud Volumes ONTAP 노드에 대한 장기 계약이 없는 상태에서 PAYGO(On-Demand Pay-as-you-Go) 서브스크립션에 대해 시스템을 실행하는 경우 EOS 날짜 전에 전환을 계획해야 합니다. 장기 계약 및 PAYGO 서브스크립션의 경우 BlueXP  라이선스 변환 도구를 사용하여 원활한 전환을 수행할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["노드 기반 라이센스의 공급 중지"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-convert-node-capacity.html["노드 기반 라이센스를 용량 기반으로 변환"^]
-
-
-
-==== BlueXP 에서 노드 기반 배포를 제거합니다
-
-BlueXP 에서는 노드 기반 라이센스를 사용하여 Cloud Volumes ONTAP 시스템을 배포하는 옵션이 더 이상 사용되지 않습니다. 몇 가지 특별한 경우를 제외하고 모든 클라우드 공급자에 대해 Cloud Volumes ONTAP 구축에 노드 기반 라이센스를 사용할 수 없습니다.
-
-NetApp은 계약 의무 및 운영 요구 사항에 따라 다음과 같은 고유한 라이센스 요구 사항을 인지하고 있으며, 이러한 상황에서 노드 기반 라이센스를 계속 지원합니다.
-
-* 미국 공공 부문 고객
-* 비공개 모드로 배포
-* 중국 지역에 AWS에서 Cloud Volumes ONTAP를 구축했습니다
-* 유효하며 만료되지 않은 노드 BYOL 라이센스(BYOL 라이센스)가 있는 경우
-
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["노드 기반 라이센스의 공급 중지"^]
-
-
-
-==== Azure Blob 스토리지에서 Cloud Volumes ONTAP 데이터에 대한 콜드 계층 추가
-
-BlueXP 은 이제 Azure Blob 스토리지에 비활성 용량 계층 데이터를 저장할 콜드 계층을 선택할 수 있도록 지원합니다. 기존 핫 계층과 쿨 계층에 콜드 계층을 추가하면 보다 경제적인 스토리지 옵션과 향상된 비용 효율성을 누릴 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html#data-tiering-in-azure["Azure의 데이터 계층화"^]
-
-
-
-==== Azure용 저장소 계정에 대한 공용 액세스를 제한하는 옵션입니다
-
-이제 Azure에서 Cloud Volumes ONTAP 시스템의 저장소 계정에 대한 공용 액세스를 제한할 수 있습니다. 액세스를 비활성화하면 조직의 보안 정책을 준수해야 하는 경우 동일한 VNet 내에서도 개인 IP 주소가 노출되지 않도록 보호할 수 있습니다. 이 옵션은 Cloud Volumes ONTAP 시스템의 데이터 계층화도 비활성화하며 단일 노드와 고가용성 쌍에 모두 적용할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-azure.html#security-group-rules["보안 그룹 규칙"^]..
-
-
-
-==== Cloud Volumes ONTAP 구축 후 WORM 지원
-
-이제 BlueXP 를 사용하여 기존 Cloud Volumes ONTAP 시스템에서 WORM(Write Once, Read Many) 스토리지를 활성화할 수 있습니다. 이 기능을 사용하면 작업 환경에서 WORM을 생성하는 동안 WORM이 활성화되지 않은 경우에도 작업 환경에서 WORM을 유연하게 활성화할 수 있습니다. WORM을 사용하도록 설정한 후에는 비활성화할 수 없습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabling-worm-on-a-cloud-volumes-ontap-working-environment["Cloud Volumes ONTAP 작업 환경에서 WORM 활성화"^]
 
 
 
@@ -806,6 +786,28 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-li
 
 
 
+=== 2025년 2월 19일
+
+버전 4.2
+
+
+
+==== ASA R2는 VMFS 스토리지의 VM 및 데이터 저장소를 지원합니다
+
+이번 BlueXP  재해 복구 릴리즈는 VMFS 스토리지의 VM 및 데이터 저장소용 ASA R2를 지원합니다. ASA R2 시스템에서 ONTAP 소프트웨어는 필수 SAN 기능을 지원하는 동시에 SAN 환경에서 지원되지 않는 기능을 제거합니다.
+
+이 릴리즈에서는 ASA R2에 대해 다음 기능을 지원합니다.
+
+* 운영 스토리지에 대한 정합성 보장 그룹 프로비저닝(플랫 정합성 보장 그룹만 해당, 즉 계층 구조가 없는 한 레벨만 해당)
+* SnapMirror 자동화를 포함한 백업(일관성 그룹) 작업
+
+
+BlueXP  재해 복구에서 ASA R2에 대한 지원은 ONTAP 9.16.1을 사용합니다.
+
+데이터 저장소는 ONTAP 볼륨 또는 ASA R2 스토리지 유닛에 마운트할 수 있지만 BlueXP  재해 복구의 리소스 그룹에 ONTAP의 데이터 저장소와 ASA R2의 데이터 저장소를 모두 포함할 수는 없습니다. ONTAP에서 데이터 저장소를 선택하거나 리소스 그룹의 ASA R2에서 데이터 저장소를 선택할 수 있습니다.
+
+
+
 === 2024년 10월 30일
 
 
@@ -910,27 +912,6 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-li
 * BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.
 * 모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.
 
-
-
-
-=== 2024년 8월 2일
-
-
-
-==== 온프레미스부터 온프레미스 VMware VMFS 데이터 저장소용 FC 지원
-
-이 릴리즈에는 온프레미스 스토리지로 보호되는 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 기술 미리 보기 _ 가 포함되어 있습니다. 이전에는 iSCSI용 VMFS 데이터 저장소를 지원하는 기술 미리 보기를 제공했습니다.
-
-
-NOTE: NetApp는 사전 검토된 워크로드 용량에 대해 비용을 청구하지 않습니다.
-
-
-
-==== 작업 취소
-
-이 릴리스에서는 작업 모니터 UI에서 작업을 취소할 수 있습니다.
-
-을 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["작업을 모니터링합니다"]참조하십시오.
 
 
 
