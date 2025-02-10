@@ -24,6 +24,41 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 
 
+=== 2025년 3월 6일
+
+
+
+==== 커넥터 3.9.49 업데이트
+
+
+
+===== BlueXP 에서 커넥터를 사용할 때 ONTAP 시스템 관리자 액세스
+
+BlueXP  관리자(조직 관리자 역할을 가진 사용자)는 ONTAP 시스템 관리자에 액세스하기 위해 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 이 설정을 사용하는 경우 사용자는 ONTAP 자격 증명이 BlueXP 에 저장되지 않으므로 매번 해당 자격 증명을 입력해야 합니다.
+
+이 기능은 커넥터 버전 3.9.49 이상에서 사용할 수 있습니다. link:task-ontap-access-connector.html["자격 증명 설정을 구성하는 방법에 대해 알아봅니다."^]..
+
+
+
+==== 커넥터 3.9.48 업데이트
+
+
+
+===== 커넥터에 대한 자동 업그레이드 설정을 비활성화할 수 있습니다
+
+커넥터의 자동 업그레이드 기능을 비활성화할 수 있습니다.
+
+표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP 는 소프트웨어 업데이트를 얻기 위해 커넥터에 아웃바운드 인터넷 액세스가 있는 경우 커넥터를 자동으로 최신 릴리스로 업그레이드합니다. 커넥터를 업그레이드할 때 수동으로 관리해야 하는 경우 표준 모드 또는 제한된 모드에 대한 자동 업그레이드를 비활성화할 수 있습니다.
+
+
+NOTE: 이 변경 사항은 항상 커넥터를 직접 업그레이드해야 하는 BlueXP  개인 모드에 영향을 주지 않습니다.
+
+이 기능은 커넥터 버전 3.9.48 이상에서 사용할 수 있습니다.
+
+link:task-upgrade-connector.html["커넥터에 대한 자동 업그레이드를 비활성화하는 방법에 대해 알아봅니다."^]
+
+
+
 === 2025년 2월 10일
 
 
@@ -38,7 +73,8 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 ==== BlueXP  ID 및 액세스 관리(IAM)
 
-* 사용자에게 둘 이상의 역할을 할당할 수 있습니다.
+* BlueXP  사용자에게 여러 역할을 할당할 수 있습니다.
+* BlueXP  조직의 여러 리소스에 대한 역할 할당 지원(조직/폴더/프로젝트)
 * 이제 역할은 플랫폼과 데이터 서비스의 두 가지 범주 중 하나에 연결됩니다.
 
 
@@ -132,47 +168,6 @@ BlueXP  IAM은 표준 및 제한 모드에서 BlueXP 를 사용할 때 지원�
 
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["지원 케이스 생성에 대해 자세히 알아보십시오"]..
-
-
-
-=== 2024년 12월 16일
-
-
-
-==== 커넥터 이미지를 얻기 위한 새로운 보안 끝점
-
-커넥터를 설치할 때 또는 자동 업그레이드가 발생하면 커넥터가 리포지토리에 연결하여 설치 또는 업그레이드를 위한 이미지를 다운로드합니다. 기본적으로 Connector는 항상 다음 끝점에 연결되었습니다.
-
-* https://*.blob.core.windows.net 으로 문의하십시오
-* https://cloudmanagerinfraprod.azurecr.io 으로 문의하십시오
-
-
-첫 번째 끝점에는 확실한 위치를 제공할 수 없기 때문에 와일드카드가 포함됩니다. 리포지토리의 로드 밸런싱은 서비스 공급자가 관리합니다. 즉, 여러 끝점에서 다운로드가 수행될 수 있습니다.
-
-보안을 강화하기 위해 Connector는 전용 엔드포인트에서 설치 및 업그레이드 이미지를 다운로드할 수 있습니다.
-
-* \https://bluexpinfraprod.eastus2.data.azurecr.io
-* \https://bluexpinfraprod.azurecr.io
-
-
-방화벽 규칙에서 기존 끝점을 제거하고 새 끝점을 허용하여 이러한 새 끝점을 사용하는 것이 좋습니다.
-
-이러한 새 끝점은 Connector의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다.
-
-다음 사항에 유의하십시오.
-
-* 기존 끝점은 계속 지원됩니다. 새 끝점을 사용하지 않으려면 변경할 필요가 없습니다.
-* 커넥터가 기존 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없는 경우 연결선이 자동으로 새 끝점에 연결합니다.
-* 다음 시나리오에서는 새 끝점이 지원되지 않습니다.
-+
-** 커넥터가 정부 지역에 설치된 경우
-** Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우
-
-
-+
-이 두 시나리오 모두 기존 끝점을 계속 사용할 수 있습니다.
-
-
 
 
 
@@ -581,11 +576,23 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
+=== 2025년 3월 6일
+
+
+
+==== Cloud Volumes ONTAP 9.16.1 GA
+
+이제 BlueXP 를 사용하여 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.16.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다. 그러나 이 버전은 AWS의 배포 및 업그레이드에 사용할 수 없습니다.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
+
+
+
 === 2025년 3월 3일
 
 
 
-==== 이제 Azure에서 뉴질랜드 북부 지역이 지원됩니다
+==== Azure에서 뉴질랜드 북부 지역 지원
 
 뉴질랜드 북부 지역은 이제 Cloud Volumes ONTAP 9.12.1 GA 이상의 단일 노드 및 고가용성(HA) 구성에 대해 Azure에서 지원됩니다. Lsv3 인스턴스 유형은 이 지역에서 지원되지 않습니다.
 
@@ -604,39 +611,6 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-azure-mktplace-direct.html["Azure의 Cloud Volumes ONTAP 배포 옵션에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다"^]
 
-
-
-
-=== 2025년 2월 10일
-
-
-
-==== BlueXP 에서 System Manager에 액세스할 수 있도록 사용자 인증을 설정했습니다
-
-이제 BlueXP  관리자는 BlueXP 에서 ONTAP System Manager에 액세스하는 ONTAP 사용자에 대해 인증을 활성화할 수 있습니다. BlueXP  커넥터 설정을 편집하여 이 옵션을 활성화할 수 있습니다. 이 옵션은 표준 및 개인 모드에서 사용할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["System Manager를 사용하여 Cloud Volumes ONTAP를 관리합니다"^]..
-
-
-
-==== BlueXP  고급 보기의 이름이 System Manager로 바뀌었습니다
-
-BlueXP 에서 ONTAP 시스템 관리자를 통해 Cloud Volumes ONTAP의 고급 관리 옵션이 * 고급 보기 * 에서 * 시스템 관리자 * 로 변경되었습니다.
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["System Manager를 사용하여 Cloud Volumes ONTAP를 관리합니다"^]..
-
-
-
-==== BlueXP  디지털 지갑으로 라이선스를 관리하는 간단한 방법을 소개합니다
-
-이제 BlueXP  디지털 지갑의 향상된 탐색 지점을 사용하여 Cloud Volumes ONTAP 라이선스 관리를 간소화할 수 있습니다.
-
-* 거버넌스 > 디지털 지갑 > 개요/데이터 서비스 라이센스 * 탭을 통해 Cloud Volumes ONTAP 라이센스 정보에 쉽게 액세스할 수 있습니다.
-* 개요 * 탭의 Cloud Volume ONTAP 패널에서 * 보기 * 를 클릭하면 용량 기반 라이센스에 대한 포괄적인 이해를 얻을 수 있습니다. 이 고급 보기는 라이선스 및 구독에 대한 자세한 정보를 제공합니다.
-* 이전 인터페이스를 선호하는 경우 * 레거시 보기로 전환 * 버튼을 클릭하여 유형별로 라이센스 세부 정보를 보고 라이센스에 대한 청구 방법을 수정할 수 있습니다.
-
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["용량 기반 라이센스 관리"^]..
 
 
 
