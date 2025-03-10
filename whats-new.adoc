@@ -1148,31 +1148,31 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
-==== ad84f24c65dd6930a049e0903256dc97
+==== 공격을 시뮬레이션하고 대응합니다
 
-6cadf1d9d5289622136d042488809e73
+이 릴리즈에서는 랜섬웨어 공격을 시뮬레이션하여 랜섬웨어 경고에 대한 응답을 테스트하십시오. 이 기능은 알림, 응답 및 복구 프로세스를 테스트하여 실제 랜섬웨어 공격이 발생했을 때 적절한 준비가 되어 있는지 파악하는 데 도움이 됩니다.
 
-9b1eb2dbe181e9f7b73db8a0785c0419
-
-
-
-==== d36ca1f9466b055dd6adb80de5cce7d4
-
-61541c0b99aec5f11fccef5bcb3fe5a1
-
-* cb3c0a83218c46d38ab0842ce49a7e6e
-* 6a4c9cc76f7f432efa274c3ff0dae3dd
-* 3b7810e8427f006590b006af43d016ef
-* 28573ff4f820730a3eeae9cdd51b54d4
-
-
-98e6e30b63e5242616c686684a17c03b
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["랜섬웨어 공격 준비도 훈련을 실시합니다"]참조하십시오.
 
 
 
-==== d957d0c80017f235b131c557ae0876b1
+==== 검색 프로세스 개선
 
-8c8c1a747835015c86248b11a2097c02
+이 릴리스에는 선택적 검색 및 재검색 프로세스의 향상된 기능이 포함되어 있습니다.
+
+* 이 릴리즈를 사용하면 이전에 선택한 작업 환경에 추가된 새로 생성된 워크로드를 검색할 수 있습니다.
+* 이 릴리스에서는 _NEW_WORKING 환경을 선택할 수도 있습니다. 이 기능을 사용하면 환경에 추가되는 새 워크로드를 보호할 수 있습니다.
+* 검색된 워크로드를 모두 선택하려면 * 모두 선택 * 옵션을 사용하면 됩니다.
+* 검색 프로세스 초기에 또는 설정 옵션에서 이러한 검색 프로세스를 수행할 수 있습니다.
+
+
+자세한 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다"] 내용은 및 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["설정 옵션으로 페어를 구성합니다"]을 참조하십시오.
+
+
+
+==== 높은 암호화가 감지될 때 경고가 발생합니다
+
+이 릴리스에서는 높은 파일 확장명을 변경하지 않고도 작업 부하에서 높은 암호화가 감지될 때 알림을 볼 수 있습니다. ONTAP ARP(자율적 랜섬웨어 방어) AI를 사용하는 이 기능은 랜섬웨어 공격의 위험이 있는 워크로드를 파악하는 데 도움이 됩니다. 이 기능을 사용하여 확장자 변경 여부에 관계없이 영향을 받는 파일의 전체 목록을 다운로드합니다.
 
 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["감지된 랜섬웨어 경고에 대응합니다"]참조하십시오.
 
