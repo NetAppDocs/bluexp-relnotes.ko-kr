@@ -313,11 +313,9 @@
   <block id="7aea075f0d949c2526cea755a2dee13f" category="paragraph">이전에는 자산을 평가하고 기술 업데이트가 필요한지 여부만 파악할 수 있었습니다.</block>
   <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">이 기능은 이제 왼쪽 탐색 창의 Tech Refresh 옵션에 포함됩니다.</block>
   <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link-macro">기술 업데이트를 평가합니다</block>
-  <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">오브젝트에 백업 정책 설정</block>
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 개선 서비스가 2024년 4월 22일에 제거되었습니다.</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 전체 릴리스 기록을 보려면 로 이동하십시오 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 각 개별 서비스에 대해.</block>
-  <block id="5462103113dfca7582cf43f266db09a2" category="inline-link">호스트 요구 사항</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">서비스별 릴리스 정보</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
@@ -335,15 +333,6 @@
   <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">을<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보십시오</block>
   <block id="48e006c40a370e7b0dcc3f4f1e42eda7" category="paragraph"><block ref="17c138513bf5a78d755bed4038999b20" category="inline-link-rx"></block>..</block>
-  <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">이 릴리스에서는 이제 ONTAP에서 만든 1GB 미만의 볼륨을 복원할 수 있습니다. ONTAP를 사용하여 만들 수 있는 최소 볼륨 크기는 20MB입니다.</block>
-  <block id="f959c5a51fb8f2a9e9c0063bbb8adb63" category="paragraph">DataLock 기능은 지정된 기간 동안 백업 파일이 수정되거나 삭제되지 않도록 보호합니다. 이 기능은 랜섬웨어 공격으로부터 파일을 보호하는 데 도움이 됩니다.</block>
-  <block id="bebfb016f9defe9a78fff65f418f213b" category="paragraph">AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스를 사용하면 AWS의 words_outside_of AWS에 대한 IAM 역할 및 단기 자격 증명을 사용하여 AWS API에 안전하게 액세스할 수 있으며, 이때 words_on_AWS에 IAM 역할을 사용하는 것과 같은 방법으로 AWS API에 안전하게 액세스할 수 있습니다. 어디서나 개인 키 인프라 및 AWS 토큰을 사용할 경우 장기 AWS 액세스 키와 비밀 키가 필요하지 않습니다. 이렇게 하면 자격 증명을 더 자주 순환할 수 있으므로 보안이 향상됩니다.</block>
-  <block id="24c6cf6b2747b390a5d9eb672e1d54d4" category="paragraph">이 릴리스에서 AWS IAM 역할 Anywhere 서비스에 대한 지원은 기술 미리 보기입니다.</block>
-  <block id="ddc7fe4301c8a4aa6a14e1843c25f30b" category="inline-link">BlueXP 백업 및 복구 2024년 7월 릴리즈 블로그</block>
-  <block id="f1db3a8ee789ee9607754f5f8a9871b1" category="paragraph">을<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="cd4619af82dfe7627dc934e29e85a6e9" category="paragraph">이 릴리스에서 FlexGroup 폴더 복원에 대한 지원은 기술 미리 보기입니다.</block>
-  <block id="abbf2484b45da9fd7be677fe96c511eb" category="inline-link-macro">Browse &amp; Amp; Restore를 사용하여 폴더 및 파일을 복원합니다</block>
-  <block id="707304f314bfa71975e8ffb352535092" category="paragraph">수동으로 활성화하는 방법에 대한 자세한 내용은 을<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">방법은 다음과 같습니다.</block>
   <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">상단 메뉴에서 * Replication Plans * 를 선택합니다.</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">계획을 선택하고 조치 아이콘을 선택하여 드롭다운 메뉴를 표시합니다.</block>
@@ -363,8 +352,6 @@
   <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  소프트웨어 업데이트</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">기술 교체</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">용량 추가</block>
-  <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  커넥터 버전 3.9.40은 에 언급된 운영 체제 외에 위치에 관계없이 RHEL 8 또는 9 호스트에 커넥터 소프트웨어를 수동으로 설치할 수 있도록 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block> 지원합니다. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 이전에는 BlueXP  백업 및 복구에 Podman 엔진을 사용할 때 두 가지 제한 사항이 있었습니다. 이러한 제한 사항은 제거되었습니다.</block>
-  <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오</block>
   <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.</block>
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
@@ -376,9 +363,6 @@
   <block id="4f721f83f0a49dae4f329f77ae2221d5" category="list-text"><block ref="4f721f83f0a49dae4f329f77ae2221d5" category="inline-link-rx"></block></block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">BlueXP  알림에 대해 자세히 알아봅니다</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>..</block>
-  <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>..</block>
-  <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">DataLock에 대한 자세한 내용과 관련 비용을 줄이는 방법에 대한 팁은 을<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">자세한 내용은 을<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
@@ -550,17 +534,6 @@
   <block id="517624d736bd2a385ee8cda71584112f" category="section-title">SnapLock Compliance 및 SnapLock Enterprise 보호 모드</block>
   <block id="fec92c3dfb6a0b3db498488c7f4d2f29" category="section-title">볼륨 페이지에서 검색 및 복원 프로세스를 위한 인덱싱</block>
   <block id="20d3b0b7cfe7a9f3dcfdb0faa9398efd" category="paragraph">검색 및 복원을 사용하려면 볼륨 데이터를 복원할 각 소스 작업 환경에서 "인덱싱"을 활성화해야 합니다. 따라서 인덱스화된 카탈로그에서 모든 볼륨의 백업 파일을 추적할 수 있습니다. 이제 볼륨 페이지에 인덱싱 상태가 표시됩니다.</block>
-  <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="section-title">2024년 9월 27일</block>
-  <block id="aa6a53998d98bae73a6913ff1c2eecbc" category="section-title">Browse and Restore를 사용하여 RHEL 8 또는 9에서 Podman을 지원합니다</block>
-  <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">이제 BlueXP  백업 및 복구는 Podman 엔진을 사용하여 RHEL(Red Hat Enterprise Linux) 버전 8 및 9에서 파일 및 폴더 복원을 지원합니다. 이는 BlueXP  백업 및 복구 찾아보기 및 복원 방법에 적용됩니다.</block>
-  <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">빠른 카탈로그 인덱싱으로 검색 및 복원 향상</block>
-  <block id="9353e94049314c6236b51712848f2572" category="paragraph">이 릴리스에는 기본 인덱싱을 훨씬 빠르게 완료할 수 있는 향상된 카탈로그 인덱스가 포함되어 있습니다. 인덱싱 속도가 빨라지면 검색 및 복원 기능을 보다 빠르게 사용할 수 있습니다.</block>
-  <block id="ba874eb3ffbdba518b95ce26bc81a861" category="section-title">2024년 7월 22일</block>
-  <block id="9d5f0e2f1682000ac365243e21301823" category="section-title">1GB 미만의 볼륨을 복원합니다</block>
-  <block id="ccbf8c45039ba817be81bbf5fa2a7521" category="section-title">DataLock 비용을 줄이는 방법에 대한 팁</block>
-  <block id="79cfacda817c1e599649823ffa32c8d7" category="section-title">AWS IAM 역할 어디서나 통합</block>
-  <block id="5ab4d79a28b46b39467c24096b99316f" category="section-title">이제 FlexGroup 폴더 또는 디렉토리 복원을 사용할 수 있습니다</block>
-  <block id="a821e6c079044462f6ffc9a01ed28fc9" category="paragraph">이전에는 FlexVol 볼륨을 복원할 수 있었지만 FlexGroup 폴더 또는 디렉토리를 복원할 수 없었습니다. ONTAP 9.15.1 P2에서는 찾아보기 및 복원 옵션을 사용하여 FlexGroup 폴더를 복원할 수 있습니다.</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025년 1월 22일</block>
   <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">버전 1.39</block>
   <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">이 BlueXP  분류 릴리스는 데이터 조사 보고서의 내보내기 프로세스를 업데이트합니다. 이 내보내기 업데이트는 데이터에 대한 추가 분석을 수행하거나, 데이터에 대한 추가 시각화를 만들거나, 데이터 조사 결과를 다른 사람과 공유하는 데 유용합니다.</block>
@@ -801,7 +774,6 @@
   <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">이 릴리스에는 선택적 검색 및 재검색 프로세스의 향상된 기능이 포함되어 있습니다.</block>
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">이 릴리즈를 사용하면 이전에 선택한 작업 환경에 추가된 새로 생성된 워크로드를 검색할 수 있습니다.</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">이 릴리스에서는 _NEW_WORKING 환경을 선택할 수도 있습니다. 이 기능을 사용하면 환경에 추가되는 새 워크로드를 보호할 수 있습니다.</block>
-  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">검색된 워크로드를 모두 선택하려면 * 모두 선택 * 옵션을 사용하면 됩니다.</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">검색 프로세스 초기에 또는 설정 옵션에서 이러한 검색 프로세스를 수행할 수 있습니다.</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다</block>
   <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">설정 옵션으로 페어를 구성합니다</block>
@@ -815,4 +787,17 @@
   <block id="2e168141b8f719cbd37e6beec663b599" category="list-text">미국 중부</block>
   <block id="7a6df46ff8e25ac610f60f312512afa4" category="list-text">미국 정부 버지니아(미국 정부 지역 - 버지니아)</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역의 목록은 을<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">2025년 3월 17일</block>
+  <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">SMB 스냅샷 탐색</block>
+  <block id="024bc4989e66777454fa98cbaf9a7d3e" category="paragraph">이 BlueXP  백업 및 복구 업데이트는 고객이 SMB 환경에서 로컬 스냅샷을 찾을 수 없는 문제를 해결했습니다.</block>
+  <block id="151a83fcfdad3b420d256dbc19095068" category="section-title">AWS GovCloud 환경 업데이트</block>
+  <block id="c4ff0af994997811a9867969c1b26bf3" category="paragraph">이 BlueXP  백업 및 복구 업데이트는 TLS 인증서 오류로 인해 UI가 AWS GovCloud 환경에 연결되지 않는 문제를 해결했습니다. IP 주소 대신 BlueXP  커넥터 호스트 이름을 사용하여 문제를 해결했습니다.</block>
+  <block id="a758068ed72f0a6858316a7ff791b4ba" category="section-title">백업 정책 보존 제한</block>
+  <block id="7937af8bb9aecdab11a666bfc7946c61" category="paragraph">이전에는 BlueXP  백업 및 복구 UI에서 백업을 999개로 제한했지만 CLI에서는 백업을 더 허용했습니다. 이제 최대 4,000개의 볼륨을 백업 정책에 연결할 수 있으며 백업 정책에 연결되지 않은 1,018개의 볼륨을 포함할 수 있습니다. 이 업데이트에는 이러한 제한을 초과하지 않는 추가 유효성 검사가 포함되어 있습니다.</block>
+  <block id="d5479e738a91b3a64956ed9f9e81bc5a" category="section-title">SnapMirror Cloud 재동기화</block>
+  <block id="06476618a5631fabf79c4d5ebe8b60b0" category="paragraph">이 업데이트는 SnapMirror 관계가 삭제된 후에 지원되지 않는 ONTAP 버전에 대한 BlueXP  백업 및 복구에서 SnapMirror Cloud 재동기화를 시작할 수 없도록 합니다.</block>
+  <block id="322a339b221056f32120ffd18077d44d" category="section-title">Azure에서 API를 통해 스토리지 VM 생성 자동화</block>
+  <block id="aa1c2167957b1092da7e43e77867748c" category="paragraph">이제 BlueXP  API를 사용하여 Azure에서 Cloud Volumes ONTAP용 추가 데이터 제공 스토리지 VM을 생성, 이름 변경 및 삭제할 수 있습니다. 이 API를 사용하면 관리에 스토리지 VM을 사용해야 하는 경우 필요한 네트워크 인터페이스, LIF, 관리 LIF의 구성을 비롯하여 스토리지 VM 생성 프로세스가 자동화됩니다.</block>
+  <block id="65cc3fef2113d2e1d1f636ab8cb02386" category="inline-link">Azure에서 Cloud Volumes ONTAP를 위한 데이터 서비스 스토리지 VM을 생성합니다</block>
+  <block id="5fc68a139fdd05790792b12eb853e84d" category="paragraph"><block ref="5fc68a139fdd05790792b12eb853e84d" category="inline-link-rx"></block></block>
 </blocks>

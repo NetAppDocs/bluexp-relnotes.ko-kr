@@ -355,6 +355,36 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
+=== 2025년 3월 17일
+
+이 BlueXP  백업 및 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.
+
+
+
+==== SMB 스냅샷 탐색
+
+이 BlueXP  백업 및 복구 업데이트는 고객이 SMB 환경에서 로컬 스냅샷을 찾을 수 없는 문제를 해결했습니다.
+
+
+
+==== AWS GovCloud 환경 업데이트
+
+이 BlueXP  백업 및 복구 업데이트는 TLS 인증서 오류로 인해 UI가 AWS GovCloud 환경에 연결되지 않는 문제를 해결했습니다. IP 주소 대신 BlueXP  커넥터 호스트 이름을 사용하여 문제를 해결했습니다.
+
+
+
+==== 백업 정책 보존 제한
+
+이전에는 BlueXP  백업 및 복구 UI에서 백업을 999개로 제한했지만 CLI에서는 백업을 더 허용했습니다. 이제 최대 4,000개의 볼륨을 백업 정책에 연결할 수 있으며 백업 정책에 연결되지 않은 1,018개의 볼륨을 포함할 수 있습니다. 이 업데이트에는 이러한 제한을 초과하지 않는 추가 유효성 검사가 포함되어 있습니다.
+
+
+
+==== SnapMirror Cloud 재동기화
+
+이 업데이트는 SnapMirror 관계가 삭제된 후에 지원되지 않는 ONTAP 버전에 대한 BlueXP  백업 및 복구에서 SnapMirror Cloud 재동기화를 시작할 수 없도록 합니다.
+
+
+
 === 2025년 2월 21일
 
 이 BlueXP  백업 및 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.
@@ -434,70 +464,6 @@ BlueXP  백업 및 복구 기능은 이제 SnapLock Compliance 또는 SnapLock 
 * 오류
 * 활성화되지 않음
 
-
-
-
-=== 2024년 9월 27일
-
-이 BlueXP  백업 및 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.
-
-
-
-==== Browse and Restore를 사용하여 RHEL 8 또는 9에서 Podman을 지원합니다
-
-이제 BlueXP  백업 및 복구는 Podman 엔진을 사용하여 RHEL(Red Hat Enterprise Linux) 버전 8 및 9에서 파일 및 폴더 복원을 지원합니다. 이는 BlueXP  백업 및 복구 찾아보기 및 복원 방법에 적용됩니다.
-
-BlueXP  커넥터 버전 3.9.40은 에 언급된 운영 체제 외에 위치에 관계없이 RHEL 8 또는 9 호스트에 커넥터 소프트웨어를 수동으로 설치할 수 있도록 특정 버전의 Red Hat Enterprise Linux 버전 8 및 9를 https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-private-mode.html#step-3-review-host-requirements["호스트 요구 사항"^] 지원합니다. 이러한 최신 RHEL 버전에는 Docker 엔진 대신 Podman 엔진이 필요합니다. 이전에는 BlueXP  백업 및 복구에 Podman 엔진을 사용할 때 두 가지 제한 사항이 있었습니다. 이러한 제한 사항은 제거되었습니다.
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오"]..
-
-
-
-==== 빠른 카탈로그 인덱싱으로 검색 및 복원 향상
-
-이 릴리스에는 기본 인덱싱을 훨씬 빠르게 완료할 수 있는 향상된 카탈로그 인덱스가 포함되어 있습니다. 인덱싱 속도가 빨라지면 검색 및 복원 기능을 보다 빠르게 사용할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["백업 파일에서 ONTAP 데이터를 복원하는 방법에 대해 자세히 알아보십시오"]..
-
-
-
-=== 2024년 7월 22일
-
-
-
-==== 1GB 미만의 볼륨을 복원합니다
-
-이 릴리스에서는 이제 ONTAP에서 만든 1GB 미만의 볼륨을 복원할 수 있습니다. ONTAP를 사용하여 만들 수 있는 최소 볼륨 크기는 20MB입니다.
-
-
-
-==== DataLock 비용을 줄이는 방법에 대한 팁
-
-DataLock 기능은 지정된 기간 동안 백업 파일이 수정되거나 삭제되지 않도록 보호합니다. 이 기능은 랜섬웨어 공격으로부터 파일을 보호하는 데 도움이 됩니다.
-
-DataLock에 대한 자세한 내용과 관련 비용을 줄이는 방법에 대한 팁은 을 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-cloud-backup-policies.html["오브젝트에 백업 정책 설정"]참조하십시오.
-
-
-
-==== AWS IAM 역할 어디서나 통합
-
-AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스를 사용하면 AWS의 words_outside_of AWS에 대한 IAM 역할 및 단기 자격 증명을 사용하여 AWS API에 안전하게 액세스할 수 있으며, 이때 words_on_AWS에 IAM 역할을 사용하는 것과 같은 방법으로 AWS API에 안전하게 액세스할 수 있습니다. 어디서나 개인 키 인프라 및 AWS 토큰을 사용할 경우 장기 AWS 액세스 키와 비밀 키가 필요하지 않습니다. 이렇게 하면 자격 증명을 더 자주 순환할 수 있으므로 보안이 향상됩니다.
-
-이 릴리스에서 AWS IAM 역할 Anywhere 서비스에 대한 지원은 기술 미리 보기입니다.
-
-을 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-July-2024-Release/ba-p/453993["BlueXP 백업 및 복구 2024년 7월 릴리즈 블로그"]참조하십시오.
-
-
-
-==== 이제 FlexGroup 폴더 또는 디렉토리 복원을 사용할 수 있습니다
-
-이전에는 FlexVol 볼륨을 복원할 수 있었지만 FlexGroup 폴더 또는 디렉토리를 복원할 수 없었습니다. ONTAP 9.15.1 P2에서는 찾아보기 및 복원 옵션을 사용하여 FlexGroup 폴더를 복원할 수 있습니다.
-
-이 릴리스에서 FlexGroup 폴더 복원에 대한 지원은 기술 미리 보기입니다.
-
-자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html#restore-ontap-data-using-browse-restore["Browse  Amp; Restore를 사용하여 폴더 및 파일을 복원합니다"]참조하십시오.
-
-수동으로 활성화하는 방법에 대한 자세한 내용은 을 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-July-2024-Release/ba-p/453993["BlueXP 백업 및 복구 2024년 7월 릴리즈 블로그"]참조하십시오.
 
 
 
@@ -629,11 +595,11 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
-==== 322a339b221056f32120ffd18077d44d
+==== Azure에서 API를 통해 스토리지 VM 생성 자동화
 
-aa1c2167957b1092da7e43e77867748c
+이제 BlueXP  API를 사용하여 Azure에서 Cloud Volumes ONTAP용 추가 데이터 제공 스토리지 VM을 생성, 이름 변경 및 삭제할 수 있습니다. 이 API를 사용하면 관리에 스토리지 VM을 사용해야 하는 경우 필요한 네트워크 인터페이스, LIF, 관리 LIF의 구성을 비롯하여 스토리지 VM 생성 프로세스가 자동화됩니다.
 
-5fc68a139fdd05790792b12eb853e84d
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Azure에서 Cloud Volumes ONTAP를 위한 데이터 서비스 스토리지 VM을 생성합니다"^]
 
 
 
@@ -1162,7 +1128,6 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 * 이 릴리즈를 사용하면 이전에 선택한 작업 환경에 추가된 새로 생성된 워크로드를 검색할 수 있습니다.
 * 이 릴리스에서는 _NEW_WORKING 환경을 선택할 수도 있습니다. 이 기능을 사용하면 환경에 추가되는 새 워크로드를 보호할 수 있습니다.
-* 검색된 워크로드를 모두 선택하려면 * 모두 선택 * 옵션을 사용하면 됩니다.
 * 검색 프로세스 초기에 또는 설정 옵션에서 이러한 검색 프로세스를 수행할 수 있습니다.
 
 
