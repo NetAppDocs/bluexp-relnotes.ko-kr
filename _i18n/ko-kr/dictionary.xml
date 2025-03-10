@@ -369,7 +369,6 @@
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
   <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.</block>
-  <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA R2 시스템에 대해 자세히 알아보십시오</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -410,7 +409,6 @@
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">워크로드 공장</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.56입니다.</block>
-  <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>..</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">BlueXP  백업 및 복구 기능은 이제 SnapLock Compliance 또는 SnapLock Enterprise 보호 모드를 사용하여 구성된 FlexVol 및 FlexGroup 온프레미스 볼륨을 모두 백업할 수 있습니다. 클러스터에서 ONTAP 9.14 이상을 실행해야 합니다. SnapLock 엔터프라이즈 모드를 사용한 FlexVol 볼륨 백업은 ONTAP 버전 9.11.1 이후로 지원됩니다. 이전 ONTAP 릴리즈에서는 SnapLock 보호 볼륨의 백업을 지원하지 않습니다.</block>
   <block id="ba48140a3394818b661e6fd497e203a7" category="inline-link">BlueXP 백업 및 복구에 대해 알아보십시오</block>
   <block id="9ddb3e6714694f5c7f619d474fec8169" category="paragraph">에서 지원되는 볼륨의 전체 목록을<block ref="9e68a582cc487ad29425f5a4796c9e45" category="inline-link-rx"></block> 참조하십시오.</block>
@@ -658,9 +656,6 @@
   <block id="31e5266d7eefb6e39e445571b556a4b6" category="paragraph">이 릴리즈에서 새로운 BlueXP  랜섬웨어 방지 솔루션을 배포한 경우 30일 무료 평가판이 제공됩니다. 이전에는 BlueXP  랜섬웨어 방어 기능이 90일 무료 평가판으로 제공되었습니다. 이미 90일 무료 평가판을 사용 중인 경우 이 혜택은 90일 동안 계속됩니다.</block>
   <block id="131dcf966228f0c4a90e6e64618c8def" category="section-title">Podman의 파일 레벨에서 애플리케이션 워크로드 복원</block>
   <block id="b4a1818e2de3da83b0e71c710c96525c" category="paragraph">파일 수준에서 애플리케이션 워크로드를 복원하기 전에 공격의 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. 이전에는 조직의 BlueXP  커넥터(이전의 계정)가 Podman을 사용하고 있었다면 이 기능을 사용할 수 없었습니다. 이제 Podman에서 사용할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.</block>
-  <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024년 9월 30일</block>
-  <block id="4d330e714e6183f0c61932d7c00a8ff3" category="section-title">파일 공유 워크로드의 사용자 지정 그룹화</block>
-  <block id="52a2bb712de6112a9a5d29a047f3a073" category="paragraph">이 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다.</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">해결</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022년 9월 18일</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">ONTAP에서 Cloud Volumes ONTAP로 FSX</block>
@@ -724,13 +719,6 @@
   <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">이제 ** Retry All** 기능을 사용하여 일괄 작업으로 스캔을 다시 시도할 수 있습니다. 네트워크 중단과 같은 일시적인 문제로 인해 분류 스캔이 실패하는 경우 개별적으로 다시 시도하지 않고 하나의 버튼으로 모든 스캔을 동시에 다시 시도할 수 있습니다. 스캔은 필요한 만큼 재시도할 수 있습니다.</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">모든 스캔을 재시도하려면:</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.</block>
-  <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">2025년 2월 18일</block>
-  <block id="880b804508da0afe757f8198fd3eb1c3" category="section-title">Azure 마켓플레이스 직접 구축을 소개합니다</block>
-  <block id="365aa2bac7413987a05e356d504aee0f" category="paragraph">이제 Azure 마켓플레이스 직접 배포를 활용하여 Azure 마켓플레이스에서 Cloud Volumes ONTAP을 직접 쉽고 빠르게 배포할 수 있습니다. 이처럼 간소화된 방법을 사용하면 BlueXP  커넥터를 설정할 필요 없이 사용자 환경에서 Cloud Volumes ONTAP의 핵심 기능을 살펴보거나 BlueXP 를 통해 Cloud Volumes ONTAP를 배포하는 데 필요한 다른 온보딩 기준을 충족할 수 있습니다.</block>
-  <block id="f56439b6bdbca147476a375ebacfef1d" category="inline-link">Azure의 Cloud Volumes ONTAP 배포 옵션에 대해 알아보십시오</block>
-  <block id="29a97b99a51928e5b93f84b989f0c2a0" category="list-text"><block ref="29a97b99a51928e5b93f84b989f0c2a0" category="inline-link-rx"></block></block>
-  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다</block>
-  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="list-text"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
   <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">버전 4.2</block>
   <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">ASA R2는 VMFS 스토리지의 VM 및 데이터 저장소를 지원합니다</block>
   <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">이번 BlueXP  재해 복구 릴리즈는 VMFS 스토리지의 VM 및 데이터 저장소용 ASA R2를 지원합니다. ASA R2 시스템에서 ONTAP 소프트웨어는 필수 SAN 기능을 지원하는 동시에 SAN 환경에서 지원되지 않는 기능을 제거합니다.</block>
@@ -774,9 +762,6 @@
   <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025년 3월 2일</block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">CloudShell을 사용하여 BlueXP  워크로드에서 FSx for ONTAP 작업을 실행할 때 Tracker에 이벤트가 표시됩니다.</block>
-  <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">2025년 3월 3일</block>
-  <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">뉴질랜드 북부 지역은 이제 Cloud Volumes ONTAP 9.12.1 GA 이상의 단일 노드 및 고가용성(HA) 구성에 대해 Azure에서 지원됩니다. Lsv3 인스턴스 유형은 이 지역에서 지원되지 않습니다.</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">지원되는 모든 지역 목록은 을<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="278edfabbac204688aa13f79c6f52497" category="section-title">2025년 3월 6일</block>
   <block id="66a5f69d070814deb69bf917dd07a6af" category="section-title">커넥터 3.9.49 업데이트</block>
   <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">BlueXP 에서 커넥터를 사용할 때 ONTAP 시스템 관리자 액세스</block>
@@ -795,11 +780,17 @@
   <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">BlueXP  조직의 여러 리소스에 대한 역할 할당 지원(조직/폴더/프로젝트)</block>
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">이제 BlueXP 를 사용하여 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.16.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다. 그러나 이 버전은 AWS의 배포 및 업그레이드에 사용할 수 없습니다.</block>
-  <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">Azure에서 뉴질랜드 북부 지역 지원</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">버전 1.41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다. 여기에는 다음이 포함됩니다.</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
+  <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">현재 3.9.50 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="3f45680fc0523f726aa3afe05af65c63" category="section-title">NetApp Keystone 베타는 BlueXP 에서 사용할 수 있습니다</block>
+  <block id="6bcb702faf24747c517b58ba5f3b8a99" category="paragraph">NetApp Keystone는 곧 BlueXP 에서 제공되며 현재 베타 버전으로 제공됩니다. BlueXP 의 왼쪽 탐색 모음에서 NetApp Keystone 베타의 등록 페이지에 액세스할 수 있습니다.</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">구독을 제거할 수 있습니다</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">이제 구독을 취소한 경우 디지털 지갑에서 구독을 제거할 수 있습니다.</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">마켓플레이스 구독에 사용된 용량 보기</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">PAYGO 서브스크립션을 볼 때 서브스크립션의 소비 용량을 볼 수 있습니다.</block>
 </blocks>

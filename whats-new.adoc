@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
 summary: BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 
 ---
 = BlueXP의 최근 변경 사항
@@ -21,6 +21,24 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 == 관리 기능
 
 이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.
+
+
+
+=== 2025년 3월 10일
+
+
+
+==== 23b3b711859803a815b81aca1cc4811c
+
+이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
+
+현재 3.9.50 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+==== NetApp Keystone 베타는 BlueXP 에서 사용할 수 있습니다
+
+NetApp Keystone는 곧 BlueXP 에서 제공되며 현재 베타 버전으로 제공됩니다. BlueXP 의 왼쪽 탐색 모음에서 NetApp Keystone 베타의 등록 페이지에 액세스할 수 있습니다.
 
 
 
@@ -591,6 +609,34 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 
 
 
+=== 0de5f5ade75808b90faefd69873b4b3c
+
+
+
+==== a2fefc65df2136938b995f8abbe643c2
+
+0cc914ed23f0f7d6bc902ae731843213
+
+* 2e168141b8f719cbd37e6beec663b599
+* 7a6df46ff8e25ac610f60f312512afa4
+
+
+91aba3afcaafb3ecbed8f358c30b8a7a
+
+
+
+=== 2025년 3월 10일
+
+
+
+==== 322a339b221056f32120ffd18077d44d
+
+aa1c2167957b1092da7e43e77867748c
+
+5fc68a139fdd05790792b12eb853e84d
+
+
+
 === 2025년 3월 6일
 
 
@@ -600,32 +646,6 @@ AWS(Amazon Web Services) ID 및 액세스 관리(IAM) 역할 Anywhere 서비스�
 이제 BlueXP 를 사용하여 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 9.16.1 일반 가용성 릴리즈를 구축 및 관리할 수 있습니다. 그러나 이 버전은 AWS의 배포 및 업그레이드에 사용할 수 없습니다.
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"^].
-
-
-
-=== 2025년 3월 3일
-
-
-
-==== Azure에서 뉴질랜드 북부 지역 지원
-
-뉴질랜드 북부 지역은 이제 Cloud Volumes ONTAP 9.12.1 GA 이상의 단일 노드 및 고가용성(HA) 구성에 대해 Azure에서 지원됩니다. Lsv3 인스턴스 유형은 이 지역에서 지원되지 않습니다.
-
-지원되는 모든 지역 목록은 을 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 아래의 글로벌 지역 지도"^] 참조하십시오.
-
-
-
-=== 2025년 2월 18일
-
-
-
-==== Azure 마켓플레이스 직접 구축을 소개합니다
-
-이제 Azure 마켓플레이스 직접 배포를 활용하여 Azure 마켓플레이스에서 Cloud Volumes ONTAP을 직접 쉽고 빠르게 배포할 수 있습니다. 이처럼 간소화된 방법을 사용하면 BlueXP  커넥터를 설정할 필요 없이 사용자 환경에서 Cloud Volumes ONTAP의 핵심 기능을 살펴보거나 BlueXP 를 통해 Cloud Volumes ONTAP를 배포하는 데 필요한 다른 온보딩 기준을 충족할 수 있습니다.
-
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-azure-mktplace-direct.html["Azure의 Cloud Volumes ONTAP 배포 옵션에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다"^]
-
 
 
 
@@ -750,6 +770,22 @@ NetApp SupportEdge Basic 서비스 제품에는 현재 SupportEdge Advisor 및 S
 
 
 == 디지털 지갑
+
+
+
+=== 2025년 3월 10일
+
+
+
+==== 구독을 제거할 수 있습니다
+
+이제 구독을 취소한 경우 디지털 지갑에서 구독을 제거할 수 있습니다.
+
+
+
+==== 마켓플레이스 구독에 사용된 용량 보기
+
+PAYGO 서브스크립션을 볼 때 서브스크립션의 소비 용량을 볼 수 있습니다.
 
 
 
@@ -1108,6 +1144,40 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
+=== 2025년 3월 10일
+
+
+
+==== ad84f24c65dd6930a049e0903256dc97
+
+6cadf1d9d5289622136d042488809e73
+
+9b1eb2dbe181e9f7b73db8a0785c0419
+
+
+
+==== d36ca1f9466b055dd6adb80de5cce7d4
+
+61541c0b99aec5f11fccef5bcb3fe5a1
+
+* cb3c0a83218c46d38ab0842ce49a7e6e
+* 6a4c9cc76f7f432efa274c3ff0dae3dd
+* 3b7810e8427f006590b006af43d016ef
+* 28573ff4f820730a3eeae9cdd51b54d4
+
+
+98e6e30b63e5242616c686684a17c03b
+
+
+
+==== d957d0c80017f235b131c557ae0876b1
+
+8c8c1a747835015c86248b11a2097c02
+
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["감지된 랜섬웨어 경고에 대응합니다"]참조하십시오.
+
+
+
 === 2024년 12월 16일
 
 
@@ -1174,18 +1244,6 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html[
 파일 수준에서 애플리케이션 워크로드를 복원하기 전에 공격의 영향을 받았을 수 있는 파일 목록을 보고 복원할 파일을 식별할 수 있습니다. 이전에는 조직의 BlueXP  커넥터(이전의 계정)가 Podman을 사용하고 있었다면 이 기능을 사용할 수 없었습니다. 이제 Podman에서 사용할 수 있습니다. BlueXP 랜섬웨어 방어 기능으로 복원할 파일을 선택하거나, 경고의 영향을 받은 모든 파일이 나열된 CSV 파일을 업로드하거나, 복원할 파일을 수동으로 식별할 수 있습니다.
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["랜섬웨어 공격으로부터 복구하는 방법에 대해 자세히 알아보십시오"]..
-
-
-
-=== 2024년 9월 30일
-
-
-
-==== 파일 공유 워크로드의 사용자 지정 그룹화
-
-이 릴리스에서는 이제 파일 공유를 그룹으로 그룹화하여 데이터 자산을 보다 쉽게 보호할 수 있습니다. 이 서비스는 그룹의 모든 볼륨을 동시에 보호할 수 있습니다. 이전에는 각 볼륨을 별도로 보호해야 했습니다.
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["랜섬웨어 방어 전략에서 파일 공유 워크로드를 그룹화하는 방법에 대해 자세히 알아보십시오"]..
 
 
 
