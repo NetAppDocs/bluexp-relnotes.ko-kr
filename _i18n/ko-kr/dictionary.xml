@@ -606,9 +606,6 @@
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">스캔 상태</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">이제 BlueXP  분류는 볼륨에서 _initial_mapping 및 분류 스캔의 실시간 진행률을 추적합니다. 별도의 프로그레시브 바는 매핑 및 분류 스캔을 추적하여 스캔된 총 파일의 백분율을 표시합니다. 진행 표시줄 위로 마우스를 가져가면 스캔한 파일 수와 총 파일 수를 볼 수도 있습니다. 스캔 상태를 추적하면 스캔 진행 상황을 더 자세히 파악할 수 있으므로 스캔 계획을 개선하고 리소스 할당을 이해할 수 있습니다.</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">스캔 상태를 보려면 BlueXP  분류에서 ** 구성**으로 이동한 다음 ** 작업 환경 구성** 을 선택합니다. 진행 상황은 각 볼륨에 대해 일렬로 표시됩니다.</block>
-  <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">현재 3.9.50 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="3f45680fc0523f726aa3afe05af65c63" category="section-title">NetApp Keystone 베타는 BlueXP 에서 사용할 수 있습니다</block>
-  <block id="6bcb702faf24747c517b58ba5f3b8a99" category="paragraph">NetApp Keystone는 곧 BlueXP 에서 제공되며 현재 베타 버전으로 제공됩니다. BlueXP 의 왼쪽 탐색 모음에서 NetApp Keystone 베타의 등록 페이지에 액세스할 수 있습니다.</block>
   <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">구독을 제거할 수 있습니다</block>
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">이제 구독을 취소한 경우 디지털 지갑에서 구독을 제거할 수 있습니다.</block>
   <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">마켓플레이스 구독에 사용된 용량 보기</block>
@@ -625,7 +622,6 @@
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">이전에 선택한 작업 환경에 대해 새로 생성된 워크로드를 검색합니다</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">높은 암호화가 감지될 때 경고가 발생합니다</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">이 릴리스에서는 높은 파일 확장명을 변경하지 않고도 작업 부하에서 높은 암호화가 감지될 때 알림을 볼 수 있습니다. ONTAP ARP(자율적 랜섬웨어 방어) AI를 사용하는 이 기능은 랜섬웨어 공격의 위험이 있는 워크로드를 파악하는 데 도움이 됩니다. 이 기능을 사용하여 확장자 변경 여부에 관계없이 영향을 받는 파일의 전체 목록을 다운로드합니다.</block>
-  <block id="23b3b711859803a815b81aca1cc4811c" category="section-title">커넥터 3.9.50</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역의 목록은 을<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">2025년 3월 17일</block>
   <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">SMB 스냅샷 탐색</block>
@@ -749,9 +745,6 @@
   <block id="5ba05bcaf18ef618c0ef794d4ae3e855" category="list-text">MetroCluster는 지원되지 않습니다.</block>
   <block id="2a9854e98da75bbc07132378bef6de4d" category="list-text">버킷 수준 암호화를 활성화하는 옵션은 지원되지 않습니다.</block>
   <block id="f98d5407ffd34a829996a4bb36d6e582" category="paragraph">이 미리 보기를 진행하는 동안 이 새로운 기능을 살펴보고 전체 기능이 배포되기 전에 타사 개체 저장소와의 통합에 대한 피드백을 제공하는 것이 좋습니다.</block>
-  <block id="490e13bea5876f4583d326593619ee16" category="list-text">Cloud Volumes ONTAP 시스템 관리는 이제 운영 체제에서 SELinux가 활성화된 커넥터를 통해 지원됩니다.</block>
-  <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">SELinux에 대해 자세히 알아보십시오</block>
-  <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
   <block id="0c9e9a971e295d08b39001ef71ddfca9" category="paragraph">타사 스토리지를 개체 저장소로 사용하려면 BlueXP  커넥터 내에서 플래그를 설정해야 합니다. 그런 다음 타사 오브젝트 저장소에 대한 연결 정보를 입력하고 백업 및 복구 워크플로에 통합할 수 있습니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="09c224692df6f6a3d6045847d63b5e86" category="list-text">SSH를 사용하여 커넥터에 연결합니다.</block>
@@ -845,4 +838,35 @@
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">스캔 이벤트를 BlueXP  타임라인으로 보냅니다</block>
   <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">이제 BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 있도록 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>지원합니다.</block>
+  <block id="f4136fdf902ca32b4530c7a614c0ed71" category="section-title">커넥터 3.9.52</block>
+  <block id="aa9f9a6b10a3fcd2209035620051306c" category="paragraph">이 BlueXP  커넥터 릴리스에는 사소한 보안 개선 사항 및 버그 수정 사항, 몇 가지 추가 업데이트가 포함되어 있습니다.</block>
+  <block id="6f9b6bb76caa4f1e59bff34c9ae037fe" category="paragraph">현재 3.9.52 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="66b821747bf772a5a92a60270143558a" category="section-title">Docker 27 및 Docker 28을 지원합니다</block>
+  <block id="01bd213c78b554183ce88619eeb02cce" category="paragraph">Docker 27 및 Docker 28이 이제 커넥터에서 지원됩니다.</block>
+  <block id="ab83fd01c3620a62252ab67adbc06a91" category="section-title">BlueXP 에서 Keystone 관리 기능 제공</block>
+  <block id="4359bea5882e2896e306955792589a33" category="paragraph">BlueXP 에서 NetApp Keystone를 위한 베타에서 Keystone 관리에 대한 액세스 권한이 추가되었습니다. BlueXP 의 왼쪽 탐색 모음에서 NetApp Keystone 베타의 등록 페이지에 액세스할 수 있습니다.</block>
+  <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025년 5월 13일</block>
+  <block id="5a31c17caa12408e3b6093ed864c9821" category="paragraph">버전 4.2.3</block>
+  <block id="c362166d3b35c5afaa0ddfbe7e69494b" category="section-title">서브넷 매핑</block>
+  <block id="2418e16fab8ca1ca0d50d0811f88b6eb" category="paragraph">이 릴리즈에서는 각 vCenter에 대해 서브넷을 추가할 수 있는 서브넷 매핑을 사용하여 새로운 방식으로 페일오버 시 IP 주소를 관리할 수 있습니다. 이 경우 IPv4 CIDR, 기본 게이트웨이 및 각 가상 네트워크에 대한 DNS를 정의합니다.</block>
+  <block id="eb784040bffb80024e0c56694e09283d" category="paragraph">장애 조치 시 BlueXP  재해 복구는 매핑된 가상 네트워크에 제공된 CIDR을 확인하여 각 vNIC의 적절한 IP 주소를 결정하고 이를 사용하여 새 IP 주소를 파생시킵니다.</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
+  <block id="7f1dd179b7af043e895b4af287c713da" category="list-text">NetworkA = 10.1.1.0/24</block>
+  <block id="130ee01552bdfbbae122682d96ada96f" category="list-text">NetworkB = 192.168.1.0/24</block>
+  <block id="c8512209d54525f96f71aef40bda4d89" category="paragraph">VM1에는 NetworkA에 연결된 vNIC(10.1.1.50)가 있습니다. NetworkA는 복제 계획 설정에서 NetworkB에 매핑됩니다.</block>
+  <block id="54f173771463f16f3b7367756ee8a6df" category="paragraph">장애 조치 시 BlueXP  재해 복구는 원래 IP 주소의 네트워크 부분(10.1.1)을 대체하고 원래 IP 주소(10.1.1.50)의 호스트 주소(.50)를 유지합니다. VM1의 경우 BlueXP  재해 복구는 NetworkB에 대한 CIDR 설정을 확인하고 NetworkB 네트워크 부분 192.168.1을 사용하는 동안 호스트 부분(.50)을 유지하여 VM1에 대한 새 IP 주소를 만듭니다. 새 IP는 192.168.1.50이 됩니다.</block>
+  <block id="726a53952ba1f868d3ec9d1d32a62b2e" category="paragraph">요약하면 호스트 주소는 동일하게 유지되지만 네트워크 주소는 사이트 서브넷 매핑에 구성된 것으로 대체됩니다. 따라서 페일오버 시 IP 주소 재할당을 보다 쉽게 관리할 수 있습니다. 특히 수백 개의 네트워크와 수천 개의 VM을 관리할 수 있는 경우 더욱 그렇습니다.</block>
+  <block id="e28871dd1f9f31bb54d653e42ab61487" category="paragraph">사이트에서 서브넷 매핑을 포함하는 방법에 대한 자세한 내용은 을<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="a16eb72c6e9708bc4bdfd310db9a1760" category="section-title">보호를 건너뜁니다</block>
+  <block id="18a26d8a69342321f82f23b0b9667a2b" category="paragraph">이제 복제 계획 페일오버 후 서비스가 역방향 보호 관계를 자동으로 생성하지 않도록 보호를 건너뛸 수 있습니다. 이 기능은 복원된 사이트를 BlueXP  재해 복구 내에서 다시 온라인으로 전환하기 전에 해당 사이트에서 추가 작업을 수행하려는 경우에 유용합니다.</block>
+  <block id="83f2c5047d69bb49c6372714354b223e" category="paragraph">페일오버를 시작할 때 원래 소스 사이트가 온라인 상태인 경우 기본적으로 복제 계획의 각 볼륨에 대한 역방향 보호 관계가 자동으로 생성됩니다. 즉, 서비스가 타겟 사이트에서 소스 사이트로 다시 SnapMirror 관계를 생성합니다. 이 서비스는 페일백을 시작할 때 SnapMirror 관계도 자동으로 반전시킵니다.</block>
+  <block id="39adaab4c8da99c378ac7814cd837b82" category="paragraph">이제 대체 작동을 시작할 때 * 보호 건너뛰기 * 옵션을 선택할 수 있습니다. 이 옵션을 사용하면 서비스에서 SnapMirror 관계를 자동으로 되돌리지 않습니다. 대신 쓰기 가능한 볼륨을 복제 계획의 양쪽에 남겨 둡니다.</block>
+  <block id="0ed1a7f2cfa308cb3f608d5a24b47b8f" category="paragraph">원래 소스 사이트가 다시 온라인 상태가 되면 Replication Plan Actions 메뉴에서 * Protect resources * 를 선택하여 역방향 보호를 설정할 수 있습니다. 이렇게 하면 계획의 각 볼륨에 대한 역방향 복제 관계가 생성됩니다. 보호가 복원될 때까지 이 작업을 반복해서 실행할 수 있습니다. 보호가 복원되면 일반적인 방법으로 페일백을 시작할 수 있습니다.</block>
+  <block id="981aed0e5104e08339386a1c5379d13f" category="paragraph">건너뛰는 보호에 대한 자세한 내용은 을<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="bc1bbd522e7b060cf5530955a21a60e0" category="section-title">복제 계획에서 SnapMirror 스케줄 업데이트</block>
+  <block id="c8c9a99c726a6f5a1158a1753fb72b2a" category="paragraph">이제 BlueXP  재해 복구는 기본 ONTAP SnapMirror 정책 스케줄러나 ONTAP와의 타사 통합 같은 외부 스냅샷 관리 솔루션의 사용을 지원합니다. 복제 계획의 모든 데이터 저장소(볼륨)에 이미 다른 곳에서 관리되고 있는 SnapMirror 관계가 있는 경우 이러한 스냅샷을 BlueXP  재해 복구의 복구 지점으로 사용할 수 있습니다.</block>
+  <block id="51b94dd4c3836facc3789590ed219960" category="paragraph">구성하려면 복제 계획 &gt; 리소스 매핑 섹션에서 데이터 저장소 매핑을 구성할 때 * 플랫폼 관리 백업 및 보존 일정 사용 * 확인란을 선택합니다.</block>
+  <block id="a104b856c104ac1d20a94ca4ed8ba3f8" category="paragraph">이 옵션을 선택하면 BlueXP  재해 복구에서 백업 일정을 구성하지 않습니다. 그러나 테스트, 페일오버 및 페일백 작업을 위해 스냅샷을 계속 사용할 수 있으므로 보존 일정을 구성해야 합니다.</block>
+  <block id="84c71600543673f6d7dd403d3e7a164a" category="paragraph">이 구성이 완료되면 서비스가 정기적으로 예약된 스냅샷을 만들지 않고 대신 외부 엔티티에 의존하여 해당 스냅샷을 생성하고 업데이트합니다.</block>
+  <block id="05861d9bf485f3b7dc6f56871ad28892" category="paragraph">복제 계획에서 외부 스냅샷 솔루션을 사용하는 방법에 대한 자세한 내용은 을<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
