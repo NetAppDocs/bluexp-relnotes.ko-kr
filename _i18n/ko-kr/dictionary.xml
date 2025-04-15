@@ -642,11 +642,6 @@
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">높은 암호화가 감지될 때 경고가 발생합니다</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">이 릴리스에서는 높은 파일 확장명을 변경하지 않고도 작업 부하에서 높은 암호화가 감지될 때 알림을 볼 수 있습니다. ONTAP ARP(자율적 랜섬웨어 방어) AI를 사용하는 이 기능은 랜섬웨어 공격의 위험이 있는 워크로드를 파악하는 데 도움이 됩니다. 이 기능을 사용하여 확장자 변경 여부에 관계없이 영향을 받는 파일의 전체 목록을 다운로드합니다.</block>
   <block id="23b3b711859803a815b81aca1cc4811c" category="section-title">커넥터 3.9.50</block>
-  <block id="0de5f5ade75808b90faefd69873b4b3c" category="section-title">2025년 3월 12일</block>
-  <block id="a2fefc65df2136938b995f8abbe643c2" category="section-title">Azure에서 여러 가용 영역 배포를 위해 새로운 영역이 지원됩니다</block>
-  <block id="0cc914ed23f0f7d6bc902ae731843213" category="paragraph">현재 다음 지역에서는 Azure for Cloud Volumes ONTAP 9.12.1 GA 이상에서 HA 다중 가용 영역 배포를 지원합니다.</block>
-  <block id="2e168141b8f719cbd37e6beec663b599" category="list-text">미국 중부</block>
-  <block id="7a6df46ff8e25ac610f60f312512afa4" category="list-text">미국 정부 버지니아(미국 정부 지역 - 버지니아)</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">모든 지역의 목록은 을<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">2025년 3월 17일</block>
   <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">SMB 스냅샷 탐색</block>
@@ -681,9 +676,6 @@
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
   <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
   <block id="c00e1d18d877d030ee92aec3422b1aeb" category="paragraph">우선 순위 지정은 로 <block ref="377ae34afcc76614c5602798befc8a4b" category="inline-link-macro-rx"></block>제한됩니다. 스캔 맵과 분류에는 사용할 수 없습니다.</block>
-  <block id="5920daf334ecef8057dd1e1d15f6124e" category="section-title">Cloud Volumes ONTAP 9.14.1에 대해 활성화된 개인 모드 배포</block>
-  <block id="f2035db09bb2be2db0508915fa584149" category="paragraph">이제 AWS, Azure 및 Google Cloud의 프라이빗 모드로 Cloud Volumes ONTAP 9.14.1을 구축할 수 있습니다. 프라이빗 모드는 Cloud Volumes ONTAP 9.14.1의 단일 노드 및 고가용성(HA) 구축에 모두 사용할 수 있습니다.</block>
-  <block id="dc748283e7593515df9e8f2759a85349" category="paragraph">개인 모드 배포에 대한 자세한 내용은 을 <block ref="312f421b6dd5cf62286ecf6a82a8132e" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025년 3월 5일</block>
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">이제 디스크 자격 평가 패키지(DQP)를 사용하여 미리 정의된 상태 및 성능 기준에 따라 디스크 컨트롤러와 스토리지 장치 펌웨어를 자동으로 업데이트할 수 있습니다. 이로 인해 잠재적인 오류가 줄어들고 전반적인 시스템 안정성이 향상됩니다.</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">최신 표준 시간대 정의와 시스템 정렬을 자동으로 유지하기 위해 표준 시간대 데이터베이스(DB)가 도입되었습니다. 이렇게 하면 시간대 규칙이 변경되더라도 시간 종속 작업이 원활하게 진행됩니다.</block>
@@ -765,7 +757,6 @@
   <block id="e933dec5f784259760ab3c9400fb8e0b" category="section-title">타사 Wasabi 개체 저장소 지원(Preview)</block>
   <block id="57a83bf4b6d8f755d141ebf2bb282ed3" category="paragraph">BlueXP  백업 및 복구는 이제 Wasabi에 중점을 두고 타사 오브젝트 스토어까지 지원을 확장하고 있습니다. 이 새로운 미리 보기 기능을 사용하면 백업 및 복구 요구에 S3 호환 오브젝트 저장소를 활용할 수 있습니다.</block>
   <block id="da21b58c44ce1975cb8550ec689df5b3" category="section-title">Wasabi 시작하기</block>
-  <block id="f3afa8b48aa14a1da6a21d82ad964f5d" category="paragraph">이 기능을 사용하려면 BlueXP  UI 내에서 플래그를 활성화해야 합니다. 그런 다음 타사 오브젝트 저장소에 대한 연결 정보를 입력하고 백업 및 복구 워크플로에 통합할 수 있습니다.</block>
   <block id="9b6d9b582a741bc832b2557c16d31b09" category="section-title">미리보기 모드 제한</block>
   <block id="fdf10a1d090d444123d00414152f7943" category="paragraph">이 기능이 미리 보기에 있는 동안 다음 제한 사항을 고려하십시오.</block>
   <block id="7ebc42140a656312f7a985f14e55f3a6" category="list-text">BYOB(Bring Your Own Bucket)는 지원되지 않습니다.</block>
@@ -775,4 +766,40 @@
   <block id="5ba05bcaf18ef618c0ef794d4ae3e855" category="list-text">MetroCluster는 지원되지 않습니다.</block>
   <block id="2a9854e98da75bbc07132378bef6de4d" category="list-text">버킷 수준 암호화를 활성화하는 옵션은 지원되지 않습니다.</block>
   <block id="f98d5407ffd34a829996a4bb36d6e582" category="paragraph">이 미리 보기를 진행하는 동안 이 새로운 기능을 살펴보고 전체 기능이 배포되기 전에 타사 개체 저장소와의 통합에 대한 피드백을 제공하는 것이 좋습니다.</block>
+  <block id="490e13bea5876f4583d326593619ee16" category="list-text">Cloud Volumes ONTAP 시스템 관리는 이제 운영 체제에서 SELinux가 활성화된 커넥터를 통해 지원됩니다.</block>
+  <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">SELinux에 대해 자세히 알아보십시오</block>
+  <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
+  <block id="0c9e9a971e295d08b39001ef71ddfca9" category="paragraph">타사 스토리지를 개체 저장소로 사용하려면 BlueXP  커넥터 내에서 플래그를 설정해야 합니다. 그런 다음 타사 오브젝트 저장소에 대한 연결 정보를 입력하고 백업 및 복구 워크플로에 통합할 수 있습니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="09c224692df6f6a3d6045847d63b5e86" category="list-text">SSH를 사용하여 커넥터에 연결합니다.</block>
+  <block id="d4abc9f6a0f7759f15272b587badc33b" category="list-text">BlueXP  백업 및 복구 CBS 서버 컨테이너로 이동합니다.</block>
+  <block id="e5b842eef10876fd5aec5be48ecec9b3" category="list-text">VIM 또는 다른 편집기를 통해 폴더 내에서 파일을<block ref="2245023265ae4cf87d02c8b6ba991139" prefix=" " category="inline-code"></block> 엽니다<block ref="a4f5e59b80d929d30eba10ee00d7450d" prefix=" " category="inline-code"></block>.</block>
+  <block id="14ee6952f3be48ef4395f003ecfdac2c" category="list-text">modify<block ref="05e4358c747c33d991f9217e4b509fcc" prefix=" " category="inline-code"></block>:false to:true로<block ref="05e4358c747c33d991f9217e4b509fcc" prefix=" " category="inline-code"></block> 변경합니다.</block>
+  <block id="08c4f5aee4f8b6cabdcd558ad1452ad2" category="list-text">변경 사항을 저장합니다.</block>
+  <block id="4b891dca63ef1ab4f9daab8d3bd76368" category="list-text">컨테이너에서 나갑니다.</block>
+  <block id="3dc3e984a5412f225aea00167c9309bf" category="list-text">BlueXP  백업 및 복구 CBS 서버 컨테이너를 다시 시작합니다.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="15c66d710af89e601163f082e2d62e63" category="paragraph">컨테이너가 다시 켜지면 BlueXP  백업 및 복구 UI를 엽니다. 백업을 시작하거나 백업 전략을 편집하면 AWS, Microsoft Azure, Google Cloud, StorageGRID 및 ONTAP S3의 다른 백업 공급자와 함께 새로운 공급업체 "S3 호환"이 표시됩니다.</block>
+  <block id="aa3bf76b3589430467bef386eaec9486" category="section-title">Azure에서 새로운 영역이 지원됩니다</block>
+  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">이제 다음 지역에 있는 Azure에서 단일 및 여러 가용 영역에 Cloud Volumes ONTAP 9.12.1 GA 이상을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 구축이 모두 지원됩니다.</block>
+  <block id="db0cdd3af654aa7b69312d9b6154a9de" category="list-text">스페인 중부</block>
+  <block id="ef87967149148a309569bd7d04467de6" category="list-text">멕시코 중부</block>
+  <block id="f0d468a1074534e3b37c7322f2e97bb1" category="section-title">2025년 4월 3일</block>
+  <block id="b77891a5294c25aca8a6fda943805ecf" category="section-title">AWS의 Cloud Volumes ONTAP 9.13.1에 대한 중국 지역 지원</block>
+  <block id="3899c7c0df13a38296f1334779a1dfe7" category="paragraph">이제 중국 지역의 AWS에 Cloud Volumes ONTAP 9.13.1을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 구축이 모두 지원됩니다. Cloud Volumes ONTAP 9.13.1을 배포한 후에는 최신 버전으로 업그레이드할 수 있습니다. NetApp에서 직접 구매한 라이선스만 지원됩니다.</block>
+  <block id="abe88f95b23156cb29c433c9ebe92a00" category="inline-link">Cloud Volumes ONTAP를 위한 글로벌 지역 맵</block>
+  <block id="10df570a0447a18b299f516b2e8498c2" category="paragraph">지역별 이용 가능 여부는 을<block ref="f76c632bc8b9c4e032a9d48fcbfa8dc1" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
+  <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">NetApp ONTAP용 Amazon FSx 지원</block>
+  <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리즈는 Amazon FSx for NetApp ONTAP을 지원합니다. 이 기능은 BlueXP  랜섬웨어 방어 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
+  <block id="1e2a1ff777d742c50d6c64a6b6350f90" category="paragraph">FSx for ONTAP은 클라우드에서 NetApp ONTAP 스토리지의 강력한 기능을 제공하는 완전 관리형 서비스입니다. 또한 네이티브 AWS 서비스의 민첩성 및 확장성과 함께 사내에서 사용하는 것과 동일한 기능, 성능, 관리 기능을 제공합니다.</block>
+  <block id="4fc90f7d90d19ba5f3581d326200a5f1" category="paragraph">BlueXP  랜섬웨어 방어 워크플로우가 다음과 같이 변경되었습니다.</block>
+  <block id="65053514fea19aa395ec9799580be143" category="list-text">검색 기능에는 FSx for ONTAP 9.15 작업 환경의 워크로드가 포함됩니다.</block>
+  <block id="6ea987783dda6093154792926d8e285c" category="list-text">보호 탭에는 FSx for ONTAP 환경의 워크로드가 표시됩니다. 이 환경에서는 FSx for ONTAP 백업 서비스를 사용하여 백업 작업을 수행해야 합니다. BlueXP  랜섬웨어 방지 스냅샷을 사용하여 이러한 워크로드를 복원할 수 있습니다.</block>
+  <block id="2e09d92e8822f80e9aac61fdb75fa3c8" category="admonition">FSx for ONTAP에서 실행되는 워크로드의 백업 정책을 BlueXP 에서 설정할 수 없습니다. Amazon FSx for NetApp ONTAP에서 설정된 기존 백업 정책은 변경되지 않고 그대로 유지됩니다.</block>
+  <block id="97c627f1fcd3a299ac19157a8f566694" category="list-text">경고 인시던트에는 새로운 FSx for ONTAP 작업 환경이 표시됩니다.</block>
+  <block id="1d40c591d842224b16a448bc26a6bfab" category="inline-link">BlueXP  랜섬웨어 방지 및 작업 환경에 대해 알아보십시오</block>
+  <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">자세한 내용은 을<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP  랜섬웨어 방지 제한 사항</block>
+  <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">지원되는 옵션에 대한 자세한 내용은 를<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
