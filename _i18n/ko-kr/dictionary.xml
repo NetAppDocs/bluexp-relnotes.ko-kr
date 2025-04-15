@@ -388,15 +388,9 @@
   <block id="bd03ede87c82adb65c788a5ae08c50b6" category="inline-link">워크로드 검색</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">을<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="c523b074da0b63e607578686184d5981" category="section-title">2025년 2월 10일</block>
-  <block id="4716735cca1c0ec4ab6acb97d14dcaa7" category="inline-link-macro">NetApp 지원에 케이스를 생성합니다</block>
-  <block id="f0100d47b49cbe11e6a325bdee8db6ff" category="paragraph">작업 영역과 연결되지 않은 기존 FSx for ONTAP 파일 시스템이 있는 경우 BlueXP 의 작업 영역과 연결할 수 있도록 도와 드리겠습니다. BlueXP  콘솔 내에서 수행할 수 <block ref="d0e0ce62131d959daa6f062d97c0d6a8" category="inline-link-macro-rx"></block>있습니다. Workload Factory * 를 서비스로 선택합니다.</block>
-  <block id="181840612e9e637bf9dbbc740a738a45" category="inline-link-macro">BlueXP 의 작업 공간에서 FSx for ONTAP 파일 시스템을 제거하는 방법에 대해 알아보십시오</block>
-  <block id="e3d09410dae9543aebfcc83b7bceebc5" category="paragraph"><block ref="e3d09410dae9543aebfcc83b7bceebc5" category="inline-link-macro-rx"></block></block>
   <block id="0672b60d374d87a810fa73810e4a0a82" category="inline-link-macro">BlueXP 에서 FSx for ONTAP 운영을 모니터링하고 추적하는 방법에 관해 알아보십시오</block>
   <block id="d3626ed21f71a99d578970f5e4960cdc" category="paragraph"><block ref="d3626ed21f71a99d578970f5e4960cdc" category="inline-link-macro-rx"></block></block>
-  <block id="30e5906a069abe8bb88f1aed916b358b" category="paragraph">CloudShell은 BlueXP  콘솔 내의 BlueXP  워크로드를 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에서 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸과 유사한 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">CloudShell을 사용합니다</block>
-  <block id="03efd4c623255859d8f24cea1414ca80" category="paragraph"><block ref="03efd4c623255859d8f24cea1414ca80" category="inline-link-macro-rx"></block></block>
   <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">이전에는 데이터 조사 보고서 내보내기가 10,000행으로 제한되었습니다. 이 릴리스에서는 모든 데이터를 내보낼 수 있도록 제한이 제거되었습니다. 이 변경 사항을 통해 데이터 조사 보고서에서 더 많은 데이터를 내보낼 수 있으므로 보다 유연하게 데이터를 분석할 수 있습니다.</block>
   <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">작업 환경, 볼륨, 대상 폴더 및 JSON 또는 CSV 형식을 선택할 수 있습니다. 내보낸 파일 이름에는 타임스탬프가 포함되어 있어 데이터를 내보낸 시기를 식별할 수 있습니다.</block>
   <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">지원되는 작업 환경은 다음과 같습니다.</block>
@@ -413,8 +407,6 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="ca475a2b63c70fedcf8f6650024d480b" category="section-title">BlueXP  워크로드 팩토리 권한</block>
-  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  디지털 지갑은 사용하기 쉽도록 다시 디자인되었으며 이제 추가 구독 및 라이선스 관리 기능을 제공합니다.</block>
   <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">2025년 1월 13일</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
@@ -425,13 +417,6 @@
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">알림 세부 정보를 상세히 파악하고 권장 사항을 찾을 수 있습니다.</block>
   <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">BlueXP  경고를 사용하면 ONTAP 스토리지 환경과 연결된 경고를 확인하고 ONTAP System Manager에 연결된 세부 정보를 드릴다운할 수 있습니다.</block>
   <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025년 2월 2일</block>
-  <block id="8f0b3ce2b96f337852fd1c252724a612" category="section-title">FSx for ONTAP 파일 시스템을 BlueXP 의 작업 공간과 연결합니다</block>
-  <block id="da3003c64aba681511ac42ea840639fa" category="paragraph">2024년 11월 BlueXP  통합 이후 새로 생성된 FSx for ONTAP 파일 시스템이 BlueXP 의 한 작업 영역과 연결되지 않았습니다. 이제 FSx for ONTAP 파일 시스템을 생성하거나 검색할 때 BlueXP  계정 내의 한 작업 공간에 연결됩니다.</block>
-  <block id="ca67d4d470c8d498e9ac0294cf4f7805" category="section-title">BlueXP  캔버스에서 파일 시스템 제거</block>
-  <block id="b93cfe5d8c5b8d31c6e277f9086d4e40" category="paragraph">이제 BlueXP  캔버스의 작업 공간에서 FSx for ONTAP 파일 시스템을 제거할 수 있습니다. 이 작업을 수행하면 동일한 BlueXP  계정 내의 다른 작업 영역과 연결할 수 있도록 한 작업 영역에서 파일 시스템이 분리됩니다.</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
-  <block id="ce9be95deabee3be9356a5b5de8e7b0b" category="paragraph">새로운 모니터링 기능인 Tracker를 BlueXP  Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다. Tracker를 사용하여 자격 증명, 저장소 및 링크 작업의 진행 상태 및 상태를 모니터링하고 추적하며, 작업 및 하위 작업에 대한 세부 정보를 검토하고, 문제 또는 장애를 진단하고, 실패한 작업에 대한 매개 변수를 편집하고, 실패한 작업을 재시도할 수 있습니다.</block>
-  <block id="27a901c04d21dffe48f2fc38150f7c5c" category="section-title">BlueXP  워크로드에서 사용 가능한 CloudShell</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXP에서 새 버킷을 추가할 수 있습니다</block>
   <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023년 6월 5일</block>
@@ -556,7 +541,6 @@
   <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell은 BlueXP  워크로드 공장 콘솔의 모든 곳에서 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸 유사 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.</block>
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">데이터베이스에 대한 사용 권한 업데이트</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다.</block>
-  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.</block>
   <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">ONTAP System Manager에 연결된 클러스터 세부 정보를 봅니다</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025년 2월 19일</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">버전 1.40</block>
@@ -730,7 +714,6 @@
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">이제 BlueXP  소프트웨어 업데이트의 요약 섹션에서 운영 체제 업데이트로 완화할 수 있는 총 위험 수를 볼 수 있습니다. 이를 통해 사용자는 설치 기반에서 보안 및 안정성 향상을 평가할 수 있습니다.</block>
   <block id="198726f3c4a7290d3254fd163158a5d0" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025년 4월 16일</block>
-  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">버전 4.3</block>
   <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">VM에 대한 검색을 예약합니다</block>
   <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">BlueXP  재해 복구는 24시간마다 한 번씩 검색을 수행합니다. 이번 릴리스에서는 요구 사항에 맞게 검색 일정을 사용자 지정하고 필요할 때 성능에 미치는 영향을 줄일 수 있습니다. 예를 들어 VM 수가 많은 경우 검색 일정을 48시간마다 실행하도록 설정할 수 있습니다. VM 수가 적은 경우 12시간마다 실행되도록 검색 일정을 설정할 수 있습니다.</block>
   <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">검색을 예약하기 위해 WAN을 사용하지 않는 경우 예약된 검색 옵션을 비활성화하고 언제든지 수동으로 검색을 새로 고칠 수 있습니다.</block>
@@ -784,11 +767,6 @@
   <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">이제 다음 지역에 있는 Azure에서 단일 및 여러 가용 영역에 Cloud Volumes ONTAP 9.12.1 GA 이상을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 구축이 모두 지원됩니다.</block>
   <block id="db0cdd3af654aa7b69312d9b6154a9de" category="list-text">스페인 중부</block>
   <block id="ef87967149148a309569bd7d04467de6" category="list-text">멕시코 중부</block>
-  <block id="f0d468a1074534e3b37c7322f2e97bb1" category="section-title">2025년 4월 3일</block>
-  <block id="b77891a5294c25aca8a6fda943805ecf" category="section-title">AWS의 Cloud Volumes ONTAP 9.13.1에 대한 중국 지역 지원</block>
-  <block id="3899c7c0df13a38296f1334779a1dfe7" category="paragraph">이제 중국 지역의 AWS에 Cloud Volumes ONTAP 9.13.1을 배포할 수 있습니다. 여기에는 단일 노드 및 고가용성(HA) 구축이 모두 지원됩니다. Cloud Volumes ONTAP 9.13.1을 배포한 후에는 최신 버전으로 업그레이드할 수 있습니다. NetApp에서 직접 구매한 라이선스만 지원됩니다.</block>
-  <block id="abe88f95b23156cb29c433c9ebe92a00" category="inline-link">Cloud Volumes ONTAP를 위한 글로벌 지역 맵</block>
-  <block id="10df570a0447a18b299f516b2e8498c2" category="paragraph">지역별 이용 가능 여부는 을<block ref="f76c632bc8b9c4e032a9d48fcbfa8dc1" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">NetApp ONTAP용 Amazon FSx 지원</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리즈는 Amazon FSx for NetApp ONTAP을 지원합니다. 이 기능은 BlueXP  랜섬웨어 방어 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
@@ -802,4 +780,70 @@
   <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">자세한 내용은 을<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP  랜섬웨어 방지 제한 사항</block>
   <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">지원되는 옵션에 대한 자세한 내용은 를<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Tracker 응답 지원</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager에 대한 링크 인증 지원</block>
+  <block id="73ecd40a86b02acff9f56b3a1ac74d7f" category="paragraph">이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드에 저장된 자격 증명을 사용할 필요가 없습니다.</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">FSx for ONTAP 파일 시스템에 대한 모범 사례 구현</block>
+  <block id="bf66fc8532837c2f341b98d92d40bd27" category="paragraph">BlueXP  워크로드는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">파일 시스템에 대한 모범 사례 구현</block>
+  <block id="a04ab86f504e47221c279d8c74e9697c" category="list-text"><block ref="a04ab86f504e47221c279d8c74e9697c" category="inline-link-macro-rx"></block></block>
+  <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">파일 시스템 문제에 대한 체계적인 알림</block>
+  <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">이제 BlueXP  콘솔에서 잘 설계된 문제가 있는 FSx for ONTAP 파일 시스템의 경우 파일 시스템에서 해결해야 할 문제가 언제 발생하는지를 나타내는 알림이 Canvas에 표시됩니다.</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
+  <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">버전 1.43</block>
+  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">분류 스캔의 우선 순위를 지정합니다</block>
+  <block id="0dc348cb820b479010800e3c6cddc127" category="paragraph">이제 BlueXP  분류는 매핑 전용 스캔뿐만 아니라 스캔 지도 및 분류 우선 순위를 지정할 수 있는 기능을 지원하므로 먼저 완료된 스캔을 선택할 수 있습니다. 맵 및 분류 스캔의 우선 순위는 스캔이 시작되는 동안과 그 전에 지원됩니다. 스캔이 진행 중일 때 스캔 우선 순위를 지정하도록 선택하면 매핑 및 분류 스캔이 모두 우선 순위가 지정됩니다.</block>
+  <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">캐나다 PII(개인 식별 정보) 데이터 범주 지원</block>
+  <block id="25afe4e8f395663d2442297e33aa8a20" category="paragraph">BlueXP  분류 검사는 이제 모든 주 및 지역에 대한 은행 정보, 여권 번호, 사회 보험 번호, 운전 면허 번호 및 건강 카드 번호에 대한 캐나다 PII 데이터 범주를 식별합니다.</block>
+  <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">개인 데이터 범주</block>
+  <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">자세한 내용은 을 참조하십시오<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>.</block>
+  <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">사용자 지정 분류(미리 보기)</block>
+  <block id="e43dc9231ca750651c1b2d09176b0bc3" category="paragraph">이제 BlueXP  분류는 지도 및 분류 스캔에 대한 사용자 정의 분류를 지원합니다. 사용자 지정 분류를 사용하면 BlueXP  스캔을 사용자 지정하여 정규식을 준수하도록 조직별 데이터를 캡처할 수 있습니다. 이 기능은 현재 미리보기 중입니다.</block>
+  <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">사용자 지정 분류를 추가합니다</block>
+  <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">자세한 내용은 을 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>참조하십시오.</block>
+  <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">저장된 검색 탭</block>
+  <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-xref-macro">** 저장된 검색**</block>
+  <block id="619964fa6c4dc175f106697cd53cd93b" category="paragraph">** Policies** 탭의 이름이 <block ref="57cf69bfb5ee6dec8716152c342ad94c" category="inline-xref-macro-rx"></block>변경되었습니다. 기능은 동일합니다.</block>
+  <block id="260ad9aa0619e900a957ec4498a7084d" category="paragraph-title">스캔 이벤트를 감사 로그에 보냅니다</block>
+  <block id="decaf26b476fc5aad56ba857036660b7" category="inline-link-macro">BlueXP  타임라인</block>
+  <block id="7d71019726dccc04ceb52b94f892b7f6" category="inline-xref-macro">감사 로그</block>
+  <block id="1c6653b6dfd13a16237efa3ea5c87e2a" category="paragraph">이제 BlueXP  스캔 이벤트를 로 전송할 수 <block ref="e7616c9e5375866db0d455d96b016998" category="inline-xref-macro-rx"></block>있습니다. BlueXP  분류는 또한 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 <block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>있습니다. 분류 스캔 이벤트를 BlueXP  타임라인으로 보내는 것은 작업 환경에서만 지원됩니다.</block>
+  <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">보안 업데이트</block>
+  <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Keras 패키지가 업데이트되어 취약점을 완화합니다(BDSA-2025-0107 및 BDSA-2025-1984).</block>
+  <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Docker 컨테이너 구성이 업데이트되었습니다. 컨테이너는 더 이상 원시 네트워크 패킷을 만들기 위해 호스트의 네트워크 인터페이스에 액세스할 수 없습니다. 이 업데이트는 불필요한 액세스를 줄여 잠재적인 보안 위험을 완화합니다.</block>
+  <block id="4a02475d909bd7464565a63664e4dc8b" category="paragraph-title">성능 향상</block>
+  <block id="247e7f07f0a97b367563cc22c1a529cb" category="paragraph">RAM 사용을 줄이고 BlueXP  분류의 전반적인 성능을 개선하기 위해 코드 개선 사항이 구현되었습니다.</block>
+  <block id="223594359ca2e5c0c959aa756dea2d50" category="paragraph">StorageGRID 검사가 실패하고, 조사 페이지 필터 옵션이 로드되지 않으며, 대량 평가를 위해 다운로드되지 않는 데이터 검색 평가가 수정되었습니다.</block>
+  <block id="462848e89fbcd7fc117ed7c36b47f6f3" category="section-title">BlueXP 에서 Azure 마켓플레이스를 통해 이루어진 배포를 검색합니다</block>
+  <block id="cb52ca43108f98673f7dcc6c4bc528f6" category="paragraph">BlueXP 에는 이제 Azure 마켓플레이스를 통해 직접 배포된 Cloud Volumes ONTAP 시스템을 검색할 수 있는 기능이 있습니다. 즉, 다른 모든 Cloud Volumes ONTAP 시스템과 마찬가지로 이제 이러한 시스템을 BlueXP 의 작업 환경으로 추가하고 관리할 수 있습니다.</block>
+  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다</block>
+  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="paragraph"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
+  <block id="d2e69d0efb90eba181fe1aff16489eba" category="section-title">Azure 테넌트의 데이터를 계층화하는 기능</block>
+  <block id="6a86c1cc6c3338bb337a5e643e80da8e" category="paragraph">이제 한 테넌트에 의해 Cloud Volumes ONTAP 작업 환경이 생성되고 다른 테넌트에 의해 BlueXP  커넥터가 생성되는 시나리오에서 Azure 테넌트에 대한 계층화를 활성화할 수 있습니다. 이 기능을 사용하면 동일한 Connector를 사용하여 여러 Azure 테넌트의 데이터를 계층화할 수 있습니다.</block>
+  <block id="879e91c0a0fa09577c58d0330291ff06" category="inline-link">Azure 테넌트의 데이터를 계층화하기 위한 요구사항</block>
+  <block id="215678b43321c729a07cabb64971f83c" category="paragraph"><block ref="215678b43321c729a07cabb64971f83c" category="inline-link-rx"></block></block>
+  <block id="848964f0743e2416b5d061a5e088ca73" category="paragraph">버전 4.2.2</block>
+  <block id="ae493f6fb938d3c8c6db8b5a9e623794" category="paragraph">버전 4.2.1</block>
+  <block id="78e5de64c036a105265b3f447a5fbbca" category="section-title">지능형 프록시 지원</block>
+  <block id="12430fc7d9e2c156fb2dc1af2bf60126" category="paragraph">BlueXP  커넥터는 지능형 프록시를 지원합니다. 지능형 프록시는 온프레미스 환경을 BlueXP  서비스에 연결하는 가볍고 안전하며 효율적인 방법입니다. VPN 또는 직접 인터넷 액세스 없이도 사용자 환경과 BlueXP  서비스 간에 보안 연결을 제공합니다. 이렇게 최적화된 프록시 구현은 로컬 네트워크 내에서 API 트래픽을 오프로드합니다.</block>
+  <block id="2baae43f4fa62104c66585e956c51e1e" category="paragraph">프록시가 구성된 경우 BlueXP  재해 복구는 VMware 또는 ONTAP와 직접 통신을 시도하고 직접 통신이 실패할 경우 구성된 프록시를 사용합니다.</block>
+  <block id="a115e6ab8acfcda534f22a18d1d6940d" category="paragraph">BlueXP  재해 복구 프록시를 구현하려면 HTTPS 프로토콜을 사용하여 커넥터와 vCenter Server 및 ONTAP 어레이 간에 포트 443 통신이 필요합니다. 커넥터 내의 BlueXP  재해 복구 에이전트는 작업을 수행할 때 VMware vSphere, VC 또는 ONTAP와 직접 통신합니다.</block>
+  <block id="7297a33a5c9a50db535ceb180e4e6c29" category="inline-link">BlueXP 재해 복구를 위한 인프라 설정</block>
+  <block id="a7a0475144b255eccfff4d2ee3e7a5c4" category="paragraph">BlueXP  재해 복구용 지능형 프록시에 대한 자세한 내용은 을 참조하십시오<block ref="bf1bf7a536149f2406a2eab17db3a297" category="inline-link-rx"></block>.</block>
+  <block id="146adb7944757e88795676b780c31811" category="inline-link">프록시 서버를 사용하도록 Connector를 구성합니다</block>
+  <block id="635abfb2f80497d39998f2a81dfecd7e" category="paragraph">BlueXP 에서 설정하는 일반 프록시에 대한 자세한 내용은 을 참조하십시오<block ref="4d83a369cd8d5456206d71335578eaaa" category="inline-link-rx"></block>.</block>
+  <block id="7469dc0d82ce9411c03b852f2163d515" category="section-title">무료 평가판을 언제든지 종료합니다</block>
+  <block id="38567a6024618c3687de90b3e2cff86e" category="paragraph">당신은 어떤 갈래 또는 당신은 그것이 만료될 때까지 기다릴 수 무료 평가판을 중지할 수 있습니다.</block>
+  <block id="8d4d6551ee286317b2a4f297766952f5" category="inline-link">무료 평가판을 종료합니다</block>
+  <block id="b618f30aeca114d464120de119b19ced" category="paragraph">을<block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 자동 지원</block>
+  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
 </blocks>
