@@ -340,10 +340,6 @@
   <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  소프트웨어 업데이트</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">기술 교체</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">용량 추가</block>
-  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">다음은 iSCSI 및 FC 프로토콜 모두에 대한 몇 가지 추가 고려 사항입니다.</block>
-  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC는 클라이언트 프런트 엔드 프로토콜에 대한 지원이며 복제용이 아닙니다.</block>
-  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  재해 복구는 ONTAP 볼륨당 하나의 LUN만 지원합니다. 볼륨에 여러 개의 LUN이 있어서는 안 됩니다.</block>
-  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">모든 복제 계획의 경우 대상 ONTAP 볼륨은 보호된 VM을 호스팅하는 소스 ONTAP 볼륨과 동일한 프로토콜을 사용해야 합니다. 예를 들어, 소스에서 FC 프로토콜을 사용하는 경우 타겟도 FC를 사용해야 합니다.</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA R2 시스템에 대해 자세히 알아보십시오</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -510,9 +506,6 @@
   <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">지정된 보존 횟수 이상으로 더 이상 필요하지 않은 모든 스냅샷을 삭제할 수 있습니다. 스냅샷 보존 수를 낮추면 스냅샷이 시간 경과에 따라 누적될 수 있으며, 이제 스냅샷을 제거하여 공간을 확보할 수 있습니다. 요청 시 또는 복제 계획을 삭제할 때 언제든지 이 작업을 수행할 수 있습니다.</block>
   <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">스냅샷을 조정합니다</block>
   <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">이제 소스와 타겟 간에 동기화되지 않은 스냅샷을 조정할 수 있습니다. 이 문제는 BlueXP  재해 복구 외부에 있는 타겟에서 스냅샷이 삭제된 경우에 발생할 수 있습니다. 이 서비스는 24시간마다 소스의 스냅샷을 자동으로 삭제합니다. 그러나 필요에 따라 이 작업을 수행할 수 있습니다. 이 기능을 사용하면 모든 사이트에서 스냅샷이 일관되게 유지되도록 할 수 있습니다.</block>
-  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024년 9월 20일</block>
-  <block id="5d95f17e7ddbf703465910039fd80c35" category="section-title">사내에서 온프레미스까지 VMware VMFS 데이터 저장소를 지원합니다</block>
-  <block id="089160f6b14935d2f39adf9a95c5da5a" category="paragraph">이 릴리즈에는 사내 스토리지로 보호되는 iSCSI 및 FC용 VMware vSphere VMFS(Virtual Machine File System) 데이터 저장소에 마운트된 VM에 대한 지원이 포함되어 있습니다. 이전에는 iSCSI 및 FC용 VMFS 데이터 저장소를 지원하는 _technology preview_를 제공했습니다.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">E-Series 지원</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">이제 BlueXP에서 E-Series 시스템을 직접 검색할 수 있습니다. E-Series 시스템에 대해 살펴보고 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
@@ -718,7 +711,6 @@
   <block id="1fa6d342759ba5c5a8f23c210cac048c" category="section-title">커넥터 3.9.51</block>
   <block id="44cd288eedf76c78c5b3b26935538537" category="paragraph">현재 3.9.51 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  ID 및 액세스 관리(IAM)</block>
-  <block id="38469cab8f7065ff2b3a663e28381c62" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="a9632ee5411be0309684063f13ba77a8" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자에게는 Keystone 역할이 할당되어야 Keystone에 액세스할 수 있습니다. 사용자에게 Keystone admin 또는 Keystone 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아봅니다.</block>
   <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
@@ -757,4 +749,21 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025년 4월 2일</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">위험 완화</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">이제 BlueXP  소프트웨어 업데이트의 요약 섹션에서 운영 체제 업데이트로 완화할 수 있는 총 위험 수를 볼 수 있습니다. 이를 통해 사용자는 설치 기반에서 보안 및 안정성 향상을 평가할 수 있습니다.</block>
+  <block id="198726f3c4a7290d3254fd163158a5d0" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025년 4월 16일</block>
+  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">버전 4.3</block>
+  <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">VM에 대한 검색을 예약합니다</block>
+  <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">BlueXP  재해 복구는 24시간마다 한 번씩 검색을 수행합니다. 이번 릴리스에서는 요구 사항에 맞게 검색 일정을 사용자 지정하고 필요할 때 성능에 미치는 영향을 줄일 수 있습니다. 예를 들어 VM 수가 많은 경우 검색 일정을 48시간마다 실행하도록 설정할 수 있습니다. VM 수가 적은 경우 12시간마다 실행되도록 검색 일정을 설정할 수 있습니다.</block>
+  <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">검색을 예약하기 위해 WAN을 사용하지 않는 경우 예약된 검색 옵션을 비활성화하고 언제든지 수동으로 검색을 새로 고칠 수 있습니다.</block>
+  <block id="d04fa3ae362a3ea46fde26bdba81b204" category="inline-link">vCenter 서버 사이트를 추가합니다</block>
+  <block id="0002b275859484d6cdca867fbab8e165" category="paragraph">자세한 내용은 을<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="84307a139104b06aba6c6de9c728b2ff" category="section-title">리소스 그룹 데이터 저장소가 지원됩니다</block>
+  <block id="ed0d134f0d7b751b80633ad848722c7a" category="paragraph">이전에는 VM별로 리소스 그룹을 생성할 수 있었습니다. 이번 릴리즈에서는 데이터 저장소별로 리소스 그룹을 생성할 수 있습니다. 복제 계획을 생성하고 해당 계획에 대한 리소스 그룹을 생성하는 경우 데이터 저장소의 모든 VM이 나열됩니다. 이 기능은 VM이 많은 경우 데이터 저장소를 기준으로 그룹화하려는 경우에 유용합니다.</block>
+  <block id="84ae8aaf40a4b59fed9a4fa741ccf225" category="paragraph">다음과 같은 방법으로 데이터 저장소가 있는 리소스 그룹을 생성할 수 있습니다.</block>
+  <block id="ee64b17e5379b689c5eb4ab50027f625" category="list-text">데이터 저장소를 사용하여 리소스 그룹을 추가할 때 데이터 저장소 목록을 볼 수 있습니다. 하나 이상의 데이터 저장소를 선택하여 리소스 그룹을 생성할 수 있습니다.</block>
+  <block id="3043e1ee38988e4248b9d1966e6dd1a4" category="list-text">복제 계획을 만들고 계획 내에서 리소스 그룹을 만드는 경우 데이터 저장소의 VM을 볼 수 있습니다.</block>
+  <block id="f7a1d657a7b8993c917f63602c0774a1" category="section-title">무료 평가판 또는 라이센스 만료 알림</block>
+  <block id="38a9b45e86982c8330edcb875da55284" category="paragraph">이 릴리스는 무료 평가판이 라이센스를 취득할 수 있도록 60일 후에 만료된다는 알림을 제공합니다. 이 릴리스에서는 라이센스가 만료되는 날짜에 알림을 제공합니다.</block>
+  <block id="5d940e67e8d433508306c751ff0ea678" category="section-title">서비스 업데이트 알림</block>
+  <block id="9bdd52eb995b6f47a02ffa6aa4318399" category="paragraph">이 릴리스에서는 서비스가 업그레이드되고 서비스가 유지 관리 모드로 전환되었음을 나타내는 배너가 맨 위에 표시됩니다. 서비스가 업그레이드되면 배너가 나타나고 업그레이드가 완료되면 사라집니다. 업그레이드가 진행되는 동안 UI에서 계속 작업할 수 있지만 새 작업을 제출할 수는 없습니다. 업데이트가 완료되면 예약된 작업이 실행되고 서비스가 운영 모드로 돌아갑니다.</block>
 </blocks>
