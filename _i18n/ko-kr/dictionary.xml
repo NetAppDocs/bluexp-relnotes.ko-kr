@@ -888,14 +888,9 @@
   <block id="3e49d780723839a4238980f0ed8f0e54" category="inline-link">BlueXP  백업 및 복구의 미리 보기 기능을 활성화합니다</block>
   <block id="e4d99443f32762da8fffc177c52518aa" category="paragraph">미리보기 피처를 활성화하는 방법에 대한 지침은 을 참조하십시오<block ref="918e5958ca0f0d47162ab1a4f8ffabd1" category="inline-link-rx"></block>.</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">BlueXP  랜섬웨어 보호에서 지원되지 않는 작업 환경에 대한 보고</block>
-  <block id="b42180eb0fa303da5a11adbc08be431f" category="paragraph">검색 워크플로우에서 지원되는 워크로드 또는 지원되지 않는 워크로드 위에 마우스를 올리면 BlueXP  랜섬웨어 보호가 자세한 내용을 보고합니다. 이 교육은 워크로드 또는 작업 환경 중 일부가 대시보드의 일부가 아니거나 랜섬웨어 보호 서비스로 관리되는 이유를 파악하는 데 도움이 됩니다. 다음 작업 환경은 현재 BlueXP  랜섬웨어 방지 서비스에서 지원되지 않습니다.</block>
-  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
-  <block id="c8e90ee73047c3063b54a44eae9d4af6" category="list-text">E-시리즈</block>
-  <block id="8496bc8fa09162b4a1d6b5482545d7e5" category="list-text">Google Cloud Platform(GCP)</block>
-  <block id="48b747470192bb1f3eb893cd89cddb83" category="list-text">ONTAP 9.11.1 및 이전 버전</block>
-  <block id="9b705ea007b3ac220c55a333054a1e7c" category="list-text">BlueXP  Connector로 관리되지 않는 ONTAP Direct 온프레미스 클러스터</block>
-  <block id="579848aa0d8bdd4f7904793483675637" category="paragraph">초기 검색 중 지원되지 않는 작업 환경을 보거나 나중에 설정 페이지의 * 워크로드 검색 * 옵션에서 확인할 수 있습니다. 서비스가 작업 환경을 지원하지 않는 이유는 여러 가지가 있습니다. 예를 들어 작업 환경의 ONTAP 버전이 필요한 버전보다 낮을 수 있습니다. 지원되지 않는 작업 환경 위로 마우스를 가져가면 도구 설명에 그 이유가 표시됩니다.</block>
-  <block id="4c47a495695584c11b9bc39a46126b3f" category="paragraph">검색 후 검색 프로세스의 결과를 다운로드할 수 있습니다.</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오</block>
   <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">자세한 내용은 을<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">검색 워크플로우에서 지원되는 워크로드 또는 지원되지 않는 워크로드 위에 마우스를 올리면 BlueXP  랜섬웨어 보호가 자세한 내용을 보고합니다. 이 교육은 일부 워크로드가 BlueXP  랜섬웨어 차단 서비스에서 검색되지 않는 이유를 파악하는 데 도움이 됩니다.</block>
+  <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">서비스가 작업 환경을 지원하지 않는 이유는 여러 가지가 있습니다. 예를 들어 작업 환경의 ONTAP 버전이 필요한 버전보다 낮을 수 있습니다. 지원되지 않는 작업 환경 위로 마우스를 가져가면 도구 설명에 그 이유가 표시됩니다.</block>
+  <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">초기 검색 중에 지원되지 않는 작업 환경을 볼 수 있으며, 여기서 결과를 다운로드할 수도 있습니다. 설정 페이지의 * 워크로드 검색 * 옵션에서 검색 결과를 볼 수도 있습니다.</block>
 </blocks>
