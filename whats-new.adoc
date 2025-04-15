@@ -464,8 +464,8 @@ BlueXP  분류 검사는 이제 모든 주 및 지역에 대한 은행 정보, 
 .저장된 검색 탭
 ** Policies** 탭의 이름이 xref:task-using-policies.html[** 저장된 검색**]변경되었습니다. 기능은 동일합니다.
 
-.스캔 이벤트를 감사 로그에 보냅니다
-이제 BlueXP  스캔 이벤트를 로 전송할 수 xref:task-audit-data-sense-actions.html[감사 로그]있습니다. BlueXP  분류는 또한 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  타임라인"^]있습니다. 분류 스캔 이벤트를 BlueXP  타임라인으로 보내는 것은 작업 환경에서만 지원됩니다.
+.스캔 이벤트를 BlueXP  타임라인으로 보냅니다
+이제 BlueXP  분류는 에 분류 이벤트(스캔이 시작되었을 때와 종료되었을 때)를 보낼 수 있도록 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  타임라인"^]지원합니다.
 
 .보안 업데이트
 * Keras 패키지가 업데이트되어 취약점을 완화합니다(BDSA-2025-0107 및 BDSA-2025-1984).
