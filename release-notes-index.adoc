@@ -41,6 +41,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["설정 및 관�
 
 
 
+== 서비스로서의 스토리지
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["키스톤"^]
+
+
+
+
 == 데이터 서비스
 
 * https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["경고"^]
