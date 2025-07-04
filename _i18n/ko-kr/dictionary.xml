@@ -358,7 +358,6 @@
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.56입니다.</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">이제 프라이빗 모드에서 BlueXP 를 사용할 때 NetApp ASA R2 시스템을 검색할 수 있습니다. 이 지원은 BlueXP  3.9.46 비공개 모드 릴리즈부터 사용할 수 있습니다.</block>
-  <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">펌웨어 업데이트 권장 사항을 보는 방법에 대해 알아봅니다</block>
   <block id="c523b074da0b63e607578686184d5981" category="section-title">2025년 2월 10일</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">CloudShell을 사용합니다</block>
   <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">이전에는 데이터 조사 보고서 내보내기가 10,000행으로 제한되었습니다. 이 릴리스에서는 모든 데이터를 내보낼 수 있도록 제한이 제거되었습니다. 이 변경 사항을 통해 데이터 조사 보고서에서 더 많은 데이터를 내보낼 수 있으므로 보다 유연하게 데이터를 분석할 수 있습니다.</block>
@@ -413,8 +412,6 @@
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">버그 수정</block>
   <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024년 9월 16일</block>
   <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트하여 몇 가지 버그를 수정했습니다. 새 데이터 브로커 버전은 1.0.55입니다.</block>
-  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024년 12월 12일</block>
-  <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">이제 업데이트에 권장되는 스토리지 펌웨어, SP/BMC 펌웨어 및 ARP(자율적 랜섬웨어 패키지)를 볼 수 있습니다. <block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>..</block>
   <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">새로운 개요 대시보드</block>
   <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">디지털 지갑 홈페이지에는 NetApp 라이선스 및 마켓플레이스 구독에 대한 업데이트된 대시보드가 있으며, 특정 서비스, 라이선스 유형 및 필요한 작업을 드릴다운할 수 있습니다.</block>
   <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">자격 증명에 대한 구독을 구성하는 중입니다</block>
@@ -499,7 +496,6 @@
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">모든 스캔을 재시도하려면:</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">실패한 모든 스캔을 다시 시도하려면 * 모든 스캔 재시도 * 를 선택합니다.</block>
   <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">인덱싱을 활성화하려면 어떻게 해야 합니까?</block>
-  <block id="6b14c6e0d643870ea727335d7739df30" category="inline-link">검색 및 복원 을 사용하여 ONTAP 데이터를 복원하는 방법</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">범주화 모델 정확도 향상</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">미리 정의된 범주</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">의 머신 러닝 모델의 정확도는 <block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>11% 향상되었습니다.</block>
@@ -564,39 +560,10 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025년 4월 2일</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">위험 완화</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">이제 BlueXP  소프트웨어 업데이트의 요약 섹션에서 운영 체제 업데이트로 완화할 수 있는 총 위험 수를 볼 수 있습니다. 이를 통해 사용자는 설치 기반에서 보안 및 안정성 향상을 평가할 수 있습니다.</block>
-  <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025년 4월 16일</block>
-  <block id="46c8a90c914cf567466d573545fb57d9" category="section-title">향상된 볼륨 대시보드(미리 보기)</block>
-  <block id="d4400da5c041019019538ea47e6a4d7e" category="paragraph">이제 볼륨 대시보드가 10초 이내에 로드되므로 훨씬 빠르고 효율적인 인터페이스를 제공합니다. 이 Preview 버전은 일부 고객에게 제공되며 이러한 개선 사항을 조기에 확인할 수 있습니다.</block>
-  <block id="a43e01afb7862afba8cef123bb022bd8" category="section-title">UI 개선</block>
-  <block id="d631beb153bc97ac47e69041180f2bda" category="paragraph">이 릴리스는 인터페이스를 단순화함으로써 사용자 경험을 향상시킵니다.</block>
-  <block id="7945214ab9edda2604c048e3254b6820" category="list-text">볼륨 테이블에서 애그리게이트 열을 제거하고 V2 대시보드의 볼륨 테이블에서 스냅샷 정책, 백업 정책 및 복제 정책 열을 제거하면 레이아웃이 보다 간소화됩니다.</block>
-  <block id="1f4ea4d0a55155c1ea9271081e2e118f" category="list-text">드롭다운 목록에서 활성화되지 않은 작업 환경을 제외하면 인터페이스가 덜 복잡해지고 탐색이 더 효율적으로 수행되며 로딩 속도가 빨라집니다.</block>
-  <block id="c42ae4d1274def078f227f6b5526ed38" category="list-text">태그 열에서 정렬을 사용할 수 없지만 중요한 정보에 쉽게 액세스할 수 있도록 태그를 계속 볼 수 있습니다.</block>
-  <block id="ee5a89c90c463c21f6188d8945b6a165" category="list-text">보호 아이콘의 라벨을 제거하면 더 깔끔한 외관을 연출하고 로딩 시간을 줄일 수 있습니다.</block>
-  <block id="4deca0db77c0cb1d491b7636aff218c4" category="list-text">작업 환경 활성화 프로세스 중에 대화 상자에 로드 아이콘이 표시되어 검색 프로세스가 완료될 때까지 피드백을 제공하여 시스템 운영에 대한 투명성과 신뢰도를 높입니다.</block>
-  <block id="e933dec5f784259760ab3c9400fb8e0b" category="section-title">타사 Wasabi 개체 저장소 지원(Preview)</block>
-  <block id="57a83bf4b6d8f755d141ebf2bb282ed3" category="paragraph">BlueXP  백업 및 복구는 이제 Wasabi에 중점을 두고 타사 오브젝트 스토어까지 지원을 확장하고 있습니다. 이 새로운 미리 보기 기능을 사용하면 백업 및 복구 요구에 S3 호환 오브젝트 저장소를 활용할 수 있습니다.</block>
-  <block id="da21b58c44ce1975cb8550ec689df5b3" category="section-title">Wasabi 시작하기</block>
-  <block id="9b6d9b582a741bc832b2557c16d31b09" category="section-title">미리보기 모드 제한</block>
-  <block id="fdf10a1d090d444123d00414152f7943" category="paragraph">이 기능이 미리 보기에 있는 동안 다음 제한 사항을 고려하십시오.</block>
   <block id="7ebc42140a656312f7a985f14e55f3a6" category="list-text">BYOB(Bring Your Own Bucket)는 지원되지 않습니다.</block>
-  <block id="1361fc3308297e6892c65225fef43d57" category="list-text">정책에서 DataLock을 사용하도록 설정할 수 없습니다.</block>
-  <block id="250e26d77f45f9c60f2e7d28e0011265" category="list-text">정책에서 아카이브 모드를 사용하도록 설정하는 것은 지원되지 않습니다.</block>
   <block id="b86033acef55ce16df9b8accc019fc9d" category="list-text">온프레미스 ONTAP 환경만 지원됩니다.</block>
   <block id="5ba05bcaf18ef618c0ef794d4ae3e855" category="list-text">MetroCluster는 지원되지 않습니다.</block>
   <block id="2a9854e98da75bbc07132378bef6de4d" category="list-text">버킷 수준 암호화를 활성화하는 옵션은 지원되지 않습니다.</block>
-  <block id="f98d5407ffd34a829996a4bb36d6e582" category="paragraph">이 미리 보기를 진행하는 동안 이 새로운 기능을 살펴보고 전체 기능이 배포되기 전에 타사 개체 저장소와의 통합에 대한 피드백을 제공하는 것이 좋습니다.</block>
-  <block id="0c9e9a971e295d08b39001ef71ddfca9" category="paragraph">타사 스토리지를 개체 저장소로 사용하려면 BlueXP  커넥터 내에서 플래그를 설정해야 합니다. 그런 다음 타사 오브젝트 저장소에 대한 연결 정보를 입력하고 백업 및 복구 워크플로에 통합할 수 있습니다.</block>
-  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="09c224692df6f6a3d6045847d63b5e86" category="list-text">SSH를 사용하여 커넥터에 연결합니다.</block>
-  <block id="d4abc9f6a0f7759f15272b587badc33b" category="list-text">BlueXP  백업 및 복구 CBS 서버 컨테이너로 이동합니다.</block>
-  <block id="e5b842eef10876fd5aec5be48ecec9b3" category="list-text">VIM 또는 다른 편집기를 통해 폴더 내에서 파일을<block ref="2245023265ae4cf87d02c8b6ba991139" prefix=" " category="inline-code"></block> 엽니다<block ref="a4f5e59b80d929d30eba10ee00d7450d" prefix=" " category="inline-code"></block>.</block>
-  <block id="14ee6952f3be48ef4395f003ecfdac2c" category="list-text">modify<block ref="05e4358c747c33d991f9217e4b509fcc" prefix=" " category="inline-code"></block>:false to:true로<block ref="05e4358c747c33d991f9217e4b509fcc" prefix=" " category="inline-code"></block> 변경합니다.</block>
-  <block id="08c4f5aee4f8b6cabdcd558ad1452ad2" category="list-text">변경 사항을 저장합니다.</block>
-  <block id="4b891dca63ef1ab4f9daab8d3bd76368" category="list-text">컨테이너에서 나갑니다.</block>
-  <block id="3dc3e984a5412f225aea00167c9309bf" category="list-text">BlueXP  백업 및 복구 CBS 서버 컨테이너를 다시 시작합니다.</block>
-  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
-  <block id="15c66d710af89e601163f082e2d62e63" category="paragraph">컨테이너가 다시 켜지면 BlueXP  백업 및 복구 UI를 엽니다. 백업을 시작하거나 백업 전략을 편집하면 AWS, Microsoft Azure, Google Cloud, StorageGRID 및 ONTAP S3의 다른 백업 공급자와 함께 새로운 공급업체 "S3 호환"이 표시됩니다.</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">NetApp ONTAP용 Amazon FSx 지원</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리즈는 Amazon FSx for NetApp ONTAP을 지원합니다. 이 기능은 BlueXP  랜섬웨어 방어 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
@@ -659,7 +626,6 @@
   <block id="9de9a72e99be1fee8dc0790411738dd4" category="paragraph">이 기능을 사용하면 시간이 오래 걸리고 리소스 소모가 많은 기준선 변경 작업이 필요하지 않으므로 백업 작업이 마이그레이션 후 작업을 계속할 수 있습니다. 이 기능은 워크로드 마이그레이션 시나리오에 유용하며 FlexVols와 FlexGroups를 모두 지원하며 ONTAP 버전 9.16.1부터 사용할 수 있습니다.</block>
   <block id="9c69774894ac0ae0f2bbae9b12964cfe" category="paragraph">SnapMirror to Cloud Resync는 환경 간 백업 연속성을 유지함으로써 운영 효율성을 개선하고 하이브리드 및 멀티 클라우드 데이터 관리의 복잡성을 줄일 수 있습니다.</block>
   <block id="5746bb5eeaa153936151cb52823109e6" category="inline-link">SnapMirror를 사용하여 볼륨을 클라우드 재동기화로 마이그레이션</block>
-  <block id="3a55cfa97f4682f930352f0f81220899" category="paragraph">재동기화 작업을 수행하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="207dcf1aaf014b22c1836348f392f25c" category="inline-link-rx"></block>.</block>
   <block id="d7aa9347c7a241e0b5959147e0834507" category="section-title">타사 MinIO 개체 저장소 지원(미리 보기)</block>
   <block id="74f850f0e7d77a9dfb658a6664c11580" category="paragraph">이제 BlueXP  백업 및 복구는 MinIO에 중점을 두고 타사 오브젝트 저장소까지 지원을 확장합니다. 이 새로운 미리 보기 기능을 사용하면 백업 및 복구 요구에 S3 호환 오브젝트 저장소를 활용할 수 있습니다.</block>
   <block id="fba2533d6fb852f662ab27cb8831c6c2" category="paragraph">이 미리 보기 버전을 사용하면 전체 기능이 배포되기 전에 타사 개체 저장소와의 강력한 통합을 보장할 수 있습니다. 이 새로운 기능을 살펴보고 서비스 개선에 도움이 되는 피드백을 제공하는 것이 좋습니다.</block>
@@ -670,8 +636,6 @@
   <block id="bd38f0d8ed5d82f6a34eef6f60e82afc" category="list-text">정책에서 아카이브 모드를 사용하도록 설정하는 것은 지원되지 않습니다.</block>
   <block id="7f4d22b3de45045172408ddd711a85a1" category="paragraph">* 시작하기 *</block>
   <block id="5955ccac697a810563b00d68d2e643a8" category="paragraph">이 미리 보기 기능을 사용하려면 BlueXP  커넥터에서 플래그를 활성화해야 합니다. 그런 다음 백업 섹션에서 * 타사 호환 * 개체 저장소를 선택하여 보호 워크플로에 MinIO 타사 개체 저장소의 연결 세부 정보를 입력할 수 있습니다.</block>
-  <block id="3e49d780723839a4238980f0ed8f0e54" category="inline-link">BlueXP  백업 및 복구의 미리 보기 기능을 활성화합니다</block>
-  <block id="e4d99443f32762da8fffc177c52518aa" category="paragraph">미리보기 피처를 활성화하는 방법에 대한 지침은 을 참조하십시오<block ref="918e5958ca0f0d47162ab1a4f8ffabd1" category="inline-link-rx"></block>.</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">BlueXP  랜섬웨어 보호에서 지원되지 않는 작업 환경에 대한 보고</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오</block>
   <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">자세한 내용은 을<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>참조하십시오.</block>
@@ -740,17 +704,13 @@
   <block id="109a536d105313ba22a3a245fbe42d66" category="paragraph">신규 고객인 경우, 모든 신규 환경에서 Indexed Catalog v2가 기본적으로 활성화됩니다. 기존 고객인 경우, Indexed Catalog v2를 활용하기 위해 기존 환경을 다시 인덱싱할 수 있습니다.</block>
   <block id="ed568c90c2ab6e924749399e3a2572f7" category="paragraph">데이터를 복원하는 검색 및 복원 방법을 사용하려면 먼저 볼륨 또는 파일을 복원하려는 각 소스 작업 환경에서 "인덱싱"을 활성화해야 합니다. 검색 및 복원을 수행할 때 *인덱싱 사용* 옵션을 선택하세요.</block>
   <block id="53b903d5c7d704138f78087fb044d909" category="paragraph">색인된 카탈로그는 모든 볼륨과 백업 파일을 추적하여 검색을 빠르고 효율적으로 수행할 수 있도록 해줍니다.</block>
-  <block id="b135d75112998c5959ea2e656baaca04" category="paragraph">자세한 내용은 을<block ref="7ae860a58fb7c028461eb3a0f3043711" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="a5e1a06a60e331b5d516136e96719929" category="section-title">Azure 개인 링크 엔드포인트 및 서비스 엔드포인트</block>
-  <block id="a6f1ad5d9fc5adf781d978f4d43bae4c" category="paragraph">일반적으로 BlueXP 백업 및 복구는 클라우드 제공업체와 프라이빗 엔드포인트를 설정하여 다양한 보호 작업을 처리합니다. 이번 릴리스에서는 BlueXP 백업 및 복구가 프라이빗 엔드포인트를 자동으로 생성하는 것을 활성화 또는 비활성화할 수 있는 선택적 설정이 도입되었습니다. 프라이빗 엔드포인트 생성 프로세스를 더욱 세부적으로 제어하려는 경우 이 기능이 유용할 수 있습니다.</block>
-  <block id="0a849c115a4741e75692ddd548e07b4d" category="paragraph">보호 기능을 활성화하거나 복원 프로세스를 시작할 때 이 옵션을 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="8ee64b87fd8e5fd67f5f38194c7faf59" category="paragraph">이 설정을 비활성화하면 BlueXP 백업 및 복구가 제대로 작동하도록 개인 엔드포인트를 수동으로 생성해야 합니다. 연결이 제대로 되지 않으면 백업 및 복구 작업을 제대로 수행하지 못할 수 있습니다.</block>
   <block id="fad4c67d1d97874133e7a367fe5038fd" category="section-title">ONTAP S3에서 SnapMirror to Cloud Resync 지원</block>
   <block id="8e0a943cdbcd7f9c7f29128489119715" category="paragraph">이전 릴리스에서는 SnapMirror to Cloud Resync(SM-C Resync) 지원이 도입되었습니다. 이 기능은 NetApp 환경에서 볼륨 마이그레이션 시 데이터 보호를 간소화합니다. 이번 릴리스에서는 ONTAP S3뿐 아니라 Wasabi, MinIO와 같은 다른 S3 호환 공급업체에서도 SM-C Resync를 지원합니다.</block>
   <block id="fa551b5810fe894fcd21bf7c8ffc98d1" category="section-title">StorageGRID용 자체 버킷 가져오기</block>
   <block id="f2ff9aeba193e347e07d88061902be70" category="paragraph">작업 환경의 개체 스토리지에 백업 파일을 생성할 때, 기본적으로 BlueXP 백업 및 복구는 사용자가 구성한 개체 스토리지 계정에 백업 파일의 컨테이너(버킷 또는 스토리지 계정)를 생성합니다. 이전에는 이를 재정의하여 Amazon S3, Azure Blob Storage 및 Google Cloud Storage에 대한 자체 컨테이너를 지정할 수 있었습니다. 이번 릴리스에서는 자체 StorageGRID 개체 스토리지 컨테이너를 사용할 수 있습니다.</block>
   <block id="e6e5a011626c6db86099687e0a358c1f" category="inline-link">나만의 객체 스토리지 컨테이너를 만드세요</block>
-  <block id="68c8f46b97e6aeb1e429ccce285cfda1" category="paragraph">을<block ref="7a95086a5f98875b2249d837314b5c45" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="1c4322a2b157ac1326426ebdbd680c74" category="section-title">버전 1.44</block>
   <block id="c7ea7ba68a180dd7fffb65d260820bdf" category="paragraph-title">거버넌스 대시보드의 업데이트 시간이 개선되었습니다.</block>
   <block id="4a225b50559fc3e5c91e7a224bca4f82" category="paragraph">거버넌스 대시보드의 개별 구성 요소에 대한 업데이트 시간이 개선되었습니다. 다음 표는 각 구성 요소의 업데이트 빈도를 보여줍니다.</block>
@@ -958,4 +918,23 @@
   <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">이메일에는 심각도, 영향을 받는 워크로드, 그리고 BlueXP ransomware protection *알림* 탭에 있는 알림 링크가 포함됩니다.</block>
   <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">BlueXP ransomware protection 에서 SIEM(보안 및 이벤트 관리) 시스템을 구성한 경우 해당 서비스는 SIEM 시스템으로 경고 세부 정보를 전송합니다.</block>
   <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">자세한 내용은 을 <block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="6bf86021a24fd009a31d432250a9ad20" category="section-title">2025년 7월 21일</block>
+  <block id="89d69ff3dca93dc4c1c160728186e722" category="section-title">Google Cloud NetApp Volumes 지원</block>
+  <block id="c0f8420dd2331e8c703faf905ce556ba" category="inline-link-macro">Google Cloud NetApp Volumes 에 대해 자세히 알아보세요.</block>
+  <block id="21af40e527b4a74ba2f5692e884472ba" category="paragraph">이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. <block ref="8ecfd1740a85ce17a70e2419c5980488" category="inline-link-macro-rx"></block></block>
+  <block id="7ef119d24b993215797de865841c626e" category="section-title">Google Cloud NetApp Volumes 에 대한 새로운 액세스 역할</block>
+  <block id="558052264db83696c2bf10ecfe0eaedd" category="paragraph">BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을 지원합니다.</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="list-text">Google Cloud NetApp 볼륨</block>
+  <block id="4818e0e89efe2955c1288f2df1d064bb" category="inline-link">검색 및 복원에 대한 인덱싱 활성화</block>
+  <block id="48fe5c0defd01f149e20ad998ea50bc8" category="paragraph">자세한 내용은 을<block ref="08c33d3978c0be0f60606e54818e9704" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="39b551835fb0f105ce0b01ab6a4b0330" category="paragraph">일반적으로 BlueXP backup and recovery 클라우드 공급자와 개인 엔드포인트를 설정하여 보호 작업을 처리합니다. 이번 릴리스에서는 BlueXP 백업 및 복구가 프라이빗 엔드포인트를 자동으로 생성하는 것을 활성화 또는 비활성화할 수 있는 선택적 설정이 도입되었습니다. 프라이빗 엔드포인트 생성 프로세스를 더욱 세부적으로 제어하려는 경우 이 기능이 유용할 수 있습니다.</block>
+  <block id="2211c8a4939111428200ceec5f271f42" category="paragraph">보호 기능을 활성화하거나 복원 프로세스를 시작할 때 이 옵션을 활성화하거나 비활성화할 수 있습니다.</block>
+  <block id="030908b5781e3d39669f22cf9e8c02c4" category="paragraph">을<block ref="f1ca93d1640a6fbcba487063d3fdcf11" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="3363af40fef96c985a6160ac6cebf40f" category="paragraph">재동기화 작업을 수행하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="26011448910fe4558756af892237733b" category="inline-link-rx"></block>.</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025년 7월 9일</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">ONTAP 업그레이드 계획을 간소화하고 잠재적인 방해 요소 또는 경고를 해결하기 위해 업그레이드 어드바이저 플랜에 다양한 형식의 다운로드 옵션이 추가되었습니다. 이제 업그레이드 어드바이저 플랜을 Excel, PDF, JSON 형식으로 다운로드할 수 있습니다.</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">업그레이드 어드바이저 계획의 Excel 형식에는 다음과 같은 개선 사항이 적용되었습니다.</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">클러스터에서 수행된 사전 점검 내용을 확인하고 결과에 "통과", "실패", "건너뜀"과 같은 표시기를 표시할 수 있습니다. 이를 통해 클러스터가 ONTAP 업그레이드를 완료하기에 최적의 상태인지 확인할 수 있습니다.</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">ONTAP 대상 버전과 함께 제공된 버전과 함께 클러스터에 적용 가능한 권장 최신 펌웨어 업데이트를 볼 수 있습니다.</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">SAN 클러스터의 상호 운용성 검사를 제공하는 새 탭이 추가되었습니다. 이 탭 은 선택한 대상 ONTAP 버전에 지원되는 호스트 OS 버전을 보여줍니다.</block>
 </blocks>

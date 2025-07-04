@@ -24,6 +24,31 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 
 
+=== 2025년 7월 21일
+
+
+
+==== Google Cloud NetApp Volumes 지원
+
+이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. link:https://docs.netapp.com/us-en//bluexp-google-cloud-netapp-volumes/index.html/index.html["Google Cloud NetApp Volumes 에 대해 자세히 알아보세요."]
+
+
+
+==== BlueXP  ID 및 액세스 관리(IAM)
+
+
+
+===== Google Cloud NetApp Volumes 에 대한 새로운 액세스 역할
+
+BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을 지원합니다.
+
+* Google Cloud NetApp 볼륨
+
+
+link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
+
+
+
 === 2025년 7월 14일
 
 
@@ -404,13 +429,13 @@ Microsoft SQL Server 작업 부하 보호에 대한 자세한 내용은 다음�
 
 색인된 카탈로그는 모든 볼륨과 백업 파일을 추적하여 검색을 빠르고 효율적으로 수행할 수 있도록 해줍니다.
 
-자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html#restore-ontap-data-using-search-restore["검색 및 복원 을 사용하여 ONTAP 데이터를 복원하는 방법"]참조하십시오.
+자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-restore.html["검색 및 복원에 대한 인덱싱 활성화"]참조하십시오.
 
 
 
 ==== Azure 개인 링크 엔드포인트 및 서비스 엔드포인트
 
-일반적으로 BlueXP 백업 및 복구는 클라우드 제공업체와 프라이빗 엔드포인트를 설정하여 다양한 보호 작업을 처리합니다. 이번 릴리스에서는 BlueXP 백업 및 복구가 프라이빗 엔드포인트를 자동으로 생성하는 것을 활성화 또는 비활성화할 수 있는 선택적 설정이 도입되었습니다. 프라이빗 엔드포인트 생성 프로세스를 더욱 세부적으로 제어하려는 경우 이 기능이 유용할 수 있습니다.
+일반적으로 BlueXP backup and recovery 클라우드 공급자와 개인 엔드포인트를 설정하여 보호 작업을 처리합니다. 이번 릴리스에서는 BlueXP 백업 및 복구가 프라이빗 엔드포인트를 자동으로 생성하는 것을 활성화 또는 비활성화할 수 있는 선택적 설정이 도입되었습니다. 프라이빗 엔드포인트 생성 프로세스를 더욱 세부적으로 제어하려는 경우 이 기능이 유용할 수 있습니다.
 
 보호 기능을 활성화하거나 복원 프로세스를 시작할 때 이 옵션을 활성화하거나 비활성화할 수 있습니다.
 
@@ -428,7 +453,7 @@ Microsoft SQL Server 작업 부하 보호에 대한 자세한 내용은 다음�
 
 작업 환경의 개체 스토리지에 백업 파일을 생성할 때, 기본적으로 BlueXP 백업 및 복구는 사용자가 구성한 개체 스토리지 계정에 백업 파일의 컨테이너(버킷 또는 스토리지 계정)를 생성합니다. 이전에는 이를 재정의하여 Amazon S3, Azure Blob Storage 및 Google Cloud Storage에 대한 자체 컨테이너를 지정할 수 있었습니다. 이번 릴리스에서는 자체 StorageGRID 개체 스토리지 컨테이너를 사용할 수 있습니다.
 
-을 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#do-you-want-to-create-your-own-object-storage-container["나만의 객체 스토리지 컨테이너를 만드세요"]참조하십시오.
+을 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html["나만의 객체 스토리지 컨테이너를 만드세요"]참조하십시오.
 
 
 
@@ -446,7 +471,7 @@ SnapMirror to Cloud 재동기화 기능은 NetApp 환경에서 볼륨을 마이�
 
 SnapMirror to Cloud Resync는 환경 간 백업 연속성을 유지함으로써 운영 효율성을 개선하고 하이브리드 및 멀티 클라우드 데이터 관리의 복잡성을 줄일 수 있습니다.
 
-재동기화 작업을 수행하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-migrate-volumes-snapmirror-cloud-resync.html["SnapMirror를 사용하여 볼륨을 클라우드 재동기화로 마이그레이션"].
+재동기화 작업을 수행하는 방법에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-migrate-resync.html["SnapMirror를 사용하여 볼륨을 클라우드 재동기화로 마이그레이션"].
 
 
 
@@ -474,84 +499,6 @@ IMPORTANT: 이 기능은 운영 환경에서 사용해서는 안 됩니다.
 * 시작하기 *
 
 이 미리 보기 기능을 사용하려면 BlueXP  커넥터에서 플래그를 활성화해야 합니다. 그런 다음 백업 섹션에서 * 타사 호환 * 개체 저장소를 선택하여 보호 워크플로에 MinIO 타사 개체 저장소의 연결 세부 정보를 입력할 수 있습니다.
-
-미리보기 피처를 활성화하는 방법에 대한 지침은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-preview-enable.html["BlueXP  백업 및 복구의 미리 보기 기능을 활성화합니다"].
-
-
-
-=== 2025년 4월 16일
-
-이 BlueXP  백업 및 복구 릴리스에는 다음 업데이트가 포함되어 있습니다.
-
-
-
-==== UI 개선
-
-이 릴리스는 인터페이스를 단순화함으로써 사용자 경험을 향상시킵니다.
-
-* 볼륨 테이블에서 애그리게이트 열을 제거하고 V2 대시보드의 볼륨 테이블에서 스냅샷 정책, 백업 정책 및 복제 정책 열을 제거하면 레이아웃이 보다 간소화됩니다.
-* 드롭다운 목록에서 활성화되지 않은 작업 환경을 제외하면 인터페이스가 덜 복잡해지고 탐색이 더 효율적으로 수행되며 로딩 속도가 빨라집니다.
-* 태그 열에서 정렬을 사용할 수 없지만 중요한 정보에 쉽게 액세스할 수 있도록 태그를 계속 볼 수 있습니다.
-* 보호 아이콘의 라벨을 제거하면 더 깔끔한 외관을 연출하고 로딩 시간을 줄일 수 있습니다.
-* 작업 환경 활성화 프로세스 중에 대화 상자에 로드 아이콘이 표시되어 검색 프로세스가 완료될 때까지 피드백을 제공하여 시스템 운영에 대한 투명성과 신뢰도를 높입니다.
-
-
-
-
-==== 향상된 볼륨 대시보드(미리 보기)
-
-이제 볼륨 대시보드가 10초 이내에 로드되므로 훨씬 빠르고 효율적인 인터페이스를 제공합니다. 이 Preview 버전은 일부 고객에게 제공되며 이러한 개선 사항을 조기에 확인할 수 있습니다.
-
-
-
-==== 타사 Wasabi 개체 저장소 지원(Preview)
-
-BlueXP  백업 및 복구는 이제 Wasabi에 중점을 두고 타사 오브젝트 스토어까지 지원을 확장하고 있습니다. 이 새로운 미리 보기 기능을 사용하면 백업 및 복구 요구에 S3 호환 오브젝트 저장소를 활용할 수 있습니다.
-
-
-
-===== Wasabi 시작하기
-
-타사 스토리지를 개체 저장소로 사용하려면 BlueXP  커넥터 내에서 플래그를 설정해야 합니다. 그런 다음 타사 오브젝트 저장소에 대한 연결 정보를 입력하고 백업 및 복구 워크플로에 통합할 수 있습니다.
-
-.단계
-. SSH를 사용하여 커넥터에 연결합니다.
-. BlueXP  백업 및 복구 CBS 서버 컨테이너로 이동합니다.
-+
-[listing]
-----
-docker exec -it cloudmanager_cbs sh
-----
-. VIM 또는 다른 편집기를 통해 폴더 내에서 파일을 `config` 엽니다 `default.json`.
-+
-[listing]
-----
-vi default.json
-----
-. modify `allow-s3-compatible`:false to:true로 `allow-s3-compatible` 변경합니다.
-. 변경 사항을 저장합니다.
-. 컨테이너에서 나갑니다.
-. BlueXP  백업 및 복구 CBS 서버 컨테이너를 다시 시작합니다.
-
-
-.결과
-컨테이너가 다시 켜지면 BlueXP  백업 및 복구 UI를 엽니다. 백업을 시작하거나 백업 전략을 편집하면 AWS, Microsoft Azure, Google Cloud, StorageGRID 및 ONTAP S3의 다른 백업 공급자와 함께 새로운 공급업체 "S3 호환"이 표시됩니다.
-
-
-
-===== 미리보기 모드 제한
-
-이 기능이 미리 보기에 있는 동안 다음 제한 사항을 고려하십시오.
-
-* BYOB(Bring Your Own Bucket)는 지원되지 않습니다.
-* 정책에서 DataLock을 사용하도록 설정할 수 없습니다.
-* 정책에서 아카이브 모드를 사용하도록 설정하는 것은 지원되지 않습니다.
-* 온프레미스 ONTAP 환경만 지원됩니다.
-* MetroCluster는 지원되지 않습니다.
-* 버킷 수준 암호화를 활성화하는 옵션은 지원되지 않습니다.
-
-
-이 미리 보기를 진행하는 동안 이 새로운 기능을 살펴보고 전체 기능이 배포되기 전에 타사 개체 저장소와의 통합에 대한 피드백을 제공하는 것이 좋습니다.
 
 
 
@@ -916,6 +863,24 @@ BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트�
 
 
 
+=== 2025년 7월 9일
+
+
+
+==== Upgrade Advisor
+
+* ONTAP 업그레이드 계획을 간소화하고 잠재적인 방해 요소 또는 경고를 해결하기 위해 업그레이드 어드바이저 플랜에 다양한 형식의 다운로드 옵션이 추가되었습니다. 이제 업그레이드 어드바이저 플랜을 Excel, PDF, JSON 형식으로 다운로드할 수 있습니다.
+* 업그레이드 어드바이저 계획의 Excel 형식에는 다음과 같은 개선 사항이 적용되었습니다.
++
+** 클러스터에서 수행된 사전 점검 내용을 확인하고 결과에 "통과", "실패", "건너뜀"과 같은 표시기를 표시할 수 있습니다. 이를 통해 클러스터가 ONTAP 업그레이드를 완료하기에 최적의 상태인지 확인할 수 있습니다.
+** ONTAP 대상 버전과 함께 제공된 버전과 함께 클러스터에 적용 가능한 권장 최신 펌웨어 업데이트를 볼 수 있습니다.
+** SAN 클러스터의 상호 운용성 검사를 제공하는 새 탭이 추가되었습니다. 이 탭 은 선택한 대상 ONTAP 버전에 지원되는 호스트 OS 버전을 보여줍니다.
+
+
+
+
+
+
 === 2025년 5월 8일
 
 
@@ -947,16 +912,6 @@ AutoSupport 데이터 전송을 중지한 시스템에 대한 세부 정보를 �
 * 이제 디스크 자격 평가 패키지(DQP)를 사용하여 미리 정의된 상태 및 성능 기준에 따라 디스크 컨트롤러와 스토리지 장치 펌웨어를 자동으로 업데이트할 수 있습니다. 이로 인해 잠재적인 오류가 줄어들고 전반적인 시스템 안정성이 향상됩니다.
 * 최신 표준 시간대 정의와 시스템 정렬을 자동으로 유지하기 위해 표준 시간대 데이터베이스(DB)가 도입되었습니다. 이렇게 하면 시간대 규칙이 변경되더라도 시간 종속 작업이 원활하게 진행됩니다.
 
-
-
-
-=== 2024년 12월 12일
-
-
-
-==== Upgrade Advisor
-
-이제 업데이트에 권장되는 스토리지 펌웨어, SP/BMC 펌웨어 및 ARP(자율적 랜섬웨어 패키지)를 볼 수 있습니다. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["펌웨어 업데이트 권장 사항을 보는 방법에 대해 알아봅니다"]..
 
 
 
