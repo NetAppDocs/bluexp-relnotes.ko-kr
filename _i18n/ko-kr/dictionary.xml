@@ -870,7 +870,6 @@
   <block id="f7b353257b71afef5402701e6c93dc8a" category="section-title">커넥터 3.9.54</block>
   <block id="98b6a9150dc84b6f02a11b49d3f18c05" category="paragraph">BlueXP 커넥터의 이번 릴리스에는 보안 개선, 버그 수정 및 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="0e0a4ccfeecf6ead97d3838c2dc57d40" category="inline-link-macro">투명 프록시 구성에 대해 자세히 알아보세요.</block>
-  <block id="313ef52bd65a76709d5fc69694074f0c" category="list-text">Cloud Volumes ONTAP 서비스를 지원하는 커넥터에 대한 투명 프록시 지원. <block ref="139e9d43e4ebdf2d28d8a7ff0c85548a" category="inline-link-macro-rx"></block></block>
   <block id="4439ae12e6cc703b73c18fa22032bcff" category="list-text">Google Cloud 환경에 커넥터가 배포된 경우 네트워크 태그를 사용하여 커넥터 트래픽을 라우팅하는 기능입니다.</block>
   <block id="a72a5a23a9089a372f557a0032363d4e" category="list-text">CPU 및 RAM 사용량을 포함한 커넥터 상태 모니터링을 위한 추가 제품 내 알림입니다.</block>
   <block id="86c10fecfc44ffe6d27d3e73e9158cad" category="paragraph">현재 3.9.54 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
@@ -886,19 +885,16 @@
   <block id="a7cc903fc36eaee51a699d9d59b1496c" category="paragraph">BlueXP 이제 ID 페더레이션 관리를 위한 더욱 직관적인 인터페이스를 제공합니다. 더욱 간편한 탐색, 페더레이션 연결 구성 옵션의 명확성, 그리고 기존 페더레이션에 대한 가시성 향상이 포함됩니다.</block>
   <block id="c06fd8d559af4ac97a50afd1857f0e4e" category="paragraph">ID 페더레이션을 통해 단일 로그인(SSO)을 활성화하면 사용자가 회사 자격 증명으로 BlueXP 에 로그인할 수 있습니다. 이를 통해 보안이 강화되고, 비밀번호 사용이 줄어들며, 온보딩이 간소화됩니다.</block>
   <block id="62532a5520311cce692e8abb3a619189" category="inline-link-macro">기존 페더레이션 연결을 BlueXP 로 가져오는 방법에 대해 자세히 알아보세요.</block>
-  <block id="09de16a2da9f0884c7445f0a40b10aa4" category="paragraph">새로운 관리 기능에 액세스하려면 기존 페더레이션 연결을 새 인터페이스로 가져오라는 메시지가 표시됩니다. 이를 통해 페더레이션 연결을 다시 만들지 않고도 최신 개선 사항을 활용할 수 있습니다. <block ref="172066467f700483f74d71d92d89ce7c" category="inline-link-macro-rx"></block></block>
   <block id="35db97c0083a9f24d4de60744f2ae08c" category="paragraph">개선된 페더레이션 관리를 통해 다음을 수행할 수 있습니다.</block>
   <block id="c7cfa37b557dec5d42fe4ae1f33a84a9" category="list-text">여러 개의 검증된 도메인을 페더레이션 연결에 추가하면 동일한 ID 공급자(IdP)를 사용하여 여러 도메인을 사용할 수 있습니다.</block>
   <block id="b4a4e2a03df0b0c5b7847629f778c654" category="list-text">필요한 경우 페더레이션 연결을 비활성화하거나 삭제하여 사용자 액세스 및 보안을 제어할 수 있습니다.</block>
   <block id="77f3e518793db250165393f568090955" category="list-text">IAM 역할을 사용하여 페더레이션 관리에 대한 액세스를 제어합니다.</block>
   <block id="ac784304eb7a6a12a493cf93b5cef5a9" category="inline-link-macro">BlueXP 의 ID 페더레이션에 대해 자세히 알아보세요.</block>
-  <block id="7970bfbac6093d2cbee1b40bcff193c3" category="paragraph"><block ref="7970bfbac6093d2cbee1b40bcff193c3" category="inline-link-macro-rx"></block></block>
   <block id="e16a950fa56f1c93596e628653af0177" category="section-title">BlueXP backup and recovery, BlueXP disaster recovery 및 페더레이션 관리를 위한 새로운 액세스 역할</block>
   <block id="f4b57a3793a05b2b72338f8e9fcc9496" category="paragraph">이제 BlueXP 다음 기능과 데이터 서비스에 대해 IAM 역할을 사용할 수 있도록 지원합니다.</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="list-text">BlueXP 백업 및 복구</block>
   <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">연합</block>
   <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">액세스 역할 사용에 대해 자세히 알아보세요.</block>
-  <block id="10bab6385b6290f87ce28199462adf76" category="paragraph"><block ref="10bab6385b6290f87ce28199462adf76" category="inline-link-macro-rx"></block></block>
   <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">페더레이션되지 않은 사용자는 BlueXP 계정에 대해 MFA를 활성화하여 보안을 강화할 수 있습니다. 관리자는 필요에 따라 사용자의 MFA를 재설정하거나 비활성화하는 등 MFA 설정을 관리할 수 있습니다. 이 기능은 표준 모드에서만 지원됩니다.</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">BlueXP 액세스 역할이 필요합니다</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*. <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
@@ -940,4 +936,8 @@
   <block id="3a92c0f069a6fb7a0d4811f90afdd47c" category="list-text">복제 계획에 NFS FQDN이 사용된 경우, BlueXP disaster recovery 이제 해당 FQDN을 IP 주소로 확인합니다. 이 업데이트는 재해 복구 사이트에서 FQDN을 확인할 수 없는 경우에 유용합니다.</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 정렬 개선</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">성공적인 검색 후 vCenter 크기 조정 세부 정보를 캡처하기 위한 로그 개선</block>
+  <block id="5e976f8888129db7a70ab686bfcc86b9" category="list-text">Cloud Volumes ONTAP 서비스를 지원하는 커넥터에 대한 투명 프록시 지원. <block ref="addeb9305f92d41fc2dd640d1ef810f0" category="inline-link-macro-rx"></block></block>
+  <block id="a930f8ca18589b33c946f81801d0bbf6" category="paragraph">새로운 관리 기능에 액세스하려면 기존 페더레이션 연결을 새 인터페이스로 가져오라는 메시지가 표시됩니다. 이를 통해 페더레이션 연결을 다시 만들지 않고도 최신 개선 사항을 활용할 수 있습니다. <block ref="374020c220651e051317a80c1b5ae1db" category="inline-link-macro-rx"></block></block>
+  <block id="b658b3504fd725bf7abab622b28f1851" category="paragraph"><block ref="b658b3504fd725bf7abab622b28f1851" category="inline-link-macro-rx"></block></block>
+  <block id="12abdfb9ba5fcfe154c4363eb977b22b" category="paragraph"><block ref="12abdfb9ba5fcfe154c4363eb977b22b" category="inline-link-macro-rx"></block></block>
 </blocks>
