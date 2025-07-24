@@ -560,10 +560,6 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025년 4월 2일</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">위험 완화</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">이제 BlueXP  소프트웨어 업데이트의 요약 섹션에서 운영 체제 업데이트로 완화할 수 있는 총 위험 수를 볼 수 있습니다. 이를 통해 사용자는 설치 기반에서 보안 및 안정성 향상을 평가할 수 있습니다.</block>
-  <block id="7ebc42140a656312f7a985f14e55f3a6" category="list-text">BYOB(Bring Your Own Bucket)는 지원되지 않습니다.</block>
-  <block id="b86033acef55ce16df9b8accc019fc9d" category="list-text">온프레미스 ONTAP 환경만 지원됩니다.</block>
-  <block id="5ba05bcaf18ef618c0ef794d4ae3e855" category="list-text">MetroCluster는 지원되지 않습니다.</block>
-  <block id="2a9854e98da75bbc07132378bef6de4d" category="list-text">버킷 수준 암호화를 활성화하는 옵션은 지원되지 않습니다.</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025년 4월 29일</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">NetApp ONTAP용 Amazon FSx 지원</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">이 릴리즈는 Amazon FSx for NetApp ONTAP을 지원합니다. 이 기능은 BlueXP  랜섬웨어 방어 기능으로 FSx for ONTAP 워크로드를 보호하는 데 도움이 됩니다.</block>
@@ -613,21 +609,6 @@
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">스캔 이벤트를 BlueXP  타임라인으로 보냅니다</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025년 5월 13일</block>
-  <block id="89f166f25960d4442ee3cf41fb712de0" category="section-title">볼륨 마이그레이션을 위해 SnapMirror에서 클라우드로 재동기화</block>
-  <block id="f3afa2391337e5c71f0a9b02dedc2753" category="paragraph">SnapMirror to Cloud 재동기화 기능은 NetApp 환경에서 볼륨을 마이그레이션하는 동안 데이터 보호 및 연속성을 간소화합니다. SnapMirror LRSE(논리적 복제)를 사용하여 온프레미스 NetApp 구축에서 다른 구축으로 또는 Cloud Volumes ONTAP 또는 Cloud Volumes Service와 같은 클라우드 기반 솔루션으로 볼륨을 마이그레이션한 경우, SnapMirror에서 클라우드 재동기화는 기존 클라우드 백업이 그대로 유지되고 작동되도록 보장합니다.</block>
-  <block id="9de9a72e99be1fee8dc0790411738dd4" category="paragraph">이 기능을 사용하면 시간이 오래 걸리고 리소스 소모가 많은 기준선 변경 작업이 필요하지 않으므로 백업 작업이 마이그레이션 후 작업을 계속할 수 있습니다. 이 기능은 워크로드 마이그레이션 시나리오에 유용하며 FlexVols와 FlexGroups를 모두 지원하며 ONTAP 버전 9.16.1부터 사용할 수 있습니다.</block>
-  <block id="9c69774894ac0ae0f2bbae9b12964cfe" category="paragraph">SnapMirror to Cloud Resync는 환경 간 백업 연속성을 유지함으로써 운영 효율성을 개선하고 하이브리드 및 멀티 클라우드 데이터 관리의 복잡성을 줄일 수 있습니다.</block>
-  <block id="5746bb5eeaa153936151cb52823109e6" category="inline-link">SnapMirror를 사용하여 볼륨을 클라우드 재동기화로 마이그레이션</block>
-  <block id="d7aa9347c7a241e0b5959147e0834507" category="section-title">타사 MinIO 개체 저장소 지원(미리 보기)</block>
-  <block id="74f850f0e7d77a9dfb658a6664c11580" category="paragraph">이제 BlueXP  백업 및 복구는 MinIO에 중점을 두고 타사 오브젝트 저장소까지 지원을 확장합니다. 이 새로운 미리 보기 기능을 사용하면 백업 및 복구 요구에 S3 호환 오브젝트 저장소를 활용할 수 있습니다.</block>
-  <block id="fba2533d6fb852f662ab27cb8831c6c2" category="paragraph">이 미리 보기 버전을 사용하면 전체 기능이 배포되기 전에 타사 개체 저장소와의 강력한 통합을 보장할 수 있습니다. 이 새로운 기능을 살펴보고 서비스 개선에 도움이 되는 피드백을 제공하는 것이 좋습니다.</block>
-  <block id="3d1e2e322f867e2abdc8070d562a4fe2" category="admonition">이 기능은 운영 환경에서 사용해서는 안 됩니다.</block>
-  <block id="992cf3dc32e72bdb90286b4c5941d343" category="paragraph">* 미리보기 모드 제한 *</block>
-  <block id="252d166070160d49f855fee5ec9639fc" category="paragraph">이 기능이 미리보기에 있는 동안 몇 가지 제한 사항이 있습니다.</block>
-  <block id="2a42543b31a44385d9801b2e6d715417" category="list-text">정책에서 DataLock을 활성화할 수 없습니다.</block>
-  <block id="bd38f0d8ed5d82f6a34eef6f60e82afc" category="list-text">정책에서 아카이브 모드를 사용하도록 설정하는 것은 지원되지 않습니다.</block>
-  <block id="7f4d22b3de45045172408ddd711a85a1" category="paragraph">* 시작하기 *</block>
-  <block id="5955ccac697a810563b00d68d2e643a8" category="paragraph">이 미리 보기 기능을 사용하려면 BlueXP  커넥터에서 플래그를 활성화해야 합니다. 그런 다음 백업 섹션에서 * 타사 호환 * 개체 저장소를 선택하여 보호 워크플로에 MinIO 타사 개체 저장소의 연결 세부 정보를 입력할 수 있습니다.</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">BlueXP  랜섬웨어 보호에서 지원되지 않는 작업 환경에 대한 보고</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">BlueXP 랜섬웨어 방어에서 워크로드를 찾아보십시오</block>
   <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">자세한 내용은 을<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>참조하십시오.</block>
@@ -921,7 +902,6 @@
   <block id="39b551835fb0f105ce0b01ab6a4b0330" category="paragraph">일반적으로 BlueXP backup and recovery 클라우드 공급자와 개인 엔드포인트를 설정하여 보호 작업을 처리합니다. 이번 릴리스에서는 BlueXP 백업 및 복구가 프라이빗 엔드포인트를 자동으로 생성하는 것을 활성화 또는 비활성화할 수 있는 선택적 설정이 도입되었습니다. 프라이빗 엔드포인트 생성 프로세스를 더욱 세부적으로 제어하려는 경우 이 기능이 유용할 수 있습니다.</block>
   <block id="2211c8a4939111428200ceec5f271f42" category="paragraph">보호 기능을 활성화하거나 복원 프로세스를 시작할 때 이 옵션을 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="030908b5781e3d39669f22cf9e8c02c4" category="paragraph">을<block ref="f1ca93d1640a6fbcba487063d3fdcf11" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="3363af40fef96c985a6160ac6cebf40f" category="paragraph">재동기화 작업을 수행하는 방법에 대한 자세한 내용은 을 참조하십시오<block ref="26011448910fe4558756af892237733b" category="inline-link-rx"></block>.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025년 7월 9일</block>
   <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">ONTAP 업그레이드 계획을 간소화하고 잠재적인 방해 요소 또는 경고를 해결하기 위해 업그레이드 어드바이저 플랜에 다양한 형식의 다운로드 옵션이 추가되었습니다. 이제 업그레이드 어드바이저 플랜을 Excel, PDF, JSON 형식으로 다운로드할 수 있습니다.</block>
   <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">업그레이드 어드바이저 계획의 Excel 형식에는 다음과 같은 개선 사항이 적용되었습니다.</block>
@@ -936,4 +916,16 @@
   <block id="7b775530465bfc8e5ecd3d0244e8847c" category="paragraph">NetApp 지원 및 서비스는 BYOL 계약이 만료될 때까지 계속되지만, 만료된 라이선스는 갱신 또는 연장되지 않습니다. BYOL 라이선스가 만료되면 클라우드 마켓플레이스 구독을 통해 구매한 용량 기반 라이선스로 교체해야 합니다. 하이퍼스케일러 마켓플레이스를 통한 용량 기반 라이선스 모델은 라이선스 경험을 간소화하고 더 큰 비즈니스 이점을 제공합니다. 전환 옵션에 대해 논의하려면 NetApp 계정 팀 또는 고객 성공 담당자에게 문의하십시오.</block>
   <block id="b902c393ae9091d227b03ac188f61f92" category="inline-link">CPC-00661: Cloud Volumes ONTAP BYOL 정책 변경</block>
   <block id="37e719f908b04fc23a8be8447926a507" category="paragraph">자세한 내용은 다음 고객 공지문을 참조하세요. <block ref="4276341cf7737eb343f72d4388b5947d" category="inline-link-rx"></block> .</block>
+  <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="section-title">2025년 7월 28일</block>
+  <block id="5d8fc779baf0d068c296ee5013b2224f" category="section-title">미리 보기로 Kubernetes 워크로드 지원</block>
+  <block id="36442e954ef2484603f79c5f3abc842b" category="paragraph">BlueXP backup and recovery 의 이번 릴리스에서는 Kubernetes 워크로드 검색 및 관리에 대한 지원이 도입되었습니다.</block>
+  <block id="200a1ca96330b8c7561607ba3e8efa76" category="list-text">kubeconfig 파일을 공유하지 않고도 NetApp ONTAP 지원하는 Red Hat OpenShift와 오픈 소스 Kubernetes 클러스터를 살펴보세요.</block>
+  <block id="bc97cde5f3a6fe336563401fb4b522a7" category="list-text">통합 제어 평면을 사용하여 여러 Kubernetes 클러스터에서 애플리케이션을 검색, 관리 및 보호합니다.</block>
+  <block id="8671fb87efe354c05f9373edb6889d96" category="list-text">Kubernetes 애플리케이션의 백업 및 복구를 위한 데이터 이동 작업을 NetApp ONTAP 으로 오프로드합니다.</block>
+  <block id="be6ced50bfb2300cc42f3b12987b1359" category="list-text">로컬 및 개체 스토리지 기반 애플리케이션 백업을 조율합니다.</block>
+  <block id="780f81400ecdaedf5afa343aa9bd9abf" category="list-text">모든 Kubernetes 클러스터에 전체 애플리케이션과 개별 리소스를 백업하고 복원합니다.</block>
+  <block id="a914111953cd6ee9c63146474d7745de" category="list-text">Kubernetes에서 실행되는 컨테이너와 가상 머신을 사용합니다.</block>
+  <block id="87418d35e5df78aab70f2540a73bdaf6" category="list-text">실행 후크와 템플릿을 사용하여 애플리케이션과 일관된 백업을 만듭니다.</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
+  <block id="f4270282e09abd3774ba339dc49af208" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은 다음을 참조하세요. <block ref="44b634c6507d9116150094fb69849fd2" category="inline-link-rx"></block> .</block>
 </blocks>
