@@ -609,14 +609,6 @@
   <block id="4a02475d909bd7464565a63664e4dc8b" category="paragraph-title">성능 향상</block>
   <block id="247e7f07f0a97b367563cc22c1a529cb" category="paragraph">RAM 사용을 줄이고 BlueXP  분류의 전반적인 성능을 개선하기 위해 코드 개선 사항이 구현되었습니다.</block>
   <block id="223594359ca2e5c0c959aa756dea2d50" category="paragraph">StorageGRID 검사가 실패하고, 조사 페이지 필터 옵션이 로드되지 않으며, 대량 평가를 위해 다운로드되지 않는 데이터 검색 평가가 수정되었습니다.</block>
-  <block id="462848e89fbcd7fc117ed7c36b47f6f3" category="section-title">BlueXP 에서 Azure 마켓플레이스를 통해 이루어진 배포를 검색합니다</block>
-  <block id="cb52ca43108f98673f7dcc6c4bc528f6" category="paragraph">BlueXP 에는 이제 Azure 마켓플레이스를 통해 직접 배포된 Cloud Volumes ONTAP 시스템을 검색할 수 있는 기능이 있습니다. 즉, 다른 모든 Cloud Volumes ONTAP 시스템과 마찬가지로 이제 이러한 시스템을 BlueXP 의 작업 환경으로 추가하고 관리할 수 있습니다.</block>
-  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다</block>
-  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="paragraph"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
-  <block id="d2e69d0efb90eba181fe1aff16489eba" category="section-title">Azure 테넌트의 데이터를 계층화하는 기능</block>
-  <block id="6a86c1cc6c3338bb337a5e643e80da8e" category="paragraph">이제 한 테넌트에 의해 Cloud Volumes ONTAP 작업 환경이 생성되고 다른 테넌트에 의해 BlueXP  커넥터가 생성되는 시나리오에서 Azure 테넌트에 대한 계층화를 활성화할 수 있습니다. 이 기능을 사용하면 동일한 Connector를 사용하여 여러 Azure 테넌트의 데이터를 계층화할 수 있습니다.</block>
-  <block id="879e91c0a0fa09577c58d0330291ff06" category="inline-link">Azure 테넌트의 데이터를 계층화하기 위한 요구사항</block>
-  <block id="215678b43321c729a07cabb64971f83c" category="paragraph"><block ref="215678b43321c729a07cabb64971f83c" category="inline-link-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 자동 지원</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">스캔 이벤트를 BlueXP  타임라인으로 보냅니다</block>
@@ -867,7 +859,6 @@
   <block id="312aa67cbd2d7a037dd47a1f882d9f0d" category="paragraph">이번 BlueXP backup and recovery 릴리스는 BlueXP backup and recovery 서비스에 익숙한 3-2-1 보호 전략을 사용하여 Microsoft SQL Server 워크로드를 관리할 수 있도록 업데이트된 사용자 인터페이스를 제공합니다. 이 새로운 버전을 사용하면 이러한 워크로드를 기본 스토리지에 백업하고, 보조 스토리지에 복제하고, 클라우드 객체 스토리지에 백업할 수 있습니다.</block>
   <block id="b8307a4d76527581a7b59e0e8b710824" category="inline-link">미리보기 가입 양식</block>
   <block id="240b59983b641b146915b794a0fa4966" category="paragraph">이것을 완료하면 미리보기에 가입할 수 있습니다. <block ref="b33811e9e55ab63ce9fecada8cb8558a" category="inline-link-rx"></block> .</block>
-  <block id="0aa114cf5979a3879018cab8149d4fc8" category="admonition">Microsoft SQL Server 워크로드 보호에 대한 이 문서는 기술 미리보기로 제공됩니다. 이 사전 공개 오퍼링과 함께 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.</block>
   <block id="55305f14da02876048cbec8f433b6e31" category="paragraph">이 버전의 BlueXP backup and recovery 다음과 같은 업데이트가 포함되어 있습니다.</block>
   <block id="14c22a8793139c8c0e5b2ca06437ae76" category="list-text">*3-2-1 백업 기능*: 이 버전은 SnapCenter 기능을 통합하여 BlueXP backup and recovery 사용자 인터페이스에서 3-2-1 데이터 보호 전략을 통해 SnapCenter 리소스를 관리하고 보호할 수 있습니다.</block>
   <block id="ad80e2efcb583c36651da40966b7c8aa" category="list-text">* SnapCenter 에서 가져오기*: SnapCenter 백업 데이터와 정책을 BlueXP backup and recovery 로 가져올 수 있습니다.</block>
@@ -937,4 +928,12 @@
   <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">클러스터에서 수행된 사전 점검 내용을 확인하고 결과에 "통과", "실패", "건너뜀"과 같은 표시기를 표시할 수 있습니다. 이를 통해 클러스터가 ONTAP 업그레이드를 완료하기에 최적의 상태인지 확인할 수 있습니다.</block>
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">ONTAP 대상 버전과 함께 제공된 버전과 함께 클러스터에 적용 가능한 권장 최신 펌웨어 업데이트를 볼 수 있습니다.</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">SAN 클러스터의 상호 운용성 검사를 제공하는 새 탭이 추가되었습니다. 이 탭 은 선택한 대상 ONTAP 버전에 지원되는 호스트 OS 버전을 보여줍니다.</block>
+  <block id="fa37736e47ccc44e2228f573f9d2a303" category="paragraph"><block ref="fa37736e47ccc44e2228f573f9d2a303" category="inline-link-macro-rx"></block></block>
+  <block id="6e23fbb0baad6a7a72bd41e60b71f566" category="admonition">Microsoft SQL Server 워크로드 보호에 대한 이 문서는 기술 미리보기 형태로 제공됩니다. NetApp 이 미리보기 버전의 제품 세부 정보, 내용 및 출시 일정을 정식 출시 전에 수정할 권리를 보유합니다.</block>
+  <block id="98d06a8873f74ad318a67a8dee1dcd5f" category="section-title">2025년 6월 25일</block>
+  <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="section-title">Cloud Volumes ONTAP 에 대한 BYOL 라이선싱의 제한된 가용성</block>
+  <block id="94aa7f0bf110a253866678fe039b7133" category="paragraph">2025년 6월 25일부터 NetApp Cloud Volumes ONTAP 의 BYOL(Bring Your Own License) 라이선스 모델을 제한했습니다. 이 제한은 AWS, Azure, Google Cloud의 모든 고객 및 Cloud Volumes ONTAP 배포에 적용됩니다. 미국 공공 부문 고객과 중국 리전 배포는 예외입니다.</block>
+  <block id="7b775530465bfc8e5ecd3d0244e8847c" category="paragraph">NetApp 지원 및 서비스는 BYOL 계약이 만료될 때까지 계속되지만, 만료된 라이선스는 갱신 또는 연장되지 않습니다. BYOL 라이선스가 만료되면 클라우드 마켓플레이스 구독을 통해 구매한 용량 기반 라이선스로 교체해야 합니다. 하이퍼스케일러 마켓플레이스를 통한 용량 기반 라이선스 모델은 라이선스 경험을 간소화하고 더 큰 비즈니스 이점을 제공합니다. 전환 옵션에 대해 논의하려면 NetApp 계정 팀 또는 고객 성공 담당자에게 문의하십시오.</block>
+  <block id="b902c393ae9091d227b03ac188f61f92" category="inline-link">CPC-00661: Cloud Volumes ONTAP BYOL 정책 변경</block>
+  <block id="37e719f908b04fc23a8be8447926a507" category="paragraph">자세한 내용은 다음 고객 공지문을 참조하세요. <block ref="4276341cf7737eb343f72d4388b5947d" category="inline-link-rx"></block> .</block>
 </blocks>

@@ -45,7 +45,7 @@ BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을
 * Google Cloud NetApp 볼륨
 
 
-link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
 
 
 
@@ -394,7 +394,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 이것을 완료하면 미리보기에 가입할 수 있습니다.  https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["미리보기 가입 양식"^] .
 
 
-NOTE: Microsoft SQL Server 워크로드 보호에 대한 이 문서는 기술 미리보기로 제공됩니다. 이 사전 공개 오퍼링과 함께 NetApp은 일반 출시 이전에 서비스 세부 정보, 콘텐츠 및 일정을 수정할 권한을 보유합니다.
+NOTE: Microsoft SQL Server 워크로드 보호에 대한 이 문서는 기술 미리보기 형태로 제공됩니다. NetApp 이 미리보기 버전의 제품 세부 정보, 내용 및 출시 일정을 정식 출시 전에 수정할 권리를 보유합니다.
 
 이 버전의 BlueXP backup and recovery 다음과 같은 업데이트가 포함되어 있습니다.
 
@@ -771,6 +771,20 @@ Cloud Volumes ONTAP 9.13.1부터 L8s_v3는 새 고가용성(HA) 쌍 배포와 �
 
 
 
+=== 2025년 6월 25일
+
+
+
+==== Cloud Volumes ONTAP 에 대한 BYOL 라이선싱의 제한된 가용성
+
+2025년 6월 25일부터 NetApp Cloud Volumes ONTAP 의 BYOL(Bring Your Own License) 라이선스 모델을 제한했습니다. 이 제한은 AWS, Azure, Google Cloud의 모든 고객 및 Cloud Volumes ONTAP 배포에 적용됩니다. 미국 공공 부문 고객과 중국 리전 배포는 예외입니다.
+
+NetApp 지원 및 서비스는 BYOL 계약이 만료될 때까지 계속되지만, 만료된 라이선스는 갱신 또는 연장되지 않습니다. BYOL 라이선스가 만료되면 클라우드 마켓플레이스 구독을 통해 구매한 용량 기반 라이선스로 교체해야 합니다. 하이퍼스케일러 마켓플레이스를 통한 용량 기반 라이선스 모델은 라이선스 경험을 간소화하고 더 큰 비즈니스 이점을 제공합니다. 전환 옵션에 대해 논의하려면 NetApp 계정 팀 또는 고객 성공 담당자에게 문의하십시오.
+
+자세한 내용은 다음 고객 공지문을 참조하세요.  https://mysupport.netapp.com/info/communications/CPC-00661.html["CPC-00661: Cloud Volumes ONTAP BYOL 정책 변경"^] .
+
+
+
 === 2025년 5월 29일
 
 
@@ -780,26 +794,6 @@ Cloud Volumes ONTAP 9.13.1부터 L8s_v3는 새 고가용성(HA) 쌍 배포와 �
 이제 AWS, Azure 및 Google Cloud의 프라이빗 모드로 Cloud Volumes ONTAP 9.15.1을 구축할 수 있습니다. 프라이빗 모드는 Cloud Volumes ONTAP 9.15.1의 단일 노드 및 고가용성(HA) 구축에 모두 사용할 수 있습니다.
 
 개인 모드 배포에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["BlueXP 배포 모드에 대해 알아보십시오"^]참조하십시오.
-
-
-
-=== 2025년 5월 12일
-
-
-
-==== BlueXP 에서 Azure 마켓플레이스를 통해 이루어진 배포를 검색합니다
-
-BlueXP 에는 이제 Azure 마켓플레이스를 통해 직접 배포된 Cloud Volumes ONTAP 시스템을 검색할 수 있는 기능이 있습니다. 즉, 다른 모든 Cloud Volumes ONTAP 시스템과 마찬가지로 이제 이러한 시스템을 BlueXP 의 작업 환경으로 추가하고 관리할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Azure 마켓플레이스에서 Cloud Volumes ONTAP을 배포합니다"^]
-
-
-
-==== Azure 테넌트의 데이터를 계층화하는 기능
-
-이제 한 테넌트에 의해 Cloud Volumes ONTAP 작업 환경이 생성되고 다른 테넌트에 의해 BlueXP  커넥터가 생성되는 시나리오에서 Azure 테넌트에 대한 계층화를 활성화할 수 있습니다. 이 기능을 사용하면 동일한 Connector를 사용하여 여러 Azure 테넌트의 데이터를 계층화할 수 있습니다.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html#requirements-to-tier-data-for-an-azure-tenant["Azure 테넌트의 데이터를 계층화하기 위한 요구사항"^]
 
 
 
