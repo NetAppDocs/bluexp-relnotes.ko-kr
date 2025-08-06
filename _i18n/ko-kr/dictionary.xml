@@ -5,7 +5,6 @@
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">ONTAP용 Amazon FSx</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">Google Cloud용 Cloud Volumes Service</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="inline-link">온프레미스 ONTAP 클러스터</block>
   <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">데이터 서비스</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">복제</block>
@@ -13,10 +12,6 @@
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">전체 릴리스 정보 세트</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">관리 기능</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
-  <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">작업 환경 설정 및 생성</block>
-  <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">Linux 및 UNIX 클라이언트용 NFSv3 및 NFSv4.1 볼륨을 생성하고 관리합니다</block>
-  <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">Windows 클라이언트용 SMB 3.x 볼륨을 생성하고 관리합니다</block>
-  <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">볼륨 스냅숏을 생성, 삭제 및 복원합니다</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">데이터 복제를 설정하는 방법에 대해 알아보십시오</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">이 페이지</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오</block>
@@ -28,7 +23,6 @@
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP 릴리스 정보</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">BlueXP의 최근 변경 사항</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">이 섹션에서는 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능과 관련된 새로운 기능에 대해 설명합니다.</block>
-  <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">이제 BlueXP에서 직접 Cloud Volumes Service for Google Cloud를 관리할 수 있습니다.</block>
   <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3 스토리지</block>
   <block id="e27ba65d55db98b6fd6764580355edcf" category="list-text"><block ref="e27ba65d55db98b6fd6764580355edcf" category="inline-link-rx"></block></block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
@@ -50,7 +44,6 @@
   <block id="b2bc6f51638406715d089920f0b12029" category="paragraph"><block ref="b2bc6f51638406715d089920f0b12029" category="inline-link-rx"></block></block>
   <block id="0ce55dbe491d96365e2c6abd492cbf95" category="list-text"><block ref="0ce55dbe491d96365e2c6abd492cbf95" category="inline-link-rx"></block></block>
   <block id="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="list-text"><block ref="dd4e767d5e7ac992c0ec2ecf41b2b08c" category="inline-link-rx"></block></block>
-  <block id="18c372e7815b508eb4ff2301938c4f7b" category="list-text"><block ref="18c372e7815b508eb4ff2301938c4f7b" category="inline-link-rx"></block></block>
   <block id="b46ed1f8a8d612b4083a72f6247afc99" category="list-text"><block ref="b46ed1f8a8d612b4083a72f6247afc99" category="inline-link-rx"></block></block>
   <block id="6631ed7abd96469c08f3809e6a47378b" category="list-text"><block ref="6631ed7abd96469c08f3809e6a47378b" category="inline-link-rx"></block></block>
   <block id="3cedba5ad56ab686cb35903bf92a53df" category="list-text"><block ref="3cedba5ad56ab686cb35903bf92a53df" category="inline-link-rx"></block></block>
@@ -403,8 +396,6 @@
   <block id="5ae300808387123005a76abbd5a99f46" category="section-title">버전 1.38</block>
   <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">이 BlueXP  분류 릴리스에는 일반적인 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
   <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">이 BlueXP  분류 릴리스에는 다음 업데이트가 포함됩니다.</block>
-  <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
-  <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025년 2월 2일</block>
   <block id="83f73c94bb5f748ce272fa98b9d62582" category="section-title">데이터 브로커를 위한 새로운 OS 지원</block>
   <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">이제 Red Hat Enterprise 9.4, Ubuntu 23.04 및 Ubuntu 24.04를 실행하는 호스트에서 데이터 브로커가 지원됩니다.</block>
@@ -516,10 +507,8 @@
   <block id="2f9dd95401f68032a97298d35b87f433" category="cell">이 릴리스에 포함된 버전입니다</block>
   <block id="5431c829b8b64da3908e102d64527909" category="cell">이전 비공개 모드 릴리스 이후 변경된 사항입니다</block>
   <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">커넥터</block>
-  <block id="03f247630aa241e4b15df35baf8f5fd1" category="inline-link">BlueXP  커넥터 페이지의 새로운 기능</block>
   <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP  백업 및 복구 페이지의 새로운 기능</block>
   <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP  분류 페이지의 새로운 기능</block>
-  <block id="49e0c1b5be27dbeb84e3a7ca1d634276" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.38 - 1.371.41 릴리스에 포함된 변경 사항을 참조하십시오.</block>
   <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">업그레이드 방법을 포함하여 개인 모드에 대한 자세한 내용은 다음을 참조하십시오.</block>
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">비공개 모드에 대해 알아봅니다</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
@@ -574,20 +563,6 @@
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP  랜섬웨어 방지 제한 사항</block>
   <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">지원되는 옵션에 대한 자세한 내용은 를<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
-  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Tracker 응답 지원</block>
-  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.</block>
-  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager에 대한 링크 인증 지원</block>
-  <block id="73ecd40a86b02acff9f56b3a1ac74d7f" category="paragraph">이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드에 저장된 자격 증명을 사용할 필요가 없습니다.</block>
-  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
-  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
-  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">FSx for ONTAP 파일 시스템에 대한 모범 사례 구현</block>
-  <block id="bf66fc8532837c2f341b98d92d40bd27" category="paragraph">BlueXP  워크로드는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.</block>
-  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오</block>
-  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
-  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">파일 시스템에 대한 모범 사례 구현</block>
-  <block id="a04ab86f504e47221c279d8c74e9697c" category="list-text"><block ref="a04ab86f504e47221c279d8c74e9697c" category="inline-link-macro-rx"></block></block>
-  <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">파일 시스템 문제에 대한 체계적인 알림</block>
-  <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">이제 BlueXP  콘솔에서 잘 설계된 문제가 있는 FSx for ONTAP 파일 시스템의 경우 파일 시스템에서 해결해야 할 문제가 언제 발생하는지를 나타내는 알림이 Canvas에 표시됩니다.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">버전 1.43</block>
@@ -655,19 +630,12 @@
   <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">워크로드</block>
   <block id="01537291f07f4eb50dc075e6b0282ce8" category="paragraph">이제 BlueXP의 자격 증명 페이지에서 Amazon FSx for NetApp ONTAP 자격 증명을 보고 삭제할 수 있습니다.</block>
   <block id="1971cba9fca6bc598cf10a08dfb20cb6" category="section-title">2025년 5월 29일</block>
-  <block id="5aac456da49390227897f1fa93e12f80" category="section-title">비공개 모드 해제(3.9.52)</block>
-  <block id="3ad3533e2236195b0d2ff39cc302bac1" category="paragraph">3.9.52 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
-  <block id="918d08b069e4e8b9bd825945d099eff0" category="cell">3.9.52, 3.9.51</block>
-  <block id="d29240cb60727e796e55d4bf8ac33966" category="cell">로<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block> 이동하여 버전 3.9.52 및 3.9.50에 포함된 변경 사항을 참조하십시오.</block>
-  <block id="fb6bee0c273267d6fdde07008552b62f" category="cell">로 가다 <block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 2025년 5월 릴리스에 포함된 변경 사항을 참조하세요.</block>
-  <block id="3e18ba454ff1bfb5aee5e5d425b20ea3" category="cell">2025년 5월 12일(버전 1.43)</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
   <block id="737f8adcd33c506f811980c79df8aa51" category="section-title">자격 증명 업데이트</block>
   <block id="e7bb6404e9b51c8163ba1ed57cf3a336" category="paragraph">FSx for ONTAP 파일 시스템에 대한 자격 증명과 권한을 설정하면 BlueXP 자격 증명 페이지로 리디렉션됩니다. 이 페이지에서 FSx for ONTAP 자격 증명의 이름을 변경하거나 삭제할 수 있습니다.</block>
   <block id="66985acac7963e5883cef62664b25696" category="inline-link-macro">ONTAP 파일 시스템용 FSx에 대한 권한 설정</block>
   <block id="2c546aeb894a7ee538c66b6d3f2cdba7" category="paragraph"><block ref="2c546aeb894a7ee538c66b6d3f2cdba7" category="inline-link-macro-rx"></block></block>
   <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">두 FSx for ONTAP 파일 시스템 간 데이터 복제 지원</block>
-  <block id="0d0e1a3896ef0e1ad8e89dad08261572" category="paragraph">이제 BlueXP 콘솔에서 두 개의 FSx for ONTAP 파일 시스템 간에 데이터를 복제할 수 있습니다.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">데이터 복제</block>
   <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
@@ -726,15 +694,6 @@
   <block id="1da5a40083bd16c3443e7eda42875506" category="section-title">BlueXP 액세스 역할이 필요합니다</block>
   <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link">BlueXP 액세스 역할에 대해 알아보세요.</block>
   <block id="0366ff255ad441b45d52df443a7b3b55" category="paragraph">이제 BlueXP에서 E-Series를 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가입니다. <block ref="0b85dd2db07f757bcca365b0bb453a52" category="inline-link-rx"></block></block>
-  <block id="273397c35cb726b0eb4cc33e4cf912da" category="section-title">2025년 6월 19일</block>
-  <block id="670c77e2582c40bc8d1e05c864358472" category="section-title">BlueXP의 Keystone 대시보드</block>
-  <block id="e744c3c411bd8cdf2a7a6125d745261e" category="paragraph">이제 BlueXP에서 Keystone 대시보드에 바로 액세스할 수 있습니다. 이 통합을 통해 모든 Keystone 구독과 다른 NetApp 서비스를 한곳에서 모니터링, 관리 및 추적할 수 있습니다.</block>
-  <block id="802724fb3733677d2773f639b1c2c227" category="paragraph">BlueXP의 Keystone 대시보드를 사용하면 다음을 수행할 수 있습니다.</block>
-  <block id="7fdbb259eae173e23f83dbc4823d28da" category="list-text">모든 구독 세부 정보, 용량 사용량 및 자산을 한 곳에서 확인하세요.</block>
-  <block id="4cc15c3d51785ada1c6ba9fa1e1e13b0" category="list-text">필요에 따라 구독을 쉽게 관리하고 변경을 요청하세요.</block>
-  <block id="c946fc133c6959483805e8ee848d8d3c" category="list-text">귀하의 스토리지 환경에 대한 최신 정보를 받아보세요.</block>
-  <block id="f2af179f8c68993abbce1b8a7a711b38" category="inline-link-macro">Keystone 대시보드 개요</block>
-  <block id="e4662d7ea2c66dc53eb2e68d2bceffac" category="paragraph">시작하려면 BlueXP 왼쪽 탐색 메뉴에서 *저장소 &gt; 키스톤*으로 이동하세요. 자세한 내용은 을 <block ref="d1eddf69542d0beadf02459455377203" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="7e80dfbc882bf899ca8e80bc9729e4b5" category="paragraph">이제 온프레미스 ONTAP 클러스터를 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 스토리지 관리자 또는 시스템 상태 전문가. <block ref="5f4605f8f9a6dca73fc40e564cf6fcbc" category="inline-link-macro-rx"></block></block>
   <block id="07008bfe30be6fadcf287348a234142c" category="section-title">랜딩 페이지 업데이트</block>
   <block id="1f054df4aa4b46ec1a714386afb99b06" category="paragraph">이번 릴리스에는 BlueXP 랜섬웨어 보호 기능의 랜딩 페이지가 업데이트되어 무료 평가판 시작과 검색이 더욱 쉬워졌습니다.</block>
@@ -893,7 +852,6 @@
   <block id="6bf86021a24fd009a31d432250a9ad20" category="section-title">2025년 7월 21일</block>
   <block id="89d69ff3dca93dc4c1c160728186e722" category="section-title">Google Cloud NetApp Volumes 지원</block>
   <block id="c0f8420dd2331e8c703faf905ce556ba" category="inline-link-macro">Google Cloud NetApp Volumes 에 대해 자세히 알아보세요.</block>
-  <block id="21af40e527b4a74ba2f5692e884472ba" category="paragraph">이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. <block ref="8ecfd1740a85ce17a70e2419c5980488" category="inline-link-macro-rx"></block></block>
   <block id="7ef119d24b993215797de865841c626e" category="section-title">Google Cloud NetApp Volumes 에 대한 새로운 액세스 역할</block>
   <block id="558052264db83696c2bf10ecfe0eaedd" category="paragraph">BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을 지원합니다.</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="list-text">Google Cloud NetApp 볼륨</block>
@@ -928,4 +886,29 @@
   <block id="87418d35e5df78aab70f2540a73bdaf6" category="list-text">실행 후크와 템플릿을 사용하여 애플리케이션과 일관된 백업을 만듭니다.</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Kubernetes 워크로드 보호 개요</block>
   <block id="f4270282e09abd3774ba339dc49af208" category="paragraph">Kubernetes 워크로드 보호에 대한 자세한 내용은 다음을 참조하세요. <block ref="44b634c6507d9116150094fb69849fd2" category="inline-link-rx"></block> .</block>
+  <block id="290a831f279e7ad05727a7231e4bfb76" category="list-text"><block ref="290a831f279e7ad05727a7231e4bfb76" category="inline-link-rx"></block></block>
+  <block id="328e39c031d3f6a77403904d6dda2377" category="section-title">2025년 7월 31일</block>
+  <block id="8ec07d17b9626eed73b7d8c3ecb0e32f" category="section-title">프라이빗 모드 출시 (3.9.54)</block>
+  <block id="e57098a6bb00611fdfd163e39e3448e8" category="paragraph">3.9.54 릴리스에는 다음 BlueXP 구성 요소와 서비스에 대한 업데이트가 포함되어 있습니다.</block>
+  <block id="9cc4b579fbb9d233102b44ff5119e060" category="cell">3.9.54, 3.9.53</block>
+  <block id="4e7c2b7c3f7b00a4db742817336d985b" category="inline-link">BlueXP 페이지의 새로운 소식</block>
+  <block id="fb973b0a3719c8d26b960aed72e4fe3f" category="cell">로 가다<block ref="f2bb5a2291ad18ff55b18a4b4553234a" category="inline-link-rx"></block> 버전 3.9.54 및 3.9.53에 포함된 변경 사항을 참조하세요.</block>
+  <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">로 가다<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 2025년 7월 릴리스에 포함된 변경 사항을 참조하세요.</block>
+  <block id="9285fd96738351d44da30f801dea109b" category="cell">2025년 7월 14일(버전 1.45)</block>
+  <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">로 가다<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> .</block>
+  <block id="639e89a5be71c4602c59d165b598d738" category="paragraph">이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다.<block ref="dbbb7a4d531819b88c662793ae2a1ef8" category="inline-link-macro-rx"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025년 8월 3일</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="section-title">복제 관계 탭 개선</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">*복제 관계* 탭에서 복제 관계에 대한 자세한 정보를 제공하기 위해 복제 관계 표에 여러 개의 새 열을 추가했습니다. 이제 표에는 다음 열이 포함됩니다.</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror 정책</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">소스 파일 시스템</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">대상 파일 시스템</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">관계의 상태</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">마지막 환승 시간</block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">이제 BlueXP 콘솔의 캔버스에서 두 FSx for ONTAP 파일 시스템 간에 데이터를 복제할 수 있습니다.</block>
+  <block id="15852e1f2315b78020ed52abc1c41404" category="paragraph">&lt;stdin&gt;에 해결되지 않은 지시어가 있습니다 - include:: https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
+  <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">2025년 8월 5일</block>
+  <block id="c1682b4af830f8e1dcda8da16400f7e1" category="section-title">인스턴스 수준 소비 데이터 보기</block>
+  <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Keystone 구독 사용량 보기</block>
+  <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">BlueXP 의 Keystone 대시보드를 통해 각 성능 서비스 수준 인스턴스의 현재 소비량과 과거 데이터를 볼 수 있습니다. 이 기능은 Keystone 버전 3(v3) 구독이 있는 경우 여러 인스턴스가 있는 성능 서비스 수준에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
 </blocks>
