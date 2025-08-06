@@ -879,15 +879,12 @@
   <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">관계의 상태</block>
   <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">마지막 환승 시간</block>
   <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">이제 BlueXP 콘솔의 캔버스에서 두 FSx for ONTAP 파일 시스템 간에 데이터를 복제할 수 있습니다.</block>
-  <block id="15852e1f2315b78020ed52abc1c41404" category="paragraph">&lt;stdin&gt;에 해결되지 않은 지시어가 있습니다 - include:: https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">2025년 8월 5일</block>
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="section-title">인스턴스 수준 소비 데이터 보기</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Keystone 구독 사용량 보기</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">BlueXP 의 Keystone 대시보드를 통해 각 성능 서비스 수준 인스턴스의 현재 소비량과 과거 데이터를 볼 수 있습니다. 이 기능은 Keystone 버전 3(v3) 구독이 있는 경우 여러 인스턴스가 있는 성능 서비스 수준에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025년 8월 6일</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">지원 권한 스위치</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">지원 권한이 있는 스위치를 보는 방법을 알아보세요.</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">이제 지원 자격이 있는 Brocade Fibre Channel SAN 스위치에 대한 정보를 볼 수 있습니다. 여기에는 스위치 모델, 일련 번호, 지원 상태에 대한 세부 정보가 포함됩니다. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport 데이터에 대한 임계값</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport 위젯의 최근 전송 중지된 RSS(RSS) 제한이 시스템이 RSS로 표시되기 전까지 48시간(2일)에서 216시간(9일)으로 연장되었습니다. 이는 주간 AutoSupport 데이터만 전송하는 StorageGRID 와 같은 플랫폼을 수용하기 위해 수행됩니다.</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 카탈로그의 더 이상 사용되지 않는 API 섹션</block>
@@ -930,4 +927,40 @@
   <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">라이센스 패키지에 대한 정보는 다음을 참조하세요.<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block> .</block>
   <block id="ed1f600d01a229b43b3196dd2f2e48ca" category="inline-link">용량 기반 라이선싱 관리</block>
   <block id="1d4a9a37e700957e9d79664f032cf5ec" category="paragraph">다른 충전 방법으로 전환하는 방법에 대한 정보는 다음을 참조하세요.<block ref="eeeecd1116eaf4db26e064552c04366d" category="inline-link-rx"></block> .</block>
+  <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">운영 복원력 기능</block>
+  <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">BlueXP 에서 운영 복원력 기능이 제거되었습니다. 문제가 발생하면 NetApp 지원팀에 문의하세요.</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025년 8월 12일</block>
+  <block id="34d9ae368d6cbba40bdf79d1f39e1e89" category="section-title">일반 공급(GA)에서 지원되는 Microsoft SQL Server 워크로드</block>
+  <block id="49ddbb054af91ea1aaad19727754954e" category="paragraph">Microsoft SQL Server 워크로드 지원이 이제 BlueXP backup and recovery 에서 일반적으로 사용 가능(GA)되었습니다. ONTAP, Cloud Volumes ONTAP 및 Amazon FSx for NetApp ONTAP 스토리지에서 MSSQL 환경을 사용하는 조직은 이제 이 새로운 백업 및 복구 서비스를 활용하여 데이터를 보호할 수 있습니다.</block>
+  <block id="7c4ac41d9ce169718af7b2351c645fee" category="paragraph">이 릴리스에는 이전 미리 보기 버전에서 Microsoft SQL Server 워크로드 지원에 대한 다음과 같은 개선 사항이 포함되어 있습니다.</block>
+  <block id="3105f6a90b979debc6db5ea3ee990169" category="list-text">* SnapMirror 활성 동기화*: 이 버전은 이제 SnapMirror 활성 동기화( SnapMirror Business Continuity[SM-BC]라고도 함)를 지원하여 사이트 전체에 장애가 발생하더라도 비즈니스 서비스가 계속 운영되도록 하고, 보조 복사본을 사용하여 애플리케이션이 투명하게 장애 조치되도록 지원합니다. BlueXP backup and recovery 이제 SnapMirror Active Sync 및 Metrocluster 구성에서 Microsoft SQL Server 데이터베이스의 보호를 지원합니다. 해당 정보는 보호 세부 정보 페이지의 *저장 및 관계 상태* 섹션에 표시됩니다. 관계 정보는 정책 페이지의 업데이트된 *보조 설정* 섹션에 표시됩니다.</block>
+  <block id="b1d2c2774c4d9793c46ef609a13172fd" category="inline-link">정책을 사용하여 작업 부하를 보호하세요</block>
+  <block id="eb64725cadc49178720b80c61cc9eba8" category="paragraph">참조하다<block ref="4e93e9cf0728d77f2cf4813604981453" category="inline-link-rx"></block> .</block>
+  <block id="4e5bd320085cb5547546d4395b10e4de" category="inline-image-macro">Microsoft SQL Server 워크로드에 대한 보호 세부 정보 페이지</block>
+  <block id="bd23896d5be654cd74ec23ce58ada0ea" category="paragraph"><block ref="bd23896d5be654cd74ec23ce58ada0ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="805bbdd364c648372b69605a6ef120af" category="list-text">*다중 버킷 지원*: 이제 다양한 클라우드 공급자의 작업 환경당 최대 6개의 버킷을 사용하여 작업 환경 내의 볼륨을 보호할 수 있습니다.</block>
+  <block id="90c5ef87c2f5d3bb21ccce43b514ff6d" category="list-text">SQL Server 워크로드에 대한 *라이선스 및 무료 평가판 업데이트*: 이제 기존 BlueXP 백업 및 복구 라이선스 모델을 사용하여 SQL Server 워크로드를 보호할 수 있습니다. SQL Server 워크로드에는 별도의 라이선스 요구 사항이 없습니다.</block>
+  <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">BlueXP backup and recovery 에 대한 라이선싱 설정</block>
+  <block id="c28d337bfe2f4a56d1326bd464a437d2" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="fd6f24310666151c56694accafdbc751" category="inline-link-rx"></block> .</block>
+  <block id="36586a1356d9a222252ef42596ce2fb2" category="list-text">*사용자 지정 스냅샷 이름*: 이제 Microsoft SQL Server 워크로드에 대한 백업을 관리하는 정책에서 사용자 지정 스냅샷 이름을 사용할 수 있습니다. 정책 페이지의 *고급 설정* 섹션에 이 정보를 입력하세요.</block>
+  <block id="9cb7a24c42dc26111c3616ff0bd56fed" category="inline-image-macro">BlueXP backup and recovery 정책에 대한 SnapMirror 및 스냅샷 형식 설정 스크린샷</block>
+  <block id="ce3732fd09bdb186d72d814092bdf5de" category="paragraph"><block ref="ce3732fd09bdb186d72d814092bdf5de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b97c16ab5864b241e5900d7cd01c42c2" category="list-text">*보조 볼륨 접두사 및 접미사*: 정책 페이지의 *고급 설정* 섹션에서 사용자 지정 접두사 및 접미사를 입력할 수 있습니다.</block>
+  <block id="d09c6edac23c230ad6b2f62014b72cac" category="list-text">*ID 및 액세스 관리(IAM)*: 이제 기능에 대한 사용자 액세스를 제어할 수 있습니다.</block>
+  <block id="aeb10fc890c802b7dd8fae9cff0a209e" category="inline-link">BlueXP backup and recovery 에 로그인하세요</block>
+  <block id="54e511b5c4fecd42c382f63aa80abb36" category="inline-link">BlueXP backup and recovery 기능에 대한 액세스</block>
+  <block id="62b521b1b5210b36f7c8c308fcacad25" category="paragraph">참조하다<block ref="d7baf94aa5992a2769fe0c3ef0456828" category="inline-link-rx"></block> 그리고<block ref="2d1c08bd9cb33a016c7ff36698dcfab7" category="inline-link-rx"></block> .</block>
+  <block id="827015a207d3e0b7327c58d340f787a7" category="list-text">*개체 스토리지에서 대체 호스트로 복원*: 이제 기본 스토리지가 다운된 경우에도 개체 스토리지에서 대체 호스트로 복원할 수 있습니다.</block>
+  <block id="2e26a760bb33d17f4e33afe630be5b52" category="list-text">*로그 백업 데이터*: 데이터베이스 보호 세부 정보 페이지에 이제 로그 백업이 표시됩니다. 백업 유형 열을 보면 전체 백업인지 로그 백업인지 알 수 있습니다.</block>
+  <block id="2bfb72338c51e52cf0223e776c0cfa1c" category="list-text">*향상된 대시보드*: 대시보드에 이제 저장소 및 복제본 절약 내용이 표시됩니다.</block>
+  <block id="e0dc001975d98ac19c522b158acdcc50" category="inline-image-macro">BlueXP backup and recovery 보드</block>
+  <block id="eefeb5662c28859ffc0ad03be8674bb1" category="paragraph"><block ref="eefeb5662c28859ffc0ad03be8674bb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3a6ba86ba805f11e462a231b680cd28" category="section-title">ONTAP 볼륨 워크로드 향상</block>
+  <block id="3f86442e5530c33d7077c95c9c5fc625" category="list-text">* ONTAP 볼륨에 대한 다중 폴더 복원*: 지금까지는 찾아보기 및 복원 기능을 통해 한 번에 하나의 폴더나 여러 파일을 복원할 수 있었습니다. BlueXP backup and recovery 이제 찾아보기 및 복원 기능을 사용하여 여러 폴더를 한 번에 선택할 수 있는 기능을 제공합니다.</block>
+  <block id="1d9b07bf0176359242f87e0763ffbb4c" category="list-text">*삭제된 볼륨의 백업 보기 및 관리*: BlueXP backup and recovery 보드는 이제 ONTAP 에서 삭제된 볼륨을 표시하고 관리하는 옵션을 제공합니다. 이를 통해 ONTAP 에 더 이상 존재하지 않는 볼륨의 백업을 보고 삭제할 수 있습니다.</block>
+  <block id="356ecf5525555d15dfb403799f62bc0d" category="list-text">*백업 강제 삭제*: 극단적인 경우에는 BlueXP backup and recovery 더 이상 백업에 액세스하지 못하도록 설정해야 할 수도 있습니다. 예를 들어, 서비스가 더 이상 백업 버킷에 액세스할 수 없거나 백업이 DataLock으로 보호되지만 더 이상 필요하지 않은 경우 이런 일이 발생할 수 있습니다. 이전에는 직접 삭제할 수 없었고 NetApp 지원팀에 문의해야 했습니다. 이 릴리스에서는 볼륨 및 작업 환경 수준에서 백업을 강제로 삭제하는 옵션을 사용할 수 있습니다.</block>
+  <block id="2ad14b464bc33278b17682af53ee8430" category="admonition">이 옵션은 신중하게 사용하고 극단적인 정리가 필요한 경우에만 사용하세요. BlueXP backup and recovery 개체 스토리지에서 백업이 삭제되지 않더라도 더 이상 이러한 백업에 액세스할 수 없습니다. 클라우드 제공업체에 가서 수동으로 백업을 삭제해야 합니다.</block>
+  <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">ONTAP 워크로드 보호</block>
+  <block id="ca202cae1bb121b6ad0687a5afe91a23" category="paragraph">참조하다<block ref="21eafc85c1e02f8afb995baf9105bba6" category="inline-link-rx"></block> .</block>
+  <block id="d050676cc5292d576618457e004c3537" category="paragraph">해결되지 않은 지시문<block ref="faac70d8d5f83c69456fd13fe050e68d" category="inline-link-rx"></block> - 포함::../_whatsnew/2025-07-14.adoc[]</block>
 </blocks>
