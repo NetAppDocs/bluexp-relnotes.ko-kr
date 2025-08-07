@@ -516,9 +516,6 @@
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
   <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
-  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025년 3월 5일</block>
-  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">이제 디스크 자격 평가 패키지(DQP)를 사용하여 미리 정의된 상태 및 성능 기준에 따라 디스크 컨트롤러와 스토리지 장치 펌웨어를 자동으로 업데이트할 수 있습니다. 이로 인해 잠재적인 오류가 줄어들고 전반적인 시스템 안정성이 향상됩니다.</block>
-  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">최신 표준 시간대 정의와 시스템 정렬을 자동으로 유지하기 위해 표준 시간대 데이터베이스(DB)가 도입되었습니다. 이렇게 하면 시간대 규칙이 변경되더라도 시간 종속 작업이 원활하게 진행됩니다.</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025년 3월 30일</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="section-title">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
@@ -911,4 +908,14 @@
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="section-title">인스턴스 수준 소비 데이터 보기</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">Keystone 구독 사용량 보기</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">BlueXP 의 Keystone 대시보드를 통해 각 성능 서비스 수준 인스턴스의 현재 소비량과 과거 데이터를 볼 수 있습니다. 이 기능은 Keystone 버전 3(v3) 구독이 있는 경우 여러 인스턴스가 있는 성능 서비스 수준에서 사용할 수 있습니다. 자세한 내용은 다음을 참조하세요.<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block> .</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025년 8월 6일</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">지원 권한 스위치</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">지원 권한이 있는 스위치를 보는 방법을 알아보세요.</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">이제 지원 자격이 있는 Brocade Fibre Channel SAN 스위치에 대한 정보를 볼 수 있습니다. 여기에는 스위치 모델, 일련 번호, 지원 상태에 대한 세부 정보가 포함됩니다. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport 데이터에 대한 임계값</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport 위젯의 최근 전송 중지된 RSS(RSS) 제한이 시스템이 RSS로 표시되기 전까지 48시간(2일)에서 216시간(9일)으로 연장되었습니다. 이는 주간 AutoSupport 데이터만 전송하는 StorageGRID 와 같은 플랫폼을 수용하기 위해 수행됩니다.</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 카탈로그의 더 이상 사용되지 않는 API 섹션</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 카탈로그에서 더 이상 사용되지 않는 새로운 API 섹션을 사용할 수 있습니다. 여기에는 지원 중단이 예정된 API, 지원 중단 일정 및 대체 API가 나열되어 있습니다.</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">용량 예측 V2 및 지원 종료 API 모듈 사용 중단</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">용량 예측 V2 및 지원 종료 API 모듈은 사용 중단될 예정입니다. 더 이상 지원되지 않는 API에 액세스하거나 지원 중단 일정과 대체 API에 대해 알아보려면 *API 서비스 -&gt; 찾아보기 -&gt; 더 이상 지원되지 않는 API*로 이동하세요.</block>
 </blocks>
