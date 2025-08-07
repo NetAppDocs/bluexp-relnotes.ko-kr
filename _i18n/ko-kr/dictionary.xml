@@ -921,7 +921,6 @@
   <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">RHEL 9.6 지원</block>
   <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">이 릴리스에서는 다크 사이트 배포를 포함하여 BlueXP classification 의 수동 온프레미스 설치를 위한 Red Hat Enterprise Linux v9.6에 대한 지원이 추가되었습니다.</block>
   <block id="9def883103b7b964dcbb0993e3f8a065" category="section-title">최적화된 라이선스의 사용 가능 기간이 종료되었습니다.</block>
-  <block id="cf4dd05cf065c9ae01bc836c5033bb63" category="paragraph">2025년 8월 11일부터 Cloud Volumes ONTAP Optimized 라이선스는 더 이상 사용되지 않으며 Azure 및 Google Cloud 마켓플레이스에서 PAYGO(종량제) 구독을 구매하거나 갱신할 수 없습니다. 최적화된 라이선스에 대한 기존 연간 계약이 있는 경우, 계약 기간이 끝날 때까지 라이선스를 계속 사용할 수 있습니다. 최적화된 라이선스가 만료되면 Cloud Volumes ONTAP Essentials 또는 Professional 라이선스를 선택할 수 있습니다.</block>
   <block id="09027718866a8a3a2edb0bb0eb53c926" category="paragraph">하지만 최적화된 라이선스를 추가하거나 갱신하는 기능은 API를 통해 제공될 예정입니다.</block>
   <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Cloud Volumes ONTAP 라이선싱</block>
   <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">라이센스 패키지에 대한 정보는 다음을 참조하세요.<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block> .</block>
@@ -969,4 +968,7 @@
   <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">작업 환경을 추가합니다.</block>
   <block id="ee07da92eddb189dc56635b6831f1856" category="list-text">볼륨을 확인하세요.</block>
   <block id="f842a501bbdfa7f71ac344c36591a1b8" category="list-text">작업 환경을 제거하세요.</block>
+  <block id="667b631b672b77239becd955ba1e71e7" category="paragraph">2025년 8월 11일부터 Cloud Volumes ONTAP Optimized 라이선스는 더 이상 사용되지 않으며 Azure 및 Google Cloud 마켓플레이스에서 PAYGO(종량제) 구독을 구매하거나 갱신할 수 없습니다. 최적화된 라이선스에 대한 기존 연간 계약이 있는 경우, 계약 기간이 끝날 때까지 라이선스를 계속 사용할 수 있습니다. 최적화된 라이선스가 만료되면 BlueXP 에서 Cloud Volumes ONTAP Essentials 또는 Professional 라이선스를 선택할 수 있습니다.</block>
+  <block id="742f9b79f178d376f2ac9836103a6f86" category="section-title">2025년 7월 22일</block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">이 릴리스에는 일반적인 개선 사항 및 개선 사항이 포함되어 있습니다.</block>
 </blocks>
