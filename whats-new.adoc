@@ -870,7 +870,7 @@ BlueXP 복사본 및 동기화 서비스와 데이터 브로커를 업데이트�
 
 ==== 지원 권한 스위치
 
-ef3139c75debdd9ee259a4ea386083d3
+이제 지원 자격이 있는 Brocade Fibre Channel SAN 스위치에 대한 정보를 볼 수 있습니다. 여기에는 스위치 모델, 일련 번호, 지원 상태에 대한 세부 정보가 포함됩니다. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["지원 권한이 있는 스위치를 보는 방법을 알아보세요"] .
 
 
 
@@ -1216,7 +1216,16 @@ BlueXP  에지 캐싱 서비스는 2024년 8월 7일에 제거되었습니다.
 
 === 2025년 7월 21일
 
-해결되지 않은 지시문 https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc[] - 포함::../_whatsnew/2025-07-14.adoc[]
+
+
+==== BlueXP 에서 Google Cloud NetApp Volumes 지원
+
+이제 BlueXP 에서 직접 Google Cloud NetApp Volumes 관리할 수 있습니다.
+
+* 작업 환경을 추가합니다.
+* 볼륨을 확인하세요.
+* 작업 환경을 제거하세요.
+
 
 
 

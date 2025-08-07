@@ -962,5 +962,11 @@
   <block id="2ad14b464bc33278b17682af53ee8430" category="admonition">이 옵션은 신중하게 사용하고 극단적인 정리가 필요한 경우에만 사용하세요. BlueXP backup and recovery 개체 스토리지에서 백업이 삭제되지 않더라도 더 이상 이러한 백업에 액세스할 수 없습니다. 클라우드 제공업체에 가서 수동으로 백업을 삭제해야 합니다.</block>
   <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">ONTAP 워크로드 보호</block>
   <block id="ca202cae1bb121b6ad0687a5afe91a23" category="paragraph">참조하다<block ref="21eafc85c1e02f8afb995baf9105bba6" category="inline-link-rx"></block> .</block>
-  <block id="d050676cc5292d576618457e004c3537" category="paragraph">해결되지 않은 지시문<block ref="faac70d8d5f83c69456fd13fe050e68d" category="inline-link-rx"></block> - 포함::../_whatsnew/2025-07-14.adoc[]</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">지원 권한이 있는 스위치를 보는 방법을 알아보세요</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">이제 지원 자격이 있는 Brocade Fibre Channel SAN 스위치에 대한 정보를 볼 수 있습니다. 여기에는 스위치 모델, 일련 번호, 지원 상태에 대한 세부 정보가 포함됩니다. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="71d0ee5d411b8f72f571401cdab213ac" category="section-title">BlueXP 에서 Google Cloud NetApp Volumes 지원</block>
+  <block id="775e62d1bed90f08196ce9665fe3b625" category="paragraph">이제 BlueXP 에서 직접 Google Cloud NetApp Volumes 관리할 수 있습니다.</block>
+  <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">작업 환경을 추가합니다.</block>
+  <block id="ee07da92eddb189dc56635b6831f1856" category="list-text">볼륨을 확인하세요.</block>
+  <block id="f842a501bbdfa7f71ac344c36591a1b8" category="list-text">작업 환경을 제거하세요.</block>
 </blocks>
