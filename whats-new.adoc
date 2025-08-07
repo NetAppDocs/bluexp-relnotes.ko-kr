@@ -24,6 +24,38 @@ BlueXP 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 
 
 
 
+=== 2025년 8월 11일
+
+
+
+==== 커넥터 3.9.55
+
+이번 BlueXP 커넥터 릴리스에는 보안 개선 및 버그 수정이 포함되어 있습니다.
+
+3.9.55 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.
+
+
+
+==== 일본어 지원
+
+BlueXP UI가 이제 일본어로 제공됩니다. 브라우저 언어가 일본어인 경우 BlueXP 일본어로 표시됩니다. 일본어로 된 문서에 접근하려면 문서 웹사이트의 언어 메뉴를 이용하세요.
+
+
+
+==== BlueXP  ID 및 액세스 관리(IAM)
+
+BlueXP 의 ID 및 액세스 관리는 이제 다음 기능을 제공합니다.
+
+
+
+==== 운영 지원을 위한 새로운 액세스 역할
+
+BlueXP 이제 운영 지원 분석가 역할을 지원합니다. 이 역할은 사용자에게 스토리지 알림을 모니터링하고, BlueXP 감사 타임라인을 보고, NetApp 지원 사례를 입력 및 추적할 수 있는 권한을 부여합니다.
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
+
+
+
 === 2025년 7월 31일
 
 
@@ -145,57 +177,7 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-federation.html["B
 * 연합
 
 
-link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
-
-
-
-=== 2025년 6월 9일
-
-
-
-==== 커넥터 3.9.53
-
-이번 BlueXP 커넥터 릴리스에는 보안 개선 사항과 버그 수정이 포함되어 있습니다.
-
-3.9.53 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
-
-
-
-==== 디스크 공간 사용 알림
-
-알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-maintain-connectors.html#monitor-disk-space["자세한 정보."^]
-
-
-
-==== 감사 개선
-
-이제 타임라인에 사용자의 로그인 및 로그아웃 이벤트가 포함됩니다. 로그인 활동을 확인할 수 있어 감사 및 보안 모니터링에 도움이 될 수 있습니다. 조직 관리자 역할을 가진 API 사용자는 다음을 포함하여 로그인한 사용자의 이메일 주소를 볼 수 있습니다.  `includeUserData=true`` 매개변수는 다음과 같습니다.  `/audit/<account_id>?includeUserData=true` .
-
-
-
-==== BlueXP에서 Keystone 구독 관리 사용 가능
-
-BlueXP에서 NetApp Keystone 구독을 관리할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/keystone-staas/index.html["BlueXP에서 Keystone 구독 관리에 대해 알아보세요."^]
-
-
-
-==== BlueXP  ID 및 액세스 관리(IAM)
-
-
-
-===== 멀티팩터 인증(MFA)
-
-페더레이션되지 않은 사용자는 BlueXP 계정에 대해 MFA를 활성화하여 보안을 강화할 수 있습니다. 관리자는 필요에 따라 사용자의 MFA를 재설정하거나 비활성화하는 등 MFA 설정을 관리할 수 있습니다. 이 기능은 표준 모드에서만 지원됩니다.
-
-link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#task-user-mfa["다중 요소 인증을 설정하는 방법에 대해 알아보세요."^] link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#manage-mfa["사용자를 위한 다중 요소 인증 관리에 대해 알아보세요."^]
-
-
-
-==== 워크로드
-
-이제 BlueXP의 자격 증명 페이지에서 Amazon FSx for NetApp ONTAP 자격 증명을 보고 삭제할 수 있습니다.
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
 
 
 
@@ -461,6 +443,26 @@ Microsoft SQL Server 작업 부하 보호에 대한 자세한 내용은 다음�
 
 
 
+=== 2025년 8월 11일
+
+
+
+==== 버전 1.46
+
+이 BlueXP classification 릴리스에는 버그 수정과 다음 업데이트가 포함되어 있습니다.
+
+.BlueXP 타임라인에서 향상된 스캔 이벤트 통찰력
+이제 BlueXP 타임라인은 BlueXP classification 위한 스캔 이벤트에 대한 향상된 통찰력을 지원합니다. 이제 타임라인에는 작업 환경 스캔이 시작되는 시점, 작업 환경의 상태, 문제가 표시됩니다. 공유 및 작업 환경의 상태는 매핑 스캔에만 사용할 수 있습니다.
+
+BlueXP 타임라인에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["BlueXP 작업 모니터링"^] .
+
+.RHEL 9.6 지원
+이 릴리스에서는 다크 사이트 배포를 포함하여 BlueXP classification 의 수동 온프레미스 설치를 위한 Red Hat Enterprise Linux v9.6에 대한 지원이 추가되었습니다.
+
+다음 운영 체제는 Podman 컨테이너 엔진을 사용해야 하며 BlueXP  분류 버전 1.30 이상이 필요합니다. Red Hat Enterprise Linux 버전 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 및 9.5.
+
+
+
 === 2025년 7월 14일
 
 
@@ -701,6 +703,22 @@ BlueXP  분류는 실패한 모든 스캔을 일괄 재시도하는 기능을 �
 
 
 
+=== 2025년 8월 11일
+
+
+
+==== 최적화된 라이선스의 사용 가능 기간이 종료되었습니다.
+
+2025년 8월 11일부터 Cloud Volumes ONTAP Optimized 라이선스는 더 이상 사용되지 않으며 Azure 및 Google Cloud 마켓플레이스에서 PAYGO(종량제) 구독을 구매하거나 갱신할 수 없습니다. 최적화된 라이선스에 대한 기존 연간 계약이 있는 경우, 계약 기간이 끝날 때까지 라이선스를 계속 사용할 수 있습니다. 최적화된 라이선스가 만료되면 Cloud Volumes ONTAP Essentials 또는 Professional 라이선스를 선택할 수 있습니다.
+
+하지만 최적화된 라이선스를 추가하거나 갱신하는 기능은 API를 통해 제공될 예정입니다.
+
+라이센스 패키지에 대한 정보는 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 라이선싱"^] .
+
+다른 충전 방법으로 전환하는 방법에 대한 정보는 다음을 참조하세요. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["용량 기반 라이선싱 관리"^] .
+
+
+
 === 2025년 7월 14일
 
 
@@ -737,18 +755,6 @@ Cloud Volumes ONTAP 9.13.1부터 L8s_v3는 새 고가용성(HA) 쌍 배포와 �
 NetApp 지원 및 서비스는 BYOL 계약이 만료될 때까지 계속되지만, 만료된 라이선스는 갱신 또는 연장되지 않습니다. BYOL 라이선스가 만료되면 클라우드 마켓플레이스 구독을 통해 구매한 용량 기반 라이선스로 교체해야 합니다. 하이퍼스케일러 마켓플레이스를 통한 용량 기반 라이선스 모델은 라이선스 경험을 간소화하고 더 큰 비즈니스 이점을 제공합니다. 전환 옵션에 대해 논의하려면 NetApp 계정 팀 또는 고객 성공 담당자에게 문의하십시오.
 
 자세한 내용은 다음 고객 공지문을 참조하세요.  https://mysupport.netapp.com/info/communications/CPC-00661.html["CPC-00661: Cloud Volumes ONTAP BYOL 정책 변경"^] .
-
-
-
-=== 2025년 5월 29일
-
-
-
-==== Cloud Volumes ONTAP 9.15.1에 대해 활성화된 개인 모드 배포
-
-이제 AWS, Azure 및 Google Cloud의 프라이빗 모드로 Cloud Volumes ONTAP 9.15.1을 구축할 수 있습니다. 프라이빗 모드는 Cloud Volumes ONTAP 9.15.1의 단일 노드 및 고가용성(HA) 구축에 모두 사용할 수 있습니다.
-
-개인 모드 배포에 대한 자세한 내용은 을 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["BlueXP 배포 모드에 대해 알아보십시오"^]참조하십시오.
 
 
 
